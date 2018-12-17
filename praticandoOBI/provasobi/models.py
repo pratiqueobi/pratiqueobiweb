@@ -30,17 +30,23 @@ class Prova(models.Model):
 class Problema(models.Model):
     codproblema = models.AutoField(db_column='codProblema', primary_key=True)
     numeroproblema = models.IntegerField(db_column='numeroProblema', blank=True, null=True)
-    tituloproblema = models.TextField(db_column='tituloProblema', blank=True, null=True, unique=True)
+    tituloproblema = models.TextField(db_column='tituloProblema', blank=True, null=True)
     enunciadoproblema = models.TextField(db_column='enunciadoProblema', blank=True, null=True)
     regrasproblema = models.TextField(db_column='regrasProblema', blank=True, null=True)
     imgproblema = models.TextField(db_column='imgProblema', blank=True, null=True, default='')
     codprova = models.ForeignKey('Prova', models.DO_NOTHING, db_column='codProva', blank=True, null=True)
     classificacao = models.ManyToManyField('Classificacao', blank=True)
 
+    def recorte(self, filename):
+        return 'problema/' + str(self.codprova.codprova) + '.' + filename.split('.')[-1]
+
+    image = models.ImageField('Recorte', upload_to=recorte)
+
 
     class Meta:
         managed = True
         db_table = 'problema'
+        unique_together=['codprova', 'tituloproblema']
 
     def __str__(self):
         return self.tituloproblema
@@ -52,6 +58,11 @@ class Questao(models.Model):
     gabaritoquestao = models.CharField(db_column='gabaritoQuestao', max_length=10, blank=True, null=True)
     imgquestao = models.CharField(db_column='imgQuestao', max_length=300, blank=True, null=True, default='')
     codproblema = models.ForeignKey(Problema, models.DO_NOTHING, db_column='codProblema', blank=True, null=True, related_name="cod_problemas_questao")
+
+    def recorte(self, filename):
+        return 'questao/' + str(self.codproblema.codproblema) + '.' + filename.split('.')[-1]
+
+    image = models.ImageField('Recorte', upload_to=recorte)
 
     class Meta:
         managed = True

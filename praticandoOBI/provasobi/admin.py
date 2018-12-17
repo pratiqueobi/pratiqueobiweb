@@ -25,37 +25,30 @@ class ProblemaInline(nested_admin.NestedStackedInline):
 
 
 class ProvaAdmin(nested_admin.NestedModelAdmin):
-    fields = [('anoprova', 'nivelprova', 'faseprova', 'urlprova')]
     list_display = ['codprova', 'anoprova', 'nivelprova', 'faseprova']
     search_fields = ['nivelprova', 'faseprova', 'anoprova']
     inlines = [ProblemaInline]
 
 
 class ProvaPersonAdmin(admin.ModelAdmin):
-    fields = ['autor', 'titulo', 'ano', 'dificuldade', 'observacoes']
     list_display = ['autor', 'titulo', 'ano']
     search_fields = ['autor', 'ano']
 
 
 class ClassificacaoAdmin(admin.ModelAdmin):
-    fields = [('tituloclassificacao')]
     list_display = ['tituloclassificacao']
 
 
 class AlternativaAdmin(admin.ModelAdmin):
-    fields = [('letraalternativa', 'textoalternativa', 'codquestao')]
     list_display = ['codalternativa', 'letraalternativa']
 
 
 class QuestaoAdmin(admin.ModelAdmin):
-    fields = [('numeroquestao', 'enunciadoquestao', 'imgquestao', 'gabaritoquestao', 'codproblema')]
-    list_display = ['numeroquestao', 'codproblema']
+    list_display = ['numeroquestao', 'codproblema', 'image']
 
 
 class ProblemaAdmin(admin.ModelAdmin):
-    fields = [
-        ('numeroproblema', 'tituloproblema', 'enunciadoproblema', 'regrasproblema', 'imgproblema', 'classificacao')]
-    list_display = ['codproblema', 'numeroproblema', 'tituloproblema']
+    list_display = ['codproblema', 'numeroproblema', 'tituloproblema', 'image']
 
 
 admin.site.register(Prova, ProvaAdmin)
