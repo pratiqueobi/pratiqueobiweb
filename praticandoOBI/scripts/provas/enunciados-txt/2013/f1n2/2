@@ -1,0 +1,9 @@
+Sarau musical
+A escola está organizando um sarau musical, com apresentações dos alunos. Cinco amigas, Clara, Bela, Isa, Julia e Maria, vão cantar uma música entre cinco estilos diferentes: Axé, Forró, Pop, Rock e Samba. As seguintes condições devem ser obedecidas:
+• Cada aluna vai cantar uma única música, e nenhum estilo vai ser cantado por mais de uma
+aluna.
+• Julia se apresenta em algum momento após a apresentação da música de Pop, e em algum
+momento antes da apresentação de Clara.
+• A apresentação de Forró acontece em algum momento após a apresentação de Maria.
+• Maria não é a primeira a se apresentar.
+• Nem Forró nem Axé são cantados pela última cantora a se apresentar.

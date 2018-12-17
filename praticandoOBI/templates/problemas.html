@@ -1,0 +1,84 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block titulo %}
+{% for p in provas %}
+    Prova:  {{p.anoprova}} - Fase {{p.faseprova}} - Nível {{p.nivelprova}}
+{% endfor %}
+{% endblock %}
+
+{% block container %}
+
+    <button onclick="goBack()">Voltar</button>
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+
+    {% for prob in problemas %}
+    <br/>
+    <h3><p align="center"><b>{{prob.tituloproblema}}</b></p></h3><br/>
+
+        <!--Mostra a classificação do problema, se ele tiver-->
+        <br><font color="#8bc34a"><b>CLASSIFICAÇÃO:</b></font>
+        {% for f in prob.classificacao.all %}
+            <br><b>{{f.tituloclassificacao}}</b>
+        {% endfor %}
+
+        <br/><br/>{{prob.enunciadoproblema}}</br>
+
+        <!--Mostra as regras do problema, se ele tiver-->
+        {% if prob.regrasproblema %}
+            <br/>{{prob.regrasproblema}}<br/>
+        {% endif %}
+
+        <!--Mostra as imagens do problema, se ele tiver-->
+        {% if prob.imgproblema %}
+            {% load static %}
+            <img src={% static prob.imgproblema %} width="350" alt="My image">
+        {% endif %}
+
+        <!--Mostra as questões do problema-->
+        {% for q in questoes %}
+            {% if q.codproblema.codproblema == prob.codproblema %}
+                <br>{{ q.numeroquestao }} - {{q.enunciadoquestao}}</br>
+
+                <!--Mostra as imagens da questão-->
+                {% if q.imgquestao %}
+                    {% load static %}
+                    <img src={% static q.imgquestao %} width="200" height="200" alt="Img"></br>
+                {% endif %}
+
+                <!--Mostra as alternativas da questão-->
+                {% for a in alternativas %}
+                    {% if a.codquestao.codquestao == q.codquestao %}
+                        {{a.letraalternativa}} - {{a.textoalternativa}}</br>
+                    {% endif %}
+                {% endfor %}
+
+            <br>
+             <button class="btn btn-outline-success" onclick="myFunction('{{q.codquestao}}')">Ver gabarito</button><br/>
+             <div id="{{q.codquestao}}"> &nbsp;
+               <div class="highlight">
+                   <p><font size="6"><b><pre>{{q.gabaritoquestao}}</pre></b></font></fontziseb></p>
+               </div>
+             </div>
+
+            <script>
+            document.getElementById( '{{q.codquestao}}' ).style.display = 'none';
+            function myFunction(elementID) {
+                var x = document.getElementById(elementID);
+                if (x.style.display === 'none') {
+                    x.style.display = 'block';
+                } else {
+                    x.style.display = 'none';
+                }
+            }</script>
+
+            {% endif %}
+        {% endfor %}
+    <hr>
+    {% endfor%}
+</ul>
+{% endblock %}

@@ -1,0 +1,142 @@
+{
+"anoprova": 2008,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Colorindo o Mapa",
+		"enunciadoproblema": "Um mapa de um país mostrando seus estados R, S, W, X, Y e Z precisa ser colorido. Estados adjacentes não podem ter a mesma cor. Os únicos estados adjacentes entre si são os seguintes:",
+		"regrasproblema": "• R, S, X e Y são adjacentes a W.\n• X é adjacente a Y.\n• R e S são adjacentes a Z.\n",
+		"imgproblema": null,
+		"classificacao": [6, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "A Quitanda",
+		"enunciadoproblema": "Cinco irmãos, José, Karina, Laura, Maria e Nilo, revezam-se para cuidar da quitanda da família de segunda-feira a sexta-feira. A quitanda deve ter exatamente dois irmãos trabalhando em cada dia, respeitando as seguintes condições:",
+		"regrasproblema": "• cada irmão deve trabalhar pelo menos um dia;\n• nenhum irmão pode trabalhar três dias consecutivos;\n• Karina deve trabalhar na segunda-feira;\n• Maria deve trabalhar na quinta-feira e na sextafeira;\n• José não pode trabalhar nos mesmos dias que Karina trabalhar.\n",
+		"imgproblema": null,
+		"classificacao": [13, 17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Rede de Computadores",
+		"enunciadoproblema": "Numa rede de computadores existem quatro máquinas, W, X, Y e Z. Os computadores são conectados entre si por cabos direcionados. Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador W). Os cabos existentes na rede são os seguintes:",
+		"regrasproblema": "• de W para X.\n• de W para Y.\n• de W para Z e de Z para W.\n• de X para Y e de Y para X.\n• de X para Z.\n• de Z para Y.\nUma mensagem pode ir de um computador para outro utilizando apenas um cabo, ou uma seqüência de\ncabos. Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando por um único cabo; e\numa mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z).\n",
+		"imgproblema": null,
+		"classificacao": [3],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Um Dia de Trabalho",
+		"enunciadoproblema": "Um funcionário de uma empresa tem seis tarefas para realizar hoje. Essas tarefas são identificadas por R, B, G, S, W e T. As tarefas não podem ser realizadas ao mesmo tempo e devem ser feitas numa ordem que obedeça as restrições baixo. ",
+		"regrasproblema": "• W é realizada em algum momento após G e algum momento após T.\n• S é realizada em algum momento após W.\n• R é realizada em algum momento antes de S.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

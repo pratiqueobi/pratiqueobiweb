@@ -1,0 +1,11 @@
+Livraria
+Uma livraria deve expor na vitrine dez novos lançamentos em livros: H, I, J, K, L, M, N, O, P e Q. Estes livros serão expostos na sexta-feira e no sábado, mas um mesmo livro não pode ser exposto nos dois dias. Exatamente cinco livros devem ser expostos cada dia e as seguintes condições também se aplicam:
+• Se H é exposto no sábado então P deve ser exposto na sexta-feira.
+• Se L é exposto na sexta-feira então J e K devem
+ser expostos no sábado.
+• Se N é exposto na sexta-feira então K deve ser
+exposto no sábado.
+• Se O é exposto na sexta-feira então M deve ser
+exposto também na sexta-feira.
+• I deve ser exposto na sexta-feira.
+• Q deve ser exposto no sábado.

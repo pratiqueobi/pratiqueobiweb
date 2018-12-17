@@ -1,0 +1,176 @@
+{
+"anoprova": 2007,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Carteiro",
+		"enunciadoproblema": "Um carteiro precisa entregar cartas em quatro bairros diferentes: A, B, C e D. Ele sempre parte do bairro A, passa somente uma vez por cada bairro B, C e D (em alguma ordem) e retorna para o bairro A. Na tabela abaixo pode ser vista a distância entre cada par de bairros, sendo que o valor “X” indica que não existe um caminho direto entre aqueles bairros.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2007f2n12-carteiro.png",
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Tocador de MP3",
+		"enunciadoproblema": "Para gravar em seu tocador MP3, Francisco precisa selecionar três CD’s de música dos seis que possui: K, O, S, T, V e W, seguindo as seguintes condições:",
+		"regrasproblema": "• K deve ser selecionado, S deve ser selecionado ou\nambos devem ser selecionados.\n• O ou V deve ser selecionado, mas nem V nem S\npodem ser selecionados com O.\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Quem é o Líder?",
+		"enunciadoproblema": "Existem três computadores, A, B e C, que possuem respectivamente os seguintes números de identificação: 13, 42 e 17. Cada par de computadores está ligado através de um canal de comunicação, de forma que quaisquer dois computadores podem trocar mensagens entre si. Para os computadores descritos serão três canais no total. Deve-se escolher somente um dos computadores para ser o líder e os outros dois restantes devem ter conhecimento de quem é este líder. Vale a seguinte condição:",
+		"regrasproblema": "• O líder é o computador com maior valor absoluto\nde número de identificação.\n",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "No Restaurante Italiano",
+		"enunciadoproblema": "Sandro sempre que vai ao restaurante italiano põe em sua macarronada no mínimo dois dos três tipos disponíveis de molhos: molho 1, molho 2 e molho 3. Além disso, acrescenta ao prato um ou mais acompanhamentos dos seis tipos disponíveis: U, V, W, X, Y e Z.",
+		"regrasproblema": "• Se U é adicionado então V deve também ser adicionado ao prato.\n• U ou X deve ser adicionado, mas não ambos.\n• Se Z é adicionado então V não pode ser adicionado ao prato.\n• Se o molho 1 é colocado na macarronada então os\nacompanhamentos V e W devem ser adicionados.\n• Se o molho 3 é colocado na macarronada então o\nacompanhamento Z deve ser adicionado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Marionetes",
+		"enunciadoproblema": "Um grupo de manipulação de bonecos precisa se apresentar em sete cidades: E, F, G, H, I, J e S. As seguintes condições influenciam a ordem de visita às cidades:",
+		"regrasproblema": "• Cada cidade só deve ser visitada uma vez.\n• A cidade E deve ser visitada antes de F.\n• A cidade F deve ser visitada antes de I.\n• A cidade I deve ser visitada após G.\n• A cidade H deve ser visitada após G.\n• A cidade J deve ser visitada após I.\n• A cidade S não pode ser visitada nem imediatamente antes, nem imediatamente depois das cidades F ou I.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

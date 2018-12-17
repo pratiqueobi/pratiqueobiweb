@@ -1,0 +1,6 @@
+Cães Farejadores
+Três policiais – Rita, Sílvia e Tina – vão treinar cinco cães farejadores – Aladim, Bidu, Cacau, Dragão e Espoleta. Cada policial treina pelo menos um cão, e cada cão será treinado por exatamente uma policial. A definição de qual policial treina cada cão deve seguir as seguintes restrições:
+• Espoleta e Dragão são treinados pela mesma policial.
+• Cacau e Dragão não são treinados pela mesma policial.
+• Se Tina treina Aladim, Tina também treina Bidu.
+• Cacau é treinado por Rita.

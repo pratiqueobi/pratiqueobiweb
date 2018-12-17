@@ -1,0 +1,7 @@
+Competição de duplas mistas
+Três meninas (Kátia, Maria e Olívia) e três meninos (João, Luís e Nei) participam de uma competição de esportes, para duplas mistas (um menino e uma menina). As duplas formadas são Kátia e João, Maria e Luís, Olívia e Nei. Cada competidor escolhe exatamente um esporte para competir, entre corrida, salto em altura, nado de peito, nado de costas e ciclismo. Os competidores escolhem obedecendo as seguintes restrições:
+• As duas pessoas de uma dupla não escolhem o mesmo esporte.
+• Nenhum dos meninos escolhe o mesmo esporte que outros meninos.
+• Maria escolhe nado de peito.
+• Nem João nem Nei escolhem um esporte de água.
+• Olívia escolhe salto em altura.

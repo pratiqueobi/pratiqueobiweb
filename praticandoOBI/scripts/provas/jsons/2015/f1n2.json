@@ -1,0 +1,108 @@
+{
+"anoprova": 2015,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Escalonador de Programas",
+		"enunciadoproblema": "O Sistema Operacional (S.O.) de um computador é quem controla todos os programas que estão sendo executados. O S.O. executa vários programas “ao mesmo tempo”: leitor de correio eletrônico, navegador, editor de texto. Como em geral o computador tem apenas um processador, na verdade o S.O. executa cada programa por uma pequena fração de tempo, em turnos, continuamente, o que nos dá a impressão de que todos estão sendo executados “ao mesmo tempo”. Inicialmente, o computador organiza os programas a serem executados em uma fila. A cada turno, cada programa da fila é executado por uma fração fixa de tempo. Ao final de sua fração de tempo, o programa é colocado novamente na fila. Se o programa termina sua execução durante sua fração de tempo, ele não é colocado de volta na fila, e a fila fica com um programa a menos. No computador desta tarefa, quatro programas estão sendo executados: P, Q, R e S. Ao final de cada turno, a ordem dos programas na fila é alterada de acordo com UMA das seguintes regras:",
+		"regrasproblema": "• Regra 1: o programa em terceiro lugar na fila é colocado na posição imediatamente à frente do\nprograma que estava em segundo lugar na fila.\n• Regra 2: o programa em terceiro lugar na fila é colocado na posição imediatamente à frente do\nprograma que estava em primeiro lugar na fila.\n• Regra 3: o programa em último lugar na fila é colocado em primeiro lugar na fila.\nA regra a ser utilizada a cada turno é decidida pelo S.O., mas se a regra envolve o movimento de um\nprograma que terminou durante esse turno, essa regra não é utilizada (por exemplo, se o programa\nP é o terceiro da fila em um turno e termina nesse turno, a regra 1 não é utilizada pelo S.O.).\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Maratona de Exames",
+		"enunciadoproblema": "A escola decidiu realizar todas as provas dos exames finais em um único dia. São sete disciplinas, identificadas como A, B, C, D, E, F e G. Cada exame vai durar 50 minutos, de forma que eles podem ser alocados de hora em hora. Devido a problemas dos professores, as seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• Os exames serão num sábado, nos horários 6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00.\n• A disciplina A deve ter seu exame às 6:00.\n• O exame da disciplina E deve ser após o exame da disciplina C e também após o exame da\ndisciplina B.\n• O exames das disciplinas D, F e G devem ser em horários consecutivos, nessa ordem.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Desenvolvedores de jogos",
+		"enunciadoproblema": "Cinco amigos: Bia, Carla, Dino, Edu e Flora, resolveram desenvolver um novo jogo de computador. As tarefas foram divididas em: Arte, Programação, Roteiro, Sons e Testes. Cada um vai ser responsável por uma única tarefa, mas algumas condições devem ser obedecidas na divisão das tarefas:",
+		"regrasproblema": "• Edu não trabalha em Roteiro.\n• Bia só trabalha em Programação ou Testes.\n• Flora trabalha em qualquer tarefa, mas se Carla trabalhar em Arte, Flora vai trabalhar em\nProgramação.\n• Dino trabalha somente em Roteiro ou em Programação.\n",
+		"imgproblema": null,
+		"classificacao": [10, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

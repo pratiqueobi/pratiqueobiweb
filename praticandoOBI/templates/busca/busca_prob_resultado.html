@@ -1,0 +1,28 @@
+{% extends './busca_prob_form.html' %}
+{% load static %}
+
+{% block caminho %}
+    {{ block.super }}
+    / Resultado
+{% endblock %}
+
+{% block container %}
+    <p>Resultados para: <strong>{{ query }}</strong></p>
+    {% if problemas %}
+        <p>Encontrou {{problemas|length }} problema{{problemas|pluralize}}. </p>
+        <ul>
+            {% for p in problemas %}
+                <li><a href="{% url 'provas_obi:url_prob_info' p.codproblema %}">{{p.tituloproblema}} - Classificação:
+                    {% for c in p.classificacao.all %}
+                        {{c.tituloclassificacao}}
+                    {% endfor %}
+                    <!--<input type='checkbox' {% ifequal value 0 %}checked{% endifequal %}>-->
+                    </a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum resultado encontrado para a sua pesquisa.</p>
+    {% endif %}
+
+    <a href="{% url 'provas_obi:url_buscaprob' %}" class="btn btn-primary"><span>Nova busca</span></a>
+{% endblock %}

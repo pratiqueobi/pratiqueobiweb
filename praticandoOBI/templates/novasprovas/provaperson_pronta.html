@@ -1,0 +1,65 @@
+{% extends './addquestoes_select.html' %}
+{% load static %}
+
+{% block titulo %}
+    Imprimir Prova
+{% endblock %}
+
+{% block container %}
+<link href="{% static 'admin/css/breadcrumb.css' %}" rel="stylesheet">
+		<ul class="breadcrumb">
+			<li class="completed"><a href="{% url 'usuarios_obi:provaperson' %}">Dados da Prova</a></li>
+			<li class="completed"><a href="{% url 'usuarios_obi:provaperson_edit' codprova %}">Editar Prova</a></li>
+            <li class="completed"><a href="{% url 'usuarios_obi:questoes_busca' codprova %}">Buscar Questões</a></li>
+            <li class="completed"><a href="{% url 'usuarios_obi:questoes_busca' codprova %}">Adicionar Questões</a></li>
+			<li class="active"><a href="{% url 'usuarios_obi:provaperson_baixar' codprova %}">Prova Pronta!</a></li>
+		</ul>
+<p align="center" style="margin-top:5%;">
+    <a href="{% url 'usuarios_obi:provaperson_baixar' codprova %}" class="btn btn-primary" >Download como PDF</a>
+    <a href="{% url 'usuarios_obi:provaperson_baixar_docx' codprova %}" class="btn btn-primary" >Download como .docx</a>
+    <a href="{% url 'usuarios_obi:upload_drive' codprova %}" class="btn btn-primary" >Salvar no Drive</a>
+</p>
+<br/>
+
+<br><h3 style="color:#54a9ff;text-align:center;"><b>{{provaperson.titulo}}</b></h3><br><br/>
+
+ {% for p in problemas %}
+<h4 class="list-group-item-heading" style="text-align:center;"><b>{{p.tituloproblema}}</b></h4><br/>
+<h5>{{p.enunciadoproblema}}</h4>
+ <!--Mostra as regras do problema, se ele tiver-->
+            {% if p.regrasproblema %}
+    <h5><b>REGRAS:</b> {{p.regrasproblema}}<br></h5>
+            {% endif %}
+
+            <!--Mostra as imagens do problema, se ele tiver-->
+            {% if p.imgproblema %}
+                {% load static %}
+                <img src={% static p.imgproblema %} width="350" alt="My image">
+            {% endif %}
+   </br>
+
+   {% for q in questoes %}
+     {% if p.codproblema == q.codproblema.codproblema %}
+     <div class="pull-left form-control-inline">
+         <h5 class="list-group-item-heading"><b>Questão {{forloop.counter}} - </b>{{q.enunciadoquestao}}</h5>
+         <p class="list-group-item-text">
+               <!--Mostra as imagens da questão-->
+              {% if q.imgquestao %}
+                  {% load static %}
+                  <img src={% static q.imgquestao %} width="200" height="200" alt="Img"></br>
+              {% endif %}
+
+              <!--Mostra as alternativas da questão-->
+              {% for a in alternativas %}
+                  {% if a.codquestao.codquestao == q.codquestao %}
+                      {{a.letraalternativa}}) {{a.textoalternativa}}</br>
+                  {% endif %}
+              {% endfor %}
+          </p>
+      </div>
+
+     {% endif %}
+   {% endfor %}
+    <hr>
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,9 @@
+Jogo de Computador
+O Grupo de Desenvolvimento de Jogos da SBC deciciu desenvolver um jogo para computador que vai utilizar sete cenários: escola, caverna, navio, porto, montanha, parque de diversões e biblioteca. Cada um desses cenários precisa ser modelado (ou seja, desenhado em três dimensões com um programa de modelagem) pela equipe de artistas do Grupo. Os cenários precisam ser modelados de acordo com as seguintes condições:
+• A montanha e a escola devem ser modeladas consecutivamente (uma logo em seguida da outra),
+em qualquer ordem.
+• O navio deve ser modelado em algum momento
+após o porto e em algum momento antes do parque de diversões.
+• A caverna deve ser modelada em algum momento
+após o parque de diversões e em algum momento
+após a biblioteca.

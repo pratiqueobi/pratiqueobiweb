@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <h2>Prova criada:</h2>
+    <ul>
+        {% for prova in provaperson %}
+        <h1><a href="{% url 'provaperson_detail' pk=prova.pk %}">{{ prova.titulo }}</a></h1>
+        {% endfor%}
+    </ul>
+{% endblock %}
+

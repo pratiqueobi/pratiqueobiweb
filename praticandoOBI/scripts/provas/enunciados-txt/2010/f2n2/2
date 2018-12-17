@@ -1,0 +1,13 @@
+Professor de Programação
+Depois de muitos e insistentes pedidos dos alunos, a Escola decidiu finalmente contratar um professor de Programação de Computadores. O Diretor vai entrevistar pessoalmente os seis professores interessados no posto: Júlia, Luís, Marcelo, Osvaldo, Paula e Roberto. Os seis interessados serão entrevistados pelo Diretor na segunda-feira; dos seis, três serão novamente entrevistados pelo Diretor na terça-feira. Nenhuma outra entrevista será feita e as seguintes restrições devem ser obedecidas:
+• A entrevista de Júlia na segunda-feira deve ocorrer imediatamente antes da entrevista de Luís.
+• Se as entrevistas de Marcelo e Paula não são consecutivas (não são uma logo após a outra) na
+segunda-feira, então ambos são entrevistados na
+terça-feira.
+• O professor entrevistado por último na segundafeira é o primeiro a ser entrevistado na terça-feira.
+• O professor que é entrevistado em segundo lugar
+na segunda-feira é entrevistado em terceiro lugar
+na terça-feira.
+• Júlia é entrevistada na terça-feira.
+• Roberto é o quarto professor a ser entrevistado
+na segunda-feira.

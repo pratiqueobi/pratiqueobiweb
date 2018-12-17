@@ -1,0 +1,9 @@
+Arroz e feijão
+Um caminhão de entregas precisa visitar exatamente cinco supermercados – A, B, C, D e E – para entregar encomendas de pacotes de arroz e feijão. O caminhão visita cada supermercado exatamente uma vez. As seguintes restrições devem ser obedecidas:
+• O caminhão entrega arroz para todo supermercado ao qual ele entrega feijão.
+• O caminhão entrega feijão para o segundo supermercado que ele visita.
+• O caminhão entrega feijão tanto para o supermercado B como para o supermercado D.
+• O terceiro supermercado que o caminhão visita é E.
+• O caminhão visita o supermercado A em algum momento após visitar o supermercado B, e
+visita o supermercado C em algum momento antes de visitar o supermercado A.
+• O caminhão entrega apenas arroz ao supermercado C.

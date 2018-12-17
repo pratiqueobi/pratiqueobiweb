@@ -1,0 +1,8 @@
+Meu primeiro computador
+Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas "A", "B", "C", "D"e "E". Existe ainda uma memória interna, chamada "NUM", que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito resultante dependerá da seqüência digitada. As ações associadas a cada uma são:
+• Se "A" é pressionada: "NUM" é inicializado com o valor dez, independente do que se tinha
+antes.
+• Se "B" é pressionada: É armazenado em "NUM" o valor que ele possuía subtraído um.
+• Se "C" é pressionada: É armazenado em "NUM" o valor que ele possuía subtraído dois.
+• Se "D" é pressionada: É armazenado em "NUM" o valor que ele possuía somado um.
+• Se "E" é pressionada: É impresso na tela o valor contido em "NUM".

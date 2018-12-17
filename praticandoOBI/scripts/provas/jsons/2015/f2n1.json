@@ -1,0 +1,244 @@
+{
+"anoprova": 2015,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Show da Banda",
+		"enunciadoproblema": "A Banda formada por alunos da escola vai fazer um show no clube. Eles vão tocar exatamente sete músicas: J, K, L, M, N, O e P, não necessariamente nessa ordem. As músicas vão ser apresentadas de acordo com as seguintes condições:",
+		"regrasproblema": "• N é a primeira ou a sétima música a ser apresentada.\n• L é apresentada em algum momento após J.\n• P é apresentada em algum momento após K.\n• Exatamente uma música é apresentada entre J e M, seja J apresentada antes de M ou não.\n• Exatamente uma música é apresentada entre K e N, seja K apresentada antes de N ou não.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Eleição no Centro Acadêmico",
+		"enunciadoproblema": "Uma eleição foi organizada na escola para escolher o (ou a) estudante que presidirá o Centro Acadêmico no próximo ano. Sete estudantes se candidataram: Alda, Beto, Caio, Duda, Ênio, Ian, e Lia. A comissão eleitoral ordenou os estudantes de acordo com o número de votos recebidos, do mais votado para o menos votado. Contados os votos, a comissão eleitoral verificou que o resultado da eleição obedece às seguintes propriedades:",
+		"regrasproblema": "• Alda recebeu menos votos do que Duda.\n• Alda recebeu mais votos do que Ian e mais votos do que Lia.\n• Cada estudante recebeu um número diferente de votos.\n• Beto recebeu mais votos do que Lia.\n• Lia recebeu mais votos do que Caio.\n• Caio recebeu mais votos do que Ênio.\n• Ian não recebeu o menor número de votos.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Feira de Ciências",
+		"enunciadoproblema": "A escola está montando uma equipe de estudantes para participar da Feira de Ciências que vai ser realizada na cidade. A equipe deve ser formada por no mínimo três e no máximo seis estudantes. A diretora da escola quer que na equipe exista ao menos uma menina e ao menos um menino, escolhidos entre os nove melhores alunos de ciências da escola. As meninas são A, B, C, D e F. Os meninos são Q, R, S e Z. Além disso a seleção da equipe deve obedecer às seguintes restrições:",
+		"regrasproblema": "• A ou Z devem ser selecionados, mas os dois não podem ser selecionados juntos.\n• R não é selecionado a menos que F seja selecionada.\n• Se B é selecionada, então R deve ser também selecionado.\n• S não é selecionado se R é selecionado.\n• Se Z não é selecionado, então B deve ser selecionada.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Alojamento",
+		"enunciadoproblema": "Para alojar os alunos convidados para o treinamento para a Olimpíada Internacional de Informática está sendo montado, no alojamento da Universidade, um quarto retangular com oito camas. Algumas das camas são beliches (camas duplas), outras são camas simples. As camas estarão dispostas como na figura abaixo, nas posições NO, N, NE, L, SE, S, SO e O. Camas simples e beliches são colocadas de acordo com as seguintes restrições:",
+		"regrasproblema": "• As camas em exatamente dois dos cantos do quarto são simples.\n• A cama na posição N é beliche.\n• A cama na posição SE é simples.\n• Cada beliche está entre um beliche e uma cama simples.\n",
+		"imgproblema": "/static/imagens/2015f2n1-aloj.jpg",
+		"classificacao": [5, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Times de Programação",
+		"enunciadoproblema": "A Maratona de Programação é uma competição promovida, como a OBI, pela Sociedade Brasileira de Computação. Na Maratona, times compostos por três alunos competem resolvendo tarefas de programação. Três times são formados pelos alunos Ana, Bia, Chico, Deco, Eva, Fábio, Gui, Heitor e Iara. Os times são formados obedecendo aos seguintes critérios:",
+		"regrasproblema": "• Deco está no time 3.\n• Eva está no mesmo time que Fábio.\n• Se Ana está no time 1, então Eva está no time 2 e Chico no time 3.\n• Se Bia está no time 2, então Gui e Chico estão no time 1.\n• Gui não está no mesmo time que Deco.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Trilhas",
+		"enunciadoproblema": "A escola está construindo seis novas salas de aulas, A, B, C, R, S e T, situadas em duas filas, nas posições mostradas na figura abaixo. Cada sala em uma fila tem uma sala diretamente oposta na outra fila. Para alunos e professores poderem movimentar-se entre as salas, a diretoria planeja construir trilhas em linha reta, pavimentadas, conectando as salas. Cada trilha conecta duas salas distintas. As trilhas devem ser construídas de forma que seja possível ir de uma sala para qualquer outra sala caminhando por uma ou mais trilhas. No entanto, para economizar dinheiro, as seguintes restrições foram obedecidas no planejamento da construção:",
+		"regrasproblema": "• Cada sala é conectada a no mínimo uma e no máximo duas trilhas.\n• Há uma trilha entre as salas B e R.\n• Há uma trilha entre as salas S e T.\n• As trilhas não se cruzam.\n",
+		"imgproblema": "/static/imagens/2015f2n1-trilhas.jpg",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Seleção de problemas",
+		"enunciadoproblema": "O Comitê de Problemas da OBI precisa selecionar cinco tarefas para a prova da modalidade Programação Nível 2, dentre oito tarefas: R, S, T, U, V, X, Y e Z. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Se ambas R e Y são selecionadas, Z também é selecionada.\n• Se U é selecionada, nem X nem Y são selecionadas.\n• Se V é selecionada, S não é selecionada.\n• Entre as tarefas S, T e X, exatamente duas são selecionadas.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

@@ -1,0 +1,7 @@
+Jogo de Doces
+Maria e Eduardo ganharam vários doces, e decidem jogar um jogo para decidir a quantidade de doces que cada um terá direito. O jogo funciona da seguinte maneira: 
+1. Inicialmente, um número inteiro positivo x é sorteado em uma roleta;
+2. Enquanto x for maior do que zero, repete-se o procedimento:
+• Se x for par, Eduardo pega um doce e divide x por dois;
+• Caso contrário, Maria pega um doce e subtrai 1 de x;
+• Volta-se ao passo 2 com o novo valor de x;

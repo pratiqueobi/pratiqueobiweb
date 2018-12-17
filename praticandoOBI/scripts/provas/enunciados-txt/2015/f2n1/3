@@ -1,0 +1,7 @@
+Feira de Ciências
+A escola está montando uma equipe de estudantes para participar da Feira de Ciências que vai ser realizada na cidade. A equipe deve ser formada por no mínimo três e no máximo seis estudantes. A diretora da escola quer que na equipe exista ao menos uma menina e ao menos um menino, escolhidos entre os nove melhores alunos de ciências da escola. As meninas são A, B, C, D e F. Os meninos são Q, R, S e Z. Além disso a seleção da equipe deve obedecer às seguintes restrições:
+• A ou Z devem ser selecionados, mas os dois não podem ser selecionados juntos.
+• R não é selecionado a menos que F seja selecionada.
+• Se B é selecionada, então R deve ser também selecionado.
+• S não é selecionado se R é selecionado.
+• Se Z não é selecionado, então B deve ser selecionada.

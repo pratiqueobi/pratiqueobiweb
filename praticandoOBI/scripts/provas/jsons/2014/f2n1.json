@@ -1,0 +1,278 @@
+{
+"anoprova": 2014,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Mapa",
+		"enunciadoproblema": "",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2014f2n1-mapa.jpg",
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Torneio de Tênis",
+		"enunciadoproblema": "Está acontecendo nesta semana o Torneio Aberto de Tênis dos EUA, um dos mais prestigiosos torneios de tênis do mundo, no qual participam 128 tenistas. Em cada partida, participam dois jogadores, sendo que o vencedor passa para a próxima fase, e o perdedor é eliminado do torneio. A cada rodada, os tenistas que ainda continuam no torneio participam de exatamente uma partida.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Popularidade de Páginas",
+		"enunciadoproblema": "Empresas de busca na internet, como Bing e Google, classificam as páginas da Internet de acordo com a sua “popularidade”. A popularidade de uma página X pode ser medida por exemplo pelo número de referências (links) de todas as outras páginas para X. Estamos interessados em seis páginas – P, Q, R, S, T e U –, que têm popularidades diferentes entre si. As seguintes relações são conhecidas:",
+		"regrasproblema": "• P é mais popular do que Q ou R, mas não mais popular do que ambas.\n• U é menos popular do que R.\n• Se Q é menos popular do que R, então nem S nem U são mais populares do que T.\n• Se Q é mais popular do que R, então S é mais popular do que ambas T e U.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Cães Farejadores",
+		"enunciadoproblema": "Três policiais – Rita, Sílvia e Tina – vão treinar cinco cães farejadores – Aladim, Bidu, Cacau, Dragão e Espoleta. Cada policial treina pelo menos um cão, e cada cão será treinado por exatamente uma policial. A definição de qual policial treina cada cão deve seguir as seguintes restrições:",
+		"regrasproblema": "• Espoleta e Dragão são treinados pela mesma policial.\n• Cacau e Dragão não são treinados pela mesma policial.\n• Se Tina treina Aladim, Tina também treina Bidu.\n• Cacau é treinado por Rita.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Formatura",
+		"enunciadoproblema": "Exatamente seis membros da Comissão de Formatura da escola – Aldo, Bia, Chico, Dino, Eva e Fred – vão realizar visitas a empresas para arrecadar fundos para a festa de formatura. Serão quatro visitas, uma após a outra. Exatamente dois alunos vão participar de cada uma das visitas, cada aluno fazendo ao menos uma visita, obedecendo às seguintes restrições:",
+		"regrasproblema": "• Aldo participa da última visita.\n• Bia participa de apenas uma visita, e não faz a visita com Dino.\n• Fred não participa nem da primeira visita nem da terceira visita.\n• Eva participa de exatamente duas visitas, uma antes e uma depois da única visita da qual Chico participa.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Turismo",
+		"enunciadoproblema": "João ganhou um prêmio e vai poder realizar o sonho de conhecer melhor o Brasil. Ele vai visitar seis capitais – Aracaju, Belém, Curitiba, Goiânia, Manaus e Salvador – não necessariamente nessa ordem. A ordem da visita deve seguir as seguintes restrições:",
+		"regrasproblema": "• Ou Salvador é visitada depois de Goiânia ou é visitada antes de Curitiba, mas não ambas.\n• João visita Belém depois de Aracaju mas antes de Goiânia.\n• Se João visita Salvador depois de Aracaju, então ele visita Curitiba depois de Manaus.\n• Belém é visitada depois de Curitiba.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Armário de Troféus",
+		"enunciadoproblema": "O Centro Acadêmico mandou contruir dois armários, um vermelho e um branco (as cores do colégio) para guardar os troféus das equipes de esporte. Há quatro prateleiras em cada armário, numeradas de 1 a 4, de baixo para cima. Há sete tipos de troféus que devem ser colocados nas prateleiras: handebol, volei, futebol, futsal, judô, natação e tênis. Cada tipo de troféu deve ser colocado em exatamente uma prateleira, exceto futebol, que ocupa duas prateleiras, uma acima da outra, no mesmo armário. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Os troféus de volei e futsal estão nas prateleiras mais altas do armário.\n• Os troféus de tênis estão numa prateleira 2.\n• Os troféus de natação e judô estão em armários distintos.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sanduíches",
+		"enunciadoproblema": "Cinco amigos – Beto, Chico, Davi, Éder e Fábio – vão comprar sanduíches e almoçar na escola para continuar estudando juntos para a prova de Matemática. Cada amigo compra um sanduíche com exatamente dois ingredientes de recheio, entre alface, queijo, presunto e tomate, consistente com as seguintes restrições:",
+		"regrasproblema": "• Beto e Éder pedem exatamente os mesmos recheios.\n• Éder e Chico não pedem nenhum recheio igual.\n• Chico e Fanny pedem exatamente um recheio igual.\n• Fábio e Beto pedem exatamente um recheio igual.\n• Chico e Fábio pedem exatamente um recheio igual.\n• Chico pede presunto, Beto pede queijo e Fábio pede tomate.\n• Davi e Fábio não pedem nenhum recheio igual.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

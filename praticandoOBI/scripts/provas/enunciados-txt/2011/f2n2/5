@@ -1,0 +1,11 @@
+Exposição de Esculturas
+Um museu de arte está preparando uma exposição de esculturas de um famoso artista. Há oito esculturas que podem ser escolhidas: G, H, I, J, K, L, M e O. A exposição vai ser composta de cinco esculturas, que serão colocadas em cinco posições, numeradas de 1 a 5, no jardim do museu. O diretor do museu deve selecionar exatamente uma escultura para cada posição. As seguintes condições devem ser obedecidas:
+• As únicas esculturas que podem ser colocadas na posição 1 são G, H e I.
+• As únicas esculturas que podem ser colocadas na posição 2 são G, H e J.
+• As únicas esculturas que podem ser colocadas na posição 3 são G, K, M e O.
+• As únicas esculturas que podem ser colocadas na posição 4 são L, M e K.
+• As únicas esculturas que podem ser colocadas na posição 5 são L e M.
+• Se J é escolhida para a exposição, então M deve ser colocada na posição 5.
+• Se I é escolhida para a exposição, então K não pode ser escolhida.
+• Se ambas G e M são escolhidas para a exposição, então K também deve ser escolhida.
+• Se L é colocada na posição 4, então G deve ser colocada na posição 1.

@@ -1,0 +1,8 @@
+Desenvolvimento de Jogos
+Uma empresa deve formar grupos de desenvolvimento para os jogos de computador G1, G2 e G3. Cada grupo deve incluir no mínimo um dos programadores L e M e exatamente dois dos artistas gráficos R, S, T e V. Cada programador e cada artista é associado a no mínimo um grupo de acordo com as restrições:
+• nenhum programador pode estar associado ao mesmo tempo aos jogos G1 e G2;
+• nenhum artista pode estar associado ao mesmo tempo aos jogos G2 e G3;
+• S não pode estar no mesmo grupo que T;
+• V está num grupo com L;
+• V está escalado para o jogo G2;
+• S está escalado para o jogo G1.

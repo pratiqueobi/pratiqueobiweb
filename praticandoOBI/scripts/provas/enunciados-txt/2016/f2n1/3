@@ -1,0 +1,8 @@
+Biomas
+Um bioma é um conjunto de ecossistemas (comunidades biológicas) que possuem características semelhantes devido a diferentes fatores, como por exemplo clima. Um geógrafo está criando um mapa de biomas de seis países: A, B, C, D, E e F. Cada país contém ao menos um de três tipos de biomas: floresta, savana e deserto – e nenhum outro tipo. As seguintes restrições existem:
+• D e exatamente três outros países contêm floresta.
+• F contém mais tipos de bioma do que E.
+• C não contém nenhum tipo de bioma que A contém.
+• B contém exatamente dois tipos de bioma.
+• E contém tanto savana como deserto.
+• A não contém nenhum tipo de bioma que E contém.

@@ -1,0 +1,12 @@
+Combate à Dengue
+Uma força-tarefa para combater a dengue precisa visitar sete casas em busca de focos do mosquito. As casa são denominadas F, G, H, L, M, P e T. Deve ser feito um plano de ação determinando a ordem em que as casas são visitadas. Para isso considera-se as seguintes condições:
+• A casa F deve ser uma das três primeiras a serem
+visitadas.
+• A casa H deve ser visitada imediatamente antes
+da casa G.
+• A casa L não pode ser a primeira nem a sétima
+casa a ser visitada.
+• A casa M deve ser a primeira ou a sétima a ser
+visitada.
+• A casa P deve ser uma das três últimas a serem
+visitadas.

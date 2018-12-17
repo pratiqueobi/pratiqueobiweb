@@ -1,0 +1,7 @@
+Nova empresa no mercado
+Uma nova empresa foi criada para produzir aplicativos para telefones celulares. A empresa tem apenas cinco empregados: A, B, C, D e E. Cada empregado tem exatamente uma das seguintes funções: presidente, gerente ou desenvolvedor. Há apenas um presidente, e ele é o único que não é supervisionado. Cada um dos outros empregados é supervisionado, ou pelo presidente ou por um gerente. As seguintes restrições existem:
+• Um empregado supervisionado e seu supervisor têm funções diferentes.
+• Pelo menos um dos empregados que o presidente supervisiona é um gerente.
+• Cada gerente supervisiona pelo menos um empregado.
+• A não supervisiona nenhum empregado.
+• B supervisiona exatamente dois empregados.

@@ -1,0 +1,4 @@
+Quem é o Líder?
+Existem três computadores, A, B e C, que possuem respectivamente os seguintes números de identificação: 13, 42 e 17. Cada par de computadores está ligado através de um canal de comunicação, de forma que quaisquer dois computadores podem trocar mensagens entre si. Para os computadores descritos serão três canais no total. Deve-se escolher somente um dos computadores para ser o líder e os outros dois restantes devem ter conhecimento de quem é este líder. Vale a seguinte condição:
+• O líder é o computador com maior valor absoluto
+de número de identificação.

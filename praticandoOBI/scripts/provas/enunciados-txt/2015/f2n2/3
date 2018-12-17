@@ -1,0 +1,6 @@
+Câmeras de Vídeo
+Quatro câmeras de vídeo foram instaladas numa reserva florestal, para estudar os hábitos de macacosprego-do-peito-amarelo. Cada câmera cobre uma área de monitoramento; as áreas são designadas por V, X, Y e Z. A área V tem interseção com a área X. A área X tem interseção com a área Y. A área V não tem interseção com a área Y. A área Z está inteiramente contida na parte da área X que não tem interseção com nenhuma outra área. Num dado momento quatro macacos, M1, M2, M3 e M4, estão nas áreas monitoradas. As posições dos macacos são determinadas pelas seguintes condições:
+• M1 está na área V.
+• M2 está em pelo menos duas áreas.
+• M3 não está em nenhuma área em que M1 está.
+• M4 não está na mesma área que M2.

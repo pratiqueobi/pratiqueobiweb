@@ -1,0 +1,5 @@
+Armário de Troféus
+O Centro Acadêmico mandou contruir dois armários, um vermelho e um branco (as cores do colégio) para guardar os troféus das equipes de esporte. Há quatro prateleiras em cada armário, numeradas de 1 a 4, de baixo para cima. Há sete tipos de troféus que devem ser colocados nas prateleiras: handebol, volei, futebol, futsal, judô, natação e tênis. Cada tipo de troféu deve ser colocado em exatamente uma prateleira, exceto futebol, que ocupa duas prateleiras, uma acima da outra, no mesmo armário. As seguintes condições devem ser obedecidas:
+• Os troféus de volei e futsal estão nas prateleiras mais altas do armário.
+• Os troféus de tênis estão numa prateleira 2.
+• Os troféus de natação e judô estão em armários distintos.

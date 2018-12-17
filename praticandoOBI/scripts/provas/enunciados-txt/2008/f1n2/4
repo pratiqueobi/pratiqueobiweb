@@ -1,0 +1,8 @@
+Pilotos de Teste
+Sete pilotos de carros de competição vão realizar testes numa nova pista. Três dos pilotos, A, B e C são experientes. Quatro dos pilotos, Q, R, S e T são inexperientes. Cada piloto estará dirigindo ou acompanhando exatamente um dos seis carros disponveis, numerados de 1 a 6. Um carro só pode ser pilotado por um piloto experiente que pode levar ou não um co-piloto, ou pode ser pilotado por um piloto inexperiente mas que deve levar obrigatoriamente um co-piloto. É permitido no máximo dois pessoas por carro e as seguintes restrições também são aplicadas:
+• Q obrigatoriamente deve estar no carro 1 ou no carro 2;
+• se T está no mesmo carro que um piloto experiente então nenhum piloto podem estar no carro 5 nem no carro 6;
+• se S está no mesmo carro que um piloto experiente então S deve estar com o piloto B;
+• A e Q não podem estar no mesmo carro;
+• C obrigatoriamente deve estar no carro 3;
+• R obrigatoriamente deve estar no carro 4.

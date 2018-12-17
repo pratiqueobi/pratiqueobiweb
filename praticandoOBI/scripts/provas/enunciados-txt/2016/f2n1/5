@@ -1,0 +1,6 @@
+Estudo diário
+Bia decidiu que na semana que vem vai estudar todas as noites, iniciando no domingo e terminando no sábado. Ela quer fazer a programação do que estudar em cada um dos dias, entre matemática, física, química, artes, música, história e geografia, obedecendo às seguintes restrições:
+• Ela deve estudar matemática ou na noite anterior ou na noite seguinte em que ela estudar música.
+• Ela deve estudar física ou na noite anterior ou na noite seguinte em que ela estudar ou artes ou história.
+• Ela não pode estudar geografia na noite anterior ou na noite seguinte em que ela estudar química.
+• Ela deve estudar química na segunda-feira.

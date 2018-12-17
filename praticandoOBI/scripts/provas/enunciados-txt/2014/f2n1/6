@@ -1,0 +1,6 @@
+Turismo
+João ganhou um prêmio e vai poder realizar o sonho de conhecer melhor o Brasil. Ele vai visitar seis capitais – Aracaju, Belém, Curitiba, Goiânia, Manaus e Salvador – não necessariamente nessa ordem. A ordem da visita deve seguir as seguintes restrições:
+• Ou Salvador é visitada depois de Goiânia ou é visitada antes de Curitiba, mas não ambas.
+• João visita Belém depois de Aracaju mas antes de Goiânia.
+• Se João visita Salvador depois de Aracaju, então ele visita Curitiba depois de Manaus.
+• Belém é visitada depois de Curitiba.

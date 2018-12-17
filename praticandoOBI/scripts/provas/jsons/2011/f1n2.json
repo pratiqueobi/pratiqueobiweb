@@ -1,0 +1,142 @@
+{
+"anoprova": 2011,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Competição de Remo",
+		"enunciadoproblema": "Seis alunos da escola, Alice, Bia, Rui, Maria, Jair e Silvio resolveram participar de uma competição de barco a remo. O barco tem seis bancos, numerados de 1 a 6; o banco 1 é na frente do barco, o banco 6 é na traseira do barco. Os alunos decidiram participar da competição vestindo cada um a camisa de um time de futebol: Flamengo, Corinthians, Cruzeiro, Bahia, Avaí e Sport. As seguintes condições existem em relação à posições dos alunos no barco e às camisas que eles vestem:",
+		"regrasproblema": "• Há exatamente um banco entre quem veste a camisa do Sport e quem veste a camisa do Flamengo.\n• Quem veste a camisa do Sport senta-se imediatamente atrás de quem veste a camisa do Cruzeiro.\n• Quem veste a camisa do Bahia senta-se no banco 6.\n• Alice não se senta no banco 1.\n• Bia nunca vestiria a camisa do Cruzeiro nem a camisa do Sport.\n• O banco de Silvio é mais à frente do que o banco de Rui.\n• O banco de Maria é mais à frente do que o banco de Bia.\n• Rui veste a camisa do Flamengo e seu banco é mais à frente do que os bancos de Jair e Maria.\n• O banco de Alice é imediatamente à frente do banco de Bia.\n• Bia senta-se no banco 5 ou no banco 6.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Rali de Informática",
+		"enunciadoproblema": "O professor de informática da escola inventou uma nova modalidade de competição, que ele denominou de Rali de Informática. Beto, Chico, Davi e Enzo se inscreveram para participar do primeiro Rali de Informática da escola. Nesse tipo de prova, realizada em turnos, apenas um computador é utilizado. A cada turno, os competidores devem completar uma tarefa, que envolve utilizar o computador para buscar informações na Internet e efetuar cálculos. Um competidor é eliminado quando não consegue completar a tarefa no tempo determinado pelo professor (o competidor eliminado não participa dos turnos seguintes). Como há apenas um computador, os competidores são inicialmente ordenados em uma la que determina a ordem em que eles realizam a tarefa. A ordem dos competidores na la é alterada ao nal de cada turno, de acordo com uma das seguintes regras:",
+		"regrasproblema": "• Regra X: o competidor em terceiro lugar na la é colocado na posição imediatamente à frente do\ncompetidor que estava em segundo lugar na la.\n• Regra Y: o competidor em terceiro lugar na la é colocado na posição imediatamente à frente do\ncompetidor que estava em primeiro lugar na la.\n• Regra Z: o competidor em último lugar na la é colocado em primeiro lugar.\nA regra a ser utilizada em cada turno é escolhida pelo próprio professor, mas se uma regra envolve o\nmovimento de um competidor que foi eliminado, essa regra não pode ser usada (por exemplo, se Beto\né o terceiro da la em um turno e é eliminado nesse turno, a regra X não pode ser utilizada).\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Premiação no Congresso",
+		"enunciadoproblema": "O Congresso da Sociedade Brasileira de Computação (CSBC) é um dos maiores eventos científicos do país. Todos os anos, mais de dois mil participantes, muitos deles pesquisadores, professores e alunos de computação, se reúnem para debater questões da área de computação. Este ano o presidente da SBC decidiu levar uma comitiva de cinco competidores da OBI para participar do CSBC. Os cinco competidores da OBI serão selecionados entre três participantes da modalidade Programação Nível Júnior (F, G e H), três participantes da modalidade Programação Nível 1 (K, L e M) e três participantes da modalidade Programação Nível 2 (P, Q e R). A comitiva deve incluir ao menos um competidor de cada um desses três níveis, e as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Se M for selecionado, P e R também são selecionados.\n• Se K for selecionado, M não é selecionado; se M for selecionado, K não é selecionado.\n• Se F for selecionado, K não é selecionado; se K for selecionado, F não é selecionado.\n• Se mais de um competidor do Nível Júnior for selecionado, então no máximo um competidor do\nNível 2 é selecionado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Loja na Internet",
+		"enunciadoproblema": "Uma loja na internet vende pelo menos um tipo dos seguintes componentes de computador: processador, memória, disco rígido, teclado, mouse e impressora. A loja não vende nenhum outro produto, e a seleção de produtos que a loja vende segue as seguintes restrições:",
+		"regrasproblema": "• Se a loja vende impressora, então ela vende também ou processador, ou mouse, ou ambos.\n• Se a loja vende memória, então ela não vende teclado.\n• Se a loja vende disco rígido, então ela vende também teclado e impressora.\n• Se a loja não vende mouse, então ela vende memória.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

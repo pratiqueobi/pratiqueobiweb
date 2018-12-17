@@ -1,0 +1,575 @@
+{
+	"anoprova": 2003,
+	"nivelprova": 0,
+	"faseprova": 0,
+  "urlprova": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/provas/ProvaOBI2004_f0i0.pdf",
+	"problemas": [{
+		"tituloproblema": "Supermercado",
+		"enunciadoproblema": "Um supermercado iniciou um serviço de entregas das compras de seus clientes. O serviço tem duas categorias, prioritária (quando a compra inclui alimentos congelados) e ordinária (quando a compra não inclui congelados). Seis clientes, identificados por K, L, M, O, P e S, já solicitaram o serviço no primeiro dia de funcionamento. A entrega das compras (dos dois tipos) é sujeita às seguintes condições:",
+		"regrasproblema": "• Independentemente do tipo (ordinária ou prioritária), compras para os clientes P e S devem ser entregues antes das compras serem entregues para o cliente M.\n• Independentemente do tipo (ordinária ou prioritária), compras para os clientes L e K devem ser entregues antes das compras serem entregues para o cliente S.\n• Desde que as duas restrições acima permitam, compras para clientes que possuam entrega prioritária devem ser entregues antes de compras para clientes que não tenham entrega prioritária.",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Se K é o único cliente com entrega prioritária, qual das seguintes alternativas lista os clientes na ordem em que estes podem receber suas compras?",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "L, K, P, S, O e M"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "L, K, S, P, M e O"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "K, L, P, M, S e O"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "K. P, L, S, O e M"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "O, K, L, P, S e M"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Se os clientes L, M e S têm entrega prioritária, qual das seguintes alternativas lista os clientes na ordem em que estes DEVEM receber suas compras?",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "K, L, P, S, O e M"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "L, K, O, P, S e M"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "L, K, S, P, M e O"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "M, L, S, P, K e O"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "S, L, M, P, K e O"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Se a ordem na qual as compras são entregues é O, P, L, K, S e M, e se S está recebendo entrega prioritária, qual das seguintes alternativas é a lista de todos os clientes que também devem necessariamente estar recebendo entrega prioritária?",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "O e L"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "O e P"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "P e L"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "P e M"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "O, P, L e K"
+					}
+				]
+			},
+      {
+				"enunciadoquestao": "Se apenas um dos clientes tem entrega prioritária, e, como resultado, O não pode receber suas compras antes do que três outros clientes, qual dos seguintes clientes deve também estar recebendo entrega prioritária?",
+				"gabaritoquestao": "ANULADA",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "K"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "L"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "M"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "P"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "S"
+					}
+				]
+			}
+		]
+	},
+  {
+    "tituloproblema": "Maionese",
+    "enunciadoproblema": "Um grande número de convidados ficou intoxicado após a festa de casamento de João e Joana. A suspeita logo recaiu sobre a salada de maionese servida na comemoração. Para tratar com mais eficácia os convidados afetados, amostras de maionese devem ser testadas para determinar a presença das toxinas R, S e T. Serão utilizados dois testes: X e Z. Sabe-se que:",
+    "regrasproblema": "• uma amostra mantém a cor adquirida em um teste a menos que outro teste altere a cor da amostra;\n• o teste X faz a amostra adquirir cor verde se esta contém R ou S, ou ambas, e faz a amostra adquirir cor laranja se esta não contém nem R nem S;\n• o teste Z faz a amostra adquirir cor roxa se esta contém T; se a amostra não contém T, permanece com a mesma cor que tinha antes do teste Z.",
+    "imgproblema": null,
+    "classificacao": [],
+    "questoes": [{
+        "enunciadoquestao": "Uma amostra que contenha R e S mas não contenha T adquirirá que seqüência de cores, a primeira após o teste X ser aplicado, e a segunda após o teste Z ser aplicado?",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Verde, verde"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Verde, roxo"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Laranja, amarelo"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Laranja, laranja"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Laranja, roxo"
+          }
+        ]
+      },
+      {
+        "enunciadoquestao": "Uma amostra que permaneça amarela quando submetida ao teste Z e que adquira cor verde quando submetida ao teste X pode ser uma amostra contendo",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "R, S e T."
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "S e T, mas não R."
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "T, mas não R nem S."
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "S, mas não R nem T."
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "nem R, nem S, nem T."
+          }
+        ]
+      },
+      {
+        "enunciadoquestao": "Os dois testes NÃO conseguirão distinguir duas amostras contendo:",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Amostra 1: R, S e T Amostra 2: R e S, mas não T"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Amostra 1: R e S, mas não T Amostra 2: S e T, mas não R"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Amostra 1: R e T, mas não S Amostra 2: S e T, mas não R"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Amostra 1: R, mas não S nem T Amostra 2: Nem S, nem R e nem T"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Amostra 1: S, mas não R nem T Amostra 2: Nem S, nem R e nem T"
+          }
+        ]
+      }
+    ]
+  },
+  {
+		"tituloproblema": "Atendimento ao Consumidor",
+		"enunciadoproblema": "O Serviço de Atendimento ao Consumidor (SAC) de uma empresa emprega seis pessoas que respondem a mensagens de correio eletrônico: Gustavo, Horácio, Ivan, Joana, Kátia e Luiza. Cada mensagem de cliente recebida pelo SAC é classificada como vermelha ou azul. O seguinte procedimento é utilizado:",
+		"regrasproblema": "Mensagens vermelhas são encaminhadas para tratamento inicialmente para Gustavo ou Horácio;\n• Mensagens azuis são encaminhadas para tratamento inicialmente para qualquer um dos seguintes: Gustavo, Joana ou Ivan.\nSe uma mensagem menciona um problema que não pode ser resolvido pela pessoa à qual a mensagem foi inicialmente encaminhada para tratamento, ela deve ser redirecionada para outra pessoa, até que chegue a alguém que possa tratar do problema e responder a mensagem. Uma mensagem deve ser redirecionada da seguinte maneira:\n • de Gustavo para Ivan se a mensagem é vermelha, mas para Joana se a mensagem é azul;\n• de Horácio para Gustavo ou para Ivan;\n• de Ivan para Joana se a mensagem é vermelha, mas para Kátia se a mensagem é azul;\n• de Joana para Ivan ou para Kátia, não importando se a mensagem é vermelha ou azul;\n• de Kátia para Luiza, não importando se a mensagem é vermelha ou azul;\nAlém disso, Luiza responde todas as mensagens que cheguem a ela.",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Todas as afirmações abaixo são verdadeiras EXCETO:",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "Gustavo redireciona uma mensagem vermelha para Ivan."
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "Horácio redireciona uma mensagem vermelha para Gustavo."
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Horácio redireciona uma mensagem vermelha para Ivan."
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "Ivan redireciona uma mensagem vermelha para Kátia."
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Joana redireciona uma mensagem vermelha para Ivan."
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Uma mensagem azul pode chegar a Luiza através de qual das seqüências de pessoas abaixo?",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Gustavo, Horácio e Kátia."
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Gustavo, Ivan e Joana."
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Gustavo, Joana e Kátia."
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Ivan, Horácio e Joana"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Ivan, Gustavo, Joana e Kátia"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Qualquer mensagem que tenha chegado até Luiza deve ter passado por",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "Gustavo"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "Horácio"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Ivan"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "Joana"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Kátia"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Qualquer mensagem que tenha chegado até Luiza deve ter passado por pelo menos quantas pessoas do SAC antes de chegar até Luiza?",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "1"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "2"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "3"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "4"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "5"
+          }
+        ]
+      },
+      {
+        "enunciadoquestao": "Qual das seguintes situações poderia fazer com que a mensagem passasse por todos os membros do SAC?",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Uma mensagem vermelha que é encaminhada inicialmente para Horácio"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Uma mensagem vermelha que é encaminhada inicialmente para Gustavo"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Uma mensagem azul que é encaminhada inicialmente para Gustavo"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Uma mensagem azul que é encaminhada inicialmente para Ivan"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Uma mensagem azul que é encaminhada inicialmente para Joana"
+          }
+        ]
+      }
+		]
+	},
+  {
+		"tituloproblema": "Clara e Luiz",
+		"enunciadoproblema": "",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Clara e Luiz estudam na mesma escola e cursaram as mesmas seis matérias durante o ano, mas apenas em uma das matérias – História do Brasil – tiraram a mesma nota. Em cada uma das matérias as notas variaram de 60 a 100.\nQual das seguintes afirmações permite que se deduza que a média das notas que Clara tirou nas outras cinco matérias foi maior que a média das notas de Luiz nessas mesmas cinco matérias?",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "A menor nota de Clara foi História do Brasil, mas a menor nota de Luiz foi Matemática."
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "A maior nota de Luiz foi maior do que a maior nota de Clara."
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Clara teve notas maiores do que Luiz em três matérias."
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "A menor nota de Clara foi igual à maior nota de Luiz."
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "A menor nota de Luiz e a maior nota de Clara foram na mesma matéria."
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Sempre que Luiz está ao ar livre e está fazendo sol, Luiz usa seus óculos escuros. Sempre que Luiz está ao ar livre e não está fazendo sol, Luiz carrega seus óculos escuros no bolso. Algumas vezes está fazendo sol quando Luiz não está ao ar livre.\nSe as afirmações acima são verdadeiras, e Luiz não está usando seus óculos escuros, qual das afirmações abaixo deve também ser verdadeira:",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Luiz está carregando seus óculos escuros no bolso."
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Luiz não está ao ar livre."
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Luiz não está ao ar livre e não está fazendo sol."
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Luiz não está ao ar livre e/ou não está fazendo sol."
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Luiz está ao ar livre e/ou não está fazendo sol."
+          }
+        ]
+      }
+		]
+	},
+  {
+		"tituloproblema": "Mapas da Prefeitura",
+		"enunciadoproblema": "A Prefeitura de sua cidade iniciou um mapeamento das áreas urbanas do município. Para isso contratou uma empresa de aerofotogrametria, que tirou fotografias aéreas de uma grande porção da cidade. As fotografias são todas retangulares, mas foram tiradas de alturas distintas, de forma que cobrem áreas de tamanhos variados. Além disso, algumas áreas de algumas fotografias ficaram inutilizadas e foram cortadas, porque a visão do terreno foi prejudicada por nuvens; assim, apesar de todas as fotografias terem sido tiradas com a mesma máquina, nem todas têm as mesmas dimensões (mas todas são retangulares).\nTarefa\nDado um conjunto de fotografias do município, você deve calcular a área total coberta por todas as fotografias.\nFormato dos Dados\n A primeira linha da entrada conterá um número N , que corresponde ao número de fotografias. Nas próximas N linhas serão descritas as fotografias, uma por linha. A descrição de uma fotografia será indicada por quatro números inteiros X 1 Y 1 X 2 Y 2 , que serão as coordenadas do canto superior esquerdo ( X 1 ,Y 1 ) e as do canto inferior direito ( X 2 ,Y 2 ) da fotografia. Os lados das fotografias serão sempre paralelos aos eixos das coordenadas.\nExemplo de Dados\n5\n3 9 14 3\n6 13 17 6\n4 16 12 11\n20 15 25 9\n23 11 29 6\nResposta: 203 unidades de área",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2004f0n0-mapas.png",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Considere o conjunto de mapas abaixo:\n3\n2 6 7 2\n4 15 13 9\n68 11 17 6\nA área total coberta pelas fotografias é:",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "101"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "123"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "109"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "119"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "135"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Considere o conjunto de mapas abaixo:\n6\n4 12 11 4\n8 7 22 2\n19 13 26 5\n9 15 22 10\n12 9 18 8\n11 19 19 15\nA área total coberta pelas fotografias é:",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "285"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "257"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "266"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "263"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "261"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Considere o conjunto de mapas abaixo:\n7\n2 7 7 2\n2 16 13 8\n5 13 16 5\n9 11 19 3\n9 19 18 14\n17 19 25 13\n19 18 23 14\nA área total coberta pelas fotografias é:",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "374"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "287"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "291"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "275"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "303"
+					}
+				]
+			}
+		]
+	},
+  {
+		"tituloproblema": "Economia no Transporte",
+		"enunciadoproblema": "A empresa de transportes Super Barateiro Cargas quer economizar o pagamento de tarifas de pedágio, que representam uma parcela significativa do custo do transporte. No entanto, além do preço dos pedágios, os gerentes da SBC têm que levar em conta uma restrição adicional, que é a capacidade das pontes das estradas em suportar o peso dos caminhões.\nPor exemplo, para o caso da figura abaixo, para uma viagem entre as cidades de Albertina e Cantão, supondo que o peso total do caminhão com a carga é igual a 4.5 toneladas, o menor custo total de pedágio possível é igual a R$ 32,00 (soma dos pedágios entre Albertina e Barrada e entre Barrada e Cantão. Note que a estrada que existe entre Albertina e Cantão, apesar de ter uma tarifa de pedágio atrativa, não comporta o peso do caminhão carregado.",
+		"regrasproblema": "Tarefa\nDados um conjunto de cidades, os valores dos pedágios entre as cidades, as restrições de peso das pontes em cada estrada, e o peso total do caminhão carregado, você deve determinar o menor valor de pedágio a ser pago entre duas cidades especificadas.\nFormato dos Dados\nA primeira linha de dados conterá um número N , indicando o número de cidades e, em seguida, os nomes das N cidades (o nome de uma cidade não inclui espaços em branco). A segunda linha conterá um número M , indicando o número de estradas existentes entres as cidades. As próximas M linhas descrevem os valores de pedágios e restrições de peso para cada uma das estradas. Cada linha descreve uma estrada, e começa com o nome das duas cidades que essa estrada liga, seguido pelo número P de pedágios naquela estrada e P valores de pedágios, terminando com um número C de pontes na estrada e os C valores correspondentes aos pesos máximos suportados por cada ponte. A última linha conterá o peso do caminhão e o nome de duas cidades, indicando o peso do caminhão que se deseja transportar da primeira cidade para a segunda.\nExemplo de dados\n4 Albertina Barrada Dourado Cantão\n5\nAlbertina Cantão 2 20 11 2 4,5 3,5\nAlbertina Barrada 1 14 0\nAlbertina Dourado 1 18 0\n8Dourado Cantão 1 18 1 4,5\nBarrada Cantão 1 18 1 5,0\n4,5 Albertina Cantão\nResposta: R$ 32,00",
+		"imgproblema": "/static/imagens/2004f0n0-economia.png",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Considere o conjunto de dados abaixo.\n4 Lavras Ribeira Paulista Araras\n5\nLavras Ribeira 1 18 1 3,5\nRibeira Araras 1 11 1 4,0\nAraras Paulista 1 7 1 3,0\nPaulista Lavras 1 10 1 2,5\nRibeira Paulista 1 19 1 3,0\n3,0 Lavras Paulista\nO menor custo total do pedágio será:",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "R$ 37,00"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "R$ 36,00"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "R$ 10,00"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "R$ 19,00"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "R$ 17,00"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Considere o conjunto de dados abaixo.\n6 Livramento Ourinhos Araras Jaraguá Itu Sertão\n9\nSertão Livramento 1 11 1 5\nLivramento Araras 1 9 1 5,5\nAraras Itu 1 10 1 6\nAraras Jaraguá 1 20 1 10\nJaraguá Itu 1 1 1 4,8\nJaraguá Itu 1 10 1 5,3\nJaraguá Ourinhos 1 11 1 8\nOurinhos Sertão 1 10 1 5\nItu Sertão 1 20 2 6 2,5\n5,0 Sertão Itu",
+        "gabaritoquestao": "",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "R$ 30,00"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "R$ 31,00"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "R$ 48,00"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "R$ 22,00"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "R$ 20,00"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Considere o conjunto de dados abaixo:\n5 Campos Vinhedo Valinhos Parati Palmas\n10\nPalmas Campos 2 25 30 1 4,0\nPalmas Vinhedo 1 100 2 4,8 4,7\nPalmas Valinhos 1 100 2 5,0 5,5\nPalmas Parati 3 50 53 57 3 4,9 4,8 5,0\nCampos Parati 2 15 18 2 5,0 4,7\nCampos Valinhos 2 7 2 2 5,0 7,0\nCampos Vinhedo 1 1 0\nVinhedo Parati 2 1 1 3 5,0 4,6 5,0\nVinhedo Valinhos 1 5 0\nValinhos Parati 2 33 33 1 4,7\n4,7 Palmas Parati\nO menor custo total do pedágio será:",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "R$ 88,00"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "R$ 102,00"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "R$ 134,00"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "R$ 139,00"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "R$ 160,00"
+					}
+				]
+			}
+		]
+	}
+]
+}

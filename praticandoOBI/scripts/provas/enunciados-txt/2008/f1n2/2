@@ -1,0 +1,7 @@
+Na Hora do Almoço
+Num restaurante da cidade você tem à disposição oito tipos de acompanhamento, A, B, C, D, E, F, G e H, e deve escolher no mínimo quatro deles para compor o seu prato. As seguintes condições restringem a sua escolha:
+• se A é escolhido então B não pode ser escolhido;
+• se ambos C e F são escolhidos então A também é escolhido;
+• se D é escolhido então E também é escolhido;
+• se ambos F e G são escolhidos então B também é escolhido;
+• se H é escolhido então C também é escolhido.

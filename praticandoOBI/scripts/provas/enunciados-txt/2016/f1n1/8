@@ -1,0 +1,7 @@
+Seleção de basquete
+O professor de Educação Física precisa escolher as cinco meninas que iniciarão o jogo final do campeonato de basquete. As jogadoras serão escolhidas entre as armadoras Ana, Cris e Eda; as pivôs Lia, Nina e Pri; e as alas Quita, Sara e Ula. As seguintes condições devem ser obedecidas:
+• Se mais de uma armadora é selecionada, então no máximo uma ala é selecionada.
+• Se Sara ou Ula não são selecionadas, Lia não pode ser selecionada.
+• Pri não pode jogar junto com Lia.
+• Cris não pode jogar junto com Pri.
+• O time deve ter pelo menos uma jogadora de cada um dos três grupos.

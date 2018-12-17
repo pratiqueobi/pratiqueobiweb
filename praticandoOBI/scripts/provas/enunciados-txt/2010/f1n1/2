@@ -1,0 +1,10 @@
+Sr. Obi
+Um empresário chamado Sr. Obi possui exatamente três carros em sua garagem: A, B e C. Todo dia ele dirige um e somente um dos seus carros. As seguintes regras definem suas escolhas dia a dia:
+• O carro A nunca pode ser dirigido por dois ou
+mais dias consecutivos.
+• O carro B nunca pode ser dirigido imediatamente
+após o carro C.
+• Se ele dirige o carro B por dois ou mais dias consecutivos, o próximo carro que ele dirigir não pode
+ser C.
+• O carro C nunca pode ser dirigido por três ou
+mais dias consecutivos.

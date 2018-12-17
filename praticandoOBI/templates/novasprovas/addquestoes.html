@@ -1,0 +1,41 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block titulo %}
+    Buscar Questões
+{% endblock %}
+
+{% block container %}
+<link href="{% static 'admin/css/breadcrumb.css' %}" rel="stylesheet">
+
+		<ul class="breadcrumb">
+			<li class="completed"><a href="{% url 'usuarios_obi:provaperson' %}">Dados da Prova</a></li>
+            <li class="active"><a href="{% url 'usuarios_obi:questoes_busca' pk %}">Buscar Questões</a></li>
+            <li><a>Selecionar Questões</a></li>
+			<li><a>Prova Pronta!</a></li>
+		</ul>
+
+
+     <form action="" method="GET">
+        <div class="form-group">
+             <h5>Busque questões de provas passadas da OBI</h5>
+                 <small>Pesquise questões pelo ano, fase ou nível da prova:</small>
+            {% if error %}
+                <p style="color: red;">Por favor, entre com um valor.</p>
+            {% endif %}
+
+            <div class="col-xs-9">
+                <input type="text" class="form-control" name="q"/>
+                <label class="radio-inline">Procurar questões por: </label>
+                <label for="box1"><input type="radio" name="display_type" value="anobox" id="box1">Ano</label>&emsp;
+                <label for="box2"><input type="radio" name="display_type" value="fasebox" id="box2">Fase</label>&emsp;
+                <label for="box3"><input type="radio" name="display_type" value="nivelbox" id="box3">Nível</label>&emsp;
+                <label for="box4"><input type="radio" name="display_type" value="todosbox" id="box4" checked="checked">Todos</label>
+
+            </div>
+            <div class="col-xs-2">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

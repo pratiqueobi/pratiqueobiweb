@@ -1,0 +1,14 @@
+Sobremesas
+Leonardo está fazendo uma dieta e pode comer apenas uma sobremesa por dia. Sua nutricionista separou oito tipos de doces que ele pode comer: O, P, Q, R, S, T, U e V; cada doce deve ser comido num dia diferente, durante um período de oito dias. Leonardo precisa agora escolher qual doce irá comer em cada um dos dias, mas precisa obedecer algumas condições de sua nutricionista:
+• V só pode ser comido no dia 1 ou então no dia 2.
+• O dia em que P for comido deve estar separado
+por exatamente um dia do dia que T for comido.
+• O dia em que Q for comido deve estar separado
+por exatamente um dia do dia que R for comido.
+• O dia em que T for comido deve estar separado
+por exatamente um dia do dia que U for comido.
+• Q e U não podem ser comidos em dias consecutivos.
+• S deve ser comido em algum dia anterior a U,
+mas não no dia imediatamente antes.
+• R deve ser comido em algum dia anterior a P.
+• Q não pode ser comido no último dia.

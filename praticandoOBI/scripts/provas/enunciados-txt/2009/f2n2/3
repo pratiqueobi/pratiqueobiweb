@@ -1,0 +1,11 @@
+Painéis
+Sete pintores, O, P, Q, R, S, T e U, estão pintando painéis em uma escola. Cada painel tem uma das três cores possíveis: marrom, verde e azul, e eles podem ser pequenos ou grandes. Exatamente dois pintores trabalham em um painel grande e exatamente um pintor trabalha em um painel pequeno. Cada pintor deve pintar um e somente um painel. O primeiro painel pintado é designado como painel um, o segundo painel pintado é designado como painel dois, e assim por diante. As seguintes regras também se aplicam:
+• Existem no mínimo quatro e no máximo cinco
+painéis a serem pintados.
+• Qualquer dois painéis numerados consecutivamente não têm a mesma cor.
+• Se o painel foi pintado de azul então somente um
+pintor trabalhou nele.
+• O e U devem pintar painéis verdes, que podem
+ou não serem o mesmo.
+• P deve pintar um painel marrom.
+• Q e R pintam o painel dois.

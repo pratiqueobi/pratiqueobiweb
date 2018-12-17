@@ -1,0 +1,142 @@
+{
+"anoprova": 2013,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Gincana de Programação",
+		"enunciadoproblema": "A SBC vai promover a primeira Gincana de Programação, uma competição de programação em que o competidor deve resolver cinco tarefas de programação (A, B, C, D e E), durante um final de semana (sábado e domingo). As tarefas devem ser enviadas para a SBC, pela internet, de acordo com as seguintes regras:",
+		"regrasproblema": "• Duas ou três das tarefas devem ser enviadas no sábado, as restantes no domingo.\n• A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada.\n• A tarefa B deve ser enviada no domingo.\n• A tarefa D deve ser enviada no mesmo dia em que a tarefa A é enviada.\n• Se a tarefa C é enviada no sábado, então a tarefa D deve ser enviada no domingo.\nJoão vai participar da competição e pediu sua ajuda para seguir as regras corretamente.\n",
+		"imgproblema": null,
+		"classificacao": [7, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sarau musical",
+		"enunciadoproblema": "A escola está organizando um sarau musical, com apresentações dos alunos. Cinco amigas, Clara, Bela, Isa, Julia e Maria, vão cantar uma música entre cinco estilos diferentes: Axé, Forró, Pop, Rock e Samba. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Cada aluna vai cantar uma única música, e nenhum estilo vai ser cantado por mais de uma\naluna.\n• Julia se apresenta em algum momento após a apresentação da música de Pop, e em algum\nmomento antes da apresentação de Clara.\n• A apresentação de Forró acontece em algum momento após a apresentação de Maria.\n• Maria não é a primeira a se apresentar.\n• Nem Forró nem Axé são cantados pela última cantora a se apresentar.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Acampamento",
+		"enunciadoproblema": "Oito amigos (A, B, C, D, E, F, G e H) vão acampar durante o feriado. Eles vão utilizar uma grande barraca, que permite acomodar duas fileiras de camas, cada uma com quatro camas, conforme a figura ao lado. Uma das fileiras é chamada de fileira da direita, e outra é chamada de fileira da esquerda. Duas camas são vizinhas de lado se estão na mesma fileira e têm números consecutivos. Cada cama de uma fileira tem uma cama vizinha de frente, da outra fileira: as camas 1 e 5 são vizinhas de frente, as camas 2 e 6 são vizinhas de frente, as camas 3 e 7 são vizinhas de frente, as camas 4 e 8 são vizinhas de frente. Cada amigo vai dormir em uma cama, e as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• C e F não podem ser vizinhos de lado.\n• G e H devem ser vizinhos de lado.\n• F deve dormir na cama 6.\n• Se E e H forem vizinhos de frente, então A deve dormir na cama 3.\n• Se B dormir na fileira da direita, C deve dormir na fileira da esquerda.\n",
+		"imgproblema": "/static/imagens/2013f1n2-acampamento.jpg",
+		"classificacao": [2, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jardim Botânico",
+		"enunciadoproblema": "Quatro alunas (A, B, C e D) e cinco alunos (T, U, V, X e Z) formam três times de três estudantes cada um, para uma excursão fotográfica pelo Jardim Botânico. Cada time inclui ao menos uma aluna. Quatro câmeras, de dois tipos, estão disponíveis para uso dos times: duas câmeras fotográficas e duas câmeras de vídeo. Cada câmera é usada por exatamente um dos times, cada time usa ao menos uma câmera, e nenhum time usa duas câmeras do mesmo tipo. Além disso, as seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• X e U devem estar em times diferentes.\n• Se A está num time com uma câmera de vídeo, então C não está num time com uma câmera de\nvídeo.\n• Se D está num time com uma câmera de vídeo, então X não está num time com uma câmera\nfotográfica.\n• T e Z estão juntos num time que usa apenas um tipo de câmera.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

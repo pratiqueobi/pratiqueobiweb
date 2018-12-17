@@ -1,0 +1,74 @@
+{
+"anoprova": 2012,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Riquezas de Atlântida",
+		"enunciadoproblema": "Um arqueólogo finalmente encontrou a submersa cidade de Atlântida. Depois de uma rápida exploração no lugar, ficou muito feliz ao encontrar várias barras de metais valiosos num dos templos. Existem quatro barras: Platina, Ouro, Prata e Bronze; e cada uma pesa 2 quilos. A seqüência está ordenada da mais valiosa (Platina) para a menos valiosa (Bronze). O arqueólogo possui apenas uma bolsa para levar as barras para seu barco de pesquisas e existem algumas condições:",
+		"regrasproblema": "• A bolsa suporta no máximo 5 quilos.\n• As barras ou são colocadas inteiras na bolsa ou não são levadas.\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Meu primeiro computador",
+		"enunciadoproblema": "Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas \"A\", \"B\", \"C\", \"D\"e \"E\". Existe ainda uma memória interna, chamada \"NUM\", que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito resultante dependerá da seqüência digitada. As ações associadas a cada uma são:",
+		"regrasproblema": "• Se A é pressionada: \"NUM\" é inicializado com o valor dez, independente do que se tinha\nantes.\n• Se \"B\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído um.\n• Se \"C\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído dois.\n• Se \"D\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía somado um.\n• Se \"E\" é pressionada: É impresso na tela o valor contido em \"NUM\".\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

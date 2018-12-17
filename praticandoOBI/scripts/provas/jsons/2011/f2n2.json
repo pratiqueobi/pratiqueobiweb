@@ -1,0 +1,176 @@
+{
+"anoprova": 2011,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Sistema Operacional",
+		"enunciadoproblema": "O sistema operacional é o software responsável por, entre outras atribuições, denir a ordem de execução de programas em um computador. Um novo sistema operacional, Lunix, está sendo desenvolvido. Em Lunix, cada programa é denominado uma tarefa, e é classicado em uma de três categorias de prioridade de execução: alta (maior prioridade), média e baixa (menor prioridade). Lunix executa tarefas de prioridade alta antes de tarefas de prioridade média, e tarefas da prioridade média antes de tarefas da prioridade baixa. Lunix executa cada tarefa inteiramente, ou seja, do início ao m sem interrupção. Dentro de cada categoria de prioridade, Lunix executa as tarefas na ordem de solicitação pelo usuário, executando solicitações mais antigas antes de solicitações mais recentes. Em um dado momento, três tarefas de aplicação (P, Q e S), três tarefas de impressão (K, H e J) e uma tarefa de atualização (G) estão esperando para serem executadas no computador. Dessas, exatamente duas tarefas de aplicação e duas tarefas de impressão têm prioridade média. Além disso, sabe-se que:",
+		"regrasproblema": "• H é executada em algum momento antes de P e em algum momento depois de S.\n• A solicitação de J é anterior à solicitação de H e posterior à solicitação de K.\n• K é executada imediatamente antes ou imediatamente depois de P.\n• G não tem prioridade média.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Camisetas da OBI",
+		"enunciadoproblema": "Todos os competidores convidados para os Cursos de Programação da OBI recebem camisetas que devem ser usadas durante a semana do curso. Este ano foram compradas camisetas em três tamanhos: pequeno, médio e grande. As camisetas foram armazenadas em quatro caixas seladas. Para cada um dos três tamanhos de camisetas, há exatamente três caixas que contêm camisetas com esse tamanho. Foram impressas quatro etiquetas que reetem corretamente o conteúdo de cada uma das caixas. No entanto, apenas duas das etiquetas foram colocadas nas caixas corretas; as outras duas etiquetas foram colocadas em caixas erradas, de forma que o conteúdo das caixas não corresponde às etiquetas. Como resultado, as caixas estão etiquetadas da seguinte maneira:",
+		"regrasproblema": "• Caixa 1: Pequenas e Médias\n• Caixa 2: Pequenas e Grandes\n• Caixa 3: Médias e Grandes\n• Caixa 4: Pequenas, Médias e Grandes\n",
+		"imgproblema": null,
+		"classificacao": [9],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Premiação no Congresso",
+		"enunciadoproblema": "O Congresso da Sociedade Brasileira de Computação (CSBC) é um dos maiores eventos científicos do país. Todos os anos, mais de dois mil participantes, muitos deles pesquisadores, professores e alunos de computação, se reúnem para debater questões da área de computação. Este ano o presidente da SBC decidiu levar uma comitiva de cinco competidores da OBI para participar do CSBC. Os cinco competidores da OBI serão selecionados entre três participantes da modalidade Programação Nível Júnior (F, G e H), três participantes da modalidade Programação Nível 1 (K, L e M) e três participantes da modalidade Programação Nível 2 (P, Q e R). A comitiva deve incluir ao menos um competidor de cada um desses três níveis, e as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Se M for selecionado, P e R também são selecionados.\n• K e M não podem ser selecionados juntos.\n• F e K não podem ser selecionados juntos.\n• Se mais de um competidor do Nível Júnior for selecionado, então no máximo um competidor do Nível 2\né selecionado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Palestras de Programação",
+		"enunciadoproblema": "Os professores de informática da escola planejam convidar cinco prossionais para fazerem palestras sobre programação de computadores durante a Semana de Informática da escola. As palestras serão feitas na semana de 1 a 5 de agosto de 2011 (segunda-feira a sexta-feira), uma em cada dia. Os professores elaboraram uma lista de oito prossionais conhecidos que poderiam dar palestras: M, N, P, Q, R, S, T e U. As seguintes restrições existem:",
+		"regrasproblema": "• Cada prossional dá no máximo uma palestra.\n• Ou M ou U ou ambos devem dar palestras.\n• Se M dá palestra, sua palestra deve ser no dia 1.\n• Ou R ou S devem dar a palestra do dia 3.\n• Se T der palestra, P também deve dar palestra, e suas palestras devem ser em dias consecutivos (em\nqualquer ordem).\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Exposição de Esculturas",
+		"enunciadoproblema": "Um museu de arte está preparando uma exposição de esculturas de um famoso artista. Há oito esculturas que podem ser escolhidas: G, H, I, J, K, L, M e O. A exposição vai ser composta de cinco esculturas, que serão colocadas em cinco posições, numeradas de 1 a 5, no jardim do museu. O diretor do museu deve selecionar exatamente uma escultura para cada posição. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• As únicas esculturas que podem ser colocadas na posição 1 são G, H e I.\n• As únicas esculturas que podem ser colocadas na posição 2 são G, H e J.\n• As únicas esculturas que podem ser colocadas na posição 3 são G, K, M e O.\n• As únicas esculturas que podem ser colocadas na posição 4 são L, M e K.\n• As únicas esculturas que podem ser colocadas na posição 5 são L e M.\n• Se J é escolhida para a exposição, então M deve ser colocada na posição 5.\n• Se I é escolhida para a exposição, então K não pode ser escolhida.\n• Se ambas G e M são escolhidas para a exposição, então K também deve ser escolhida.\n• Se L é colocada na posição 4, então G deve ser colocada na posição 1.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

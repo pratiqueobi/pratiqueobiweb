@@ -1,0 +1,176 @@
+{
+"anoprova": 2010,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Semana de Cultura",
+		"enunciadoproblema": "A Associação de Pais e Mestres da escola está organizando uma Semana de Cultura, que acontecerá todas as tardes de segunda-feira a sexta-feira. Em cada dia da Semana haverá a apresentação de um grupo de teatro (pequenas peças, que podem ser do gênero comédia, drama ou romance) e a apresentação de um grupo de música (que pode ser do gênero rock, samba ou funk). O programa da Semana de Cultura deve obedecer às seguintes condições:",
+		"regrasproblema": "• Se uma peça do gênero drama é programada para\num dado dia, uma banda de rock deve se apresentar nesse mesmo dia.\n• Se uma banda de funk é programada para um\ndado dia, uma peça do gênero comédia não pode\nser apresentada nesse mesmo dia.\n• Em pelo menos um dia, uma peça do gênero romance e uma banda de rock se apresentam juntos.\n• Peças do gênero romance nunca são programadas\npara dias consecutivos.\n• Se peças do gênero comédia e do gênero drama\nsão programadas para a Semana, peças do gênero\ncomédia devem ser programadas em dias anteriores a peças do gênero drama.\n• A programação de terça-feira inclui a apresentação de uma banda de funk.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Segunda Fase da OBI",
+		"enunciadoproblema": "Nove competidores da escola foram classificados para a segunda fase da OBI. Dos nove competidores, três são da Modalidade Iniciação Nível 1 (I1), três são da Modalidade Iniciação Nível 2 (I2), e três são da Modalidade Programação Júnior (PJ). Curiosamente, todos os classificados são meninas. As competidoras da modalidade I1 são Guga, Hilda e Isa; as competidoras da modalidade I2 são Xuxa, Yara e Zica; e as competidoras da modalidade PJ são Mara, Nair e Olívia. Para levar as competidoras à cidade onde será realizada a prova da segunda fase o Diretor contratou uma perua escolar. As competidoras serão acomodadas na perua em cinco filas com dois lugares cada, conforme a figura abaixo. Cada competidora ocupará exatamente um lugar na perua. As seguintes restrições devem também ser obedecidas:",
+		"regrasproblema": "• Guga e Nair devem sentar-se em um assento de\njanela.\n• Se Mara sentar-se em um assento de corredor,\nentão Zica e Isa devem sentar-se em assentos de\numa mesma fila.\n• Nair deve sentar-se em um assento cuja fila tem\nnúmero menor do que a fila em que Hilda está\nsentada e maior do que a fila em que Zica está\nsentada.\n• Se Xuxa sentar-se na mesma fila que uma competidora da modalidade PJ, então duas das competidoras da modalidade I1 devem sentar-se em\numa mesma fila.\n• Nenhuma das competidoras da modalidade PJ\npode sentar-se na fila 5.\n• Isa ocupa um assento de janela da fila 2.\n",
+		"imgproblema": "/static/imagens/2010f2n1-faseobi.png",
+		"classificacao": [2],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Fotografia da OBI",
+		"enunciadoproblema": "Os oito alunos premiados na OBI em sua escola vão tirar uma fotografia em conjunto para colocar no Quadro de Honra, na sala de reuniões. Um aluno obteve medalha de ouro, dois alunos obtiveram medalhas de prata, dois alunos obtiveram medalha de bronze, e três alunos obtiveram menção honrosa (M. H.). Para a fotografia, os alunos serão dispostos em uma linha única em frente à porta principal da escola. No chão foram marcados com giz oito lugares, em uma linha reta, numerados de 1 a 8 da esquerda para a direita. Os alunos serão colocados um em cada lugar numerado, obedecendo às seguintes condições:",
+		"regrasproblema": "• Ao menos um dos alunos que receberam bronze deve estar ao lado de um aluno que recebeu prata.\n• O aluno que recebeu ouro não pode estar ao lado de um aluno que recebeu prata.\n• Os três alunos que receberam menção honrosa não podem estar em três lugares consecutivos.\n• O lugar de número 5 deve ser ocupado por um aluno que recebeu menção honrosa.\n• No lugar de número 1 ou no lugar de número 8 ou em ambos os lugares deve estar um aluno que recebeu\nprata.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Beliches da IOI",
+		"enunciadoproblema": "A delegação de um país na Olimpíada Internacional de Informática (popularmente conhecida pelas iniciais em inglês, IOI) é composta por quatro competidores e dois professores. Os quatro competidores da equipe brasileira são selecionados entre os melhores classificados da Modalidade Programação da OBI. Este ano a IOI será realizada no Canadá, nas dependências da Universidade de Waterloo. Cada país terá direito a um quarto com três beliches (uma cama em baixo, uma cama em cima). Os beliches são identificados pelas letras A, B e C. Para deixar os competidores mais motivados, a organização da IOI resolveu pintar as camas dos beliches com as cores de cada país. Cada cama será pintada de apenas uma cor entre as disponíveis. No caso do Brasil, as cores disponíveis para pintar as camas são verde, amarelo, azul e branco. Decidiram ainda que no caso do Brasil as seguintes condições serão obedecidas: ",
+		"regrasproblema": "• Para cada beliche, a cor da cama de cima é diferente da cor da cama de baixo.\n• Nos três beliches, as cores das camas de baixo são\ndiferentes entre si.\n• Nos três beliches, as cores das camas de cima são\ndiferentes entre si.\n• Exatamente uma cama de cima é pintada de azul.\n• No beliche C, a cama de cima, ou a cama de\nbaixo, mas não ambas, é pintada de verde.\n• A cama de cima do beliche B é pintada de amarelo.\n• Nenhuma das camas de baixo é pintada de amarelo.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Maratona de Programação",
+		"enunciadoproblema": "Uma nova competição de programação vai ser realizada. A competição terá a duração de sete horas, e será feita por equipes. Cada equipe será composta por sete alunos e terá à sua disposição um único computador. As sete horas de competição são divididas em sete turnos de uma hora cada, numerados de 1 a 7. Durante a competição, os competidores se revezarão no uso do computador, sendo que a cada cada turno um único competidor poderá utilizar o computador da equipe. Cada competidor deve usar o computador uma única vez (um único turno) durante a competição. Na sua escola foram escolhidos os alunos F, G, H, J, K, L e M para comporem uma equipe. As seguintes restrições devem ser obedecidas para decidir a ordem de utilização do computador por essa equipe:",
+		"regrasproblema": "• F deve usar o computador no turno 3 ou no turno\n5.\n• L não pode usar o computador nem no turno 4\nnem no turno 6.\n• Se J usa o computador no turno 1, H deve usar\no computador no turno 2.\n• Se K usa o computador no turno 4, L deve usar\no computador no turno 5.\n• G usa o computador no turno imediatamente\napós o turno em que H usa o computador.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

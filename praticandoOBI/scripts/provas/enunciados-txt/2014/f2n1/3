@@ -1,0 +1,6 @@
+Popularidade de Páginas
+Empresas de busca na internet, como Bing e Google, classificam as páginas da Internet de acordo com a sua “popularidade”. A popularidade de uma página X pode ser medida por exemplo pelo número de referências (links) de todas as outras páginas para X. Estamos interessados em seis páginas – P, Q, R, S, T e U –, que têm popularidades diferentes entre si. As seguintes relações são conhecidas:
+• P é mais popular do que Q ou R, mas não mais popular do que ambas.
+• U é menos popular do que R.
+• Se Q é menos popular do que R, então nem S nem U são mais populares do que T.
+• Se Q é mais popular do que R, então S é mais popular do que ambas T e U.

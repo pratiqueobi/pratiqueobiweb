@@ -1,0 +1,12 @@
+Maratona de Programação
+Uma nova competição de programação vai ser realizada. A competição terá a duração de sete horas, e será feita por equipes. Cada equipe será composta por sete alunos e terá à sua disposição um único computador. As sete horas de competição são divididas em sete turnos de uma hora cada, numerados de 1 a 7. Durante a competição, os competidores se revezarão no uso do computador, sendo que a cada cada turno um único competidor poderá utilizar o computador da equipe. Cada competidor deve usar o computador uma única vez (um único turno) durante a competição. Na sua escola foram escolhidos os alunos F, G, H, J, K, L e M para comporem uma equipe. As seguintes restrições devem ser obedecidas para decidir a ordem de utilização do computador por essa equipe:
+• F deve usar o computador no turno 3 ou no turno
+5.
+• L não pode usar o computador nem no turno 4
+nem no turno 6.
+• Se J usa o computador no turno 1, H deve usar
+o computador no turno 2.
+• Se K usa o computador no turno 4, L deve usar
+o computador no turno 5.
+• G usa o computador no turno imediatamente
+após o turno em que H usa o computador.

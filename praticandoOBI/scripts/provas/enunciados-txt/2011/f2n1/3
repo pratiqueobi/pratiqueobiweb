@@ -1,0 +1,6 @@
+Treinos de Futsal
+A equipe de futsal da escola vai realizar sete jogos-treino, contra as escolas P, Q, R, S e T. As seguintes condições controlam os jogos:
+• A equipe vai jogar exatamente três vezes contra P, e exatamente uma vez contra cada outro adversário.
+• Não haverá dois jogos seguidos (ou seja, um jogo imediatamente após o outro) contra P.
+• O jogo contra S será o imediatamente seguinte ao jogo contra T.
+• O primeiro e o último jogos não serão contra Q.

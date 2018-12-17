@@ -1,0 +1,8 @@
+Processadores
+O processador é o componente mais importante de um computador. Uma medida da velocidade de um processador é o número de operações básicas, como somas e multiplicações, que ele consegue realizar por segundo (processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo). José Carlos está fazendo um estudo sobre as velocidades dos seguintes processadores existentes no mercado: R, S, T, U, V, X, Y e Z. Através de experimentos, José Carlos determinou as seguintes condições:
+• O processador X é mais veloz do que os processadores T e Z.
+• O processador Z é mais veloz do que os processadores T e Y.
+• O processador T é mais veloz do que o processador R.
+• O processador R é mais veloz do que o processador V.
+• O processador Y é mais veloz do que o processador V.
+• O processador U é mais veloz do que o processador R mas é mais lento do que o processador S.

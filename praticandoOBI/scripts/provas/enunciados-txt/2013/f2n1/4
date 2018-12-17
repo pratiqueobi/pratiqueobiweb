@@ -1,0 +1,7 @@
+Seleção de Boliche
+O professor de educação física quer montar a seleção de boliche da escola. Para ter uma seleção forte e diversificada, o professor quer que haja na equipe ao menos um jogador canhoto (que joga com a mão esquerda) e um jogador destro (que joga com a mão direita). Os jogadores canhotos são A, B, C, D e F, e os destros são Q, R, S e Z. A equipe selecionada deve ter no mínimo três e no máximo seis jogadores. Além disso o professor deve obedecer às seguintes restrições:
+• Se B é selecionado, então R deve ser também selecionado.
+• S não é selecionado se R é selecionado.
+• Se Z não é selecionado, então B deve ser selecionado.
+• A ou Z devem selecionados, mas os dois não podem ser selecionados juntos.
+• R não é selecionado a menos que F seja selecionado.

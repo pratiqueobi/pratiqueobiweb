@@ -1,0 +1,7 @@
+Maratona de Exames
+A escola decidiu realizar todas as provas dos exames finais em um único dia. São sete disciplinas, identificadas como A, B, C, D, E, F e G. Cada exame vai durar 50 minutos, de forma que eles podem ser alocados de hora em hora. Devido a problemas dos professores, as seguintes restrições devem ser obedecidas:
+• Os exames serão num sábado, nos horários 6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00.
+• A disciplina A deve ter seu exame às 6:00.
+• O exame da disciplina E deve ser após o exame da disciplina C e também após o exame da
+disciplina B.
+• O exames das disciplinas D, F e G devem ser em horários consecutivos, nessa ordem.

@@ -1,0 +1,4 @@
+Treinamento OBI
+Cinco amigas da mesma cidade – Ana, Bia, Clara, Duda e Elisa – foram selecionadas pela OBI para os cursos de introdução à programação na Unicamp. Elas ficarão em dois quartos no hotel, cada uma ocupando uma cama. Os quartos disponíveis para elas são os de números 11, com três camas, e 13, com duas camas. As seguintes restrições devem ser obedecidas para determinar em qual quarto cada amiga vai ficar:
+• Ana é supersticiosa e não fica no quarto 13.
+• Clara e Duda não ficam no mesmo quarto.

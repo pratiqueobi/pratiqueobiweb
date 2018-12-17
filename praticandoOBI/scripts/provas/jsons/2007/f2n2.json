@@ -1,0 +1,176 @@
+{
+"anoprova": 2007,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Carteiro",
+		"enunciadoproblema": "Um carteiro precisa entregar cartas em quatro bairros diferentes: A, B, C e D. Ele sempre parte do bairro A, passa somente uma vez por cada bairro B, C e D (em alguma ordem) e retorna para o bairro A. Na tabela abaixo pode ser vista a distância entre cada par de bairros, sendo que o valor “X” indica que não existe um caminho direto entre aqueles bairros.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2007f2n12-carteiro.png",
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Fórmula 1",
+		"enunciadoproblema": "Numa corrida de fórmula 1 estão participando exatamente sete pilotos - P, Q, R, S, T, U e V. Todos sempre chegam ao fim da corrida e não existe empates entre posições de chegada.",
+		"regrasproblema": "• V sempre termina a corrida na frente de P.\n• P sempre termina a corrida na frente de Q.\n• Ou R termina a corrida em primeiro e T em\núltimo lugar, ou S termina em primeiro e U ou Q\ntermina em último.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jornaleiro",
+		"enunciadoproblema": "Um jornaleiro possui as revistas de publicação mensal R, S, T, U, V, X, Y, e Z. Todo mês os preços delas são reajustados, mas mantêm as seguintes condições:",
+		"regrasproblema": "• Os preços sempre são valores inteiros, ou seja,\nnão possuem centavos de Reais.\n• A revista X é mais cara do que a T e a Z.\n• A revista Z é mais cara do que a T e a Y.\n• A revista T é mais cara do que a R.\n• A revista R é mais cara do que a V.\n• A revista Y é mais cara do que a V.\n• A revista U é mais cara do que a R, mas custa\nmenos do que a S.\n",
+		"imgproblema": null,
+		"classificacao": [3],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sobremesas",
+		"enunciadoproblema": "Leonardo está fazendo uma dieta e pode comer apenas uma sobremesa por dia. Sua nutricionista separou oito tipos de doces que ele pode comer: O, P, Q, R, S, T, U e V; cada doce deve ser comido num dia diferente, durante um período de oito dias. Leonardo precisa agora escolher qual doce irá comer em cada um dos dias, mas precisa obedecer algumas condições de sua nutricionista:",
+		"regrasproblema": "• V só pode ser comido no dia 1 ou então no dia 2.\n• O dia em que P for comido deve estar separado\npor exatamente um dia do dia que T for comido.\n• O dia em que Q for comido deve estar separado\npor exatamente um dia do dia que R for comido.\n• O dia em que T for comido deve estar separado\npor exatamente um dia do dia que U for comido.\n• Q e U não podem ser comidos em dias consecutivos.\n• S deve ser comido em algum dia anterior a U,\nmas não no dia imediatamente antes.\n• R deve ser comido em algum dia anterior a P.\n• Q não pode ser comido no último dia.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "No Restaurante Italiano",
+		"enunciadoproblema": "Sandro sempre que vai ao restaurante italiano põe em sua macarronada no mínimo dois dos três tipos disponíveis de molhos: molho 1, molho 2 e molho 3. Além disso, acrescenta ao prato um ou mais acompanhamentos dos seis tipos disponíveis: U, V, W, X, Y e Z.",
+		"regrasproblema": "• Se U é adicionado então V deve também ser adicionado ao prato.\n• U ou X deve ser adicionado, mas não ambos.\n• Se Z é adicionado então V não pode ser adicionado ao prato.\n• Se o molho 1 é colocado na macarronada então os\nacompanhamentos V e W devem ser adicionados.\n• Se o molho 3 é colocado na macarronada então o\nacompanhamento Z deve ser adicionado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

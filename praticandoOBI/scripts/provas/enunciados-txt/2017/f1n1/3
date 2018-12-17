@@ -1,0 +1,7 @@
+Sanduíche Submarino
+Na famosa sanduícheria Submarino você tem à disposição oito ingredientes, A, B, C, D, E, F, G e H, e deve escolher no mínimo quatro deles para montar o seu sanduíche. Os sanduíches são muito gostosos, mas Dona Neide, a dona da sanduicheria, obriga que os clientes obedeçam às seguintes restrições:
+• se A é escolhido então B não pode ser escolhido.
+• se ambos C e F são escolhidos então A também é escolhido.
+• se D é escolhido então E também é escolhido.
+• se ambos F e G são escolhidos então B também é escolhido.
+• se H é escolhido então C também é escolhido.

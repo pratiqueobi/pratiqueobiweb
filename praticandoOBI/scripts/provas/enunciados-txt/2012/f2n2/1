@@ -1,0 +1,8 @@
+Portão
+O sistema de segurança de um portão eletrônico exige uma senha de dois dígitos. Para proteção contra a ação de hackers, a senha não é armazenada diretamente: ela é cifrada da seguinte maneira:
+1. a senha (por exemplo, “14”) é elevada ao quadrado (note: n elevado ao quadrado é igual a n×n;
+no caso, obteríamos “196”).
+2. o quadrado da senha é escrito como um número de quatro algarismos; se necessário, completamos o número com zeros à esquerda (no caso, obteríamos “0196”).
+3. escolhemos os dois algarismos do meio para armazenar no sistema do portão (no caso, “19”).
+Para verificar se a senha digitada pelo usuário é a senha correta, o sistema repete o cálculo acima com
+a senha digitada e compara o resultado com a senha armazenada: se forem iguais, o portão se abre.

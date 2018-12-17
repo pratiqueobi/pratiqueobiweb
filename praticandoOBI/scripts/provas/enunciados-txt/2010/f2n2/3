@@ -1,0 +1,14 @@
+Programa de Recreio
+Durante os Cursos de Programação da OBI, para os melhores classificados da Modalidade Iniciação, os alunos são divididos em três turmas, A, B e C, de acordo com o estágio de conhecimento em programação. Há atividades de recreação em três noites da semana: terça-feira, quinta-feira e sexta-feira. A cada noite de recreação, os alunos são levados para uma atividade que se realiza no Shopping Dom Pedro, em Campinas. As atividades são cinema, video-game, compras e boliche. As seguintes condições são obedecidas:
+• A cada noite, uma turma participa de apenas
+uma atividade.
+• A cada noite, as atividades das três turmas são
+diferentes entre si.
+• Cada turma participa de uma atividade diferente
+nos três dias, sem repetição.
+• Cada atividade é realizada ao menos uma vez.
+• A Turma C não participa da atividade cinema.
+• A Turma B participa de vídeo-game na quintafeira e a Turma A participa de vídeo-game na
+terça-feira.
+• A Turma A participa na sexta-feira da mesma
+atividade que Turma C participa na terça-feira.

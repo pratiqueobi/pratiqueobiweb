@@ -1,0 +1,14 @@
+Comida para Gatos
+Uma loja de animais de estimação está vendendo caixas promocionais de ração para gato. A caixa promocional é composta de três pacotes de ração. Cada pacote de ração contém exatamente um dos cinco sabores existentes: carne, frango, vegetal, atum e sardinha. Para compor cada caixa, as seguintes regras devem ser obedecidas:
+• Cada caixa deve conter dois ou três sabores distintos de ração.
+• Uma caixa que contenha a ração de frango deve
+conter também uma ração de carne.
+• Uma caixa que contenha a ração de carne deve
+conter também uma ração de frango.
+• Uma ração de atum não pode estar numa caixa
+que contenha uma ração de sardinha.
+• Uma caixa que contenha uma ração de vegetais
+deve conter também uma ração de sardinha, mas
+uma caixa que contenha uma ração de sardinha
+não precisa necessariamente conter uma ração de
+vegetais.

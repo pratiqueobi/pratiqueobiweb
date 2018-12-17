@@ -1,0 +1,9 @@
+Carona para a Prova
+Três professores (C, D e F) estão levando cinco alunos (Q, R, S, T e V) em dois veículos (A e B) para realizarem uma prova em outra cidade. Existem exatamente quatro ocupantes em cada veículo e cada um é dirigido por exatamente um professor. As seguintes regras também são aplicadas:
+• S está no veículo que têm mais alunos que professores.
+• T não está no veículo que F está.
+• Se R está no veículo A então V está também no
+veículo A.
+• S tem de estar no veículo A se D estiver no veículo
+B.
+• F não dirige o veículo em que Q está.

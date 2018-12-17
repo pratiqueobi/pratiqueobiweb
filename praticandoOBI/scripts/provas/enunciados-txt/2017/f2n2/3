@@ -1,0 +1,10 @@
+Carteiros
+João, Kaio, Luiz, Mauro e Pedro são carteiros em um bairro. O bairro tem exatamente nove ruas paralelas, numeradas consecutivamente de 1 a 9 de um lado a outro do bairro. Cada rua é atendida por exatamente um carteiro, e nenhum carteiro atende mais do que duas ruas. A distribuição dos carteiros nas ruas obedece às seguintes restrições:
+• Pedro atende exatamente uma rua.
+• Kaio atende a rua 2.
+• Mauro não atende a rua 1.
+• João não atende duas ruas consecutivas (ou seja, vizinhas uma à outra).
+• Kaio atende a única rua entre as duas ruas que Mauro atende.
+• Uma das ruas atendidas por Luiz é uma rua no final do bairro (ou seja, 1 ou 9).
+• A rua que Pedro atende tem um número maior do que as duas ruas atendidas por Kaio, e um
+número menor do que pelo menos uma das ruas atendidas por Luiz.

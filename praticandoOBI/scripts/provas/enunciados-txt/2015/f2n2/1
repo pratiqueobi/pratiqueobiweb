@@ -1,0 +1,7 @@
+Show da Banda
+A Banda formada por alunos da escola vai fazer um show no clube. Eles vão tocar exatamente sete músicas: J, K, L, M, N, O e P, não necessariamente nessa ordem. As músicas vão ser apresentadas de acordo com as seguintes condições:
+• N é a primeira ou a sétima música a ser apresentada.
+• L é apresentada em algum momento após J.
+• P é apresentada em algum momento após K.
+• Exatamente uma música é apresentada entre J e M, seja J apresentada antes de M ou não.
+• Exatamente uma música é apresentada entre K e N, seja K apresentada antes de N ou não.

@@ -1,0 +1,142 @@
+{
+"anoprova": 2011,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Processadores",
+		"enunciadoproblema": "O processador é o componente mais importante de um computador. Uma medida da velocidade de um processador é o número de operações básicas, como somas e multiplicações, que ele consegue realizar por segundo (processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo). José Carlos está fazendo um estudo sobre as velocidades dos seguintes processadores existentes no mercado: R, S, T, U, V, X, Y e Z. Através de experimentos, José Carlos determinou as seguintes condições:",
+		"regrasproblema": "• O processador X é mais veloz do que os processadores T e Z.\n• O processador Z é mais veloz do que os processadores T e Y.\n• O processador T é mais veloz do que o processador R.\n• O processador R é mais veloz do que o processador V.\n• O processador Y é mais veloz do que o processador V.\n• O processador U é mais veloz do que o processador R mas é mais lento do que o processador S.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Rali de Informática",
+		"enunciadoproblema": "O professor de informática da escola inventou uma nova modalidade de competição, que ele denominou de Rali de Informática. Beto, Chico, Davi e Enzo se inscreveram para participar do primeiro Rali de Informática da escola. Nesse tipo de prova, realizada em turnos, apenas um computador é utilizado. A cada turno, os competidores devem completar uma tarefa, que envolve utilizar o computador para buscar informações na Internet e efetuar cálculos. Um competidor é eliminado quando não consegue completar a tarefa no tempo determinado pelo professor (o competidor eliminado não participa dos turnos seguintes). Como há apenas um computador, os competidores são inicialmente ordenados em uma fila que determina a ordem em que eles realizam a tarefa. A ordem dos competidores na fila é alterada ao final de cada turno, de acordo com uma das seguintes regras:",
+		"regrasproblema": "• Regra X: o competidor em terceiro lugar na fila é colocado na posição imediatamente à frente do\ncompetidor que estava em segundo lugar na fila.\n• Regra Y: o competidor em terceiro lugar na fila é colocado na posição imediatamente à frente do\ncompetidor que estava em primeiro lugar na fila.\n• Regra Z: o competidor em último lugar na fila é colocado em primeiro lugar.\nA regra a ser utilizada em cada turno é escolhida pelo próprio professor, mas se uma regra envolve o\nmovimento de um competidor que foi eliminado, essa regra não pode ser usada (por exemplo, se Beto\né o terceiro da fila em um turno e é eliminado nesse turno, a regra X não pode ser utilizada).\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Arte Minimalista",
+		"enunciadoproblema": "A professora de Artes decidiu fazer um concurso de desenho entre os alunos. Cada competidor deve submeter dois desenhos, um para ser usado num cartão de Aniversário e um para ser usado num cartão de Natal. Juntos, os dois desenhos de um competidor devem obrigatoriamente usar as seguintes cores: azul, vermelho, verde, amarelo, rosa, preto e laranja. No entanto, cada cor pode ser usada em apenas um dos dois desenhos de um competidor. Além disso, as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Vermelho e amarelo devem ser utilizados no mesmo desenho.\n• Azul e amarelo não podem ser utilizados no mesmo desenho.\n• Preto e laranja não podem ser utilizados no mesmo desenho.\n• O desenho do cartão de Aniversário deve usar no máximo três cores.\n",
+		"imgproblema": null,
+		"classificacao": [7, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Pizza Compartilhada",
+		"enunciadoproblema": "Uma grande pizza vai ser feita para comemorar a vitória do time de handebol da escola, composto por seis alunos. A pizza vai ser dividida em seis pedaços da forma tradicional, como mostrado na gura abaixo, e cada pedaço vai ser dado a um atleta do time. Uma pizza dividida em seis pedaços Cada atleta prefere um tipo diferente de pizza, e portanto a pizza vai ser feita com seis sabores distintos: atum, bacon, calabresa, mussarela, napolitana e portuguesa. Por solicitação dos atletas, as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• O pedaço de portuguesa não deve ser vizinho do pedaço de bacon.\n• O pedaço de atum não deve ser vizinho do pedaço de mussarela.\n• O pedaço de napolitana deve ser vizinho do pedaço de mussarela.\n",
+		"imgproblema": "/static/imagens/2011f1n1-pizza.jpg",
+		"classificacao": [5],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

@@ -1,0 +1,7 @@
+Sorveteria
+Para montar seu pote de sorvete você precisa escolher cinco dos sete sabores disponíveis: T, U, V, W, X, Y e Z. As seguintes condições se aplicam a sua escolha:
+• Cada sabor pode no máximo ser escolhido uma
+vez.
+• W ou Z deve ser escolhido, mas não ambos.
+• Se Y é escolhido então V também deve ser escolhido.
+• Se U é escolhido então W não pode ser escolhido.

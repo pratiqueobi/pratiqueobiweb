@@ -1,0 +1,8 @@
+Assistência Técnica
+Uma loja de assistência técnica de produtos eletrônicos tem seis técnicos: Mateus, Nilo, Oscar, Pedro, Quincas e Renan. Cada técnico conserta ao menos um de três tipos de produto: celular, laptop e tablet – e nenhum outro tipo. As seguintes condições são válidas:
+• Pedro e exatamente três outros ténicos consertam celular.
+• Quincas conserta tanto laptop como tablet.
+• Mateus não conserta qualquer tipo de produto que Quincas conserta.
+• Renan conserta mais tipos de produtos do que Quincas conserta
+• Oscar não conserta qualquer tipo de produto que Mateus conserta.
+• Nilo conserta exatamente dois tipos de produtos.

@@ -1,0 +1,6 @@
+Faxina
+Quatro irmãos, Aldo, Bruno, Carlos e Douglas, resolveram ajudar na limpeza doméstica. Os cômodos que precisam ser limpos são: banheiro, cozinha, quarto e sala. Cada irmão vai limpar um único cômodo. A mãe deles irá escolher quem vai trabalhar em qual cômodo, mas eles só trabalham com algumas condições:
+• Carlos não limpa o banheiro.
+• Bruno limpa somente o banheiro ou a sala.
+• Se Carlos limpa a cozinha, então Aldo limpa o banheiro.
+• Douglas limpa somente a cozinha ou o quarto.

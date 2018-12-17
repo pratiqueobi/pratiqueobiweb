@@ -1,0 +1,8 @@
+Campeonato de lógica
+O diretor de uma escola precisa selecionar três bons alunos para participar de um campeonato de lógica entre escolas. Ele pode escolher dentre três alunos do período diurno: F, G e H, e três alunos do período noturno: K, L e M. Para compor sua equipe, o diretor se baseia nas seguintes condições:
+• No mínimo um aluno do diurno deve ser escolhido e no mínimo um aluno do noturno deve ser
+escolhido.
+• Se F é escolhido então G não pode ser escolhido.
+• Se H é escolhido então L deve ser escolhido.
+• Se L é escolhido então H deve ser escolhido.
+• Se K é escolhido então M deve ser escolhido.

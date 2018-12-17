@@ -1,0 +1,8 @@
+Corrida de Bicicleta
+Sete garotos, A, B, C, D, E, F, e G, estão disputando uma corrida de bicicletas. Cada garoto larga em um momento diferente, e ganha a corrida aquele que completar o percurso no menor tempo. A ordem utilizada para a largada segue as seguintes condições:
+• E larga em algum momento entre F e G.
+• C não pode largar após B.
+• A não pode largar imediatamente antes e nem
+imediatamente depois de D.
+• G não é o último a largar.
+• D não é o primeiro a largar.

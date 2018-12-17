@@ -1,0 +1,9 @@
+Visitando os Amigos
+Andréia reservou o final de semana para visitar seus amigos. Ela pretende ir às casas de sete amigos diferentes: A, B, C, D, E, F, e G. Ela não pode visitar dois amigos ao mesmo tempo. Além disto, as seguintes regras definem a ordem em que Andréia visita seus amigos:
+• C deve ser visitado após G.
+• D deve ser visitado antes de G.
+• B só pode ser visitado imediatamente antes ou
+imediatamente depois de F.
+• Andréia deve visitar exatamente dois amigos entre a visita a E e a C.
+• F não pode ser visitado imediatamente antes ou
+imediatamente após C.

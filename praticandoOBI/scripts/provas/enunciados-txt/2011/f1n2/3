@@ -1,0 +1,7 @@
+Premiação no Congresso
+O Congresso da Sociedade Brasileira de Computação (CSBC) é um dos maiores eventos científicos do país. Todos os anos, mais de dois mil participantes, muitos deles pesquisadores, professores e alunos de computação, se reúnem para debater questões da área de computação. Este ano o presidente da SBC decidiu levar uma comitiva de cinco competidores da OBI para participar do CSBC. Os cinco competidores da OBI serão selecionados entre três participantes da modalidade Programação Nível Júnior (F, G e H), três participantes da modalidade Programação Nível 1 (K, L e M) e três participantes da modalidade Programação Nível 2 (P, Q e R). A comitiva deve incluir ao menos um competidor de cada um desses três níveis, e as seguintes condições devem ser obedecidas:
+• Se M for selecionado, P e R também são selecionados.
+• Se K for selecionado, M não é selecionado; se M for selecionado, K não é selecionado.
+• Se F for selecionado, K não é selecionado; se K for selecionado, F não é selecionado.
+• Se mais de um competidor do Nível Júnior for selecionado, então no máximo um competidor do
+Nível 2 é selecionado.

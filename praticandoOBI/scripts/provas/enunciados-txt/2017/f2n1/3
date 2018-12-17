@@ -1,0 +1,8 @@
+Rodoviária
+Exatamente sete ônibus chegam à Rodoviária Municipal aos sábados. Cada ônibus vem de uma cidade diferente: Quirino, Rochinha, Sampaio, Tombo, Vitória, Xexéu e Zacarias. As seguintes condições existem sobre suas chegadas:
+• Os ônibus chegam um de cada vez.
+• Ou o ônibus de Zacarias ou de Xexéu é o quarto a chegar.
+• O ônibus de Sampaio chega em algum momento depois do de Xexéu mas antes do de Zacarias.
+• Tanto o ônibus de Tombo como o de Vitória chegam em algum momento após o de Rochinha.
+• O ônibus de Tombo não é o próximo a chegar depois do ônibus de Vitória; nem o ônibus de
+Vitória é o próximo a chegar depois do ônibus de Tombo.

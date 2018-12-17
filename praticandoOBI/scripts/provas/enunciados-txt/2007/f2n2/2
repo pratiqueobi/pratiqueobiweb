@@ -1,0 +1,7 @@
+Fórmula 1
+Numa corrida de fórmula 1 estão participando exatamente sete pilotos - P, Q, R, S, T, U e V. Todos sempre chegam ao fim da corrida e não existe empates entre posições de chegada.
+• V sempre termina a corrida na frente de P.
+• P sempre termina a corrida na frente de Q.
+• Ou R termina a corrida em primeiro e T em
+último lugar, ou S termina em primeiro e U ou Q
+termina em último.

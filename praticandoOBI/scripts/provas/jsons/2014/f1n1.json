@@ -1,0 +1,142 @@
+{
+"anoprova": 2014,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Lanche",
+		"enunciadoproblema": "Seis frutas – abacaxi, banana, caqui, laranja, pera e romã – vão servir de lanche para três amigos: Mario, Nei e Olga. Cada amigo vai comer exatamente duas frutas, respeitando as seguintes condições:",
+		"regrasproblema": "• Se Olga come abacaxi, Mario come caqui.\n• Se Olga não come banana, então Nei come romã.\n• Mario não pode comer laranja.\n• Abacaxi não é comido pela mesma pessoa que come banana, nem caqui é comido pela mesma\npessoa que come pera, nem laranja é comida pela mesma pessoa que come romã.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogo de Doces",
+		"enunciadoproblema": "Maria e Eduardo ganharam vários doces, e decidem jogar um jogo para decidir a quantidade de doces que cada um terá direito. O jogo funciona da seguinte maneira: ",
+		"regrasproblema": "1. Inicialmente, um número inteiro positivo x é sorteado em uma roleta;\n2. Enquanto x for maior do que zero, repete-se o procedimento:\n• Se x for par, Eduardo pega um doce e divide x por dois;\n• Caso contrário, Maria pega um doce e subtrai 1 de x;\n• Volta-se ao passo 2 com o novo valor de x;\n",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Programas de Computador",
+		"enunciadoproblema": "Um computador é utilizado para executar cinco programas: planilha eletrônica, navegador internet, editor de texto, tocador de MP3 e gravador de CD. Devido a como os recursos do computador (processador, memória, discos) são usados por cada programa, o computador somente pode executar os programas obedecendo às seguintes restrições:",
+		"regrasproblema": "• O computador não pode executar a planilha e o editor ao mesmo tempo.\n• O computador não pode executar a planilha e o gravador ao mesmo tempo.\n• Quando o computador executa o tocador MP3, não pode executar qualquer dos seguintes\nprogramas ao mesmo tempo: a planilha, o editor ou o gravador.\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Revezamento",
+		"enunciadoproblema": "Oito alunos – Beto, Dulce, Guto, Júlia, Kelly, Neto, Silvia e Vivian decidiram tentar quebrar o recorde da tradicional prova de revezamento e resistência de natação que acontece todos os anos na escola. Nessa prova, cada um dos oito competidores da equipe deve nadar mil metros, em estilo livre, na forma de revezamento: cada nadador cai na piscina para nadar apenas uma vez, um de cada vez. O objetivo é que todos nadem no menor tempo possível. Depois de muita discussão, os competidores decidiram que a ordem em que cairão na piscina deve obedecer às seguintes condições:",
+		"regrasproblema": "• Silvia não nada por último.\n• Vivian nada após Júlia e Neto nadarem.\n• O primeiro a nadar é ou Beto ou Dulce.\n• Guto nada antes de Júlia, com exatamente uma pessoa nadando entre eles.\n• Kelly nada antes de Neto, com exatamente duas pessoas nadando entre eles.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

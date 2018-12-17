@@ -1,0 +1,9 @@
+Eleição no Centro Acadêmico
+Uma eleição foi organizada na escola para escolher o (ou a) estudante que presidirá o Centro Acadêmico no próximo ano. Sete estudantes se candidataram: Alda, Beto, Caio, Duda, Ênio, Ian, e Lia. A comissão eleitoral ordenou os estudantes de acordo com o número de votos recebidos, do mais votado para o menos votado. Contados os votos, a comissão eleitoral verificou que o resultado da eleição obedece às seguintes propriedades:
+• Alda recebeu menos votos do que Duda.
+• Alda recebeu mais votos do que Ian e mais votos do que Lia.
+• Cada estudante recebeu um número diferente de votos.
+• Beto recebeu mais votos do que Lia.
+• Lia recebeu mais votos do que Caio.
+• Caio recebeu mais votos do que Ênio.
+• Ian não recebeu o menor número de votos.

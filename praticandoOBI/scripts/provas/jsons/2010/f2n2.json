@@ -1,0 +1,176 @@
+{
+"anoprova": 2010,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Maratona de Programação",
+		"enunciadoproblema": "Uma nova competição de programação vai ser realizada. A competição terá a duração de sete horas, e será feita por equipes. Cada equipe será composta por sete alunos e terá à sua disposição um único computador. As sete horas de competição são divididas em sete turnos de uma hora cada, numerados de 1 a 7. Durante a competição, os competidores se revezarão no uso do computador, sendo que a cada cada turno um único  competidor poderá utilizar o computador da equipe. Cada competidor deve usar o computador uma única vez (um único turno) durante a competição. Na sua escola foram escolhidos os alunos F, G, H, J, K, L e M para comporem uma equipe. As seguintes restrições devem ser obedecidas para decidir a ordem de utilização do computador por essa equipe:",
+		"regrasproblema": "• F deve usar o computador no turno 3 ou no turno\n5.\n• L não pode usar o computador nem no turno 4\nnem no turno 6.\n• Se J usa o computador no turno 1, H deve usar\no computador no turno 2.\n• Se K usa o computador no turno 4, L deve usar\no computador no turno 5.\n• G usa o computador no turno imediatamente\napós o turno em que H usa o computador.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Professor de Programação",
+		"enunciadoproblema": "Depois de muitos e insistentes pedidos dos alunos, a Escola decidiu finalmente contratar um professor de Programação de Computadores. O Diretor vai entrevistar pessoalmente os seis professores interessados no posto: Júlia, Luís, Marcelo, Osvaldo, Paula e Roberto. Os seis interessados serão entrevistados pelo Diretor na segunda-feira; dos seis, três serão novamente entrevistados pelo Diretor na terça-feira. Nenhuma outra entrevista será feita e as seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• A entrevista de Júlia na segunda-feira deve ocorrer imediatamente antes da entrevista de Luís.\n• Se as entrevistas de Marcelo e Paula não são consecutivas (não são uma logo após a outra) na\nsegunda-feira, então ambos são entrevistados na\nterça-feira.\n• O professor entrevistado por último na segundafeira é o primeiro a ser entrevistado na terça-feira.\n• O professor que é entrevistado em segundo lugar\nna segunda-feira é entrevistado em terceiro lugar\nna terça-feira.\n• Júlia é entrevistada na terça-feira.\n• Roberto é o quarto professor a ser entrevistado\nna segunda-feira.\n",
+		"imgproblema": null,
+		"classificacao": [2, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Programa de Recreio",
+		"enunciadoproblema": "Durante os Cursos de Programação da OBI, para os melhores classificados da Modalidade Iniciação, os alunos são divididos em três turmas, A, B e C, de acordo com o estágio de conhecimento em programação. Há atividades de recreação em três noites da semana: terça-feira, quinta-feira e sexta-feira. A cada noite de recreação, os alunos são levados para uma atividade que se realiza no Shopping Dom Pedro, em Campinas. As atividades são cinema, video-game, compras e boliche. As seguintes condições são obedecidas:",
+		"regrasproblema": "• A cada noite, uma turma participa de apenas\numa atividade.\n• A cada noite, as atividades das três turmas são\ndiferentes entre si.\n• Cada turma participa de uma atividade diferente\nnos três dias, sem repetição.\n• Cada atividade é realizada ao menos uma vez.\n• A Turma C não participa da atividade cinema.\n• A Turma B participa de vídeo-game na quintafeira e a Turma A participa de vídeo-game na\nterça-feira.\n• A Turma A participa na sexta-feira da mesma\natividade que Turma C participa na terça-feira.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "A Grande Família",
+		"enunciadoproblema": "A família Souza é grande pelos padrões atuais: são nove irmãos, sendo cinco meninas (Iara, Júlia, Kátia, Lia e Mara) e quatro meninos (Alan, Beto, Carlos e Dida). A família mudou-se para um novo apartamento, em que um andar inteiro foi reservado para as crianças. O andar é retangular, composto de dez cômodos ao redor de uma área de interna que contém a escada em espiral. Os quartos são dispostos da seguinte maneira: quatro quartos em cada canto, dois quartos (não de canto) no lado leste, dois quartos (não de canto) no lado oeste, um quarto (não de canto) no lado norte, e um quarto (não de canto) no lado sul. Cada criança deve ser alocada em um quarto distinto. Um dos quartos é reservado para acomodar brinquedos e nenhuma criança será alocada nesse quarto. As seguintes condições adicionais devem ser obedecidas:",
+		"regrasproblema": "• O quarto de Lia e o quarto de Iara são adjacentes\n(um vizinho ao outro) e não são de canto.\n• Kátia tem um quarto de canto.\n• Nenhum menino tem um quarto vizinho ao\nquarto de outro menino.\n• Carlos é o único menino que não tem um quarto\nde canto.\n• O quarto de Mara é diretamente oposto ao quarto\nde Júlia.\n",
+		"imgproblema": "/static/imagens/2010f2n2-grandefam.png",
+		"classificacao": [5, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogo de Computador",
+		"enunciadoproblema": "O Grupo de Desenvolvimento de Jogos da SBC deciciu desenvolver um jogo para computador que vai utilizar sete cenários: escola, caverna, navio, porto, montanha, parque de diversões e biblioteca. Cada um desses cenários precisa ser modelado (ou seja, desenhado em três dimensões com um programa de modelagem) pela equipe de artistas do Grupo. Os cenários precisam ser modelados de acordo com as seguintes condições:",
+		"regrasproblema": "• A montanha e a escola devem ser modeladas consecutivamente (uma logo em seguida da outra),\nem qualquer ordem.\n• O navio deve ser modelado em algum momento\napós o porto e em algum momento antes do parque de diversões.\n• A caverna deve ser modelada em algum momento\napós o parque de diversões e em algum momento\napós a biblioteca.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

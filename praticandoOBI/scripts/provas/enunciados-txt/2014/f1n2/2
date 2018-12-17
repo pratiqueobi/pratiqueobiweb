@@ -1,0 +1,11 @@
+Círculos de Amigos
+Dizemos que duas pessoas, A e B, estão no mesmo círculo de amigos se pelo menos uma de duas condições forem satisfeitas:
+• A e B são amigas diretamente; ou
+• A e C, onde C é amiga de B, estão no mesmo círculo de amigos.
+Em uma sala de aula com 8 estudantes (Ana, Beto, Caio, Diana, Ernesto, Fernanda, Guilherme e
+Haroldo), sabemos que as seguintes afirmações sobre os grupos de amigos existentes são verdadeiras:
+• Ana e Diana estão no mesmo círculo de amigos;
+• Ernesto e Haroldo estão no mesmo círculo de amigos;
+• Fernanda e Ernesto não estão no mesmo círculo de amigos;
+• Fernanda e Beto não estão no mesmo círculo de amigos;
+• Beto e Haroldo não estão no mesmo círculo de amigos.

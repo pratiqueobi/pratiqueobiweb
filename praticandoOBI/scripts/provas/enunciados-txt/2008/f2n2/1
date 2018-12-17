@@ -1,0 +1,13 @@
+Férias
+Seis amigos, A, B, C, D, E e F, querem aproveitar suas férias escolares jogando video-game. Eles vão se reunir cada dia na casa de um deles, durante seis dias seguidos da semana. Eles não podem se reunir mais de uma vez na casa da mesma pessoa, e as seguintes condições são também aplicadas:
+• A reunião na casa de A deve ser imediatamente
+antes ou imediatamente depois da reunião na
+casa de E.
+• Existe exatamente um dia entre os dias das
+reuniões nas casas de A e B, independentemente
+se a reunião na casa de A ocorre antes ou depois
+da reunião da casa de B.
+• Se a reunião na casa de D ocorre antes da reunião
+na casa de C, então a sexta reunião é na casa de
+F.
+• A quarta reunião é na casa de C.

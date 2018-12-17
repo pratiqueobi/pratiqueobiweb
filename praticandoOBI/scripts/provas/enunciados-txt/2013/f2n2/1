@@ -1,0 +1,6 @@
+Feira de Profissões
+A escola está organizando uma Feira de Profissões, em que seis profissionais – um geólogo, um médico, uma jornalista, um químico, uma psicóloga e um sociólogo – darão palestras para os alunos sobre suas respectivas profissões. Duas palestras serão na segunda-feira, duas na terça-feira, e duas na quarta-feira. As seguintes restrições devem ser obedecidas:
+• A palestra do químico deve ser no mesmo dia em que a da psicóloga.
+• O geólogo não pode dar a sua palestra no mesmo dia em que o médico.
+• Se a palestra da jornalista for na segunda-feira, a palestra do geólogo deve ser na terça-feira.
+• Se a palestra do sociólogo for na quarta-feira, a palestra do médico deve ser na terça-feira.

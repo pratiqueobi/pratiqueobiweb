@@ -1,0 +1,9 @@
+Escola colorida
+Uma escola ocupa um prédio com seis andares, numerados de 1 a 6 (1 é o andar mais baixo, 6 o mais alto). Os alunos e professores decidiram em conjunto que cada andar será pintado com uma cor diferente, entre amarelo, branco, rosa, azul, laranja e verde. Ficou também decidido que as seguintes condições devem ser obedecidas:
+• Branco deve ser usado para pintar ou o andar 3
+ou o andar 4.
+• O andar pintado de laranja é mais baixo do que
+o andar pintado de rosa.
+• O andar pintado de azul é mais baixo do que o
+andar pintado de laranja, mas mais alto do que
+o andar pintado de amarelo.

@@ -1,0 +1,62 @@
+{% extends './../base2.html' %}
+{% load static %}
+
+{% block titulo %}
+    Acessar conta
+{% endblock %}
+
+{% block container %}
+    <script>
+    jQuery(document).ready(function(){
+        $("#showpassword").on('click', function(){
+
+            var pass = $("#id_password");
+            var fieldtype = pass.attr('type');
+            if (fieldtype == 'password') {
+                pass.attr('type', 'text');
+                $(this).text("Hide Password");
+            }else{
+                pass.attr('type', 'password');
+                $(this).text("Show Password");
+            }
+        });
+    });
+    </script>
+
+    <div class="panel">
+   <p>Entre com o seu usuário e senha</p>
+   </div>
+         <form method="post" novalidate>{% csrf_token %}
+             <table class="table">
+                    <!--<input type="hidden" name="next" value="{{ next }}">-->
+                        <!--{{ form.as_p }} -->
+             <tr><td><label for="id_username">Nome de usuário</label></td>
+                 <td><input id="id_username" name="username" type="text" class="form-control"></td>
+             </tr>
+
+             <tr>
+                 <td><label for="id_password">Senha</label></td>
+                 <div class="form-group">
+                     <td><input id="id_password" name="password" type="password" class="form-control"></td>
+                 </div>
+             </tr>
+             </table>
+
+            {% if form.errors %}
+                <p class=" label label-danger"><font size="2" color="red">
+                    O seu usuário ou senha não estão corretos.<br>
+                    Por favor, tente novamente.
+                </p>
+            {% endif %}
+
+             <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Mostrar senha</button>
+             <button type="submit" class="btn btn-primary">Entrar</button>
+             <div class="forgot">
+                <br><a href="#">Esqueceu a senha? </a>
+             </div>
+             <div>
+                 Ainda não é cadastrado? <a href="{% url 'usuarios_obi:cadastro_perfil' %}">Fazer cadastro.</a>
+             </div>
+        </form>
+
+{% endblock %}

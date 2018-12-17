@@ -1,0 +1,6 @@
+Sistema Operacional
+O sistema operacional é o software responsável por, entre outras atribuições, denir a ordem de execução de programas em um computador. Um novo sistema operacional, Lunix, está sendo desenvolvido. Em Lunix, cada programa é denominado uma tarefa, e é classicado em uma de três categorias de prioridade de execução: alta (maior prioridade), média e baixa (menor prioridade). Lunix executa tarefas de prioridade alta antes de tarefas de prioridade média, e tarefas da prioridade média antes de tarefas da prioridade baixa. Lunix executa cada tarefa inteiramente, ou seja, do início ao m sem interrupção. Dentro de cada categoria de prioridade, Lunix executa as tarefas na ordem de solicitação pelo usuário, executando solicitações mais antigas antes de solicitações mais recentes. Em um dado momento, três tarefas de aplicação (P, Q e S), três tarefas de impressão (K, H e J) e uma tarefa de atualização (G) estão esperando para serem executadas no computador. Dessas, exatamente duas tarefas de aplicação e duas tarefas de impressão têm prioridade média. Além disso, sabe-se que:
+• H é executada em algum momento antes de P e em algum momento depois de S.
+• A solicitação de J é anterior à solicitação de H e posterior à solicitação de K.
+• K é executada imediatamente antes ou imediatamente depois de P.
+• G não tem prioridade média.

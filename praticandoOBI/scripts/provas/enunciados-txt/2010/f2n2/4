@@ -1,0 +1,11 @@
+A Grande Família
+A família Souza é grande pelos padrões atuais: são nove irmãos, sendo cinco meninas (Iara, Júlia, Kátia, Lia e Mara) e quatro meninos (Alan, Beto, Carlos e Dida). A família mudou-se para um novo apartamento, em que um andar inteiro foi reservado para as crianças. O andar é retangular, composto de dez cômodos ao redor de uma área de interna que contém a escada em espiral. Os quartos são dispostos da seguinte maneira: quatro quartos em cada canto, dois quartos (não de canto) no lado leste, dois quartos (não de canto) no lado oeste, um quarto (não de canto) no lado norte, e um quarto (não de canto) no lado sul. Cada criança deve ser alocada em um quarto distinto. Um dos quartos é reservado para acomodar brinquedos e nenhuma criança será alocada nesse quarto. As seguintes condições adicionais devem ser obedecidas:
+• O quarto de Lia e o quarto de Iara são adjacentes
+(um vizinho ao outro) e não são de canto.
+• Kátia tem um quarto de canto.
+• Nenhum menino tem um quarto vizinho ao
+quarto de outro menino.
+• Carlos é o único menino que não tem um quarto
+de canto.
+• O quarto de Mara é diretamente oposto ao quarto
+de Júlia.

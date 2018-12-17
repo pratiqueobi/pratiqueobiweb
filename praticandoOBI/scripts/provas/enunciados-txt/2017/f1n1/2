@@ -1,0 +1,5 @@
+Condomínio colorido
+Um condomínio composto por exatamente seis casas, R, S, W, X, Y e Z, decidiu pintar todas as casas, com a condição de que casas vizinhas não podem ter a mesma cor. As únicas casas vizinhas são as seguintes:
+• R, S, X e Y são vizinhas de W.
+• X é vizinha de Y.
+• R e S são vizinhas de Z.

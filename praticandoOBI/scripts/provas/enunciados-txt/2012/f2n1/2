@@ -1,0 +1,9 @@
+Cada um no seu lugar
+Numa sala de aula existem cinco cadeiras, numeradas de 1 a 5, numa fileira junto à janela e sete alunos que ali desejam sentar: Douglas, Eduardo, Gustavo, Henrique, João, Karen e o Leonardo. A professora resolveu que somente quatro alunos vão ocupar as cadeiras. Cada aluno senta em somente uma cadeira e restará uma vazia. Somente cadeiras com números consecutivos são consideradas adjacentes. As seguinte condições também influenciam a decisão da professora:
+• Se Douglas for selecionado então ele deve ficar na cadeira 1.
+• Se Leonardo for selecionado ele deve ficar na cadeira 2.
+• Se Karen for selecionada ela deve ficar na cadeira 4.
+• Se Eduardo ou Gustavo for selecionado então ambos devem ser selecionados e colocados em
+cadeiras adjacentes.
+• Se Eduardo é selecionado então Leonardo também deve ser.
+• Henrique deve ser selecionado ou Karen deve ser selecionada mas não ambos.

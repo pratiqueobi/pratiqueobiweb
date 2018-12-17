@@ -1,0 +1,13 @@
+Viagem a Marte
+Três engenheiros da Companhia Nacional de Viagens a Marte, Aldo, Bianca e Caio, devem enviar exatamente cinco astronautas para Marte dos oito que se candidataram: Daniel, Eduardo, Guilherme, Leonardo, Henrique, Otávio, Sandra e Úrsula. Somente os engenheiros podem escolher quem vai para Marte. Cada engenheiro deve escolher no mínimo um dos astronautas e nenhum astronauta pode ser escolhido por mais de um engenheiro. As seguintes condições também se aplicam:
+• Bianca deve escolher exatamente dois astronautas.
+• Se Daniel ou Leonardo são escolhidos, então eles
+devem ter sido escolhidos por Caio.
+• Eduardo e Sandra podem ser escolhidos, mas se
+um for então o outro também será, e pelo mesmo
+engenheiro.
+• Se Otávio é escolhido então Úrsula e Henrique
+são também escolhidos.
+• Guilherme é escolhido.
+• Se Úrsula é escolhida ela deve ser escolhida por
+Bianca.

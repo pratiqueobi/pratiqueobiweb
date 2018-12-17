@@ -1,0 +1,108 @@
+{
+"anoprova": 2017,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Pirata!",
+		"enunciadoproblema": "Um pirata quer transportar, do seu navio para a sua ilha secreta, quatro arcas repletas de tesouros roubados: uma arca com Diamantes, uma arca com Esmeraldas, uma arca com Moedas de Ouro e uma arca com Moedas de Prata. Cada uma das arcas pesa 80 quilos, e o valor das arcas são diferentes entre si, sendo que a arca com Diamantes é a mais valiosa, seguida da arca com Esmeraldas, seguida da arca com Moedas de Ouro, seguida da arca com Moedas de Prata, que é a menos valiosa. O pirata tem apenas um barquinho para levar as arcas do navio para a ilha, e existem duas restrições:",
+		"regrasproblema": "• o barquinho pode carregar, além do pirata, no máximo 200 quilos.\n• as arcas estão lacradas e não podem ser abertas; assim, o pirata deve levar a arca inteira no\nbarquinho ou não levar a arca.\nNas questões abaixo, considere que uma viagem compreende o trajeto navio-ilha-navio.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Condomínio colorido",
+		"enunciadoproblema": "Um condomínio composto por exatamente seis casas, R, S, W, X, Y e Z, decidiu pintar todas as casas, com a condição de que casas vizinhas não podem ter a mesma cor. As únicas casas vizinhas são as seguintes:",
+		"regrasproblema": "• R, S, X e Y são vizinhas de W.\n• X é vizinha de Y.\n• R e S são vizinhas de Z.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sanduíche Submarino",
+		"enunciadoproblema": "Na famosa sanduícheria Submarino você tem à disposição oito ingredientes, A, B, C, D, E, F, G e H, e deve escolher no mínimo quatro deles para montar o seu sanduíche. Os sanduíches são muito gostosos, mas Dona Neide, a dona da sanduicheria, obriga que os clientes obedeçam às seguintes restrições:",
+		"regrasproblema": "• se A é escolhido então B não pode ser escolhido.\n• se ambos C e F são escolhidos então A também é escolhido.\n• se D é escolhido então E também é escolhido.\n• se ambos F e G são escolhidos então B também é escolhido.\n• se H é escolhido então C também é escolhido.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

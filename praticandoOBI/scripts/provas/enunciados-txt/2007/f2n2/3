@@ -1,0 +1,11 @@
+Jornaleiro
+Um jornaleiro possui as revistas de publicação mensal R, S, T, U, V, X, Y, e Z. Todo mês os preços delas são reajustados, mas mantêm as seguintes condições:
+• Os preços sempre são valores inteiros, ou seja,
+não possuem centavos de Reais.
+• A revista X é mais cara do que a T e a Z.
+• A revista Z é mais cara do que a T e a Y.
+• A revista T é mais cara do que a R.
+• A revista R é mais cara do que a V.
+• A revista Y é mais cara do que a V.
+• A revista U é mais cara do que a R, mas custa
+menos do que a S.

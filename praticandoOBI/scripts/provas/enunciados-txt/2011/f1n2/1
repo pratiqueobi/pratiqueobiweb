@@ -1,0 +1,12 @@
+Competição de Remo
+Seis alunos da escola, Alice, Bia, Rui, Maria, Jair e Silvio resolveram participar de uma competição de barco a remo. O barco tem seis bancos, numerados de 1 a 6; o banco 1 é na frente do barco, o banco 6 é na traseira do barco. Os alunos decidiram participar da competição vestindo cada um a camisa de um time de futebol: Flamengo, Corinthians, Cruzeiro, Bahia, Avaí e Sport. As seguintes condições existem em relação à posições dos alunos no barco e às camisas que eles vestem:
+• Há exatamente um banco entre quem veste a camisa do Sport e quem veste a camisa do Flamengo.
+• Quem veste a camisa do Sport senta-se imediatamente atrás de quem veste a camisa do Cruzeiro.
+• Quem veste a camisa do Bahia senta-se no banco 6.
+• Alice não se senta no banco 1.
+• Bia nunca vestiria a camisa do Cruzeiro nem a camisa do Sport.
+• O banco de Silvio é mais à frente do que o banco de Rui.
+• O banco de Maria é mais à frente do que o banco de Bia.
+• Rui veste a camisa do Flamengo e seu banco é mais à frente do que os bancos de Jair e Maria.
+• O banco de Alice é imediatamente à frente do banco de Bia.
+• Bia senta-se no banco 5 ou no banco 6.

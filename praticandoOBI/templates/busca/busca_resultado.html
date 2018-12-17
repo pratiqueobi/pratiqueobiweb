@@ -1,0 +1,24 @@
+{% extends './busca_form.html' %}
+{% load static %}
+
+{% block caminho %}
+    {{ block.super }}
+    / Resultado
+{% endblock %}
+
+
+{% block container %}
+    <p>Resultados para: <strong>{{ query }}</strong></p>
+    {% if provas %}
+        <p>Encontrou {{provas|length }} prova{{provas|pluralize}}. </p>
+        <ul>
+            {% for p in provas %}
+                <li><a href="{% url 'provas_obi:url_prob' p.codprova %}">{{p.anoprova}} - Fase {{p.faseprova}} - Nível {{p.nivelprova}}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum resultado encontrado para a sua pesquisa.</p>
+    {% endif %}
+
+    <a href="{% url 'provas_obi:url_busca' %}" class="btn btn-primary"><span>Nova busca</span></a>
+{% endblock %}

@@ -1,0 +1,663 @@
+{
+"anoprova": 2005,
+"nivelprova": 1,
+"faseprova": 0,
+"urlprova": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/provas/ProvaOBI2005_f0i1.pdf",
+"problemas": [{
+        "tituloproblema": "Projeto de Software",
+        "enunciadoproblema": "O engenheiro-chefe de uma empresa de desenvolvimento de software est\u00e1 atribuindo funcion\u00e1rios a cada um dos tr\u00eas novos projetos, identificados como Projeto 1, Projeto 2 e Projeto 3. Exatamente dois dos funcion\u00e1rios seguintes devem ser atribu\u00eddos a cada um dos projetos: Alice, Bia, Clara, Denise, Eduardo e Felipe. Cada funcion\u00e1rio deve trabalhar em um \u00fanico projeto. Alice, Bia e Clara s\u00e3o engenheiras s\u00eanior; os demais s\u00e3o engenheiros j\u00fanior. Alice, Denise e Eduardo falam ingl\u00eas, os demais n\u00e3o falam ingl\u00eas.",
+        "regrasproblema": "O engenheiro-chefe deve atribuir os funcion\u00e1rios aos projetos de acordo com os seguintes requisitos: \n\u2022 pelo menos uma engenheira s\u00eanior deve trabalhar em cada projeto;\n\u2022 pelo menos um funcion\u00e1rio que fale ingl\u00eas deve trabalhar em cada projeto;\n\u2022 Denise somente pode trabalhar no Projeto 1 ou no Projeto 2.",
+        "imgproblema": null,
+        "classificacao": [8, 15],
+        "questoes": [{
+                "enunciadoquestao": "Qual das seguintes listas seguintes e\u0301 uma atribuic\u0327a\u0303o va\u0301lida de funciona\u0301rios aos projetos? Projeto 1 Projeto 2 Projeto 3",
+                "gabaritoquestao": "C",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes e\u0301 uma lista completa e correta dos funciona\u0301rios que o engenheirochefe pode escolher para trabalhar no mesmo projeto que Clara?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Eduardo trabalhar no Projeto 2, qual das seguintes afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Bia for escolhida para trabalhar no Projeto 3, qual das afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "O engenheiro-chefe NA\u0303O PODE fazer as seguintes atribuic\u0327o\u0303es:",
+                "gabaritoquestao": "D",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes afirmac\u0327o\u0303es e\u0301 verdadeira?",
+                "gabaritoquestao": "B",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tituloproblema": "Florista",
+        "enunciadoproblema": "Uma florista est\u00e1 arranjando oito flores (A, B, C, F, G, J, K e L) em oito vasos colocados em formato de c\u00edrculo, como mostrado abaixo:",
+        "regrasproblema": "Sabe-se o seguinte sobre o arranjo de flores:\n\u2022 A, B e C s\u00e3o l\u00edrios; F e G s\u00e3o margaridas; J, K e L s\u00e3o rosas;\n\u2022 apenas uma flor deve ser colocada em cada vaso;\n\u2022 l\u00edrios devem colocados em vasos vizinhos;\n\u2022 rosas devem colocadas em vasos vizinhos;\n\u2022 nenhum l\u00edrio pode ser colocado em vaso vizinho a um vaso de rosa;\n\u2022 a flor F deve ser colocada no vaso 5;\n\u2022 a flor A deve ser colocada no vaso 2;\n\u2022 se F for colocada em vaso vizinho a J, ent\u00e3o o outro vaso vizinho de F n\u00e3o pode conter C.",
+        "imgproblema": "images/2005-f0n1-florista.png",
+        "classificacao": [5, 13],
+        "questoes": [{
+                "enunciadoquestao": "Qual das seguintes listas seguintes e\u0301 uma atribuic\u0327a\u0303o va\u0301lida de funciona\u0301rios aos projetos? Projeto 1 Projeto 2 Projeto 3",
+                "gabaritoquestao": "C",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes e\u0301 uma lista completa e correta dos funciona\u0301rios que o engenheirochefe pode escolher para trabalhar no mesmo projeto que Clara?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Eduardo trabalhar no Projeto 2, qual das seguintes afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Bia for escolhida para trabalhar no Projeto 3, qual das afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "O engenheiro-chefe NA\u0303O PODE fazer as seguintes atribuic\u0327o\u0303es:",
+                "gabaritoquestao": "D",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes afirmac\u0327o\u0303es e\u0301 verdadeira?",
+                "gabaritoquestao": "B",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tituloproblema": "Linguagem de Programa\u00e7\u00e3o",
+        "enunciadoproblema": "Atualmente existe um grande n\u00famero de diferentes linguagens de programa\u00e7\u00e3o: Java, Pascal, C, e muitas outras. Essas linguagens s\u00e3o utilizadas para programar computadores e t\u00eam regras muito estritas. Em uma determinada linguagem de programa\u00e7\u00e3o, um comando \u00e9 definido como uma sequ\u00eancia de cinco palavras, de tal forma que ",
+        "regrasproblema": "\u2022 cada palavra deve conter pelo menos cinco letras, sendo que n\u00e3o mais do que duas podem ser vogais (a, e, i, o, u);\n\u2022 uma palavra n\u00e3o pode iniciar com as letras c, q ou z;\n\u2022 considere a sequ\u00eancia de cinco letras formadas pela primeira letra de cada uma das cinco palavras; essas letras devem ser consecutivas na ordem alfab\u00e9tica (abcdefghijklmnopqrstuvwxyz).",
+        "imgproblema": null,
+        "classificacao": [4, 15],
+        "questoes": [{
+                "enunciadoquestao": "Qual das seguintes listas seguintes e\u0301 uma atribuic\u0327a\u0303o va\u0301lida de funciona\u0301rios aos projetos? Projeto 1 Projeto 2 Projeto 3",
+                "gabaritoquestao": "C",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes e\u0301 uma lista completa e correta dos funciona\u0301rios que o engenheirochefe pode escolher para trabalhar no mesmo projeto que Clara?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Eduardo trabalhar no Projeto 2, qual das seguintes afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Bia for escolhida para trabalhar no Projeto 3, qual das afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "O engenheiro-chefe NA\u0303O PODE fazer as seguintes atribuic\u0327o\u0303es:",
+                "gabaritoquestao": "D",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes afirmac\u0327o\u0303es e\u0301 verdadeira?",
+                "gabaritoquestao": "B",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tituloproblema": "Pane Seca",
+        "enunciadoproblema": "A estrada entre Abrigo e Feliciana \u00e9 a \u00fanica liga\u00e7\u00e3o terrestre entre essas duas cidades. Ela atravessa todo o extenso cerrado de Mato Baixo, sem passar por nenhuma outra cidade. Assim, os motoristas t\u00eam que se preocupar em escolher bem em quais dos postos de gasolina ir\u00e3o colocar combust\u00edvel, sob pena de ficar parado no meio do caminho por \u201cpane seca\u201d (falta de combust\u00edvel). \nH\u00e1 um posto de combust\u00edvel em Abrigo, um em Feliciana, e outros quatro postos ao longo da estrada entre as duas cidades. O combust\u00edvel nos postos de Abrigo e Feliciana \u00e9 mais barato do que nos outros quatro postos ao longo da estrada, de forma que os motoristas preferem encher o tanque no posto da cidade antes de uma viagem entre as duas cidades. O pre\u00e7o do combust\u00edvel \u00e9 igual para os quatro postos ao longo da estrada. \nOs seis postos s\u00e3o identificados pelas letras A (posto em Abrigo), B, C, D, E e F (posto em Feliciana). A dist\u00e2ncia entre o posto de Abrigo e o posto de Feliciana \u00e9 de 430 kilometros. Considerando como ponto inicial o posto da cidade de Abrigo, os postos est\u00e3o localizados nos kilometros 0 (posto de Abrigo), 33, 108, 171, 332 e 430 (posto de Feliciana).\nAlan quer viajar entre as duas cidades com sua motocicleta, que tem um tanque com capacidade de 8 litros, e necessita de sua ajuda para planejar a viagem.",
+        "regrasproblema": null,
+        "imgproblema": null,
+        "classificacao": [1],
+        "questoes": [{
+                "enunciadoquestao": "Qual das seguintes listas seguintes e\u0301 uma atribuic\u0327a\u0303o va\u0301lida de funciona\u0301rios aos projetos? Projeto 1 Projeto 2 Projeto 3",
+                "gabaritoquestao": "C",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes e\u0301 uma lista completa e correta dos funciona\u0301rios que o engenheirochefe pode escolher para trabalhar no mesmo projeto que Clara?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Eduardo trabalhar no Projeto 2, qual das seguintes afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Se Bia for escolhida para trabalhar no Projeto 3, qual das afirmac\u0327o\u0303es e\u0301 necessariamente verdadeira?",
+                "gabaritoquestao": "E",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "O engenheiro-chefe NA\u0303O PODE fazer as seguintes atribuic\u0327o\u0303es:",
+                "gabaritoquestao": "D",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            },
+            {
+                "enunciadoquestao": "Qual das seguintes afirmac\u0327o\u0303es e\u0301 verdadeira?",
+                "gabaritoquestao": "B",
+                "imgquestao": null,
+                "alternativas": [{
+                        "letraalternativa": "A",
+                        "textoalternativa": "Denise e Felipe Eduardo e Bia Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "B",
+                        "textoalternativa": "Denise e Bia Eduardo e Felipe Alice e Clara"
+                    },
+                    {
+                        "letraalternativa": "C",
+                        "textoalternativa": "Eduardo e Clara Denise e Bia Alice e Felipe"
+                    },
+                    {
+                        "letraalternativa": "D",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    },
+                    {
+                        "letraalternativa": "E",
+                        "textoalternativa": "Eduardo e Clara Alice e Bia Denise e Felipe"
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

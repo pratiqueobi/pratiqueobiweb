@@ -1,0 +1,13 @@
+Máquina de Salgadinhos
+Numa loja existe uma máquina que vende salgadinhos. Para comprar um salgadinho você coloca uma moeda e aperta o botão correspondente ao sabor desejado; a máquina então coloca o salgadinho que você escolheu num compartimento para que você possa pegá-lo. Nessa máquina existem seis botões na vertical rotulados com os seguintes sabores (rótulo do botão mais alto ao mais baixo): Queijo, Presunto, Requeijão, Churrasco, Pizza e Cebola. O problema é que os salgadinhos foram colocados incorretamente e não se sabe mais qual botão corresponde a que sabor. São conhecidos os seguintes fatos:
+• Cada botão só pode estar associado a somente
+um sabor.
+• Os botões estão dispostos na vertical, um embaixo do outro.
+• Um e somente um dos botões está correto, ou
+seja, corresponde ao sabor do salgadinho com o
+rótulo do botão.
+• O botão que dá o sabor de Cebola está mais alto
+que o botão que dá o sabor de Queijo e mais baixo
+que o botão que dá o sabor de Requeijão.
+• O botão que dá o sabor de Churrasco está imediatamente acima ou imediatamente abaixo do
+botão que dá o sabor de Requeijão.

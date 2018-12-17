@@ -1,0 +1,7 @@
+Comitê de Tarefas
+Exatamente seis professores estão reunidos para preparar tarefas para a prova da OBI: Ada, Bia, Caio, Dino, Eva e Fátima. Há exatamente seis cadeiras espaçadas regularmente ao redor de uma mesa redonda. As cadeiras são numeradas de 1 a 6, com cadeiras de números sucessivos uma ao lado da outra, e a cadeira 1 ao lado da cadeira 6. Cada cadeira é ocupada por exatamente um professor. As seguintes condições são observadas:
+• Fátima senta-se ao lado de Dino.
+• Bia senta-se ao lado de Caio, Dino ou ambos (ou seja, nesse último caso exatamente entre os
+dois).
+• Ada não se senta ao lado de Caio.
+• Se Eva senta-se ao lado de Fátima, Eva não se senta ao lado de Caio.

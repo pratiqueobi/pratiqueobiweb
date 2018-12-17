@@ -1,0 +1,5 @@
+Vagas de Estacionamento
+Em um prédio de uma companhia existem seis vagas de estacionamento, separadas das demais vagas, para os diretores da empresa. Elas estão dispostas uma ao lado da outra e são numeradas da esquerda para a direita de um a seis. Estas vagas são ocupadas por exatamente seis carros: C, D, F, H, O e V. As seguintes regras também são aplicadas:
+• Há exatamente três carros entre V e D.
+• Existe no mínimo um carro entre O e F.
+• C é adjacente a somente um único carro.

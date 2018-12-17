@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block caminho %}
+    Usuário
+{% endblock %}
+
+{% block container %}
+    <a href = "{% url 'usuarios_obi:cadastro_perfil' %}">Cadastrar</a><br/>
+    <a href="{% url 'usuarios_obi:login_perfil' %}" class="top-menu">Fazer Login</a><br/>
+{% endblock %}

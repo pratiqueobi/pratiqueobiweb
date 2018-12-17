@@ -1,0 +1,176 @@
+{
+"anoprova": 2008,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Férias",
+		"enunciadoproblema": "Seis amigos, A, B, C, D, E e F, querem aproveitar suas férias escolares jogando video-game. Eles vão se reunir cada dia na casa de um deles, durante seis dias seguidos da semana. Eles não podem se reunir mais de uma vez na casa da mesma pessoa, e as seguintes condições são também aplicadas:",
+		"regrasproblema": "• A reunião na casa de A deve ser imediatamente\nantes ou imediatamente depois da reunião na\ncasa de E.\n• Existe exatamente um dia entre os dias das\nreuniões nas casas de A e B, independentemente\nse a reunião na casa de A ocorre antes ou depois\nda reunião da casa de B.\n• Se a reunião na casa de D ocorre antes da reunião\nna casa de C, então a sexta reunião é na casa de\nF.\n• A quarta reunião é na casa de C.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Aluguel de Filmes",
+		"enunciadoproblema": "João está numa locadora de filmes escolhendo um entre cinco títulos recém lançados: P, Q, R, S e T. Ele dá uma classificação para cada filme entre 1 e 5, sendo 1 o melhor filme e 5 o pior filme, para cada um dos critérios: direção, elenco e roteiro. Nenhum critério de um filme tem a mesma classificação do mesmo critério de outro filme e nenhum filme recebe a mesma classificação para qualquer dois de seus critérios. As seguintes condições também se aplicam:",
+		"regrasproblema": "• R está classificado com 3 em elenco e 4 em\ndireção.\n• Q recebeu exatamente duas classificações melhores que P.\n• P recebeu exatamente duas classificações melhores que R.\n• T está classificado com 1 em roteiro.\n• S está classificado pior que T nos três critérios.\n",
+		"imgproblema": null,
+		"classificacao": [10, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogo de Queimada",
+		"enunciadoproblema": "Dez crianças do bairro: C, D ,E, F, G, H, J, L, M e N, irão formar dois times de quatro pessoas cada, o time X e o time Y, para jogar uma partida de queimada. Nenhum criança pode jogar no time X e no time Y ao mesmo tempo e os times devem ser formados segundo alguns critérios:",
+		"regrasproblema": "• Nem G nem J podem ser incluídos em qualquer\ntime se D estiver em algum dos times.\n• Se F estiver num time então L estará no outro\ntime.\n• Se M ou C estiver num time então o outro estará\nno mesmo time.\n• L não está no time Y.\n• N não está em nenhum time, a não ser que E\nesteja no time X; nesse caso N pode estar em\nqualquer time.\n• O time X inclui D ou J.\n",
+		"imgproblema": null,
+		"classificacao": [7, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Reações Químicas",
+		"enunciadoproblema": "Um químico está misturando substâncias para desenvolver dois novos produtos para a indústria. Para isso ele conta com nove tipos de substâncias: J, K, L, M, N, O, P, Q e R. Cada substância deve estar presente em apenas um dos dois produtos: o produto A ou o produto B, ou seja, se, por exemplo, J foi usado no produto A então J não pode ser usado no produto B. Exatamente cinco substâncias serão misturadas para obter um dos produtos e as outras quatro serão misturadas para obter o outro produto. As seguintes condições também se aplicam:",
+		"regrasproblema": "• Se J está no produto A então tanto M quanto N\ndevem estar no produto B.\n• No produto em que K estiver não pode estar nem\nM nem R.\n• A substância O deve ser a última substância a ser\nmisturada no desenvolvimento do produto que\ncontém exatamente quatro substâncias.\n• A substância P deve ser misturada ao produto\nque contém exatamente cinco substâncias.\n• A substância R deve ser a segunda a ser misturada no produto A ou deve ser a terceira a ser\nmisturada no produto B.\n• A substância K deve ser a quarta a ser misturada\nindependentemente do produto.\n• A substância L é a terceira a ser misturada no\nproduto A.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Máquina de Salgadinhos",
+		"enunciadoproblema": "Numa loja existe uma máquina que vende salgadinhos. Para comprar um salgadinho você coloca uma moeda e aperta o botão correspondente ao sabor desejado; a máquina então coloca o salgadinho que você escolheu num compartimento para que você possa pegá-lo. Nessa máquina existem seis botões na vertical rotulados com os seguintes sabores (rótulo do botão mais alto ao mais baixo): Queijo, Presunto, Requeijão, Churrasco, Pizza e Cebola. O problema é que os salgadinhos foram colocados incorretamente e não se sabe mais qual botão corresponde a que sabor. São conhecidos os seguintes fatos:",
+		"regrasproblema": "• Cada botão só pode estar associado a somente\num sabor.\n• Os botões estão dispostos na vertical, um embaixo do outro.\n• Um e somente um dos botões está correto, ou\nseja, corresponde ao sabor do salgadinho com o\nrótulo do botão.\n• O botão que dá o sabor de Cebola está mais alto\nque o botão que dá o sabor de Queijo e mais baixo\nque o botão que dá o sabor de Requeijão.\n• O botão que dá o sabor de Churrasco está imediatamente acima ou imediatamente abaixo do\nbotão que dá o sabor de Requeijão.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

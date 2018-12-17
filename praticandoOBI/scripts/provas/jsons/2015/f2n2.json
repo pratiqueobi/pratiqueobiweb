@@ -1,0 +1,244 @@
+{
+"anoprova": 2015,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Show da Banda",
+		"enunciadoproblema": "A Banda formada por alunos da escola vai fazer um show no clube. Eles vão tocar exatamente sete músicas: J, K, L, M, N, O e P, não necessariamente nessa ordem. As músicas vão ser apresentadas de acordo com as seguintes condições:",
+		"regrasproblema": "• N é a primeira ou a sétima música a ser apresentada.\n• L é apresentada em algum momento após J.\n• P é apresentada em algum momento após K.\n• Exatamente uma música é apresentada entre J e M, seja J apresentada antes de M ou não.\n• Exatamente uma música é apresentada entre K e N, seja K apresentada antes de N ou não.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Eleição no Centro Acadêmico",
+		"enunciadoproblema": "Uma eleição foi organizada na escola para escolher o (ou a) estudante que presidirá o Centro Acadêmico no próximo ano. Sete estudantes se candidataram: Alda, Beto, Caio, Duda, Ênio, Ian, e Lia. A comissão eleitoral ordenou os estudantes de acordo com o número de votos recebidos, do mais votado para o menos votado. Contados os votos, a comissão eleitoral verificou que o resultado da eleição obedece às seguintes propriedades:",
+		"regrasproblema": "• Alda recebeu menos votos do que Duda.\n• Alda recebeu mais votos do que Ian e mais votos do que Lia.\n• Cada estudante recebeu um número diferente de votos.\n• Beto recebeu mais votos do que Lia.\n• Lia recebeu mais votos do que Caio.\n• Caio recebeu mais votos do que Ênio.\n• Ian não recebeu o menor número de votos.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Câmeras de Vídeo",
+		"enunciadoproblema": "Quatro câmeras de vídeo foram instaladas numa reserva florestal, para estudar os hábitos de macacosprego-do-peito-amarelo. Cada câmera cobre uma área de monitoramento; as áreas são designadas por V, X, Y e Z. A área V tem interseção com a área X. A área X tem interseção com a área Y. A área V não tem interseção com a área Y. A área Z está inteiramente contida na parte da área X que não tem interseção com nenhuma outra área. Num dado momento quatro macacos, M1, M2, M3 e M4, estão nas áreas monitoradas. As posições dos macacos são determinadas pelas seguintes condições:",
+		"regrasproblema": "• M1 está na área V.\n• M2 está em pelo menos duas áreas.\n• M3 não está em nenhuma área em que M1 está.\n• M4 não está na mesma área que M2.\n",
+		"imgproblema": null,
+		"classificacao": [9, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Comitê de Tarefas",
+		"enunciadoproblema": "Exatamente seis professores estão reunidos para preparar tarefas para a prova da OBI: Ada, Bia, Caio, Dino, Eva e Fátima. Há exatamente seis cadeiras espaçadas regularmente ao redor de uma mesa redonda. As cadeiras são numeradas de 1 a 6, com cadeiras de números sucessivos uma ao lado da outra, e a cadeira 1 ao lado da cadeira 6. Cada cadeira é ocupada por exatamente um professor. As seguintes condições são observadas:",
+		"regrasproblema": "• Fátima senta-se ao lado de Dino.\n• Bia senta-se ao lado de Caio, Dino ou ambos (ou seja, nesse último caso exatamente entre os\ndois).\n• Ada não se senta ao lado de Caio.\n• Se Eva senta-se ao lado de Fátima, Eva não se senta ao lado de Caio.\n",
+		"imgproblema": null,
+		"classificacao": [5, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Estação Central",
+		"enunciadoproblema": "Oito linhas de metrô, numeradas de 1 a 8, vão passar pela futura Estação Central. As linhas pares correm na direção norte-sul e as ímpares na direção leste-oeste. Para cada linha será construído um túnel distinto em um dos quatro possíveis níveis abaixo da estação: 10, 20, 30 e 40 metros de profundidade. Por cada nível devem passar exatamente dois túneis na mesma direção. Precisamos ajudar na atribuição das linhas aos níveis! Depois de muito planejamento, ficou decidido que:",
+		"regrasproblema": "• As linhas 5 e 7 não podem passar no mesmo nível;\n• As linhas 2 e 4 não podem passar no mesmo nível;\n• A diferença de profundidade entre as linhas 2 e 8 não pode ser maior do que 10 metros;\n• A diferença de profundidade entre as linhas 1 e 7 tem que ser maior do que 10 metros.\n",
+		"imgproblema": null,
+		"classificacao": [9, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Atividades Extra-curriculares",
+		"enunciadoproblema": "Além de ser boa aluna na escola, Lena é uma garota muito ativa. Todos os dias da semana, exceto domingo, ela tem aulas na escola. E todos os dias da semana, exceto domingo e quinta-feira, também faz atividades extra-curriculares. As atividades são balé, volei, piano e ioga. A cada dia em que faz atividades, ela faz uma atividade antes da escola e uma atividade depois da escola. Durante cada semana os horários das atividades devem obedecer aos seguintes critérios:",
+		"regrasproblema": "• Ela joga volei em exatamente três dias, sempre antes da escola.\n• Se ela joga volei na segunda-feira, ela não joga volei na terça-feira.\n• Ela faz balé em exatamente dois dias da semana consecutivos, sempre depois da escola.\n• Ela estuda piano exatamente um dia antes da escola e três dias depois da escola.\n• Ela faz ioga em exatamente um dia, sempre antes da escola.\n• Aos sábados ela não faz balé nem joga volei.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Seleção de problemas",
+		"enunciadoproblema": "O Comitê de Problemas da OBI precisa selecionar cinco tarefas para a prova da modalidade Programação Nível 2, dentre oito tarefas: R, S, T, U, V, X, Y e Z. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Se ambas R e Y são selecionadas, Z também é selecionada.\n• Se U é selecionada, nem X nem Y são selecionadas.\n• Se V é selecionada, S não é selecionada.\n• Entre as tarefas S, T e X, exatamente duas são selecionadas.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

@@ -1,0 +1,5 @@
+Um Dia de Trabalho
+Um funcionário de uma empresa tem seis tarefas para realizar hoje. Essas tarefas são identificadas por R, B, G, S, W e T. As tarefas não podem ser realizadas ao mesmo tempo e devem ser feitas numa ordem que obedeça as restrições baixo. 
+• W é realizada em algum momento após G e algum momento após T.
+• S é realizada em algum momento após W.
+• R é realizada em algum momento antes de S.

@@ -1,0 +1,8 @@
+Aluguel de Filmes
+João está numa locadora de filmes escolhendo um entre cinco títulos recém lançados: P, Q, R, S e T. Ele dá uma classificação para cada filme entre 1 e 5, sendo 1 o melhor filme e 5 o pior filme, para cada um dos critérios: direção, elenco e roteiro. Nenhum critério de um filme tem a mesma classificação do mesmo critério de outro filme e nenhum filme recebe a mesma classificação para qualquer dois de seus critérios. As seguintes condições também se aplicam:
+• R está classificado com 3 em elenco e 4 em
+direção.
+• Q recebeu exatamente duas classificações melhores que P.
+• P recebeu exatamente duas classificações melhores que R.
+• T está classificado com 1 em roteiro.
+• S está classificado pior que T nos três critérios.

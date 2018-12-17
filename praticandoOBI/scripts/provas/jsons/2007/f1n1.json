@@ -1,0 +1,142 @@
+{
+"anoprova": 2007,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Riquezas de Atlântida",
+		"enunciadoproblema": "Um arqueólogo finalmente encontrou a submersa cidade de Atlântida. Depois de uma rápida exploração no lugar, ficou muito feliz ao encontrar várias barras de metais valiosos num dos templos. Existem quatro barras: Platina, Ouro, Prata e Bronze; e cada uma pesa 2 quilos. A seqüência está ordenada da mais valiosa (Platina) para a menos valiosa (Bronze). O arqueólogo possui apenas uma bolsa para levar as barras para seu barco de pesquisas e existem algumas condições:",
+		"regrasproblema": "\n• A bolsa suporta no máximo 5 quilos.\n• As barras ou são colocadas inteiras na bolsa ou não são levadas.\n\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Faxina Semanal",
+		"enunciadoproblema": "Cinco irmãos: Alan, Bruno, Carlos, Douglas e Eduardo, resolvem ajudar na limpeza doméstica. Os cômodos que precisam ser limpos são: a Cozinha, a Sala, o Banheiro, o Quarto e o Quintal. A mãe deles irá escolher quem vai trabalhar em qual cômodo, mas eles só trabalham com algumas condições:",
+		"regrasproblema": "• Cada irmão limpa somente um cômodo.\n• Eduardo não limpa o Banheiro.\n• Bruno só limpa a Sala ou o Quintal.\n• Alan limpa qualquer cômodo, mas se Carlos limpar a Cozinha, Alan irá limpar a Sala.\n• Douglas limpa somente o Banheiro ou a Sala.\n",
+		"imgproblema": null,
+		"classificacao": [10, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Compras na Feira",
+		"enunciadoproblema": "A mãe de Lucas pediu-lhe que fosse à feira e comprasse alguns ingredientes para o almoço. A escolha poderia ser livre entre os itens: Alface, Alho, Banana, Cebola, Couve, Maçã, Pêra e Tomate; mas com algumas condições:",
+		"regrasproblema": "• Lucas deve comprar Alface ou Couve, mas não ambos. • A Maçã deve ser comprada. • Se comprar Alface deve comprar também Tomate. • Lucas deve comprar Banana ou Pêra, ou ambas. • Lucas só pode comprar Cebola se comprar Alho.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Meu Primeiro Computador",
+		"enunciadoproblema": "Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas “A”,“B”,“C”,“D”e “E”. Existe ainda uma memória interna, chamada “NUM”, que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito",
+		"regrasproblema": "resultante dependerá da seqüência digitada. As ações associadas a cada uma são:\n• Se “A”é pressionada: “NUM”é inicializado com o valor dez. • Se “B”é pressionada: É armazenado em “NUM” o valor que ele possuía subtraído um. • Se “C”é pressionada: É armazenado em “NUM” o valor que ele possuía subtraído dois. • Se “D”é pressionada: É armazenado em “NUM” o valor que ele possuía somado um. • Se “E”é pressionada: É impresso na tela o valor contido em “NUM”.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

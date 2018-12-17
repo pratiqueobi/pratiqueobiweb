@@ -1,0 +1,6 @@
+Plantação de Verduras
+Otávio possui quatro áreas destinadas a plantação, e precisa decidir qual hortaliça plantar em cada uma delas. As opções a serem plantadas são: Alface, Batata, Cenoura, Ervilha, Feijão e Repolho. Otávio pretende plantar um único tipo de hortaliça em cada área e se um determinado tipo for plantado numa área, não será plantado esse mesmo tipo em nenhuma das outras três. Devido a custos e a preferência de Otávio, ele estabeleceu algumas restrições:
+• Deve ser escolhido Batata ou Cenoura, mas não ambas.
+• Se for escolhido Repolho, então Alface também deve ser escolhida.
+• Se Repolho e Batata forem escolhidos, Ervilha não será escolhida.
+• Se Ervilha e Feijão forem escolhidos, Cenoura não será escolhida.

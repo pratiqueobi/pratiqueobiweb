@@ -1,0 +1,2 @@
+Carteiro
+Um carteiro precisa entregar cartas em quatro bairros diferentes: A, B, C e D. Ele sempre parte do bairro A, passa somente uma vez por cada bairro B, C e D (em alguma ordem) e retorna para o bairro A. Na tabela abaixo pode ser vista a distância entre cada par de bairros, sendo que o valor “X” indica que não existe um caminho direto entre aqueles bairros.

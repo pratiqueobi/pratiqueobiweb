@@ -1,0 +1,7 @@
+Lanche
+Seis frutas – abacaxi, banana, caqui, laranja, pera e romã – vão servir de lanche para três amigos: Mario, Nei e Olga. Cada amigo vai comer exatamente duas frutas, respeitando as seguintes condições:
+• Se Olga come abacaxi, Mario come caqui.
+• Se Olga não come banana, então Nei come romã.
+• Mario não pode comer laranja.
+• Abacaxi não é comido pela mesma pessoa que come banana, nem caqui é comido pela mesma
+pessoa que come pera, nem laranja é comida pela mesma pessoa que come romã.

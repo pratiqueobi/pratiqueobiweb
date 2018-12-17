@@ -1,0 +1,6 @@
+Jogos de Futebol
+No período de um mês o time de futebol da escola vai jogar exatamente sete jogos. Cada um dos jogos será contra o time de uma seguintes escolas: Franciscano, Marista, Rumo, Salesiano ou Terra. As seguintes restrições governam a escolha dos jogos:
+• Haverá três jogos contra o Franciscano, e exatamente um jogo contra cada um dos outros times.
+• Não haverá dois jogos consecutivos contra o Franciscano.
+• O jogo contra o Salesiano é o jogo imediatamente seguinte ao jogo contra o Terra.
+• Nem o primeiro jogo nem o último jogo são contra o Marista.

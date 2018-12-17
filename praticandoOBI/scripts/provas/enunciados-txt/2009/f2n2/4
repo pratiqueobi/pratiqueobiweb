@@ -1,0 +1,10 @@
+Os Carpinteiros
+Alguns carpinteiros, C, D, F, G, H, J, K e L, estão disponíveis para fazer algumas portas que foram encomendadas. As portas são numeradas de um a três e o modo de fazê-las pode ser simples ou complexo. As portas simples exigem dois carpinteiros e as portas complexas exigem três carpinteiros. Nenhum carpinteiro trabalha em mais de uma porta e nem todos carpinteiros precisam estar trabalhando em alguma porta. As seguintes regras também são aplicadas:
+• F e K estão trabalhando em alguma das portas,
+mas não a mesma.
+• J e D estão trabalhando em alguma das portas,
+mas não a mesma.
+• Se C e L estão trabalhando na mesma porta,
+então esta porta é complexa.
+• Se G e K estão trabalhando na mesma porta,
+então esta porta é simples.

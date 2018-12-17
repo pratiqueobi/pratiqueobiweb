@@ -1,0 +1,7 @@
+Desenvolvedores de jogos
+Cinco amigos: Bia, Carla, Dino, Edu e Flora, resolveram desenvolver um novo jogo de computador. As tarefas foram divididas em: Arte, Programação, Roteiro, Sons e Testes. Cada um vai ser responsável por uma única tarefa, mas algumas condições devem ser obedecidas na divisão das tarefas:
+• Edu não trabalha em Roteiro.
+• Bia só trabalha em Programação ou Testes.
+• Flora trabalha em qualquer tarefa, mas se Carla trabalhar em Arte, Flora vai trabalhar em
+Programação.
+• Dino trabalha somente em Roteiro ou em Programação.

@@ -1,0 +1,53 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block titulo %}
+    Minhas Provas
+{% endblock %}
+
+{% block container %}
+
+    {% if not provas %}
+        <p>Você ainda não tem provas cadastradas.</p>
+    {% else %}
+    <ul class="list-group product-category-all">
+
+    <div class="container">
+    <div class="row">
+
+        {% for prova in provas %}
+      <div class="col-sm-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+              <h5 class="card-title"><b>{{ prova.titulo }}</b></h5>
+            <p class="card-text">
+                {% if prova.ano == None %}
+                    Ano: não inserido</br>
+                {% else %}
+                    Ano: {{prova.ano}}</br>
+                {% endif %}
+
+                {% if prova.dificuldade == None %}
+                    Dificuldade: não inserida</br>
+                {% elif prova.dificuldade == 0 %}
+                    Dificuldade: não inserida</br>
+                {% else %}
+                    Dificuldade: {{prova.dificuldade}}</br>
+                {% endif %}
+                Observações: {{prova.observacoes}}</br></br>
+                <a href="{% url 'usuarios_obi:provaperson_edit' prova.pk %}" class="btn btn-primary" role="button" >Editar</a>
+                <a href="{% url 'usuarios_obi:provaperson_pronta' prova.pk %}" class="btn btn-primary" role="button" >Visualizar</a>
+                <a href="{% url 'usuarios_obi:provaperson_excluir' prova.pk %}" class="btn btn-primary" role="button" >Excluir</a>
+            </p>
+          </div>
+        </div>
+      </div>
+          {% endfor%}
+
+      </div>
+    </div>
+
+
+    {% endif %}
+    </ul>
+{% endblock %}

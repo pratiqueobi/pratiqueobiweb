@@ -1,0 +1,176 @@
+{
+"anoprova": 2013,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Feira de Profissões",
+		"enunciadoproblema": "A escola está organizando uma Feira de Profissões, em que seis profissionais – um geólogo, um médico, uma jornalista, um químico, uma psicóloga e um sociólogo – darão palestras para os alunos sobre suas respectivas profissões. Duas palestras serão na segunda-feira, duas na terça-feira, e duas na quarta-feira. As seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• A palestra do químico deve ser no mesmo dia em que a da psicóloga.\n• O geólogo não pode dar a sua palestra no mesmo dia em que o médico.\n• Se a palestra da jornalista for na segunda-feira, a palestra do geólogo deve ser na terça-feira.\n• Se a palestra do sociólogo for na quarta-feira, a palestra do médico deve ser na terça-feira.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogos Demais!",
+		"enunciadoproblema": "Cada dia da semana, de segunda a sexta-feira, após a escola e os deveres de casa, João entra na Internet para jogar um de três jogos, X, Y e Z. Um dos jogos custa R$ 1, 00 por dia jogado, outro custa R$ 1, 20 por dia jogado, e o outro custa R$ 1, 50 por dia jogado. João joga exatamente um jogo por dia, e joga cada um desses três jogos ao menos uma vez por semana. Ele também obedece às seguintes restrições:",
+		"regrasproblema": "• Às quintas-feiras, João joga o jogo que custa R$ 1, 50.\n• O jogo X custa mais do que o jogo Z.\n• O jogo que João joga às quartas-feiras é mais caro do que o jogo que ele joga às sextas-feiras.\n• João joga o jogo Z mais vezes por semana do que ele joga o jogo X.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogos de Futebol",
+		"enunciadoproblema": "No período de um mês o time de futebol da escola vai jogar exatamente sete jogos. Cada um dos jogos será contra o time de uma seguintes escolas: Franciscano, Marista, Rumo, Salesiano ou Terra. As seguintes restrições governam a escolha dos jogos:",
+		"regrasproblema": "• Haverá três jogos contra o Franciscano, e exatamente um jogo contra cada um dos outros times.\n• Não haverá dois jogos consecutivos contra o Franciscano.\n• O jogo contra o Salesiano é o jogo imediatamente seguinte ao jogo contra o Terra.\n• Nem o primeiro jogo nem o último jogo são contra o Marista.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "No país das maravilhas",
+		"enunciadoproblema": "Uma companhia de teatro está iniciando os ensaios para uma nova versão de Alice no País das Maravilhas. Oito meninas, Lia, Mel, Nanda, Olga, Pilar, Rute, Sara e Tina, disputam o papel de Alice, e vão realizar um teste para determinar qual é a escolhida. Os testes, com duração de uma hora, serão feitos de segunda-feira a sexta-feira, em dois horários, 8:00 e 9:00 horas. Uma menina será testada por vez, mas nenhuma menina será testada no horário de quarta-feira 8:00, pois já há uma reunião do resto do elenco marcada para esse dia e horário. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Sara é testada terça-feira, 9:00.\n• Pilar deve ser testada em algum momento antes de Nanda.\n• Olga deve ser testada no mesmo dia que Mel.\n• Se Lia é testada às 8:00 em algum dia, então Rute é testada às 8:00 em outro dia.\n",
+		"imgproblema": null,
+		"classificacao": [2, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Canil",
+		"enunciadoproblema": "O canil de um famoso criador de cães tem cinco pequenos cômodos, dispostos em uma fileira, um ao lado do outro, numerados de 1 a 5 da esquerda para a direita. Os cômodos são usados para abrigar sete cães – quatro da raça beagle três da raça labrador. Cinco dos animais são fêmeas e dois são machos. Os animais devem ser distribuídos nos cômodos da seguinte maneira:",
+		"regrasproblema": "• Nenhum cômodo abriga mais do que dois animais.\n• Nenhum cômodo abriga ambos um beagle e um labrador.\n• Nenhuma fêmea beagle é colocada em um cômodo que é imediatamente vizinho a um cômodo\nque abrigue um labrador macho.\n",
+		"imgproblema": null,
+		"classificacao": [10, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

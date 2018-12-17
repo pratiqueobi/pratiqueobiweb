@@ -1,0 +1,9 @@
+Alojamento da Vila Olímpica
+Oito atletas, J, K, L, M, N, O, P e Q vão utilizar um prédio de cinco andares na Vila Olímpica. Em cada andar do prédio há dois apartamentos, um do tipo quitinete e um do tipo quarto e sala. Os andares são designados de primeiro a quinto, sendo primeiro o andar térreo. O seguinte é conhecido sobre o arranjo dos atletas que vão ocupar o prédio:
+• Nenhum atleta compartilha o apartamento com outro atleta.
+• Nenhum atleta ocupa o apartamento quitinete do quinto andar.
+• Nenhum atleta ocupa o apartamento quarto e sala do terceiro andar.
+• M ocupa o apartamento quitinete do segundo andar.
+• P ocupa o apartamento quitinete do quarto andar.
+• Ambos M e O estão em um andar mais alto do que Q.
+• K, N e Q ocupam apartamentos quarto e sala.

@@ -1,0 +1,6 @@
+Loja na Internet
+Uma loja na internet vende pelo menos um tipo dos seguintes componentes de computador: processador, memória, disco rígido, teclado, mouse e impressora. A loja não vende nenhum outro produto, e a seleção de produtos que a loja vende segue as seguintes restrições:
+• Se a loja vende impressora, então ela vende também ou processador, ou mouse, ou ambos.
+• Se a loja vende memória, então ela não vende teclado.
+• Se a loja vende disco rígido, então ela vende também teclado e impressora.
+• Se a loja não vende mouse, então ela vende memória.

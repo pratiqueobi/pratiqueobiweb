@@ -1,0 +1,6 @@
+DJ
+Seis estilos de música diferentes serão executados pelo DJ Sombra Negra. Cada estilo vai ser executado uma única vez, e as seguintes condições devem ser obedecidas: 
+• Hip-hop é o primeiro, o terceiro ou o quinto estilo a ser executado.
+• Pelo menos dois estilos são executados após samba ser executado, mas antes de pop ser executado (ou seja, pelo menos dois estilos são executados entre a execução de samba e a execução
+de pop).
+• Exatamente um estilo é executado após funk, mas antes de rock ser executado (ou seja, exatamente um estilo é executado entre a execução de funk e a execução de rock).

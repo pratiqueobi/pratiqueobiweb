@@ -1,0 +1,142 @@
+{
+"anoprova": 2009,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Os Astronautas",
+		"enunciadoproblema": "Será criado um grupo de quatro astronautas para tripular um ônibus espacial que orbitará ao redor da Terra. Como candidatos existem quatro físicos: F, G, H e I, e quatro matemáticos: R, S, T e U. Para a seleção são consideradas as seguintes condições:",
+		"regrasproblema": "• O grupo deve ser formado por exatamente dois\nfísicos e dois matemáticos.\n• F ou G deve estar presente no grupo, mas não\nambos.\n• Se R está no grupo então H também deve estar.\n• Se T está no grupo então H não pode estar.\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Fila no Banco",
+		"enunciadoproblema": "Um banco possui 3 caixas, A, B e C, para atender aos seus clientes. O caixa A atende 2 clientes por minuto, o caixa B atende 1,5 clientes por minuto, e o caixa C atende 0,5 clientes por minuto. Inicialmente os caixas não estão atendendo ninguém e a fila de clientes está com 100 pessoas.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Salvando Arquivos",
+		"enunciadoproblema": "Existem dois arquivos na internet, X e Y, que estão sendo salvos por um grupo de sete pessoas: F, G, H, I, J, K e L. ",
+		"regrasproblema": "• Cada uma das sete pessoas deve estar salvando o\narquivo X ou o Y.\n• Ninguém pode salvar ambos arquivos X e Y.\n• F não está salvando o mesmo arquivo que G e F\nnão está salvando o mesmo arquivo que J.\n• H não pode salvar o mesmo arquivo que I está\nsalvando.\n",
+		"imgproblema": null,
+		"classificacao": [7, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sorveteria",
+		"enunciadoproblema": "Para montar seu pote de sorvete você precisa escolher cinco dos sete sabores disponíveis: T, U, V, W, X, Y e Z. As seguintes condições se aplicam a sua escolha:",
+		"regrasproblema": "• Cada sabor pode no máximo ser escolhido uma\nvez.\n• W ou Z deve ser escolhido, mas não ambos.\n• Se Y é escolhido então V também deve ser escolhido.\n• Se U é escolhido então W não pode ser escolhido.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

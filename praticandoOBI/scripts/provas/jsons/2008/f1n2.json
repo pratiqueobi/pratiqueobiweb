@@ -1,0 +1,142 @@
+{
+"anoprova": 2008,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Colorindo o Mapa",
+		"enunciadoproblema": "Um mapa de um país mostrando seus estados R, S, W, X, Y e Z precisa ser colorido. Estados adjacentes não podem ter a mesma cor. Os únicos estados adjacentes entre si são os seguintes:",
+		"regrasproblema": "• R, S, X e Y são adjacentes a W.\n• X é adjacente a Y.\n• R e S são adjacentes a Z.\n",
+		"imgproblema": null,
+		"classificacao": [6, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Na Hora do Almoço",
+		"enunciadoproblema": "Num restaurante da cidade você tem à disposição oito tipos de acompanhamento, A, B, C, D, E, F, G e H, e deve escolher no mínimo quatro deles para compor o seu prato. As seguintes condições restringem a sua escolha:",
+		"regrasproblema": "• se A é escolhido então B não pode ser escolhido;\n• se ambos C e F são escolhidos então A também é escolhido;\n• se D é escolhido então E também é escolhido;\n• se ambos F e G são escolhidos então B também é escolhido;\n• se H é escolhido então C também é escolhido.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Desenvolvimento de Jogos",
+		"enunciadoproblema": "Uma empresa deve formar grupos de desenvolvimento para os jogos de computador G1, G2 e G3. Cada grupo deve incluir no mínimo um dos programadores L e M e exatamente dois dos artistas gráficos R, S, T e V. Cada programador e cada artista é associado a no mínimo um grupo de acordo com as restrições:",
+		"regrasproblema": "• nenhum programador pode estar associado ao mesmo tempo aos jogos G1 e G2;\n• nenhum artista pode estar associado ao mesmo tempo aos jogos G2 e G3;\n• S não pode estar no mesmo grupo que T;\n• V está num grupo com L;\n• V está escalado para o jogo G2;\n• S está escalado para o jogo G1.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Pilotos de Teste",
+		"enunciadoproblema": "Sete pilotos de carros de competição vão realizar testes numa nova pista. Três dos pilotos, A, B e C são experientes. Quatro dos pilotos, Q, R, S e T são inexperientes. Cada piloto estará dirigindo ou acompanhando exatamente um dos seis carros disponveis, numerados de 1 a 6. Um carro só pode ser pilotado por um piloto experiente que pode levar ou não um co-piloto, ou pode ser pilotado por um piloto inexperiente mas que deve levar obrigatoriamente um co-piloto. É permitido no máximo dois pessoas por carro e as seguintes restrições também são aplicadas:",
+		"regrasproblema": "• Q obrigatoriamente deve estar no carro 1 ou no carro 2;\n• se T está no mesmo carro que um piloto experiente então nenhum piloto podem estar no carro 5 nem no carro 6;\n• se S está no mesmo carro que um piloto experiente então S deve estar com o piloto B;\n• A e Q não podem estar no mesmo carro;\n• C obrigatoriamente deve estar no carro 3;\n• R obrigatoriamente deve estar no carro 4.\n",
+		"imgproblema": null,
+		"classificacao": [11, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

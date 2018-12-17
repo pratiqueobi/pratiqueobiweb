@@ -1,0 +1,176 @@
+{
+"anoprova": 2008,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Férias",
+		"enunciadoproblema": "Seis amigos, A, B, C, D, E e F, querem aproveitar suas férias escolares jogando video-game. Eles vão se reunir cada dia na casa de um deles, durante seis dias seguidos da semana. Eles não podem se reunir mais de uma vez na casa da mesma pessoa, e as seguintes condições são também aplicadas:",
+		"regrasproblema": "• A reunião na casa de A deve ser imediatamente\nantes ou imediatamente depois da reunião na\ncasa de E.\n• Existe exatamente um dia entre os dias das\nreuniões nas casas de A e B, independentemente\nse a reunião na casa de A ocorre antes ou depois\nda reunião da casa de B.\n• Se a reunião na casa de D ocorre antes da reunião\nna casa de C, então a sexta reunião é na casa de\nF.\n• A quarta reunião é na casa de C.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Prova de Matemática",
+		"enunciadoproblema": "Num período de três dias, de segunda a quarta-feira, três estudantes devem estudar exatamente três dos seis livros recomendados pelo professor para se prepararem para a prova de Matemática. Os livros são numerados de 1 a 6, consecutivamente, de acordo com o número de páginas, sendo o livro 1 o mais fino (com o menor número de páginas) e o livro 6 o mais grosso (com o maior número de páginas). Nenhum livro tem o mesmo número de páginas que outro livro. Os estudantes A, B e C, devem estudar um livro por dia. Cada livro é estudado por no mínimo um estudante, mas não é estudado por mais de dois estudantes, e nenhum estudante pode estudar um livro que seja mais fino que um livro que ele estudou anteriormente. As seguintes condições também se aplicam:",
+		"regrasproblema": "• Na terça-feira, A deve estudar o livro que B estudou na Segunda.\n• B estuda o livro 4 na Terça.\n• C não estuda o livro 4.\n• O livro que C estuda na quarta-feira tem o mesmo\nnúmero de páginas ou é mais fino que o livro que\nB estuda na Quarta.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Livraria",
+		"enunciadoproblema": "Uma livraria deve expor na vitrine dez novos lançamentos em livros: H, I, J, K, L, M, N, O, P e Q. Estes livros serão expostos na sexta-feira e no sábado, mas um mesmo livro não pode ser exposto nos dois dias. Exatamente cinco livros devem ser expostos cada dia e as seguintes condições também se aplicam:",
+		"regrasproblema": "• Se H é exposto no sábado então P deve ser exposto na sexta-feira.\n• Se L é exposto na sexta-feira então J e K devem\nser expostos no sábado.\n• Se N é exposto na sexta-feira então K deve ser\nexposto no sábado.\n• Se O é exposto na sexta-feira então M deve ser\nexposto também na sexta-feira.\n• I deve ser exposto na sexta-feira.\n• Q deve ser exposto no sábado.\n",
+		"imgproblema": null,
+		"classificacao": [7, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Viagem a Marte",
+		"enunciadoproblema": "Três engenheiros da Companhia Nacional de Viagens a Marte, Aldo, Bianca e Caio, devem enviar exatamente cinco astronautas para Marte dos oito que se candidataram: Daniel, Eduardo, Guilherme, Leonardo, Henrique, Otávio, Sandra e Úrsula. Somente os engenheiros podem escolher quem vai para Marte. Cada engenheiro deve escolher no mínimo um dos astronautas e nenhum astronauta pode ser escolhido por mais de um engenheiro. As seguintes condições também se aplicam:",
+		"regrasproblema": "• Bianca deve escolher exatamente dois astronautas.\n• Se Daniel ou Leonardo são escolhidos, então eles\ndevem ter sido escolhidos por Caio.\n• Eduardo e Sandra podem ser escolhidos, mas se\num for então o outro também será, e pelo mesmo\nengenheiro.\n• Se Otávio é escolhido então Úrsula e Henrique\nsão também escolhidos.\n• Guilherme é escolhido.\n• Se Úrsula é escolhida ela deve ser escolhida por\nBianca.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Artes Marciais",
+		"enunciadoproblema": "Durante uma exibição de artes marciais, os quatro mestres, E, F, G e H irão lutar cada um com somente um dos aprendizes, A, B, C e D. As quatro lutas ocorrerão uma em seguida da outra, da primeira a quarta de acordo com as seguintes regras:",
+		"regrasproblema": "• C luta em algum momento antes de F.\n• G luta em algum momento antes de B.\n• D luta em algum momento depois de B e em algum momento depois de C.\n• B e F não lutam um contra o outro.\n",
+		"imgproblema": null,
+		"classificacao": [15, 17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

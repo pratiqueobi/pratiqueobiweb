@@ -1,0 +1,12 @@
+Beliches da IOI
+A delegação de um país na Olimpíada Internacional de Informática (popularmente conhecida pelas iniciais em inglês, IOI) é composta por quatro competidores e dois professores. Os quatro competidores da equipe brasileira são selecionados entre os melhores classificados da Modalidade Programação da OBI. Este ano a IOI será realizada no Canadá, nas dependências da Universidade de Waterloo. Cada país terá direito a um quarto com três beliches (uma cama em baixo, uma cama em cima). Os beliches são identificados pelas letras A, B e C. Para deixar os competidores mais motivados, a organização da IOI resolveu pintar as camas dos beliches com as cores de cada país. Cada cama será pintada de apenas uma cor entre as disponíveis. No caso do Brasil, as cores disponíveis para pintar as camas são verde, amarelo, azul e branco. Decidiram ainda que no caso do Brasil as seguintes condições serão obedecidas: 
+• Para cada beliche, a cor da cama de cima é diferente da cor da cama de baixo.
+• Nos três beliches, as cores das camas de baixo são
+diferentes entre si.
+• Nos três beliches, as cores das camas de cima são
+diferentes entre si.
+• Exatamente uma cama de cima é pintada de azul.
+• No beliche C, a cama de cima, ou a cama de
+baixo, mas não ambas, é pintada de verde.
+• A cama de cima do beliche B é pintada de amarelo.
+• Nenhuma das camas de baixo é pintada de amarelo.

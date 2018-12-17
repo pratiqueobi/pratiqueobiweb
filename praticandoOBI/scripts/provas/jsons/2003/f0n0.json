@@ -1,0 +1,463 @@
+{
+	"anoprova": 2003,
+	"nivelprova": 0,
+	"faseprova": 0,
+	"urlprova": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/provas/ProvaOBI2003_f0i0.pdf",
+	"problemas": [{
+		"tituloproblema": "Palíndromes",
+		"enunciadoproblema": "Uma cadeia de caracteres é chamada de palíndrome pura se a seqüência de caracteres da esquerda para a direita é igual à seqüência de caracteres da direita para a esquerda (uma outra definição é que o primeiro caractere da cadeia deve ser igual ao último caractere, o segundo caractere seja igual ao penúltimo caractere, o terceiro caractere seja igual ao antepenúltimo caractere, e assim por diante). Por exemplo, as cadeias de caracteres ‘MIM’ , ‘AXXA’ e ‘ANANAGANANA’ são palíndromes puras.\n Uma outra definição de palíndrome utiliza comparações entre caracteres, considerando que os caracteres são ordenados crescentemente de A até Z, ou seja, A < B < C < ... < Z. Uma cadeia de caracteres é chamada de palíndrome quebrada se a seqüência de resultados da comparação entre o primeiro e o segundo caracteres é igual ao resultado da comparação entre o último e o penúltimo caractere, e o resultado da comparação entre o segundo e o terceiro caracteres é igual ao resultado da comparação entre o penúltimo e o antepenúltimo caracteres, e assim por diante. Por exemplo, as cadeias ‘MIN’ e ‘ASSOCFUUS’ são palíndromes quebradas. Obviamente, toda cadeia que é palíndrome pura é também palíndrome quebrada.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Qual das seguintes cadeias é palíndrome quebrada:",
+				"gabaritoquestao": "A",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "TODOS"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "AZULMARINHO"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "NAOMARQUEAQUI"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "PROGRAMAR"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "FIM"
+					}
+				]
+			},
+			{
+				"enunciadoquestao": "Considere as seguintes cadeias:\n(i) BIT\n(ii) AAAEAEAEAAA\n(iii) SUBINOONIBUS\n(iv) TIPOERROTUDO\n(v)ERAREHUMANO",
+				"gabaritoquestao": "D",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "(i) e (ii) são palíndromes puras."
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "(iv) e (v) são palíndromes quebradas"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "(ii) não é palíndrome pura."
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "(iii) é palíndrome pura e (iv) é palíndrome quebrada."
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "(v) é palíndrome quebrada."
+					}
+				]
+			}
+		]
+	},
+  {
+    "tituloproblema": "Roland Garros",
+    "enunciadoproblema": "No torneio de Roland Garros, um dos mais tradicionais torneios de tênis do mundo, realizado em Paris, participam 128 tenistas. Em cada partida, participam dois jogadores, sendo que o vencedor passa para a próxima fase, e o perdedor é eliminado do torneio. A cada rodada, os tenistas que ainda continuam no torneio participam de exatamente uma partida.",
+    "regrasproblema": "",
+    "imgproblema": null,
+    "classificacao": [],
+    "questoes": [{
+        "enunciadoquestao": "Qual o número total de partidas deste torneio?",
+        "gabaritoquestao": "C",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "64"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "65"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "127"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "128"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "nenhuma das acima"
+          }
+        ]
+      },
+      {
+        "enunciadoquestao": "Quantas rodadas existem, no total, durante o torneio?",
+        "gabaritoquestao": "E",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "8"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "9"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "10"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "16"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "nenhuma das acima"
+          }
+        ]
+      }
+    ]
+  },
+  {
+		"tituloproblema": "Cavalo",
+		"enunciadoproblema": "O jogo de xadrez, além de ser um jogo que exige bastante raciocínio, é uma ótima fonte de quebra-cabeças. Esta tarefa trata de um destes quebra-cabeças, envolvendo os movimentos de uma de suas peças, o cavalo. Os movimentos do cavalo são ditos em ‘L’, pois ele sempre deve andar duas casas em uma direção e uma casa na direção perpendicular. A figura acima ilustra os possíveis movimentos do cavalo, onde o caractere ‘C’ indica a posição inicial e o caractere ‘•’ representa as possíveis posições finais. É importante notar que o cavalo é a única peça que pode saltar sobre outras peças do xadrez. Note ainda que na representação que usamos não distingüimos casas brancas de casas pretas no tabuleiro. Usando os movimentos do cavalo, você deve determinar qual o número mínimo de movimentos do cavalo para ir de uma casa Início até uma casa Final, sendo proibido que o cavalo ‘pare’ sobre algumas casas especificadas durante a seqüência de movimentos. São fornecidas várias configurações do tabuleiro (8 por 8 casas), com as casas marcadas com os seguintes valores: - I: início - F: Final - X: proibido.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2003f0n0-cavalo.png",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Número mínimo de movimentos:",
+				"gabaritoquestao": "A",
+				"imgquestao": "/static/imagens/2003f0n0-cavalo1.png",
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "3"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "4"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "5"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "6"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Impossível"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Número mínimo de movimentos:",
+        "gabaritoquestao": "E",
+        "imgquestao": "/static/imagens/2003f0n0-cavalo2.png",
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "5"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "6"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "7"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "8"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Impossível"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Número mínimo de movimentos:",
+				"gabaritoquestao": "B",
+				"imgquestao": "/static/imagens/2003f0n0-cavalo3.png",
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "5"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "6"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "7"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "8"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Impossível"
+					}
+				]
+			},
+      {
+				"enunciadoquestao": "Número mínimo de movimentos:",
+				"gabaritoquestao": "C",
+				"imgquestao": "/static/imagens/2003f0n0-cavalo4.png",
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "5"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "7"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "9"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "11"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Impossível"
+					}
+				]
+			}
+		]
+	},
+  {
+		"tituloproblema": "Biblioteca",
+		"enunciadoproblema": "Exatamente nove revistas devem ser expostas em uma das prateleiras da biblioteca da escola. Vamos chamar a posição mais à esquerda de primeira, e a mais à direita de nona posição. Das nove revistas, quatro são sobre ciência, três são sobre esportes, e duas são sobre culinária. As quatro revistas sobre ciência devem ser colocados uma vizinha à outra, e as duas revistas sobre culinária também devem ser dispostas uma vizinha à outra (ou seja, uma ao lado da outra). As três revistas sobre esportes não precisam estar colocadas uma vizinha à outra.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Se a sexta posição é ocupada por uma revista de ciência, e a oitava posição é ocupada por uma revista de esportes, qual das seguintes posições deve ser ocupada por uma revista de culinária?",
+				"gabaritoquestao": "B",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "A primeira"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "A segunda"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "A terceira"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "A quarta"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "A nona"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "As revistas de esportes devem ser colocadas uma vizinha à outra se uma revista de culinária está em qual das seguintes posições?",
+        "gabaritoquestao": "C",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Na primeira"
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Na terceira"
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Na quinta"
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Na sétima"
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Na nona"
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Se a primeira e a sétima posições têm revistas do mesmo tipo, qual das seguintes posições deve ter uma revista de ciência?",
+				"gabaritoquestao": "C",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "A primeira"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "A segunda"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "A quarta"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "A sexta"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "A oitava"
+					}
+				]
+			},
+      {
+				"enunciadoquestao": "Se uma revista de esportes ocupa a quinta posição na prateleira, e uma revista de ciência ocupa a nona posição, qual dos seguintes pares de posições devem ter revistas de tipos dife- rentes?",
+				"gabaritoquestao": "C",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "A primeira e a segunda"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "A segunda e a terceira"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "A segunda e a quarta"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "A terceira e a quarta"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "A terceira e a quinta"
+					}
+				]
+			}
+		]
+	},
+  {
+		"tituloproblema": "Salas de Aulas",
+		"enunciadoproblema": "Uma escola conta com sete salas de aula que devem ser pintadas. As salas estão localizadas em um único lado do corredor, sendo numeradas seqüencialmente, de um a sete, da frente para os fundos do prédio. Cada sala de aula deve ser pintada utilizando uma única cor, de acordo com as seguintes restrições:",
+		"regrasproblema": "• Duas salas devem ser pintadas de branco; duas salas devem ser pintadas de azul; duas salas devem ser pintadas de verde; e uma sala deve ser pintada de amarelo.\n • As duas salas pintadas de verde devem ser vizinhas (contíguas).\n • As duas salas pintadas de azul não podem ser vizinhas (contíguas).\n• A sala pintada de amarelo não pode ser vizinha de uma sala pintada de branco.\n• A sala número 3 deve ser pintada de branco.",
+		"imgproblema": "/static/imagens/2003f0n0-salas",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "Se a sala 2 for pintada de verde, qual das seguintes salas deve também ser pintada de verde?",
+				"gabaritoquestao": "A",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "Sala 1"
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "Sala 3"
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Sala 4"
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "Sala 5"
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Sala 6"
+					}
+				]
+			},
+      {
+        "enunciadoquestao": "Se a sala 5 for pintada de branco, qual das seguintes alternativas pode ser verdadeira?",
+        "gabaritoquestao": "E",
+        "imgquestao": null,
+        "alternativas": [{
+            "letraalternativa": "A",
+            "textoalternativa": "Sala 1 é pintada de azul."
+          },
+          {
+            "letraalternativa": "B",
+            "textoalternativa": "Sala 2 é pintada de amarelo."
+          },
+          {
+            "letraalternativa": "C",
+            "textoalternativa": "Sala 4 é pintada de verde."
+          },
+          {
+            "letraalternativa": "D",
+            "textoalternativa": "Sala 4 é pintada de amarelo."
+          },
+          {
+            "letraalternativa": "E",
+            "textoalternativa": "Sala 6 é pintada de azul."
+          }
+        ]
+      },
+      {
+				"enunciadoquestao": "Se a sala 4 for pintada de branco e uma sala que é pintada de verde for vizinha de uma sala que é pintada de branco, qual das seguintes alternativas precisa ser verdadeira?",
+				"gabaritoquestao": "E",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "Sala 1 será pintada de verde."
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "Sala 1 será pintada de amarelo."
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Sala 5 será pintada de azul."
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "Sala 6 será pintada de amarelo."
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Sala 7 será pintada de azul."
+					}
+				]
+			},
+      {
+				"enunciadoquestao": "Qual das seguintes restrições, quando combinada com as restrições originais, tem como conseqüência a determinação completa da cor que cada sala deve ser pintada:",
+				"gabaritoquestao": "D",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": "Sala 1 deve ser pintada de amarelo."
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": "Sala 1 deve ser pintada de verde."
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": "Sala 4 deve ser pintada de azul."
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": "Sala 6 deve ser pintada de branco."
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": "Sala 6 deve ser pintada de azul."
+					}
+				]
+			}
+		]
+	}
+  ]
+}

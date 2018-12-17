@@ -1,0 +1,5 @@
+Pizza Compartilhada
+Uma grande pizza vai ser feita para comemorar a vitória do time de handebol da escola, composto por seis alunos. A pizza vai ser dividida em seis pedaços da forma tradicional, como mostrado na gura abaixo, e cada pedaço vai ser dado a um atleta do time. Uma pizza dividida em seis pedaços Cada atleta prefere um tipo diferente de pizza, e portanto a pizza vai ser feita com seis sabores distintos: atum, bacon, calabresa, mussarela, napolitana e portuguesa. Por solicitação dos atletas, as seguintes condições devem ser obedecidas:
+• O pedaço de portuguesa não deve ser vizinho do pedaço de bacon.
+• O pedaço de atum não deve ser vizinho do pedaço de mussarela.
+• O pedaço de napolitana deve ser vizinho do pedaço de mussarela.

@@ -1,0 +1,176 @@
+{
+"anoprova": 2011,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Metrô",
+		"enunciadoproblema": "O sistema de metrô de uma cidade é composto por cinco linhas (L1, L2, L3, L4 e L5) e oito estações (Retiro, Tupã, Figueira, Serrinha, Utinga, Quebrada, Parque e Guará). Em cada linha, trens circulam nas duas direções, parando a cada estação da linha. ",
+		"regrasproblema": "• A linha L1 é circular e faz a rota Retiro-Tupã-Figueira-Serrinha-Utinga-Quebrada-Parque-Retiro em uma\ndireção, e a rota inversa na outra direção.\n• A linha L2 faz a rota Tupã-Serrinha.\n• A linha L3 faz a rota Retiro-Utinga.\n• A linha L4 faz a rota Quebrada-Guará-Retiro.\n• A linha L5 faz a rota Quebrada-Tupã.\n",
+		"imgproblema": null,
+		"classificacao": [5],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Camisetas da OBI",
+		"enunciadoproblema": "Todos os competidores convidados para os Cursos de Programação da OBI recebem camisetas que devem ser usadas durante a semana do curso. Este ano foram compradas camisetas em três tamanhos: pequeno, médio e grande. As camisetas foram armazenadas em quatro caixas seladas. Para cada um dos três tamanhos de camisetas, há exatamente três caixas que contêm camisetas com esse tamanho. Foram impressas quatro etiquetas que reetem corretamente o conteúdo de cada uma das caixas. No entanto, apenas duas das etiquetas foram colocadas nas caixas corretas; as outras duas etiquetas foram colocadas em caixas erradas, de forma que o conteúdo das caixas não corresponde às etiquetas. Como resultado, as caixas estão etiquetadas da seguinte maneira:",
+		"regrasproblema": "• Caixa 1: Pequenas e Médias\n• Caixa 2: Pequenas e Grandes\n• Caixa 3: Médias e Grandes\n• Caixa 4: Pequenas, Médias e Grandes\n",
+		"imgproblema": null,
+		"classificacao": [9],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Treinos de Futsal",
+		"enunciadoproblema": "A equipe de futsal da escola vai realizar sete jogos-treino, contra as escolas P, Q, R, S e T. As seguintes condições controlam os jogos:",
+		"regrasproblema": "• A equipe vai jogar exatamente três vezes contra P, e exatamente uma vez contra cada outro adversário.\n• Não haverá dois jogos seguidos (ou seja, um jogo imediatamente após o outro) contra P.\n• O jogo contra S será o imediatamente seguinte ao jogo contra T.\n• O primeiro e o último jogos não serão contra Q.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "OBI Fase 2",
+		"enunciadoproblema": "Nove alunos da escola classificaram-se para a Fase 2 da OBI, sendo cinco meninas (Bia, Clara, Deise, Elza e Flora) e quatro meninos (Jair, Kimon, Luís e Mário). A escola vai transportar todos os competidores classificados até o local da prova utilizando duas vans, designadas como van 1 e van 2. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• A van 1 deve levar mais competidores do que a van 2.\n• Cada van deve levar ao menos uma menina e ao menos dois meninos.\n• Kimon e Mário não podem estar na mesma van.\n• Bia deve estar na mesma van que Flora.\n• Mário não pode estar na mesma van que Flora.\n• Deise não pode estar na mesma van que Jair.\n",
+		"imgproblema": null,
+		"classificacao": [7, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Olimpíadas Esportivas",
+		"enunciadoproblema": "As Olimpíadas Esportivas da Escola serão realizadas em uma semana, com seis modalidades: corrida, salto em distância, salto em altura, arremêsso de peso, natação, e judô. Duas modalidades ocorrerão na segunda-feira, duas na terça-feira, e duas na quarta-feira, obedecendo às seguintes restrições:",
+		"regrasproblema": "• Arremêsso de peso ocorre no mesmo dia que natação.\n• Corrida não ocorre no mesmo dia que salto em distância.\n• Se salto em altura ocorre na segunda-feira, corrida ocorre na terça-feira.\n• Se judô ocorre na quarta-feira, salto em distância ocorre na terça-feira.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

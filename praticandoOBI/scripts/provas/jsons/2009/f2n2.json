@@ -1,0 +1,176 @@
+{
+"anoprova": 2009,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Futebol",
+		"enunciadoproblema": "Doze amigos, B, C, D, E, F, G, H, I, J, K, L e M, resolveram jogar uma partida de futebol durante um churrasco de confraternização. Foram montados dois times, X e Y, cada um com seis jogadores. Cada time possui camisetas numeradas de um a seis e as seguintes regras são aplicadas na montagem dos times:",
+		"regrasproblema": "• K está no mesmo time de C, mas não está no\nmesmo time que M. Além disso, sua camisa não\né a de número um nem a de número seis.\n• A camisa de C é a três.\n• J e L estão em times diferentes.\n• G não está no mesmo time que H.\n• D está no time Y e sua camisa é a três.\n• E, G e B têm a camisa quatro, cinco e seis, mas\nnão necessariamente respectivamente e não estão\nnecessariamente no mesmo time.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Carona para a Prova",
+		"enunciadoproblema": "Três professores (C, D e F) estão levando cinco alunos (Q, R, S, T e V) em dois veículos (A e B) para realizarem uma prova em outra cidade. Existem exatamente quatro ocupantes em cada veículo e cada um é dirigido por exatamente um professor. As seguintes regras também são aplicadas:",
+		"regrasproblema": "• S está no veículo que têm mais alunos que professores.\n• T não está no veículo que F está.\n• Se R está no veículo A então V está também no\nveículo A.\n• S tem de estar no veículo A se D estiver no veículo\nB.\n• F não dirige o veículo em que Q está.\n",
+		"imgproblema": null,
+		"classificacao": [14, 7],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Painéis",
+		"enunciadoproblema": "Sete pintores, O, P, Q, R, S, T e U, estão pintando painéis em uma escola. Cada painel tem uma das três cores possíveis: marrom, verde e azul, e eles podem ser pequenos ou grandes. Exatamente dois pintores trabalham em um painel grande e exatamente um pintor trabalha em um painel pequeno. Cada pintor deve pintar um e somente um painel. O primeiro painel pintado é designado como painel um, o segundo painel pintado é designado como painel dois, e assim por diante. As seguintes regras também se aplicam:",
+		"regrasproblema": "• Existem no mínimo quatro e no máximo cinco\npainéis a serem pintados.\n• Qualquer dois painéis numerados consecutivamente não têm a mesma cor.\n• Se o painel foi pintado de azul então somente um\npintor trabalhou nele.\n• O e U devem pintar painéis verdes, que podem\nou não serem o mesmo.\n• P deve pintar um painel marrom.\n• Q e R pintam o painel dois.\n",
+		"imgproblema": null,
+		"classificacao": [13, 10],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Os Carpinteiros",
+		"enunciadoproblema": "Alguns carpinteiros, C, D, F, G, H, J, K e L, estão disponíveis para fazer algumas portas que foram encomendadas. As portas são numeradas de um a três e o modo de fazê-las pode ser simples ou complexo. As portas simples exigem dois carpinteiros e as portas complexas exigem três carpinteiros. Nenhum carpinteiro trabalha em mais de uma porta e nem todos carpinteiros precisam estar trabalhando em alguma porta. As seguintes regras também são aplicadas:",
+		"regrasproblema": "• F e K estão trabalhando em alguma das portas,\nmas não a mesma.\n• J e D estão trabalhando em alguma das portas,\nmas não a mesma.\n• Se C e L estão trabalhando na mesma porta,\nentão esta porta é complexa.\n• Se G e K estão trabalhando na mesma porta,\nentão esta porta é simples.\n",
+		"imgproblema": null,
+		"classificacao": [8, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Faxina",
+		"enunciadoproblema": "Durante um período de 10 semanas, Dona Cida irá limpar oito casas: A, B, G, H, I, M, P e W. Cada casa é limpa uma única vez e somente uma casa pode ser limpa por semana. Excluindo estas oito, nenhuma outra casa é limpa neste período. As seguintes regras também são aplicadas:",
+		"regrasproblema": "• As casas A, M e G são limpas em semanas consecutivas, mas não necessariamente nesta ordem.\n• A casa B é limpa em alguma semana antes da\ncasa M e em alguma semana antes da casa P.\n• A casa W é limpa imediatamente antes ou imediatamente depois a uma semana que nenhuma\ncasa é limpa.\n• A casa I não é limpa imediatamente antes ou imediatamente depois a uma semana que nenhuma\ncasa é limpa.\n• A casa P é limpa em alguma semana antes da\ncasa W que, por sua vez, é limpa em alguma semana após a casa I.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

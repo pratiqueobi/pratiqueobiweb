@@ -1,0 +1,19 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block titulo %}
+    Provas
+{% endblock %}
+
+{% block container %}
+
+    <ul class="list-group">
+    {% for prova in provas %}
+
+    <li class="list-group-item" ><b>{{ prova.anoprova }} - Fase {{prova.faseprova}} - Nível {{prova.nivelprova}}</b><br/>
+    <a target="_blank" href="{{prova.urlprova}}"> Acesse </a><br/>
+        <a href="{% url 'provas_obi:url_prob' prova.codprova %}">Ver problemas</a></li>
+    {% endfor%}
+    </ul>
+
+{% endblock %}

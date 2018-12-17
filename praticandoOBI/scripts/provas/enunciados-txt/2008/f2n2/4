@@ -1,0 +1,17 @@
+Reações Químicas
+Um químico está misturando substâncias para desenvolver dois novos produtos para a indústria. Para isso ele conta com nove tipos de substâncias: J, K, L, M, N, O, P, Q e R. Cada substância deve estar presente em apenas um dos dois produtos: o produto A ou o produto B, ou seja, se, por exemplo, J foi usado no produto A então J não pode ser usado no produto B. Exatamente cinco substâncias serão misturadas para obter um dos produtos e as outras quatro serão misturadas para obter o outro produto. As seguintes condições também se aplicam:
+• Se J está no produto A então tanto M quanto N
+devem estar no produto B.
+• No produto em que K estiver não pode estar nem
+M nem R.
+• A substância O deve ser a última substância a ser
+misturada no desenvolvimento do produto que
+contém exatamente quatro substâncias.
+• A substância P deve ser misturada ao produto
+que contém exatamente cinco substâncias.
+• A substância R deve ser a segunda a ser misturada no produto A ou deve ser a terceira a ser
+misturada no produto B.
+• A substância K deve ser a quarta a ser misturada
+independentemente do produto.
+• A substância L é a terceira a ser misturada no
+produto A.

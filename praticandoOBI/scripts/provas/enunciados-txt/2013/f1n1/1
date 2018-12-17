@@ -1,0 +1,8 @@
+Gincana de Programação
+A SBC vai promover a primeira Gincana de Programação, uma competição de programação em que o competidor deve resolver cinco tarefas de programação (A, B, C, D e E), durante um final de semana (sábado e domingo). As tarefas devem ser enviadas para a SBC, pela internet, de acordo com as seguintes regras:
+• Duas ou três das tarefas devem ser enviadas no sábado, as restantes no domingo.
+• A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada.
+• A tarefa B deve ser enviada no domingo.
+• A tarefa D deve ser enviada no mesmo dia em que a tarefa A é enviada.
+• Se a tarefa C é enviada no sábado, então a tarefa D deve ser enviada no domingo.
+João vai participar da competição e pediu sua ajuda para seguir as regras corretamente.

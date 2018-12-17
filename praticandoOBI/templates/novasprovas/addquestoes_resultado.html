@@ -1,0 +1,28 @@
+{% extends './addquestoes.html' %}
+{% load static %}
+
+{% block titulo %}
+    Buscar Questões
+{% endblock %}
+
+{% block container %}
+<link href="{% static 'admin/css/breadcrumb.css' %}" rel="stylesheet">
+		<ul class="breadcrumb">
+			<li class="completed"><a href="{% url 'usuarios_obi:provaperson' %}">Dados da Prova</a></li>
+            <li class="active"><a href="{% url 'usuarios_obi:questoes_busca' pk %}">Buscar Questões</a></li>
+            <li><a>Selecionar Questões</a></li>
+			<li><a>Prova Pronta!</a></li>
+		</ul>
+    <p>Resultados para: <strong>{{ query }}</strong></p>
+    {% if provas %}
+        <p>Encontrou {{provas|length }} prova{{provas|pluralize}}. </p>
+        <ul>
+            {% for p in provas %}
+                <li><a href="{% url 'usuarios_obi:questoes_add' pk p.codprova %}">{{p.anoprova}} - Fase {{p.faseprova}} - Nível {{p.nivelprova}}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum resultado encontrado para a sua pesquisa.</p>
+    {% endif %}
+    <a href="{% url 'usuarios_obi:questoes_busca' provaperson.pk %}" class="btn btn-primary"><span>Nova busca</span></a>
+{% endblock %}

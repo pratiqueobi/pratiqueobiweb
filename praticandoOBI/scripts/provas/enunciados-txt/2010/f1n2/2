@@ -1,0 +1,10 @@
+Críticos de Cinema
+Cinco filmes, numerados de 1 a 5, serão avaliados por críticos de cinema. Ao todo são oito críticos de cinema: M, N, P, Q, R, S, T e U. Cada filme será avaliado por um único crítico, e cada crítico avaliará no máximo um filme. A determinação de qual crítico avalia qual filme deve obedecer as seguintes condições:
+• Ao menos um dos críticos M e U deve avaliar um
+filme.
+• Se M avalia um filme ele deve ser o filme 1.
+• O filme 3 só pode ser avaliado por R ou por S.
+• Se T avalia um filme, então P também deve avaliar um filme, e neste caso, T e P devem avaliar
+filmes de números contíguos (ou seja, a diferença
+entre os números dos filmes avaliados por T e P
+é exatamente 1).

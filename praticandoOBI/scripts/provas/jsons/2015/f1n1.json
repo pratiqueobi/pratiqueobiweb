@@ -1,0 +1,108 @@
+{
+"anoprova": 2015,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Show de Talentos",
+		"enunciadoproblema": "No tradicional Show de Talentos da escola os alunos podem apresentar-se para mostrar suas diversas habilidades. Vale tudo: música, drama, malabarismo,... Este ano, sete alunos (A, B, C, D, E, F e G) estão inscritos. Cada aluno se apresentará uma única vez, em um dos sete turnos do Show, numerados de 1 a 7. As seguintes restrições devem ser obedecidas para decidir a ordem de apresentação:",
+		"regrasproblema": "• A deve apresentar-se no turno 3 ou no turno 5.\n• F não pode se apresentar nem no turno 4 nem no turno 6.\n• Se D se apresentar no turno 1, C deve se apresentar no turno 2.\n• Se E se apresentar no turno 4, F deve se apresentar no turno 5.\n• B deve se apresentar no turno imediatamente após o turno em que C se apresentar.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Maratona de Exames",
+		"enunciadoproblema": "A escola decidiu realizar todas as provas dos exames finais em um único dia. São sete disciplinas, identificadas como A, B, C, D, E, F e G. Cada exame vai durar 50 minutos, de forma que eles podem ser alocados de hora em hora. Devido a problemas dos professores, as seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• Os exames serão num sábado, nos horários 6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00.\n• A disciplina A deve ter seu exame às 6:00.\n• O exame da disciplina E deve ser após o exame da disciplina C e também após o exame da\ndisciplina B.\n• O exames das disciplinas D, F e G devem ser em horários consecutivos, nessa ordem.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Desenvolvedores de jogos",
+		"enunciadoproblema": "Cinco amigos: Bia, Carla, Dino, Edu e Flora, resolveram desenvolver um novo jogo de computador. As tarefas foram divididas em: Arte, Programação, Roteiro, Sons e Testes. Cada um vai ser responsável por uma única tarefa, mas algumas condições devem ser obedecidas na divisão das tarefas:",
+		"regrasproblema": "• Edu não trabalha em Roteiro.\n• Bia só trabalha em Programação ou Testes.\n• Flora trabalha em qualquer tarefa, mas se Carla trabalhar em Arte, Flora vai trabalhar em\nProgramação.\n• Dino trabalha somente em Roteiro ou em Programação.\n",
+		"imgproblema": null,
+		"classificacao": [10, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

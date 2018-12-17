@@ -1,0 +1,142 @@
+{
+"anoprova": 2017,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Final de Semana Feliz",
+		"enunciadoproblema": "Os alunos da escola organizam uma loteria semanal para arrecadar dinheiro para a festa de formatura. Cada aluno paga um valor de aposta de R$ 1,00 e escolhe quatro números distintos entre 1 e 20. A Comissão de Formatura, que organiza a loteria, guarda uma parte do valor arrecadado com as apostas para a festa de formatura, e com o valor restante paga o prêmio para o ganhador ou ganhadores. Para determinar o ganhador ou ganhadores, após a última aula da semana são sorteados quatro números distintos entre 1 e 20. O prêmio é dividido entre os apostadores que acertaram os quatro números sorteados. Se ninguém acertar os números sorteados, o prêmio acumula para a próxima semana.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Faxina",
+		"enunciadoproblema": "Quatro irmãos, Aldo, Bruno, Carlos e Douglas, resolveram ajudar na limpeza doméstica. Os cômodos que precisam ser limpos são: banheiro, cozinha, quarto e sala. Cada irmão vai limpar um único cômodo. A mãe deles irá escolher quem vai trabalhar em qual cômodo, mas eles só trabalham com algumas condições:",
+		"regrasproblema": "• Carlos não limpa o banheiro.\n• Bruno limpa somente o banheiro ou a sala.\n• Se Carlos limpa a cozinha, então Aldo limpa o banheiro.\n• Douglas limpa somente a cozinha ou o quarto.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Rodoviária",
+		"enunciadoproblema": "Exatamente sete ônibus chegam à Rodoviária Municipal aos sábados. Cada ônibus vem de uma cidade diferente: Quirino, Rochinha, Sampaio, Tombo, Vitória, Xexéu e Zacarias. As seguintes condições existem sobre suas chegadas:",
+		"regrasproblema": "• Os ônibus chegam um de cada vez.\n• Ou o ônibus de Zacarias ou de Xexéu é o quarto a chegar.\n• O ônibus de Sampaio chega em algum momento depois do de Xexéu mas antes do de Zacarias.\n• Tanto o ônibus de Tombo como o de Vitória chegam em algum momento após o de Rochinha.\n• O ônibus de Tombo não é o próximo a chegar depois do ônibus de Vitória; nem o ônibus de\nVitória é o próximo a chegar depois do ônibus de Tombo.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Horta da escola",
+		"enunciadoproblema": "Os professores da escola resolveram manter uma horta na própria escola, para incrementar a merenda. A horta contém no máximo cinco de sete hortaliças – alface, beringela, couve, maxixe, pimentão, salsa e tomate, obedecendo às seguintes condições:",
+		"regrasproblema": "• Se a horta tem couve, então a horta não tem tomate.\n• Se a horta tem alface, então a horta não tem pimentão.\n• Se a horta não tem tomate, então a horta tem beringela ou maxixe, mas não ambos.\n• Se a horta não tem beringela ou não tem maxixe, então a horta tem alface e salsa.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

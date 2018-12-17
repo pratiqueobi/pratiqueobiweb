@@ -1,0 +1,6 @@
+Artes Marciais
+Durante uma exibição de artes marciais, os quatro mestres, E, F, G e H irão lutar cada um com somente um dos aprendizes, A, B, C e D. As quatro lutas ocorrerão uma em seguida da outra, da primeira a quarta de acordo com as seguintes regras:
+• C luta em algum momento antes de F.
+• G luta em algum momento antes de B.
+• D luta em algum momento depois de B e em algum momento depois de C.
+• B e F não lutam um contra o outro.

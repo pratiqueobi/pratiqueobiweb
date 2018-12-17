@@ -1,0 +1,278 @@
+{
+"anoprova": 2016,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Pilha de limões",
+		"enunciadoproblema": "Para expor seus limões para venda, um feirante os empilha em camadas, cada uma das quais tem a forma de um triângulo. A figura abaixo mostra as quatro primeiras camadas da pilha de limões.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2016f2n2-limoes.jpg",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Alojamento da Vila Olímpica",
+		"enunciadoproblema": "Oito atletas, J, K, L, M, N, O, P e Q vão utilizar um prédio de cinco andares na Vila Olímpica. Em cada andar do prédio há dois apartamentos, um do tipo quitinete e um do tipo quarto e sala. Os andares são designados de primeiro a quinto, sendo primeiro o andar térreo. O seguinte é conhecido sobre o arranjo dos atletas que vão ocupar o prédio:",
+		"regrasproblema": "• Nenhum atleta compartilha o apartamento com outro atleta.\n• Nenhum atleta ocupa o apartamento quitinete do quinto andar.\n• Nenhum atleta ocupa o apartamento quarto e sala do terceiro andar.\n• M ocupa o apartamento quitinete do segundo andar.\n• P ocupa o apartamento quitinete do quarto andar.\n• Ambos M e O estão em um andar mais alto do que Q.\n• K, N e Q ocupam apartamentos quarto e sala.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Biomas",
+		"enunciadoproblema": "Um bioma é um conjunto de ecossistemas (comunidades biológicas) que possuem características semelhantes devido a diferentes fatores, como por exemplo clima. Um geógrafo está criando um mapa de biomas de seis países: A, B, C, D, E e F. Cada país contém ao menos um de três tipos de biomas: floresta, savana e deserto – e nenhum outro tipo. As seguintes restrições existem:",
+		"regrasproblema": "• D e exatamente três outros países contêm floresta.\n• F contém mais tipos de bioma do que E.\n• C não contém nenhum tipo de bioma que A contém.\n• B contém exatamente dois tipos de bioma.\n• E contém tanto savana como deserto.\n• A não contém nenhum tipo de bioma que E contém.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Arroz e feijão",
+		"enunciadoproblema": "Um caminhão de entregas precisa visitar exatamente cinco supermercados – A, B, C, D e E – para entregar encomendas de pacotes de arroz e feijão. O caminhão visita cada supermercado exatamente uma vez. As seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• O caminhão entrega arroz para todo supermercado ao qual ele entrega feijão.\n• O caminhão entrega feijão para o segundo supermercado que ele visita.\n• O caminhão entrega feijão tanto para o supermercado B como para o supermercado D.\n• O terceiro supermercado que o caminhão visita é E.\n• O caminhão visita o supermercado A em algum momento após visitar o supermercado B, e\nvisita o supermercado C em algum momento antes de visitar o supermercado A.\n• O caminhão entrega apenas arroz ao supermercado C.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Estudo diário",
+		"enunciadoproblema": "Bia decidiu que na semana que vem vai estudar todas as noites, iniciando no domingo e terminando no sábado. Ela quer fazer a programação do que estudar em cada um dos dias, entre matemática, física, química, artes, música, história e geografia, obedecendo às seguintes restrições:",
+		"regrasproblema": "• Ela deve estudar matemática ou na noite anterior ou na noite seguinte em que ela estudar\nmúsica.\n• Ela deve estudar física ou na noite anterior ou na noite seguinte em que ela estudar ou artes ou\nhistória.\n• Ela não pode estudar geografia na noite anterior ou na noite seguinte em que ela estudar\nquímica.\n• Ela deve estudar química na segunda-feira.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Formatura",
+		"enunciadoproblema": "A Comissão de Formatura da escola está escolhendo o orador da turma na cerimônia de formatura. Ficou decidido que neste ano uma menina seria a oradora da turma. Exatamente sete alunas – Fernanda, Guta, Hortênsia, Iara, Júlia, Kátia e Lia – foram selecionadas para uma entrevista. Cada aluna será entrevistada exatamente uma vez, de acordo com as seguintes restrições:",
+		"regrasproblema": "• Iara será a primeira ou a última entrevistada.\n• Ou Guta ou Júlia deve ser a quarta entrevistada.\n• Hortênsia é entrevistada imediatamente antes de Lia.\n• Guta é entrevistada em algum momento antes de Kátia.\n• Júlia não é entrevistada imediatamente antes ou imediatamente após Kátia.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Escola de Música",
+		"enunciadoproblema": "Cada uma das cinco professoras de uma escola de música para crianças – I, J, K, M e P – dão aulas de um ou mais dos seguintes instrumentos: flauta, gaita, piano e violão. As professoras não dão aulas de nenhum outro instrumento. As seguintes condições são obedecidas:",
+		"regrasproblema": "• P e J não dão aulas do mesmo instrumento.\n• Apenas duas professoras dão aulas de gaita.\n• M dá aulas de mais instrumentos do que K.\n• K dá aulas somente de piano e violão.\n• I dá aulas de mais instrumentos do que qualquer outra professora da escola.\n• M dá aulas de gaita.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Zoológico",
+		"enunciadoproblema": "A Direção do Zoológico Municipal está decidindo quais aves e mamíferos serão exibidos. As aves e mamíferos escolhidos serão colocados em cinco viveiros consecutivos, numerados de 1 a 5, da esquerda para a direita. Cada viveiro abrigará uma de três espécies de aves – beija-flor, canário ou periquito – e uma de três espécies de mamíferos – anta, sagui e tamanduá. A Diretora deve obedecer às seguintes restrições:",
+		"regrasproblema": "• Se canários forem colocados em um dos viveiros, antas devem ser colocadas nesse mesmo\nviveiro.\n• Se tamanduás forem colocados em um dos viveiros, beija-flores não podem ser colocados nesse\nviveiro.\n• Em pelo menos um viveiro, periquitos e antas estão juntos.\n• Periquitos não são colocados em viveiros consecutivos.\n• Se beija-flores e canários são exibidos, beija-flores devem sempre ser colocados em viveiros de\nnúmero menor do que os viveiros de canários.\n• O viveiro 2 contém tamanduás.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

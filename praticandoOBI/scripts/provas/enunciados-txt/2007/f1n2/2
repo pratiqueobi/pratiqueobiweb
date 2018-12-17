@@ -1,0 +1,14 @@
+Aluguel de Filmes
+Fernanda pretende alugar alguns filmes para o fim de semana, ela pode escolher os seguintes gêneros: drama, terror, suspense, policial, comédia, aventura, faroeste, romance e documentário. Sua escolha deve seguir estas condições:
+• Terror e drama não podem ser alugados juntos.
+• Alugando comédia também deve-se alugar terror.
+• Todos que alugam documentário alugam também
+romance.
+• Todos os que alugam romance alugam também
+suspense.
+• Se suspense é alugado, então policial também é
+alugado.
+• Se comédia é alugado, então drama também é
+alugado.
+• Se faroeste for alugado, então suspense não pode
+ser alugado.

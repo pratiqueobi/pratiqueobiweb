@@ -1,0 +1,7 @@
+Formatura
+A Comissão de Formatura da escola está escolhendo o orador da turma na cerimônia de formatura. Ficou decidido que neste ano uma menina seria a oradora da turma. Exatamente sete alunas – Fernanda, Guta, Hortênsia, Iara, Júlia, Kátia e Lia – foram selecionadas para uma entrevista. Cada aluna será entrevistada exatamente uma vez, de acordo com as seguintes restrições:
+• Iara será a primeira ou a última entrevistada.
+• Ou Guta ou Júlia deve ser a quarta entrevistada.
+• Hortênsia é entrevistada imediatamente antes de Lia.
+• Guta é entrevistada em algum momento antes de Kátia.
+• Júlia não é entrevistada imediatamente antes ou imediatamente após Kátia.

@@ -1,0 +1,176 @@
+{
+"anoprova": 2013,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Nova empresa no mercado",
+		"enunciadoproblema": "Uma nova empresa foi criada para produzir aplicativos para telefones celulares. A empresa tem apenas cinco empregados: A, B, C, D e E. Cada empregado tem exatamente uma das seguintes funções: presidente, gerente ou desenvolvedor. Há apenas um presidente, e ele é o único que não é supervisionado. Cada um dos outros empregados é supervisionado, ou pelo presidente ou por um gerente. As seguintes restrições existem:",
+		"regrasproblema": "• Um empregado supervisionado e seu supervisor têm funções diferentes.\n• Pelo menos um dos empregados que o presidente supervisiona é um gerente.\n• Cada gerente supervisiona pelo menos um empregado.\n• A não supervisiona nenhum empregado.\n• B supervisiona exatamente dois empregados.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogos Demais!",
+		"enunciadoproblema": "Cada dia da semana, de segunda a sexta-feira, após a escola e os deveres de casa, João entra na Internet para jogar um de três jogos, X, Y e Z. Um dos jogos custa R$ 1, 00 por dia jogado, outro custa R$ 1, 20 por dia jogado, e o outro custa R$ 1, 50 por dia jogado. João joga exatamente um jogo por dia, e joga cada um desses três jogos ao menos uma vez por semana. Ele também obedece às seguintes restrições:",
+		"regrasproblema": "• Às quintas-feiras, João joga o jogo que custa R$ 1, 50.\n• O jogo X custa mais do que o jogo Z.\n• O jogo que João joga às quartas-feiras é mais caro do que o jogo que ele joga às sextas-feiras.\n• João joga o jogo Z mais vezes por semana do que ele joga o jogo X.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogos de Futebol",
+		"enunciadoproblema": "No período de um mês o time de futebol da escola vai jogar exatamente sete jogos. Cada um dos jogos será contra o time de uma seguintes escolas: Franciscano, Marista, Rumo, Salesiano ou Terra. As seguintes restrições governam a escolha dos jogos:",
+		"regrasproblema": "• Haverá três jogos contra o Franciscano, e exatamente um jogo contra cada um dos outros times.\n• Não haverá dois jogos consecutivos contra o Franciscano.\n• O jogo contra o Salesiano é o jogo imediatamente seguinte ao jogo contra o Terra.\n• Nem o primeiro jogo nem o último jogo são contra o Marista.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Seleção de Boliche",
+		"enunciadoproblema": "O professor de educação física quer montar a seleção de boliche da escola. Para ter uma seleção forte e diversificada, o professor quer que haja na equipe ao menos um jogador canhoto (que joga com a mão esquerda) e um jogador destro (que joga com a mão direita). Os jogadores canhotos são A, B, C, D e F, e os destros são Q, R, S e Z. A equipe selecionada deve ter no mínimo três e no máximo seis jogadores. Além disso o professor deve obedecer às seguintes restrições:",
+		"regrasproblema": "• Se B é selecionado, então R deve ser também selecionado.\n• S não é selecionado se R é selecionado.\n• Se Z não é selecionado, então B deve ser selecionado.\n• A ou Z devem selecionados, mas os dois não podem ser selecionados juntos.\n• R não é selecionado a menos que F seja selecionado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Competição de duplas mistas",
+		"enunciadoproblema": "Três meninas (Kátia, Maria e Olívia) e três meninos (João, Luís e Nei) participam de uma competição de esportes, para duplas mistas (um menino e uma menina). As duplas formadas são Kátia e João, Maria e Luís, Olívia e Nei. Cada competidor escolhe exatamente um esporte para competir, entre corrida, salto em altura, nado de peito, nado de costas e ciclismo. Os competidores escolhem obedecendo as seguintes restrições:",
+		"regrasproblema": "• As duas pessoas de uma dupla não escolhem o mesmo esporte.\n• Nenhum dos meninos escolhe o mesmo esporte que outros meninos.\n• Maria escolhe nado de peito.\n• Nem João nem Nei escolhem um esporte de água.\n• Olívia escolhe salto em altura.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

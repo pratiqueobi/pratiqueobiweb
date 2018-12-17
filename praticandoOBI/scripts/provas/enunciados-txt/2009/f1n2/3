@@ -1,0 +1,13 @@
+Carteira de motorista
+Nove pessoas: H, I, J, K, L, M, N, O e P, receberam a habilitação para dirigir. No mínimo quatro delas têm permissão para dirigir carro e no mínimo quatro delas têm permissão para dirigir moto. As seguintes condições também se aplicam:
+• Não mais que duas pessoas têm permissão para
+dirigir tanto carro quanto moto.
+• M tem permissão para dirigir um dos veículos,
+mas não ambos.
+• K tem permissão para dirigir moto.
+• J somente tem permissão para dirigir carro se H
+tiver permissão para moto.
+• H não tem permissão para dirigir moto se I tiver
+permissão para moto.
+• P e N têm pelo menos um tipo de permissão em
+comum.

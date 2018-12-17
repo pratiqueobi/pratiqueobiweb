@@ -1,0 +1,12 @@
+Jogo de Palavras
+Maria inventou um jogo no qual uma “palavra” é definida como uma combinação de letras do alfabeto (note que nesse jogo uma palavra pode ser real, como novela, ou não existente, abbca). O jogo consiste em montar “sentenças” de exatamente cinco palavras que obedeçam às seguintes condições:
+• As cinco palavras devem ser escritas em uma única linha, da esquerda para a direita, em ordem
+alfabética.
+• A sentença pode iniciar com qualquer palavra, e cada palavra seguinte deve ser formada
+aplicando exatamente uma das seguintes operações sobre a palavra anterior: remover uma
+letra; adicionar uma letra; trocar uma letra por outra letra qualquer.
+• Cada palavra deve conter ao menos quatro letras diferentes.
+• No máximo três das palavras podem começar com uma mesma letra.
+• Exceto pela palavra mais à esquerda, cada palavra é formada por uma operação distinta da
+operação usada para formar a palavra imediatamente à esquerda (em outras palavras, uma
+operação não pode ser aplicada duas vezes em sequência).

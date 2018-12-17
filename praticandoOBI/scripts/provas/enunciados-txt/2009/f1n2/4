@@ -1,0 +1,12 @@
+Escolha do Curso
+Sete estudantes devem escolher em quais cursos universitários irão se matricular. Quatro estudantes são homens, J, K, L e M. Três estudantes são mulheres, X, Y e Z. Cada estudante deve se matricular em um e somente um curso superior dos quatros seguintes: Ciência da Computação diurno, Ciência da Computação noturno, Engenharia de Computação diurno ou Engenharia de Computação noturno. No mínimo um estudante deve se matricular em cada curso e as seguintes regras também são aplicadas:
+• Se K se matricula no curso de Ciência da Computação, então L e X também se matriculam
+em Ciência da Computação, mas não necessariamente no mesmo período.
+• Se M se matricula no curso de Engenharia de
+Computação, então Y se matricula no curso de
+Engenharia de Computação noturno.
+• Y e Z devem se matricular no mesmo curso.
+• No mínimo dois homens devem se matricular no
+curso de Engenharia de Computação diurno.
+• Nenhuma mulher se matriculou no curso de
+Ciência da Computação diurno.

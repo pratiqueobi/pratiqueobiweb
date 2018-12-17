@@ -1,0 +1,108 @@
+{
+"anoprova": 2012,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Festa na escola",
+		"enunciadoproblema": "Daniel prometeu levar suco de laranja para uma festa na escola, mas para carregar o suco ele possui somente cinco garrafas: uma com capacidade de até 7 litros, uma com capacidade de até 3 litros, uma com capacidade de até 5 litros e mais duas com capacidade de até 4 litros. Com base no enunciado responda as seguintes questões:",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [10],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Cada um no seu lugar",
+		"enunciadoproblema": "Numa sala de aula existem cinco cadeiras, numeradas de 1 a 5, numa fileira junto à janela e sete alunos que ali desejam sentar: Douglas, Eduardo, Gustavo, Henrique, João, Karen e o Leonardo. A professora resolveu que somente quatro alunos vão ocupar as cadeiras. Cada aluno senta em somente uma cadeira e restará uma vazia. Somente cadeiras com números consecutivos são consideradas adjacentes. As seguinte condições também influenciam a decisão da professora:",
+		"regrasproblema": "• Se Douglas for selecionado então ele deve ficar na cadeira 1.\n• Se Leonardo for selecionado ele deve ficar na cadeira 2.\n• Se Karen for selecionada ela deve ficar na cadeira 4.\n• Se Eduardo ou Gustavo for selecionado então ambos devem ser selecionados e colocados em\ncadeiras adjacentes.\n• Se Eduardo é selecionado então Leonardo também deve ser.\n• Henrique deve ser selecionado ou Karen deve ser selecionada mas não ambos.\n",
+		"imgproblema": null,
+		"classificacao": [17, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Professores de Informática",
+		"enunciadoproblema": "A Secretaria Municipal de Educação decidiu contratar seis professores (Júlia, Karina, Laura, Nei, Olavo e Pedro) para ensinar Programação de Computadores para todas as turmas de duas escolas:",
+		"regrasproblema": "Atenas e Babilônia. As seguintes condições devem ser obedecidas:\n• Cada professor dará aulas em uma única escola.\n• Karina dará aulas em Babilônia se Júlia der aulas em Atenas.\n• Olavo dará aulas em Atenas se Júlia der aulas em Babilônia.\n• Se Laura der aulas em Atenas, então ambos Nei e Pedro darão aulas em Babilônia.\n• Se Nei der aulas em Babilônia, então Olavo também dará aulas em Babilônia.\n• Se Pedro der aulas em Babilônia, então ambos Karina e Olavo darão aulas em Atenas.\n",
+		"imgproblema": null,
+		"classificacao": [7, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

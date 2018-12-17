@@ -1,0 +1,142 @@
+{
+"anoprova": 2007,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Cada Um No Seu Lugar",
+		"enunciadoproblema": "Numa sala de aula existem cinco cadeiras, numeradas de 1 a 5, numa fileira junto à janela e sete alunos que ali desejam sentar: Douglas, Eduardo, Gustavo, Henrique, João, Karen e Leonardo. A professora resolveu que somente quatro alunos vão ocupar as cadeiras. Cada aluno senta em somente uma cadeira e restará uma vazia. Somente cadeiras com números consecutivos são consideradas adjacentes. As seguinte condições também influenciam a decisão da professora:",
+		"regrasproblema": "• Se Douglas for selecionado então ele deve ficar na\ncadeira 1.\n• Se Leonardo for selecionado ele deve ficar na cadeira 2.\n• Se Karen for selecionada ela deve ficar na cadeira\n4.\n• Se Eduardo ou Gustavo for selecionado então ambos devem ser selecionados e colocados em cadeiras adjacentes.\n• Se Eduardo é selecionado então Leonardo\ntambém deve ser.\n• Henrique deve ser selecionado ou Karen deve ser\nselecionada mas não ambos.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Aluguel de Filmes",
+		"enunciadoproblema": "Fernanda pretende alugar alguns filmes para o fim de semana, ela pode escolher os seguintes gêneros: drama, terror, suspense, policial, comédia, aventura, faroeste, romance e documentário. Sua escolha deve seguir estas condições:",
+		"regrasproblema": "• Terror e drama não podem ser alugados juntos.\n• Alugando comédia também deve-se alugar terror.\n• Todos que alugam documentário alugam também\nromance.\n• Todos os que alugam romance alugam também\nsuspense.\n• Se suspense é alugado, então policial também é\nalugado.\n• Se comédia é alugado, então drama também é\nalugado.\n• Se faroeste for alugado, então suspense não pode\nser alugado.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Quem Ganhou o Jogo?",
+		"enunciadoproblema": "No jogo do par ou ímpar cada jogador escolhe com qual tipo de número vencerá, se um optou por par o outro fica, conseqüentemente, com ímpar. Na rodada deste jogo, dois competidores contam até três e mostram, ao mesmo tempo, somente uma de suas mãos revelando de zero a cinco dedos. A soma dos dedos mostrados nas duas mãos dará o vencedor: se a soma for um número par vence quem escolheu par no ínicio e se a soma for ímpar vence o adversário que escolheu ímpar. Roberto e Ana estão usando o jogo do par ou ímpar para realizar uma competição entre eles. Roberto sempre escolhe ímpar e Ana sempre escolhe par. Várias rodadas são realizadas e a cada jogada Ana anota numa nova ficha branca qual o número colocado por ela. O mesmo é feito por Roberto que anota suas jogadas cada qual em uma ficha da cor azul. No fim do dia, eles juntam as fichas e retornam para casa. No caminho Roberto tropeça e derruba todas as fichas. Mesmo podendo saber de quem era qual ficha não podem descobrir a ordem em que elas se encontravam. Roberto e Ana precisam agora saber quem venceu a competição.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Meu Primeiro Computador",
+		"enunciadoproblema": "Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas “A”,“B”,“C”,“D”e “E”. Existe ainda uma memória interna, chamada “NUM”, que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito resultante dependerá da seqüência digitada. As ações associadas a cada uma são:",
+		"regrasproblema": "• Se “A”é pressionada: “NUM”é inicializado com\no valor dez.\n• Se “B”é pressionada: É armazenado em “NUM”\no valor que ele possuía subtraído um.\n• Se “C”é pressionada: É armazenado em “NUM”\no valor que ele possuía subtraído dois.\n• Se “D”é pressionada: É armazenado em “NUM”\no valor que ele possuía somado um.\n• Se “E”é pressionada: É impresso na tela o valor\ncontido em “NUM”.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

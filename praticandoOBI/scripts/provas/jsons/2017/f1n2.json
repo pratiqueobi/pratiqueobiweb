@@ -1,0 +1,108 @@
+{
+"anoprova": 2017,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Pirata!",
+		"enunciadoproblema": "Um pirata quer transportar, do seu navio para a sua ilha secreta, quatro arcas repletas de tesouros roubados: uma arca com Diamantes, uma arca com Esmeraldas, uma arca com Moedas de Ouro e uma arca com Moedas de Prata. Cada uma das arcas pesa 80 quilos, e o valor das arcas são diferentes entre si, sendo que a arca com Diamantes é a mais valiosa, seguida da arca com Esmeraldas, seguida da arca com Moedas de Ouro, seguida da arca com Moedas de Prata, que é a menos valiosa. O pirata tem apenas um barquinho para levar as arcas do navio para a ilha, e existem duas restrições:",
+		"regrasproblema": "• o barquinho pode carregar, além do pirata, no máximo 200 quilos.\n• as arcas estão lacradas e não podem ser abertas; assim, o pirata deve levar a arca inteira no\nbarquinho ou não levar a arca.\nNas questões abaixo, considere que uma viagem compreende o trajeto navio-ilha-navio.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Condomínio colorido",
+		"enunciadoproblema": "Um condomínio composto por exatamente seis casas, R, S, W, X, Y e Z, decidiu pintar todas as casas, com a condição de que casas vizinhas não podem ter a mesma cor. As únicas casas vizinhas são as seguintes:",
+		"regrasproblema": "• R, S, X e Y são vizinhas de W.\n• X é vizinha de Y.\n• R e S são vizinhas de Z.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "CD Independente",
+		"enunciadoproblema": "Uma banda formada por alunos e alunas da escola está gravando um CD com exatamente sete músicas distintas – S, T, V, W, X, Y e Z. Cada música ocupa exatamente uma das sete faixas contidas no CD. Algumas das músicas são sucessos antigos de rock; outras são composições da própria banda. As seguintes restrições devem ser obedecidas:",
+		"regrasproblema": "• S ocupa a quarta faixa do CD.\n• Tanto W como Y precedem S no CD (ou seja, W e Y estão numa faixa que é tocada antes de S\nno CD).\n• T precede W no CD (ou seja, T está numa faixa que é tocada antes de W).\n• Um sucesso de rock ocupa a sexta faixa do CD.\n• Cada sucesso de rock é imediatamente precedido no CD por uma composição da banda (ou seja,\nno CD cada sucesso de rock toca imediatamente após uma composição da banda).\n• Z é um sucesso de rock.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

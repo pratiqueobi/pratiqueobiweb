@@ -1,0 +1,9 @@
+Marionetes
+Um grupo de manipulação de bonecos precisa se apresentar em sete cidades: E, F, G, H, I, J e S. As seguintes condições influenciam a ordem de visita às cidades:
+• Cada cidade só deve ser visitada uma vez.
+• A cidade E deve ser visitada antes de F.
+• A cidade F deve ser visitada antes de I.
+• A cidade I deve ser visitada após G.
+• A cidade H deve ser visitada após G.
+• A cidade J deve ser visitada após I.
+• A cidade S não pode ser visitada nem imediatamente antes, nem imediatamente depois das cidades F ou I.

@@ -1,0 +1,9 @@
+No Restaurante Italiano
+Sandro sempre que vai ao restaurante italiano põe em sua macarronada no mínimo dois dos três tipos disponíveis de molhos: molho 1, molho 2 e molho 3. Além disso, acrescenta ao prato um ou mais acompanhamentos dos seis tipos disponíveis: U, V, W, X, Y e Z.
+• Se U é adicionado então V deve também ser adicionado ao prato.
+• U ou X deve ser adicionado, mas não ambos.
+• Se Z é adicionado então V não pode ser adicionado ao prato.
+• Se o molho 1 é colocado na macarronada então os
+acompanhamentos V e W devem ser adicionados.
+• Se o molho 3 é colocado na macarronada então o
+acompanhamento Z deve ser adicionado.

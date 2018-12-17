@@ -1,0 +1,8 @@
+Os Astronautas
+Será criado um grupo de quatro astronautas para tripular um ônibus espacial que orbitará ao redor da Terra. Como candidatos existem quatro físicos: F, G, H e I, e quatro matemáticos: R, S, T e U. Para a seleção são consideradas as seguintes condições:
+• O grupo deve ser formado por exatamente dois
+físicos e dois matemáticos.
+• F ou G deve estar presente no grupo, mas não
+ambos.
+• Se R está no grupo então H também deve estar.
+• Se T está no grupo então H não pode estar.

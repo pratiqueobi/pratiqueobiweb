@@ -1,0 +1,6 @@
+Trilhas
+A escola está construindo seis novas salas de aulas, A, B, C, R, S e T, situadas em duas filas, nas posições mostradas na figura abaixo. Cada sala em uma fila tem uma sala diretamente oposta na outra fila. Para alunos e professores poderem movimentar-se entre as salas, a diretoria planeja construir trilhas em linha reta, pavimentadas, conectando as salas. Cada trilha conecta duas salas distintas. As trilhas devem ser construídas de forma que seja possível ir de uma sala para qualquer outra sala caminhando por uma ou mais trilhas. No entanto, para economizar dinheiro, as seguintes restrições foram obedecidas no planejamento da construção:
+• Cada sala é conectada a no mínimo uma e no máximo duas trilhas.
+• Há uma trilha entre as salas B e R.
+• Há uma trilha entre as salas S e T.
+• As trilhas não se cruzam.

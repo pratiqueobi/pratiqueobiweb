@@ -1,0 +1,5 @@
+Colorindo o Mapa
+Um mapa de um país mostrando seus estados R, S, W, X, Y e Z precisa ser colorido. Estados adjacentes não podem ter a mesma cor. Os únicos estados adjacentes entre si são os seguintes:
+• R, S, X e Y são adjacentes a W.
+• X é adjacente a Y.
+• R e S são adjacentes a Z.

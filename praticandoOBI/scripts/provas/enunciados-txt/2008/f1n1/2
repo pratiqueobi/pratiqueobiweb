@@ -1,0 +1,7 @@
+A Quitanda
+Cinco irmãos, José, Karina, Laura, Maria e Nilo, revezam-se para cuidar da quitanda da família de segunda-feira a sexta-feira. A quitanda deve ter exatamente dois irmãos trabalhando em cada dia, respeitando as seguintes condições:
+• cada irmão deve trabalhar pelo menos um dia;
+• nenhum irmão pode trabalhar três dias consecutivos;
+• Karina deve trabalhar na segunda-feira;
+• Maria deve trabalhar na quinta-feira e na sextafeira;
+• José não pode trabalhar nos mesmos dias que Karina trabalhar.

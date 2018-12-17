@@ -1,0 +1,9 @@
+Zoológico
+A Direção do Zoológico Municipal está decidindo quais aves e mamíferos serão exibidos. As aves e mamíferos escolhidos serão colocados em cinco viveiros consecutivos, numerados de 1 a 5, da esquerda para a direita. Cada viveiro abrigará uma de três espécies de aves – beija-flor, canário ou periquito – e uma de três espécies de mamíferos – anta, sagui e tamanduá. A Diretora deve obedecer às seguintes restrições:
+• Se canários forem colocados em um dos viveiros, antas devem ser colocadas nesse mesmo viveiro.
+• Se tamanduás forem colocados em um dos viveiros, beija-flores não podem ser colocados nesse viveiro.
+• Em pelo menos um viveiro, periquitos e antas estão juntos.
+• Periquitos não são colocados em viveiros consecutivos.
+• Se beija-flores e canários são exibidos, beija-flores devem sempre ser colocados em viveiros de número
+menor do que os viveiros de canários.
+• O viveiro 2 contém tamanduás.

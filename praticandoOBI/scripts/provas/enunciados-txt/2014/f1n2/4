@@ -1,0 +1,6 @@
+Programas de Computador
+Um computador é utilizado para executar cinco programas: planilha eletrônica, navegador internet, editor de texto, tocador de MP3 e gravador de CD. Devido a como os recursos do computador (processador, memória, discos) são usados por cada programa, o computador somente pode executar os programas obedecendo às seguintes restrições:
+• O computador não pode executar a planilha e o editor ao mesmo tempo.
+• O computador não pode executar a planilha e o gravador ao mesmo tempo.
+• Quando o computador executa o tocador MP3, não pode executar qualquer dos seguintes
+programas ao mesmo tempo: a planilha, o editor ou o gravador.

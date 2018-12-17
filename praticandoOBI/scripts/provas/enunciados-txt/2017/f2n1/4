@@ -1,0 +1,6 @@
+Horta da escola
+Os professores da escola resolveram manter uma horta na própria escola, para incrementar a merenda. A horta contém no máximo cinco de sete hortaliças – alface, beringela, couve, maxixe, pimentão, salsa e tomate, obedecendo às seguintes condições:
+• Se a horta tem couve, então a horta não tem tomate.
+• Se a horta tem alface, então a horta não tem pimentão.
+• Se a horta não tem tomate, então a horta tem beringela ou maxixe, mas não ambos.
+• Se a horta não tem beringela ou não tem maxixe, então a horta tem alface e salsa.

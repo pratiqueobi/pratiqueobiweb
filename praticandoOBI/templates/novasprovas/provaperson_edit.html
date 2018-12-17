@@ -1,0 +1,79 @@
+{% extends './../base2.html' %}
+{% load static %}
+
+{% block titulo %}
+    Minha Prova
+{% endblock %}
+
+{% block container %}
+<link href="{% static 'admin/css/breadcrumb.css' %}" rel="stylesheet">
+
+    <div class="row">
+
+        <div class="col-md-8 col-sm-10 col-12">
+		<ul class="breadcrumb">
+			<li class="active"><a href="{% url 'usuarios_obi:provaperson_edit' pk %}">Editar Prova</a></li>
+            <li><a>Buscar Questões</a></li>
+            <li><a>Selecionar Questões</a></li>
+			<li><a>Prova Pronta!</a></li>
+		</ul>
+
+
+
+            <form method="POST" class="post-form">{% csrf_token %}
+                <tr>
+                <td><label for="id_titulo">Título:</label></td>
+                    <div class="form-group">
+                     <td><input name="titulo" type="text" required id="id_titulo" class="form-control" value="{{titulo}}"></td>
+                    </div>
+                 </tr>
+
+                <tr>
+                <td><label for="id_ano">Ano de criação:</label></td>
+                    <div class="form-group">
+                        <td><input name="ano" type="text" maxlength="20" id="id_ano" class="form-control" value="{{ano}}"></td>
+                    </div>
+                 </tr>
+
+
+                <tr>
+                    <td><label for="id_dificuldade">Dificuldade:</label></td><br>
+                    <small>Valores de menor para a maior dificuldade</small>
+                <div class="row">
+                    <div class="form-group form-group-multiple-selectsp col-xs-11 col-sm-8 col-md-5">
+                        <div class="input-group input-group-multiple-selectp col-xs-8">
+                            <select class="form-control" name="dificuldade">
+                                {% if dificuldade == None %}
+                                    <option selected="selected" value="0">Atual: {{dificuldade}}</option>
+                                {% else %}
+                                    <option selected="selected" value={{dificuldade}}>Atual: {{dificuldade}}</option>
+                                {% endif %}
+
+                                <option value="1">1 - Muito fácil</option>
+                                <option value="2">2 - Fácil</option>
+                                <option value="3">3 - Médio</option>
+                                <option value="4">4 - Difícil</option>
+                                <option value="5">5 - Muito difícil</option>
+                            </select>
+                            <span class="input-group-addon input-group-addon-remove">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                </tr>
+
+                <tr>
+                <td><label for="id_observacoes">Observações:</label></td>
+                    <div class="form-group">
+                        <td><input type="text" input name="observacoes" id="id_observacoes" class="form-control" value="{{obs}}"></td>
+                    </div>
+                 </tr>
+
+
+        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+        <a href="{% url 'usuarios_obi:questoes_busca' pk %}" class="btn btn-primary" role="button" >Adicionar Questões</a>
+
+        </div>
+    </div>
+{% endblock %}

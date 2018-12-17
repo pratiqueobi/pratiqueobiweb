@@ -1,0 +1,6 @@
+Alojamento
+Para alojar os alunos convidados para o treinamento para a Olimpíada Internacional de Informática está sendo montado, no alojamento da Universidade, um quarto retangular com oito camas. Algumas das camas são beliches (camas duplas), outras são camas simples. As camas estarão dispostas como na figura abaixo, nas posições NO, N, NE, L, SE, S, SO e O. Camas simples e beliches são colocadas de acordo com as seguintes restrições:
+• As camas em exatamente dois dos cantos do quarto são simples.
+• A cama na posição N é beliche.
+• A cama na posição SE é simples.
+• Cada beliche está entre um beliche e uma cama simples.

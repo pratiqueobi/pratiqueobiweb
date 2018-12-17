@@ -1,0 +1,8 @@
+Metrô
+O sistema de metrô de uma cidade é composto por cinco linhas (L1, L2, L3, L4 e L5) e oito estações (Retiro, Tupã, Figueira, Serrinha, Utinga, Quebrada, Parque e Guará). Em cada linha, trens circulam nas duas direções, parando a cada estação da linha. 
+• A linha L1 é circular e faz a rota Retiro-Tupã-Figueira-Serrinha-Utinga-Quebrada-Parque-Retiro em uma
+direção, e a rota inversa na outra direção.
+• A linha L2 faz a rota Tupã-Serrinha.
+• A linha L3 faz a rota Retiro-Utinga.
+• A linha L4 faz a rota Quebrada-Guará-Retiro.
+• A linha L5 faz a rota Quebrada-Tupã.

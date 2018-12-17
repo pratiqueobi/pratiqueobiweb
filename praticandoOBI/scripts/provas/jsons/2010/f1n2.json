@@ -1,0 +1,142 @@
+{
+"anoprova": 2010,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Escola colorida",
+		"enunciadoproblema": "Uma escola ocupa um prédio com seis andares, numerados de 1 a 6 (1 é o andar mais baixo, 6 o mais alto). Os alunos e professores decidiram em conjunto que cada andar será pintado com uma cor diferente, entre amarelo, branco, rosa, azul, laranja e verde. Ficou também decidido que as seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Branco deve ser usado para pintar ou o andar 3\nou o andar 4.\n• O andar pintado de laranja é mais baixo do que\no andar pintado de rosa.\n• O andar pintado de azul é mais baixo do que o\nandar pintado de laranja, mas mais alto do que\no andar pintado de amarelo.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Críticos de Cinema",
+		"enunciadoproblema": "Cinco filmes, numerados de 1 a 5, serão avaliados por críticos de cinema. Ao todo são oito críticos de cinema: M, N, P, Q, R, S, T e U. Cada filme será avaliado por um único crítico, e cada crítico avaliará no máximo um filme. A determinação de qual crítico avalia qual filme deve obedecer as seguintes condições:",
+		"regrasproblema": "• Ao menos um dos críticos M e U deve avaliar um\nfilme.\n• Se M avalia um filme ele deve ser o filme 1.\n• O filme 3 só pode ser avaliado por R ou por S.\n• Se T avalia um filme, então P também deve avaliar um filme, e neste caso, T e P devem avaliar\nfilmes de números contíguos (ou seja, a diferença\nentre os números dos filmes avaliados por T e P\né exatamente 1).\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Corrida de Bicicleta",
+		"enunciadoproblema": "Sete garotos, A, B, C, D, E, F, e G, estão disputando uma corrida de bicicletas. Cada garoto larga em um momento diferente, e ganha a corrida aquele que completar o percurso no menor tempo. A ordem utilizada para a largada segue as seguintes condições:",
+		"regrasproblema": "• E larga em algum momento entre F e G.\n• C não pode largar após B.\n• A não pode largar imediatamente antes e nem\nimediatamente depois de D.\n• G não é o último a largar.\n• D não é o primeiro a largar.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Visitando os Amigos",
+		"enunciadoproblema": "Andréia reservou o final de semana para visitar seus amigos. Ela pretende ir às casas de sete amigos diferentes: A, B, C, D, E, F, e G. Ela não pode visitar dois amigos ao mesmo tempo. Além disto, as seguintes regras definem a ordem em que Andréia visita seus amigos:",
+		"regrasproblema": "• C deve ser visitado após G.\n• D deve ser visitado antes de G.\n• B só pode ser visitado imediatamente antes ou\nimediatamente depois de F.\n• Andréia deve visitar exatamente dois amigos entre a visita a E e a C.\n• F não pode ser visitado imediatamente antes ou\nimediatamente após C.\n",
+		"imgproblema": null,
+		"classificacao": [4, 15],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

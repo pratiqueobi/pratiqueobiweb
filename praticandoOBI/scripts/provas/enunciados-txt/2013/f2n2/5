@@ -1,0 +1,6 @@
+Canil
+O canil de um famoso criador de cães tem cinco pequenos cômodos, dispostos em uma fileira, um ao lado do outro, numerados de 1 a 5 da esquerda para a direita. Os cômodos são usados para abrigar sete cães – quatro da raça beagle três da raça labrador. Cinco dos animais são fêmeas e dois são machos. Os animais devem ser distribuídos nos cômodos da seguinte maneira:
+• Nenhum cômodo abriga mais do que dois animais.
+• Nenhum cômodo abriga ambos um beagle e um labrador.
+• Nenhuma fêmea beagle é colocada em um cômodo que é imediatamente vizinho a um cômodo
+que abrigue um labrador macho.

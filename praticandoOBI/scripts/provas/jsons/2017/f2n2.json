@@ -1,0 +1,142 @@
+{
+"anoprova": 2017,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Final de Semana Feliz",
+		"enunciadoproblema": "Os alunos da escola organizam uma loteria semanal para arrecadar dinheiro para a festa de formatura. Cada aluno paga um valor de aposta de R$ 1,00 e escolhe quatro números distintos entre 1 e 20. A Comissão de Formatura, que organiza a loteria, guarda uma parte do valor arrecadado com as apostas para a festa de formatura, e com o valor restante paga o prêmio para o ganhador ou ganhadores. Para determinar o ganhador ou ganhadores, após a última aula da semana são sorteados quatro números distintos entre 1 e 20. O prêmio é dividido entre os apostadores que acertaram os quatro números sorteados. Se ninguém acertar os números sorteados, o prêmio acumula para a próxima semana.",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Assistência Técnica",
+		"enunciadoproblema": "Uma loja de assistência técnica de produtos eletrônicos tem seis técnicos: Mateus, Nilo, Oscar, Pedro, Quincas e Renan. Cada técnico conserta ao menos um de três tipos de produto: celular, laptop e tablet – e nenhum outro tipo. As seguintes condições são válidas:",
+		"regrasproblema": "• Pedro e exatamente três outros ténicos consertam celular.\n• Quincas conserta tanto laptop como tablet.\n• Mateus não conserta qualquer tipo de produto que Quincas conserta.\n• Renan conserta mais tipos de produtos do que Quincas conserta\n• Oscar não conserta qualquer tipo de produto que Mateus conserta.\n• Nilo conserta exatamente dois tipos de produtos.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Carteiros",
+		"enunciadoproblema": "João, Kaio, Luiz, Mauro e Pedro são carteiros em um bairro. O bairro tem exatamente nove ruas paralelas, numeradas consecutivamente de 1 a 9 de um lado a outro do bairro. Cada rua é atendida por exatamente um carteiro, e nenhum carteiro atende mais do que duas ruas. A distribuição dos carteiros nas ruas obedece às seguintes restrições:",
+		"regrasproblema": "• Pedro atende exatamente uma rua.\n• Kaio atende a rua 2.\n• Mauro não atende a rua 1.\n• João não atende duas ruas consecutivas (ou seja, vizinhas uma à outra).\n• Kaio atende a única rua entre as duas ruas que Mauro atende.\n• Uma das ruas atendidas por Luiz é uma rua no final do bairro (ou seja, 1 ou 9).\n• A rua que Pedro atende tem um número maior do que as duas ruas atendidas por Kaio, e um\nnúmero menor do que pelo menos uma das ruas atendidas por Luiz.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Bolos da Vovó",
+		"enunciadoproblema": "Vovó é uma excelente doceira. Há algum tempo, vovó resolveu fazer bolos para vender e seus bolos têm sido um sucesso no bairro. Hoje ela tem que entregar exatamente seis bolos. Cada bolo é de exatamente um entre três tipos: banana, cenoura ou laranja, e cada bolo pode ou não ter cobertura de chocolate. Os bolos que devem ser entregues hoje obedecem às seguintes condições:",
+		"regrasproblema": "• Há pelo menos dois tipos de bolos.\n• Não há mais do que três bolos de cenoura.\n• Não há um bolo de laranja sem cobertura.\n• Há pelo menos um bolo de banana sem cobertura.\n• Se dois ou mais bolos são sem cobertura, então ao menos um dos bolos sem cobertura é de\ncenoura.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

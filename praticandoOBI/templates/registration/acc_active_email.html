@@ -1,0 +1,8 @@
+{% autoescape off %}
+    Olá!
+
+    Clique no link abaixo para ativar a sua conta no Praticando OBI:
+
+    https://pratiqueobi.herokuapp.com{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}

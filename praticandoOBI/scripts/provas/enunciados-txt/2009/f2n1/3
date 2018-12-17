@@ -1,0 +1,8 @@
+Dançando no Baile
+Em um baile de formatura irão ser tocadas exatamente quatro músicas. Para a dança existem dois grupos de jovens: o grupo 1 dos homens (C, D, F e G) e o grupo 2 das mulheres (P, Q, S e T). Durante cada música um jovem do grupo 1 dança com uma jovem do grupo 2. Uma mesma pessoa não dança com mais de uma pessoa durante uma música e os pares não se repetem. As seguintes regras também se aplicam:
+• D dança a primeira música com Q.
+• T dança a terceira música com F.
+• G dança a terceira música com a pessoa que D
+dançou na segunda música.
+• F dança a quarta música com a pessoa que C
+dançou na terceira música.

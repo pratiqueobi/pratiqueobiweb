@@ -1,0 +1,10 @@
+Rali de Informática
+O professor de informática da escola inventou uma nova modalidade de competição, que ele denominou de Rali de Informática. Beto, Chico, Davi e Enzo se inscreveram para participar do primeiro Rali de Informática da escola. Nesse tipo de prova, realizada em turnos, apenas um computador é utilizado. A cada turno, os competidores devem completar uma tarefa, que envolve utilizar o computador para buscar informações na Internet e efetuar cálculos. Um competidor é eliminado quando não consegue completar a tarefa no tempo determinado pelo professor (o competidor eliminado não participa dos turnos seguintes). Como há apenas um computador, os competidores são inicialmente ordenados em uma la que determina a ordem em que eles realizam a tarefa. A ordem dos competidores na la é alterada ao nal de cada turno, de acordo com uma das seguintes regras:
+• Regra X: o competidor em terceiro lugar na la é colocado na posição imediatamente à frente do
+competidor que estava em segundo lugar na la.
+• Regra Y: o competidor em terceiro lugar na la é colocado na posição imediatamente à frente do
+competidor que estava em primeiro lugar na la.
+• Regra Z: o competidor em último lugar na la é colocado em primeiro lugar.
+A regra a ser utilizada em cada turno é escolhida pelo próprio professor, mas se uma regra envolve o
+movimento de um competidor que foi eliminado, essa regra não pode ser usada (por exemplo, se Beto
+é o terceiro da la em um turno e é eliminado nesse turno, a regra X não pode ser utilizada).

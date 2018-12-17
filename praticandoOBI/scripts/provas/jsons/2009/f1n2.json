@@ -1,0 +1,142 @@
+{
+"anoprova": 2009,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Combate à Dengue",
+		"enunciadoproblema": "Uma força-tarefa para combater a dengue precisa visitar sete casas em busca de focos do mosquito. As casa são denominadas F, G, H, L, M, P e T. Deve ser feito um plano de ação determinando a ordem em que as casas são visitadas. Para isso considera-se as seguintes condições:",
+		"regrasproblema": "• A casa F deve ser uma das três primeiras a serem\nvisitadas.\n• A casa H deve ser visitada imediatamente antes\nda casa G.\n• A casa L não pode ser a primeira nem a sétima\ncasa a ser visitada.\n• A casa M deve ser a primeira ou a sétima a ser\nvisitada.\n• A casa P deve ser uma das três últimas a serem\nvisitadas.\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Campeonato de lógica",
+		"enunciadoproblema": "O diretor de uma escola precisa selecionar três bons alunos para participar de um campeonato de lógica entre escolas. Ele pode escolher dentre três alunos do período diurno: F, G e H, e três alunos do período noturno: K, L e M. Para compor sua equipe, o diretor se baseia nas seguintes condições:",
+		"regrasproblema": "• No mínimo um aluno do diurno deve ser escolhido e no mínimo um aluno do noturno deve ser\nescolhido.\n• Se F é escolhido então G não pode ser escolhido.\n• Se H é escolhido então L deve ser escolhido.\n• Se L é escolhido então H deve ser escolhido.\n• Se K é escolhido então M deve ser escolhido.\n",
+		"imgproblema": null,
+		"classificacao": [6, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Carteira de motorista",
+		"enunciadoproblema": "Nove pessoas: H, I, J, K, L, M, N, O e P, receberam a habilitação para dirigir. No mínimo quatro delas têm permissão para dirigir carro e no mínimo quatro delas têm permissão para dirigir moto. As seguintes condições também se aplicam:",
+		"regrasproblema": "• Não mais que duas pessoas têm permissão para\ndirigir tanto carro quanto moto.\n• M tem permissão para dirigir um dos veículos,\nmas não ambos.\n• K tem permissão para dirigir moto.\n• J somente tem permissão para dirigir carro se H\ntiver permissão para moto.\n• H não tem permissão para dirigir moto se I tiver\npermissão para moto.\n• P e N têm pelo menos um tipo de permissão em\ncomum.\n",
+		"imgproblema": null,
+		"classificacao": [7, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Escolha do Curso",
+		"enunciadoproblema": "Sete estudantes devem escolher em quais cursos universitários irão se matricular. Quatro estudantes são homens, J, K, L e M. Três estudantes são mulheres, X, Y e Z. Cada estudante deve se matricular em um e somente um curso superior dos quatros seguintes: Ciência da Computação diurno, Ciência da Computação noturno, Engenharia de Computação diurno ou Engenharia de Computação noturno. No mínimo um estudante deve se matricular em cada curso e as seguintes regras também são aplicadas:",
+		"regrasproblema": "• Se K se matricula no curso de Ciência da Computação, então L e X também se matriculam\nem Ciência da Computação, mas não necessariamente no mesmo período.\n• Se M se matricula no curso de Engenharia de\nComputação, então Y se matricula no curso de\nEngenharia de Computação noturno.\n• Y e Z devem se matricular no mesmo curso.\n• No mínimo dois homens devem se matricular no\ncurso de Engenharia de Computação diurno.\n• Nenhuma mulher se matriculou no curso de\nCiência da Computação diurno.\n",
+		"imgproblema": null,
+		"classificacao": [9, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

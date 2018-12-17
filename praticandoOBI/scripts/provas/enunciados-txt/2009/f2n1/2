@@ -1,0 +1,17 @@
+Cuidando do Jardim
+Um jardineiro precisa cuidar de 10 plantas que estão precisando de vitaminas. Estas plantas são: A, B, C, D, E, F, G, H, I e J. Cada planta é cuidada no máximo uma vez. O jardineiro pode parar de cuidar das plantas a qualquer momento e as seguintes regras também se aplicam:
+• Se ele cuidar da planta H ou da planta I, então
+ele para de trabalhar logo em seguida pois já se
+cansou.
+• Ele não cuida da planta D a menos que ele cuide
+de B e F. Nesse caso, D será cuidada em algum
+momento após B e em algum momento antes de
+F.
+• Se ele cuidar da planta A então ele cuida também
+da planta G e se ele cuidar da planta G ele cuida
+também da planta A. Nestes casos, existirá exatamente uma planta, que ele cuidou, entre o momento que ele cuida da planta A e o momento
+que ele cuida da planta G.
+• Se ele não cuidar da planta G, então E deve ser
+a quarta planta a ser cuidada.
+• Se ele cuidar de duas ou mais plantas, a planta
+C deve ser a segunda a ser cuidada.

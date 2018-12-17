@@ -1,0 +1,7 @@
+Times de Programação
+A Maratona de Programação é uma competição promovida, como a OBI, pela Sociedade Brasileira de Computação. Na Maratona, times compostos por três alunos competem resolvendo tarefas de programação. Três times são formados pelos alunos Ana, Bia, Chico, Deco, Eva, Fábio, Gui, Heitor e Iara. Os times são formados obedecendo aos seguintes critérios:
+• Deco está no time 3.
+• Eva está no mesmo time que Fábio.
+• Se Ana está no time 1, então Eva está no time 2 e Chico no time 3.
+• Se Bia está no time 2, então Gui e Chico estão no time 1.
+• Gui não está no mesmo time que Deco.

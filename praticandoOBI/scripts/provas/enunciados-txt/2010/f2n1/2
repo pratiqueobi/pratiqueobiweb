@@ -1,0 +1,16 @@
+Segunda Fase da OBI
+Nove competidores da escola foram classificados para a segunda fase da OBI. Dos nove competidores, três são da Modalidade Iniciação Nível 1 (I1), três são da Modalidade Iniciação Nível 2 (I2), e três são da Modalidade Programação Júnior (PJ). Curiosamente, todos os classificados são meninas. As competidoras da modalidade I1 são Guga, Hilda e Isa; as competidoras da modalidade I2 são Xuxa, Yara e Zica; e as competidoras da modalidade PJ são Mara, Nair e Olívia. Para levar as competidoras à cidade onde será realizada a prova da segunda fase o Diretor contratou uma perua escolar. As competidoras serão acomodadas na perua em cinco filas com dois lugares cada, conforme a figura abaixo. Cada competidora ocupará exatamente um lugar na perua. As seguintes restrições devem também ser obedecidas:
+• Guga e Nair devem sentar-se em um assento de
+janela.
+• Se Mara sentar-se em um assento de corredor,
+então Zica e Isa devem sentar-se em assentos de
+uma mesma fila.
+• Nair deve sentar-se em um assento cuja fila tem
+número menor do que a fila em que Hilda está
+sentada e maior do que a fila em que Zica está
+sentada.
+• Se Xuxa sentar-se na mesma fila que uma competidora da modalidade PJ, então duas das competidoras da modalidade I1 devem sentar-se em
+uma mesma fila.
+• Nenhuma das competidoras da modalidade PJ
+pode sentar-se na fila 5.
+• Isa ocupa um assento de janela da fila 2.

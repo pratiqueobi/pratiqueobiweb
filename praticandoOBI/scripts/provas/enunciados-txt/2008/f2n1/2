@@ -1,0 +1,8 @@
+Prova de Matemática
+Num período de três dias, de segunda a quarta-feira, três estudantes devem estudar exatamente três dos seis livros recomendados pelo professor para se prepararem para a prova de Matemática. Os livros são numerados de 1 a 6, consecutivamente, de acordo com o número de páginas, sendo o livro 1 o mais fino (com o menor número de páginas) e o livro 6 o mais grosso (com o maior número de páginas). Nenhum livro tem o mesmo número de páginas que outro livro. Os estudantes A, B e C, devem estudar um livro por dia. Cada livro é estudado por no mínimo um estudante, mas não é estudado por mais de dois estudantes, e nenhum estudante pode estudar um livro que seja mais fino que um livro que ele estudou anteriormente. As seguintes condições também se aplicam:
+• Na terça-feira, A deve estudar o livro que B estudou na Segunda.
+• B estuda o livro 4 na Terça.
+• C não estuda o livro 4.
+• O livro que C estuda na quarta-feira tem o mesmo
+número de páginas ou é mais fino que o livro que
+B estuda na Quarta.

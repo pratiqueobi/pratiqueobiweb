@@ -1,0 +1,176 @@
+{
+"anoprova": 2009,
+"nivelprova": 1,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Vagas de Estacionamento",
+		"enunciadoproblema": "Em um prédio de uma companhia existem seis vagas de estacionamento, separadas das demais vagas, para os diretores da empresa. Elas estão dispostas uma ao lado da outra e são numeradas da esquerda para a direita de um a seis. Estas vagas são ocupadas por exatamente seis carros: C, D, F, H, O e V. As seguintes regras também são aplicadas:",
+		"regrasproblema": "• Há exatamente três carros entre V e D.\n• Existe no mínimo um carro entre O e F.\n• C é adjacente a somente um único carro.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Cuidando do Jardim",
+		"enunciadoproblema": "Um jardineiro precisa cuidar de 10 plantas que estão precisando de vitaminas. Estas plantas são: A, B, C, D, E, F, G, H, I e J. Cada planta é cuidada no máximo uma vez. O jardineiro pode parar de cuidar das plantas a qualquer momento e as seguintes regras também se aplicam:",
+		"regrasproblema": "• Se ele cuidar da planta H ou da planta I, então\nele para de trabalhar logo em seguida pois já se\ncansou.\n• Ele não cuida da planta D a menos que ele cuide\nde B e F. Nesse caso, D será cuidada em algum\nmomento após B e em algum momento antes de\nF.\n• Se ele cuidar da planta A então ele cuida também\nda planta G e se ele cuidar da planta G ele cuida\ntambém da planta A. Nestes casos, existirá exatamente uma planta, que ele cuidou, entre o momento que ele cuida da planta A e o momento\nque ele cuida da planta G.\n• Se ele não cuidar da planta G, então E deve ser\na quarta planta a ser cuidada.\n• Se ele cuidar de duas ou mais plantas, a planta\nC deve ser a segunda a ser cuidada.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Dançando no Baile",
+		"enunciadoproblema": "Em um baile de formatura irão ser tocadas exatamente quatro músicas. Para a dança existem dois grupos de jovens: o grupo 1 dos homens (C, D, F e G) e o grupo 2 das mulheres (P, Q, S e T). Durante cada música um jovem do grupo 1 dança com uma jovem do grupo 2. Uma mesma pessoa não dança com mais de uma pessoa durante uma música e os pares não se repetem. As seguintes regras também se aplicam:",
+		"regrasproblema": "• D dança a primeira música com Q.\n• T dança a terceira música com F.\n• G dança a terceira música com a pessoa que D\ndançou na segunda música.\n• F dança a quarta música com a pessoa que C\ndançou na terceira música.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Futebol",
+		"enunciadoproblema": "Doze amigos, B, C, D, E, F, G, H, I, J, K, L e M, resolveram jogar uma partida de futebol durante um churrasco de confraternização. Foram montados dois times, X e Y, cada um com seis jogadores. Cada time possui camisetas numeradas de um a seis e as seguintes regras são aplicadas na montagem dos times:",
+		"regrasproblema": "• K está no mesmo time de C, mas não está no\nmesmo time que M. Além disso, sua camisa não\né a de número um nem a de número seis.\n• A camisa de C é a três.\n• J e L estão em times diferentes.\n• G não está no mesmo time que H.\n• D está no time Y e sua camisa é a três.\n• E, G e B têm a camisa quatro, cinco e seis, mas\nnão necessariamente respectivamente e não estão\nnecessariamente no mesmo time.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Carona para a Prova",
+		"enunciadoproblema": "Três professores (C, D e F) estão levando cinco alunos (Q, R, S, T e V) em dois veículos (A e B) para realizarem uma prova em outra cidade. Existem exatamente quatro ocupantes em cada veículo e cada um é dirigido por exatamente um professor. As seguintes regras também são aplicadas:",
+		"regrasproblema": "• S está no veículo que têm mais alunos que professores.\n• T não está no veículo que F está.\n• Se R está no veículo A então V está também no\nveículo A.\n• S tem de estar no veículo A se D estiver no veículo\nB.\n• F não dirige o veículo em que Q está.\n",
+		"imgproblema": null,
+		"classificacao": [7],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

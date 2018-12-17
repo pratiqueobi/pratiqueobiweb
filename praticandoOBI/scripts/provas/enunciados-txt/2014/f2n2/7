@@ -1,0 +1,8 @@
+Árvores
+A diretora decidiu plantar três árvores na entrada de cada um dos quatro prédios da escola – prédio 1, prédio 2, prédio 3 e prédio 4. Os prédios estão alinhados em uma coluna, do Norte para o Sul. A prefeitura disponibilizou mudas de árvores de quatro espécies: baobá, cedro, freixo e ipê. Há quatro mudas de cada espécie. As árvores devem ser plantadas segundo as seguintes regras:
+• Nenhum prédio deve ter mais do que um cedro ou mais do que um baobá.
+• Cada prédio deve ter pelo menos duas espécies diferentes de árvores, mas dois prédios não podem ter as
+mesmas três espécies de árvores.
+• Deve haver ao menos um freixo plantado no prédio 3.
+• Não pode haver ipês plantados em prédios adjacentes.
+• Não pode haver freixos plantados em prédios adjacentes.

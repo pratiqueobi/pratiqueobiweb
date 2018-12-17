@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block container %}
+
+<link href="{% static 'css/style2.css' %}" rel="stylesheet">
+<link href="{% static 'css/footer.css' %}" rel="stylesheet">
+
+<img src="./../static/images/Praticandoobi-logo.png" alt="OBI" style="width:80%;" class="centro">
+
+     <div class="container">
+         <div class="centro">
+            <div class="col=5 mt-9">
+                <div class="jumbotron" style="background-color:transparent" style="width:100%;">
+                  <p class="lead" style="font-size:25px">No Praticando OBI você pode criar provas personalizadas de maneira fácil e rápida para aplicar em treinamentos e simulados. <br>Além disso, você também pode buscar provas e problemas de OBI's passadas na Modalidade Iniciação.</p>
+                    &nbsp;
+                    <p style="text-align: center" class="lead">
+                        {% if user.is_authenticated %}
+                            <a class="btn standard-btn" href="{% url 'usuarios_obi:provaperson' %}" role="button"><b>Criar Prova</b></a>
+                        {% else %}
+                            <a class="btn standard-btn" href="{% url 'usuarios_obi:login_perfil' %}" role="button"><b>Criar Prova</b></a>
+                        {% endif %}
+                        &nbsp;
+                        &nbsp;
+                         <a class="btn standard-btn" href="{% url 'provas_obi:url_busca' %}" role="button"><b>Buscar Prova</b></a>
+                    </p>
+            </div>
+         </div>
+        </div>
+     </div>
+
+<img src="./../static/images/obi-logo.png" alt="OBI" style="width:10%;" class="centro">
+
+</br><hr class="my-2"></br></br>
+
+      <div class="container">
+       <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title"><b>O que é a OBI?</b></h5>
+                <p class="card-text">A <a href="https://olimpiada.ic.unicamp.br/">Olimpíada Brasileira de Informática</a> é uma competição de programação anual voltada a alunos de ensino básico e superior, sendo aplicadas avaliações para diferentes modalidades e níveis.<br>
+                    Tem por um dos objetivos despertar nos alunos o interesse por Ciência da Computação.
+                    </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title"><b>Como criar minhas provas?</b></h5>
+                <p class="card-text">Selecione questões no nosso banco de provas passadas da OBI na Modalidade Iniciação.<br>
+                    Cada prova contém vários <b>problemas</b> (título grande e centralizado) com sua descrição e regras, e com <b>questões</b> (enumeradas) relacionadas a eles.<br>
+                    <br/>Crie sua própria prova, selecione as questões desejadas, salve e aplique!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+
+{% endblock %}
+
+{% block content %}
+
+	<section id="footer">
+		<div class="container-fluid">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Menu</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="{% url 'home' %}"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="{% url 'provas_obi:url_provas' %}"><i class="fa fa-angle-double-right"></i>Provas Passadas</a></li>
+						<li><a href="{% url 'provas_obi:url_busca' %}"><i class="fa fa-angle-double-right"></i>Buscar Prova</a></li>
+						<li><a href="{% url 'provas_obi:url_buscaprob' %}"><i class="fa fa-angle-double-right"></i>Buscar Problema</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://olimpiada.ic.unicamp.br/"><i class="fa fa-angle-double-right"></i>Olimpíada Brasileira de Informática</a></li>
+						<li><a href="https://www.facebook.com/CompClubUFSM/"><i class="fa fa-angle-double-right"></i>Clube de Computação - UFSM</a></li>
+						<li><a href="http://obi.inf.ufsm.br/"><i class="fa fa-angle-double-right"></i>OBI na UFSM</a></li>
+					</ul>
+				</div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+					<ul class="list-unstyled list-inline social text-center">
+                        <h5>Fale conosco</h5><br/>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

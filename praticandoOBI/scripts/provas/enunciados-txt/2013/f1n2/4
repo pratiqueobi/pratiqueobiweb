@@ -1,0 +1,8 @@
+Jardim Botânico
+Quatro alunas (A, B, C e D) e cinco alunos (T, U, V, X e Z) formam três times de três estudantes cada um, para uma excursão fotográfica pelo Jardim Botânico. Cada time inclui ao menos uma aluna. Quatro câmeras, de dois tipos, estão disponíveis para uso dos times: duas câmeras fotográficas e duas câmeras de vídeo. Cada câmera é usada por exatamente um dos times, cada time usa ao menos uma câmera, e nenhum time usa duas câmeras do mesmo tipo. Além disso, as seguintes restrições devem ser obedecidas:
+• X e U devem estar em times diferentes.
+• Se A está num time com uma câmera de vídeo, então C não está num time com uma câmera de
+vídeo.
+• Se D está num time com uma câmera de vídeo, então X não está num time com uma câmera
+fotográfica.
+• T e Z estão juntos num time que usa apenas um tipo de câmera.

@@ -1,0 +1,6 @@
+Estação Central
+Oito linhas de metrô, numeradas de 1 a 8, vão passar pela futura Estação Central. As linhas pares correm na direção norte-sul e as ímpares na direção leste-oeste. Para cada linha será construído um túnel distinto em um dos quatro possíveis níveis abaixo da estação: 10, 20, 30 e 40 metros de profundidade. Por cada nível devem passar exatamente dois túneis na mesma direção. Precisamos ajudar na atribuição das linhas aos níveis! Depois de muito planejamento, ficou decidido que:
+• As linhas 5 e 7 não podem passar no mesmo nível;
+• As linhas 2 e 4 não podem passar no mesmo nível;
+• A diferença de profundidade entre as linhas 2 e 8 não pode ser maior do que 10 metros;
+• A diferença de profundidade entre as linhas 1 e 7 tem que ser maior do que 10 metros.

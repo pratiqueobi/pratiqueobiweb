@@ -1,0 +1,6 @@
+Seleção de problemas
+O Comitê de Problemas da OBI precisa selecionar cinco tarefas para a prova da modalidade Programação Nível 2, dentre oito tarefas: R, S, T, U, V, X, Y e Z. As seguintes condições devem ser obedecidas:
+• Se ambas R e Y são selecionadas, Z também é selecionada.
+• Se U é selecionada, nem X nem Y são selecionadas.
+• Se V é selecionada, S não é selecionada.
+• Entre as tarefas S, T e X, exatamente duas são selecionadas.

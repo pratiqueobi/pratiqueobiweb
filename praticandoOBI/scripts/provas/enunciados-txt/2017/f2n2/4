@@ -1,0 +1,8 @@
+Bolos da Vovó
+Vovó é uma excelente doceira. Há algum tempo, vovó resolveu fazer bolos para vender e seus bolos têm sido um sucesso no bairro. Hoje ela tem que entregar exatamente seis bolos. Cada bolo é de exatamente um entre três tipos: banana, cenoura ou laranja, e cada bolo pode ou não ter cobertura de chocolate. Os bolos que devem ser entregues hoje obedecem às seguintes condições:
+• Há pelo menos dois tipos de bolos.
+• Não há mais do que três bolos de cenoura.
+• Não há um bolo de laranja sem cobertura.
+• Há pelo menos um bolo de banana sem cobertura.
+• Se dois ou mais bolos são sem cobertura, então ao menos um dos bolos sem cobertura é de
+cenoura.

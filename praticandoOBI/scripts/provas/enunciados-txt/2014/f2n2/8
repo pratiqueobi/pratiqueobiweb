@@ -1,0 +1,8 @@
+Colar de Pedras Preciosas
+Um joalheiro recebeu a encomenda de confeccionar um colar com exatamente nove pedras, de três tipos: diamantes, opalas e turmalinas. Ele tem seis pedras de diamante, sendo duas de cada uma das cores verde, amarela e rosa; seis pedras de opala, sendo duas de cada uma das cores rosa, verde e azul; e seis pedras de turmalina, sendo três de cada uma das cores azul e amarela. O cliente quer que o joalheiro escolha as pedras do colar obedecendo às seguintes restrições:
+• O colar deve incluir ao menos uma pedra de cada tipo.
+• Deve haver mais diamantes do que opalas.
+• Não deve haver menos opalas do que turmalinas.
+• Deve haver mais pedras azuis do que rosas.
+• Não deve haver menos pedras verdes do que pedras rosas.
+• Não deve haver menos pedras amarelas do que pedras verdes.

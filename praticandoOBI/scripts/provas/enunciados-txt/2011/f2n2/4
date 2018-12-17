@@ -1,0 +1,8 @@
+Palestras de Programação
+Os professores de informática da escola planejam convidar cinco prossionais para fazerem palestras sobre programação de computadores durante a Semana de Informática da escola. As palestras serão feitas na semana de 1 a 5 de agosto de 2011 (segunda-feira a sexta-feira), uma em cada dia. Os professores elaboraram uma lista de oito prossionais conhecidos que poderiam dar palestras: M, N, P, Q, R, S, T e U. As seguintes restrições existem:
+• Cada prossional dá no máximo uma palestra.
+• Ou M ou U ou ambos devem dar palestras.
+• Se M dá palestra, sua palestra deve ser no dia 1.
+• Ou R ou S devem dar a palestra do dia 3.
+• Se T der palestra, P também deve dar palestra, e suas palestras devem ser em dias consecutivos (em
+qualquer ordem).

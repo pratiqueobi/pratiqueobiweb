@@ -1,0 +1,142 @@
+{
+"anoprova": 2013,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Gincana de Programação",
+		"enunciadoproblema": "A SBC vai promover a primeira Gincana de Programação, uma competição de programação em que o competidor deve resolver cinco tarefas de programação (A, B, C, D e E), durante um final de semana (sábado e domingo). As tarefas devem ser enviadas para a SBC, pela internet, de acordo com as seguintes regras:",
+		"regrasproblema": "• Duas ou três das tarefas devem ser enviadas no sábado, as restantes no domingo.\n• A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada.\n• A tarefa B deve ser enviada no domingo.\n• A tarefa D deve ser enviada no mesmo dia em que a tarefa A é enviada.\n• Se a tarefa C é enviada no sábado, então a tarefa D deve ser enviada no domingo.\nJoão vai participar da competição e pediu sua ajuda para seguir as regras corretamente.\n",
+		"imgproblema": null,
+		"classificacao": [7, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Bicho-preguiça",
+		"enunciadoproblema": "O Zoológico de São Paulo fez uma pesquisa pela internet para escolher o nome de seu mais novo habitante, recém-nascido: um lindo e simpático bicho-preguiça. Sete nomes foram colocados na pesquisa: Buda, Fofo, Pingo, Rock, Samba, Teco e Zorro. O Zoológico ordenou os nomes de acordo com o número de votos recebidos, do mais votado para o menos votado. O ganhador ainda não foi anunciado, mas alguns dados da pesquisa foram divulgados:",
+		"regrasproblema": "• Cada nome recebeu um número diferente de votos.\n• Buda recebeu mais votos do que Teco.\n• Teco recebeu mais votos do que Fofo.\n• Fofo recebeu mais votos do que Rock.\n• Samba não recebeu o menor número de votos.\n• Zorro recebeu menos votos do que Pingo.\n• Zorro recebeu mais votos do que Samba e mais votos do que Teco.\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Jogo de Palavras",
+		"enunciadoproblema": "Maria inventou um jogo no qual uma “palavra” é definida como uma combinação de letras do alfabeto (note que nesse jogo uma palavra pode ser real, como novela, ou não existente, abbca). O jogo consiste em montar “sentenças” de exatamente cinco palavras que obedeçam às seguintes condições:",
+		"regrasproblema": "• As cinco palavras devem ser escritas em uma única linha, da esquerda para a direita, em ordem\nalfabética.\n• A sentença pode iniciar com qualquer palavra, e cada palavra seguinte deve ser formada\naplicando exatamente uma das seguintes operações sobre a palavra anterior: remover uma\nletra; adicionar uma letra; trocar uma letra por outra letra qualquer.\n• Cada palavra deve conter ao menos quatro letras diferentes.\n• No máximo três das palavras podem começar com uma mesma letra.\n• Exceto pela palavra mais à esquerda, cada palavra é formada por uma operação distinta da\noperação usada para formar a palavra imediatamente à esquerda (em outras palavras, uma\noperação não pode ser aplicada duas vezes em sequência).\n",
+		"imgproblema": null,
+		"classificacao": [4],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Passeio da OBI",
+		"enunciadoproblema": "Os organizadores da OBI resolveram premiar os três melhores professores e três melhores alunos, oferecendo um passeio. Quatro passeios estavam disponíveis para escolha: Cinema, Museu, Parque e Zoológico. Os professores são Ana, Bia e Carlos; os alunos são Deco, Eda e Flávio. Todos os premiados farão o passeio hoje, após a prova da OBI. Sabe-se que:",
+		"regrasproblema": "• Ao menos um professor deve fazer parte do passeio para que o passeio aconteça (ou seja, um\naluno não pode fazer o passeio sozinho).\n• Ana só vai ao Cinema ou ao Zoológico.\n• Deco só vai ao Museu ou ao Parque.\n",
+		"imgproblema": null,
+		"classificacao": [9, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

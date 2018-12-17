@@ -1,0 +1,11 @@
+Rede de Computadores
+Numa rede de computadores existem quatro máquinas, W, X, Y e Z. Os computadores são conectados entre si por cabos direcionados. Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador W). Os cabos existentes na rede são os seguintes:
+• de W para X.
+• de W para Y.
+• de W para Z e de Z para W.
+• de X para Y e de Y para X.
+• de X para Z.
+• de Z para Y.
+Uma mensagem pode ir de um computador para outro utilizando apenas um cabo, ou uma seqüência de
+cabos. Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando por um único cabo; e
+uma mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z).

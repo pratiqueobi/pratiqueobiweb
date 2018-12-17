@@ -1,0 +1,11 @@
+Faxina
+Durante um período de 10 semanas, Dona Cida irá limpar oito casas: A, B, G, H, I, M, P e W. Cada casa é limpa uma única vez e somente uma casa pode ser limpa por semana. Excluindo estas oito, nenhuma outra casa é limpa neste período. As seguintes regras também são aplicadas:
+• As casas A, M e G são limpas em semanas consecutivas, mas não necessariamente nesta ordem.
+• A casa B é limpa em alguma semana antes da
+casa M e em alguma semana antes da casa P.
+• A casa W é limpa imediatamente antes ou imediatamente depois a uma semana que nenhuma
+casa é limpa.
+• A casa I não é limpa imediatamente antes ou imediatamente depois a uma semana que nenhuma
+casa é limpa.
+• A casa P é limpa em alguma semana antes da
+casa W que, por sua vez, é limpa em alguma semana após a casa I.

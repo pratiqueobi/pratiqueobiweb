@@ -1,0 +1,176 @@
+{
+"anoprova": 2014,
+"nivelprova": 2,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Treinamento OBI",
+		"enunciadoproblema": "Cinco amigas da mesma cidade – Ana, Bia, Clara, Duda e Elisa – foram selecionadas pela OBI para os cursos de introdução à programação na Unicamp. Elas ficarão em dois quartos no hotel, cada uma ocupando uma cama. Os quartos disponíveis para elas são os de números 11, com três camas, e 13, com duas camas. As seguintes restrições devem ser obedecidas para determinar em qual quarto cada amiga vai ficar:",
+		"regrasproblema": "• Ana é supersticiosa e não fica no quarto 13.\n• Clara e Duda não ficam no mesmo quarto.\n",
+		"imgproblema": null,
+		"classificacao": [7, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Círculos de Amigos",
+		"enunciadoproblema": "Dizemos que duas pessoas, A e B, estão no mesmo círculo de amigos se pelo menos uma de duas condições forem satisfeitas:",
+		"regrasproblema": "• A e B são amigas diretamente; ou\n• A e C, onde C é amiga de B, estão no mesmo círculo de amigos.\nEm uma sala de aula com 8 estudantes (Ana, Beto, Caio, Diana, Ernesto, Fernanda, Guilherme e\nHaroldo), sabemos que as seguintes afirmações sobre os grupos de amigos existentes são verdadeiras:\n• Ana e Diana estão no mesmo círculo de amigos;\n• Ernesto e Haroldo estão no mesmo círculo de amigos;\n• Fernanda e Ernesto não estão no mesmo círculo de amigos;\n• Fernanda e Beto não estão no mesmo círculo de amigos;\n• Beto e Haroldo não estão no mesmo círculo de amigos.\n",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "DJ",
+		"enunciadoproblema": "Seis estilos de música diferentes serão executados pelo DJ Sombra Negra. Cada estilo vai ser executado uma única vez, e as seguintes condições devem ser obedecidas: ",
+		"regrasproblema": "• Hip-hop é o primeiro, o terceiro ou o quinto estilo a ser executado.\n• Pelo menos dois estilos são executados após samba ser executado, mas antes de pop ser executado (ou seja, pelo menos dois estilos são executados entre a execução de samba e a execução\nde pop).\n• Exatamente um estilo é executado após funk, mas antes de rock ser executado (ou seja, exatamente um estilo é executado entre a execução de funk e a execução de rock).\n",
+		"imgproblema": null,
+		"classificacao": [4, 12],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Programas de Computador",
+		"enunciadoproblema": "Um computador é utilizado para executar cinco programas: planilha eletrônica, navegador internet, editor de texto, tocador de MP3 e gravador de CD. Devido a como os recursos do computador (processador, memória, discos) são usados por cada programa, o computador somente pode executar os programas obedecendo às seguintes restrições:",
+		"regrasproblema": "• O computador não pode executar a planilha e o editor ao mesmo tempo.\n• O computador não pode executar a planilha e o gravador ao mesmo tempo.\n• Quando o computador executa o tocador MP3, não pode executar qualquer dos seguintes\nprogramas ao mesmo tempo: a planilha, o editor ou o gravador.\n",
+		"imgproblema": null,
+		"classificacao": [6, 14],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Revezamento",
+		"enunciadoproblema": "Oito alunos – Beto, Dulce, Guto, Júlia, Kelly, Neto, Silvia e Vivian decidiram tentar quebrar o recorde da tradicional prova de revezamento e resistência de natação que acontece todos os anos na escola. Nessa prova, cada um dos oito competidores da equipe deve nadar mil metros, em estilo livre, na forma de revezamento: cada nadador cai na piscina para nadar apenas uma vez, um de cada vez. O objetivo é que todos nadem no menor tempo possível. Depois de muita discussão, os competidores decidiram que a ordem em que cairão na piscina deve obedecer às seguintes condições:",
+		"regrasproblema": "• Silvia não nada por último.\n• Vivian nada após Júlia e Neto nadarem.\n• O primeiro a nadar é ou Beto ou Dulce.\n• Guto nada antes de Júlia, com exatamente uma pessoa nadando entre eles.\n• Kelly nada antes de Neto, com exatamente duas pessoas nadando entre eles.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

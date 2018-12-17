@@ -1,0 +1,13 @@
+Jogo de Queimada
+Dez crianças do bairro: C, D ,E, F, G, H, J, L, M e N, irão formar dois times de quatro pessoas cada, o time X e o time Y, para jogar uma partida de queimada. Nenhum criança pode jogar no time X e no time Y ao mesmo tempo e os times devem ser formados segundo alguns critérios:
+• Nem G nem J podem ser incluídos em qualquer
+time se D estiver em algum dos times.
+• Se F estiver num time então L estará no outro
+time.
+• Se M ou C estiver num time então o outro estará
+no mesmo time.
+• L não está no time Y.
+• N não está em nenhum time, a não ser que E
+esteja no time X; nesse caso N pode estar em
+qualquer time.
+• O time X inclui D ou J.

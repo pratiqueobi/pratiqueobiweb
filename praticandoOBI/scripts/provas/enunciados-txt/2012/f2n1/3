@@ -1,0 +1,9 @@
+Professores de Informática
+A Secretaria Municipal de Educação decidiu contratar seis professores (Júlia, Karina, Laura, Nei, Olavo e Pedro) para ensinar Programação de Computadores para todas as turmas de duas escolas:
+Atenas e Babilônia. As seguintes condições devem ser obedecidas:
+• Cada professor dará aulas em uma única escola.
+• Karina dará aulas em Babilônia se Júlia der aulas em Atenas.
+• Olavo dará aulas em Atenas se Júlia der aulas em Babilônia.
+• Se Laura der aulas em Atenas, então ambos Nei e Pedro darão aulas em Babilônia.
+• Se Nei der aulas em Babilônia, então Olavo também dará aulas em Babilônia.
+• Se Pedro der aulas em Babilônia, então ambos Karina e Olavo darão aulas em Atenas.

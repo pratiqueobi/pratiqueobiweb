@@ -1,0 +1,278 @@
+{
+"anoprova": 2016,
+"nivelprova": 1,
+"faseprova": 1,
+"problemas": [{
+		"tituloproblema": "Triângulos",
+		"enunciadoproblema": "Uma série de diagramas com triângulos é construída usando palitos de fósforo, como mostrado na figura abaixo.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2016f1n1-triangulos.jpg",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Caminhões-pipa",
+		"enunciadoproblema": "",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Torneio de tenis de mesa",
+		"enunciadoproblema": "",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Troco",
+		"enunciadoproblema": "",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Nova cerca",
+		"enunciadoproblema": "João está contruindo uma cerca com postes e traves, como nos diagramas abaixo.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2016f1n1-cerca.jpg",
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Bicho-preguiça",
+		"enunciadoproblema": "O Zoológico de São Paulo fez uma pesquisa pela internet para escolher o nome de seu mais novo habitante, recém-nascido: um lindo e simpático bicho-preguiça. Sete nomes foram colocados na pesquisa: Buda, Fofo, Pingo, Rock, Samba, Teco e Zorro. O Zoológico ordenou os nomes de acordo com o número de votos recebidos, do mais votado para o menos votado. O ganhador ainda não foi anunciado, mas alguns dados da pesquisa foram divulgados:",
+		"regrasproblema": "• Cada nome recebeu um número diferente de votos.\n• Buda recebeu mais votos do que Teco.\n• Teco recebeu mais votos do que Fofo.\n• Fofo recebeu mais votos do que Rock.\n• Samba não recebeu o menor número de votos.\n• Zorro recebeu menos votos do que Pingo.\n• Zorro recebeu mais votos do que Samba e mais votos do que Teco.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Teste de virus",
+		"enunciadoproblema": "O Brasil trava uma batalha contra o mosquito Aedes Aegypti, transmissor de várias doenças. Um laboratório de pesquisas está desenvolvendo um método para determinar se um paciente está infectado com virus de Chicungunha, Denque ou Zika, utilizando uma amostra de sangue do paciente e dois novos testes, chamados de teste X e teste Z. O laboratório determinou, através de experimentos, que:",
+		"regrasproblema": "• Uma amostra mantém a cor adquirida em um teste a menos que outro teste posterior altere a\ncor da amostra.\n• O teste X faz a amostra adquirir cor verde se esta contém o virus Chicungunha ou o virus\nDengue, ou ambos.\n• O teste X faz a amostra adquirir cor laranja se esta não contém nem o virus Chicungunha nem\no virus Dengue.\n• O teste Z faz a amostra adquirir cor roxa se esta contém o virus Zika; se a amostra não contém\no virus Zika, ela permanece com a mesma cor que tinha antes da aplicação do teste Z.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Seleção de basquete",
+		"enunciadoproblema": "O professor de Educação Física precisa escolher as cinco meninas que iniciarão o jogo final do campeonato de basquete. As jogadoras serão escolhidas entre as armadoras Ana, Cris e Eda; as pivôs Lia, Nina e Pri; e as alas Quita, Sara e Ula. As seguintes condições devem ser obedecidas:",
+		"regrasproblema": "• Se mais de uma armadora é selecionada, então no máximo uma ala é selecionada.\n• Se Sara ou Ula não são selecionadas, Lia não pode ser selecionada.\n• Pri não pode jogar junto com Lia.\n• Cris não pode jogar junto com Pri.\n• O time deve ter pelo menos uma jogadora de cada um dos três grupos.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

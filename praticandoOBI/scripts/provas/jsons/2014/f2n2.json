@@ -1,0 +1,278 @@
+{
+"anoprova": 2014,
+"nivelprova": 2,
+"faseprova": 2,
+"problemas": [{
+		"tituloproblema": "Quadrado Mágico",
+		"enunciadoproblema": "Em um Quadrado Mágico, a soma de qualquer coluna, linha ou diagonal tem sempre o mesmo valor.",
+		"regrasproblema": "",
+		"imgproblema": "/static/imagens/2014f2n2-quadrado.jpg",
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Sapatos",
+		"enunciadoproblema": "Existem 20 sapatos em uma gaveta: 5 pares vermelhos, 3 pares verdes e 2 pares azuis. Um par de sapatos completo é um par que pode ser calçado, ou seja, um sapato para o pé direito e um para o pé esquerdo. Você pega um conjunto de sapatos da gaveta ao acaso (você pega todos os sapatos do conjunto ao mesmo tempo).",
+		"regrasproblema": "",
+		"imgproblema": null,
+		"classificacao": [1],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Popularidade de Páginas",
+		"enunciadoproblema": "Empresas de busca na internet, como Bing e Google, classificam as páginas da Internet de acordo com a sua “popularidade”. A popularidade de uma página X pode ser medida por exemplo pelo número de referências (links) de todas as outras páginas para X. Estamos interessados em seis páginas – P, Q, R, S, T e U –, que têm popularidades diferentes entre si. As seguintes relações são conhecidas:",
+		"regrasproblema": "• P é mais popular do que Q ou R, mas não mais popular do que ambas.\n• U é menos popular do que R.\n• Se Q é menos popular do que R, então nem S nem U são mais populares do que T.\n• Se Q é mais popular do que R, então S é mais popular do que ambas T e U.\n",
+		"imgproblema": null,
+		"classificacao": [4, 16],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Cães Farejadores",
+		"enunciadoproblema": "Três policiais – Rita, Sílvia e Tina – vão treinar cinco cães farejadores – Aladim, Bidu, Cacau, Dragão e Espoleta. Cada policial treina pelo menos um cão, e cada cão será treinado por exatamente uma policial. A definição de qual policial treina cada cão deve seguir as seguintes restrições:",
+		"regrasproblema": "• Espoleta e Dragão são treinados pela mesma policial.\n• Cacau e Dragão não são treinados pela mesma policial.\n• Se Tina treina Aladim, Tina também treina Bidu.\n• Cacau é treinado por Rita.\n",
+		"imgproblema": null,
+		"classificacao": [8, 13],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Formatura",
+		"enunciadoproblema": "Exatamente seis membros da Comissão de Formatura da escola – Aldo, Bia, Chico, Dino, Eva e Fred – vão realizar visitas a empresas para arrecadar fundos para a festa de formatura. Serão quatro visitas, uma após a outra. Exatamente dois alunos vão participar de cada uma das visitas, cada aluno fazendo ao menos uma visita, obedecendo às seguintes restrições:",
+		"regrasproblema": "• Aldo participa da última visita.\n• Bia participa de apenas uma visita, e não faz a visita com Dino.\n• Fred não participa nem da primeira visita nem da terceira visita.\n• Eva participa de exatamente duas visitas, uma antes e uma depois da única visita da qual Chico participa.\n",
+		"imgproblema": null,
+		"classificacao": [17],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Turismo",
+		"enunciadoproblema": "João ganhou um prêmio e vai poder realizar o sonho de conhecer melhor o Brasil. Ele vai visitar seis capitais – Aracaju, Belém, Curitiba, Goiânia, Manaus e Salvador – não necessariamente nessa ordem. A ordem da visita deve seguir as seguintes restrições:",
+		"regrasproblema": "• Ou Salvador é visitada depois de Goiânia ou é visitada antes de Curitiba, mas não ambas.\n• João visita Belém depois de Aracaju mas antes de Goiânia.\n• Se João visita Salvador depois de Aracaju, então ele visita Curitiba depois de Manaus.\n• Belém é visitada depois de Curitiba.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Árvores",
+		"enunciadoproblema": "A diretora decidiu plantar três árvores na entrada de cada um dos quatro prédios da escola – prédio 1, prédio 2, prédio 3 e prédio 4. Os prédios estão alinhados em uma coluna, do Norte para o Sul. A prefeitura disponibilizou mudas de árvores de quatro espécies: baobá, cedro, freixo e ipê. Há quatro mudas de cada espécie. As árvores devem ser plantadas segundo as seguintes regras:",
+		"regrasproblema": "• Nenhum prédio deve ter mais do que um cedro ou mais do que um baobá.\n• Cada prédio deve ter pelo menos duas espécies diferentes de árvores, mas dois prédios não podem ter as\nmesmas três espécies de árvores.\n• Deve haver ao menos um freixo plantado no prédio 3.\n• Não pode haver ipês plantados em prédios adjacentes.\n• Não pode haver freixos plantados em prédios adjacentes.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	},
+{
+		"tituloproblema": "Colar de Pedras Preciosas",
+		"enunciadoproblema": "Um joalheiro recebeu a encomenda de confeccionar um colar com exatamente nove pedras, de três tipos: diamantes, opalas e turmalinas. Ele tem seis pedras de diamante, sendo duas de cada uma das cores verde, amarela e rosa; seis pedras de opala, sendo duas de cada uma das cores rosa, verde e azul; e seis pedras de turmalina, sendo três de cada uma das cores azul e amarela. O cliente quer que o joalheiro escolha as pedras do colar obedecendo às seguintes restrições:",
+		"regrasproblema": "• O colar deve incluir ao menos uma pedra de cada tipo.\n• Deve haver mais diamantes do que opalas.\n• Não deve haver menos opalas do que turmalinas.\n• Deve haver mais pedras azuis do que rosas.\n• Não deve haver menos pedras verdes do que pedras rosas.\n• Não deve haver menos pedras amarelas do que pedras verdes.\n",
+		"imgproblema": null,
+		"classificacao": [],
+		"questoes": [{
+				"enunciadoquestao": "",
+				"gabaritoquestao": "",
+				"imgquestao": null,
+				"alternativas": [{
+						"letraalternativa": "A",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "B",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "C",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "D",
+						"textoalternativa": ""
+					},
+					{
+						"letraalternativa": "E",
+						"textoalternativa": ""
+					}
+				]
+			}
+		]
+	}
+]
+}

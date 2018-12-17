@@ -1,0 +1,10 @@
+Escalonador de Programas
+O Sistema Operacional (S.O.) de um computador é quem controla todos os programas que estão sendo executados. O S.O. executa vários programas “ao mesmo tempo”: leitor de correio eletrônico, navegador, editor de texto. Como em geral o computador tem apenas um processador, na verdade o S.O. executa cada programa por uma pequena fração de tempo, em turnos, continuamente, o que nos dá a impressão de que todos estão sendo executados “ao mesmo tempo”. Inicialmente, o computador organiza os programas a serem executados em uma fila. A cada turno, cada programa da fila é executado por uma fração fixa de tempo. Ao final de sua fração de tempo, o programa é colocado novamente na fila. Se o programa termina sua execução durante sua fração de tempo, ele não é colocado de volta na fila, e a fila fica com um programa a menos. No computador desta tarefa, quatro programas estão sendo executados: P, Q, R e S. Ao final de cada turno, a ordem dos programas na fila é alterada de acordo com UMA das seguintes regras:
+• Regra 1: o programa em terceiro lugar na fila é colocado na posição imediatamente à frente do
+programa que estava em segundo lugar na fila.
+• Regra 2: o programa em terceiro lugar na fila é colocado na posição imediatamente à frente do
+programa que estava em primeiro lugar na fila.
+• Regra 3: o programa em último lugar na fila é colocado em primeiro lugar na fila.
+A regra a ser utilizada a cada turno é decidida pelo S.O., mas se a regra envolve o movimento de um
+programa que terminou durante esse turno, essa regra não é utilizada (por exemplo, se o programa
+P é o terceiro da fila em um turno e termina nesse turno, a regra 1 não é utilizada pelo S.O.).
