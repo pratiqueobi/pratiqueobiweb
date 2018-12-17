@@ -1,0 +1,6 @@
+local_settings.py
+[0-9+]*.py #VERIFICAR SE FIZER DEPLOY DE IMAGENS
+media
+venv
+*.pyc
+.idea
