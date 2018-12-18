@@ -154,6 +154,8 @@ EMAIL_HOST_USER = 'praticandoobi@gmail.com'
 EMAIL_HOST_PASSWORD = '2018projetosoftware2'
 EMAIL_PORT = 587
 
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 2000
+
 django_heroku.settings(locals())
 
 try:
