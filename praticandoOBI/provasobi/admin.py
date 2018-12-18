@@ -1,6 +1,5 @@
 from django.contrib import admin
 from .models import Prova, Classificacao, ProvaPerson, Questao, Problema, Alternativa
-
 import nested_admin
 
 
@@ -27,12 +26,15 @@ class ProblemaInline(nested_admin.NestedStackedInline):
 class ProvaAdmin(nested_admin.NestedModelAdmin):
     list_display = ['codprova', 'anoprova', 'nivelprova', 'faseprova']
     search_fields = ['nivelprova', 'faseprova', 'anoprova']
+    list_filter = ['anoprova', 'faseprova', 'nivelprova']
     inlines = [ProblemaInline]
 
 
 class ProvaPersonAdmin(admin.ModelAdmin):
     list_display = ['autor', 'titulo', 'ano']
     search_fields = ['autor', 'ano']
+    list_filter = ['ano', 'dificuldade']
+
 
 
 class ClassificacaoAdmin(admin.ModelAdmin):
@@ -44,7 +46,7 @@ class AlternativaAdmin(admin.ModelAdmin):
 
 
 class QuestaoAdmin(admin.ModelAdmin):
-    list_display = ['numeroquestao', 'codproblema', 'image']
+    list_display = ['numeroquestao', 'codproblema', 'image', 'explicativo']
 
 
 class ProblemaAdmin(admin.ModelAdmin):
@@ -57,6 +59,5 @@ admin.site.register(Questao, QuestaoAdmin)
 admin.site.register(Alternativa, AlternativaAdmin)
 admin.site.register(Classificacao, ClassificacaoAdmin)
 admin.site.register(ProvaPerson, ProvaPersonAdmin)
-
 admin.site.site_header = "Praticando OBI"
 admin.site.site_title = "Praticando OBI"

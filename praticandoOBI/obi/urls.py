@@ -19,12 +19,15 @@ from provasobi.views import home
 from django.conf import settings
 from django.conf.urls.static import static
 from usuarios.views import activate
+from django.conf import settings
 
 urlpatterns = [
-    path('', home, name='home'),
-    path('admin/', admin.site.urls),
-    path('provas/', include('provasobi.urls', namespace='provas_obi')),
-    path('usuario/', include('usuarios.urls', namespace='usuarios_obi')),
-    url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$', activate, name='activate'),
-    url(r'^nested_admin/', include('nested_admin.urls')),
-]
+                  path('', home, name='home'),
+                  path('admin/', admin.site.urls),
+                  path('provas/', include('provasobi.urls', namespace='provas_obi')),
+                  path('usuario/', include('usuarios.urls', namespace='usuarios_obi')),
+                  url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
+                      activate, name='activate'),
+                  url(r'^nested_admin/', include('nested_admin.urls')),
+              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
