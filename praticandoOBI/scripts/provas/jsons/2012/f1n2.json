@@ -1,14 +1,14 @@
 {
-"anoprova": 2012,
-"nivelprova": 2,
-"faseprova": 1,
-"problemas": [{
-		"tituloproblema": "Compra na Feira",
-		"enunciadoproblema": "A mãe de Lucas pediu-lhe que fosse à feira e comprasse alguns ingredientes para o almoço. A escolha poderia ser livre entre os itens: Alface, Alho, Banana, Cebola, Couve, Maçã, Pêra e Tomate; mas com algumas condições:",
-		"regrasproblema": "• Lucas deve comprar Alface ou Couve, mas não ambos.\n• A Maçã deve ser comprada.\n• Se comprar Alface deve comprar também Tomate.\n• Lucas deve comprar Banana ou Pêra, ou ambas.\n• Lucas só pode comprar Cebola se comprar Alho.\n",
-		"imgproblema": null,
-		"classificacao": [6, 16],
-		"questoes": [{
+	"anoprova": 2012,
+	"nivelprova": 2,
+	"faseprova": 1,
+	"problemas": [{
+			"tituloproblema": "Compra na Feira",
+			"enunciadoproblema": "A mãe de Lucas pediu-lhe que fosse à feira e comprasse alguns ingredientes para o almoço. A escolha poderia ser livre entre os itens: Alface, Alho, Banana, Cebola, Couve, Maçã, Pêra e Tomate; mas com algumas condições:",
+			"regrasproblema": "• Lucas deve comprar Alface ou Couve, mas não ambos.\n• A Maçã deve ser comprada.\n• Se comprar Alface deve comprar também Tomate.\n• Lucas deve comprar Banana ou Pêra, ou ambas.\n• Lucas só pode comprar Cebola se comprar Alho.\n",
+			"imgproblema": null,
+			"classificacao": [6, 16],
+			"questoes": [{
 				"enunciadoquestao": "",
 				"gabaritoquestao": "",
 				"imgquestao": null,
@@ -33,16 +33,15 @@
 						"textoalternativa": ""
 					}
 				]
-			}
-		]
-	},
-{
-		"tituloproblema": "Meu primeiro computador",
-		"enunciadoproblema": "Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas \"A\", \"B\", \"C\", \"D\"e \"E\". Existe ainda uma memória interna, chamada \"NUM\", que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito resultante dependerá da seqüência digitada. As ações associadas a cada uma são:",
-		"regrasproblema": "• Se \"A\" é pressionada: \"NUM\" é inicializado com o valor dez, independente do que se tinha\nantes.\n• Se \"B\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído um.\n• Se \"C\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído dois.\n• Se \"D\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía somado um.\n• Se \"E\" é pressionada: É impresso na tela o valor contido em \"NUM\".\n",
-		"imgproblema": null,
-		"classificacao": [4, 16],
-		"questoes": [{
+			}]
+		},
+		{
+			"tituloproblema": "Meu primeiro computador",
+			"enunciadoproblema": "Daniel ganhou seu primeiro computador pessoal e está aprendendo a trabalhar com ele. Seu computador possui uma tela de exibição de resultados e um peculiar teclado composto de cinco teclas nomeadas \"A\", \"B\", \"C\", \"D\"e \"E\". Existe ainda uma memória interna, chamada \"NUM\", que armazena apenas um número inteiro e possui inicialmente o valor zero. Pode ser pressionada qualquer combinação de teclas e o efeito resultante dependerá da seqüência digitada. As ações associadas a cada uma são:",
+			"regrasproblema": "• Se \"A\" é pressionada: \"NUM\" é inicializado com o valor dez, independente do que se tinha\nantes.\n• Se \"B\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído um.\n• Se \"C\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía subtraído dois.\n• Se \"D\" é pressionada: É armazenado em \"NUM\" o valor que ele possuía somado um.\n• Se \"E\" é pressionada: É impresso na tela o valor contido em \"NUM\".\n",
+			"imgproblema": null,
+			"classificacao": [4, 16],
+			"questoes": [{
 				"enunciadoquestao": "",
 				"gabaritoquestao": "",
 				"imgquestao": null,
@@ -67,8 +66,7 @@
 						"textoalternativa": ""
 					}
 				]
-			}
-		]
-	},
-]
+			}]
+		}
+	]
 }
