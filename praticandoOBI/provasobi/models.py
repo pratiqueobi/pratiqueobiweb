@@ -34,6 +34,9 @@ class Prova(models.Model):
         db_table = 'prova'
         ordering = ['anoprova']
 
+    def __str__(self):
+        return str(self.anoprova) + '/nivel' + str(self.nivelprova) + '/fase' + str(self.faseprova)
+
 
 class Problema(models.Model):
     codproblema = models.AutoField(db_column='codProblema', primary_key=True)

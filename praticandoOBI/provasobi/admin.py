@@ -4,17 +4,19 @@ import nested_admin
 
 
 # Customization Admin
-class AlternativaInline(nested_admin.NestedTabularInline):
+class AlternativaInline(nested_admin.NestedStackedInline):
     model = Alternativa
     sortable_field_name = "letraalternativa"
     extra = 0
     max_num = 5
+
 
 class QuestaoInline(nested_admin.NestedStackedInline):
     model = Questao
     sortable_field_name = "numeroquestao"
     extra = 0
     inlines = [AlternativaInline]
+
 
 class ProblemaInline(nested_admin.NestedStackedInline):
     model = Problema
@@ -34,7 +36,6 @@ class ProvaPersonAdmin(admin.ModelAdmin):
     list_display = ['autor', 'titulo', 'ano']
     search_fields = ['autor', 'ano']
     list_filter = ['ano', 'dificuldade']
-
 
 
 class ClassificacaoAdmin(admin.ModelAdmin):
