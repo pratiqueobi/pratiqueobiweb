@@ -6,7 +6,6 @@ import nested_admin
 # Customization Admin
 class AlternativaInline(nested_admin.NestedStackedInline):
     model = Alternativa
-    sortable_field_name = "letraalternativa"
     extra = 0
     max_num = 5
 
