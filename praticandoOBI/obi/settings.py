@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'provasobi',
     'usuarios',
     'nested_admin',
+    'watson',
 ]
 
 MIDDLEWARE = [

@@ -6,7 +6,32 @@
 {% endblock %}
 
 {% block container %}
-     <form action="" method="GET">
+    <h1>Provas</h1>
+    <table id="tableprovas" class="display">
+        <thead>
+        <tr>
+            <th>Ano/Nível/Fase</th>
+            <th>Prova</th>
+            <th>Gabarito</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for prova in provas %}
+            <tr>
+                <td> Ano {{ prova.anoprova }}/ Nível {{ prova.nivelprova }}/ Fase {{ prova.faseprova }}</td>
+                <td><a href="{{ prova.urlprova }}">Link Prova</a></td>
+                {% if prova.urlgabarito %}
+                    <td><a href="{{ prova.urlgabarito }}">Link Gabarito</a></td>
+                {% else %}
+                    <td>Sem link cadastrado.</td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <h1>Problemas</h1>
+    <p>Buscar por título, enunciado, classificacão</p>
+    <form action="" method="GET">
         <div class="form-group">
 
             {% if error %}
@@ -19,18 +44,42 @@
 
             <div class="col-xs-9">
                 <input type="text" class="form-control" name="q"/><br/>
-                <label class="radio-inline">Procurar prova por: </label>
-                 
-                <label for="box1"><input type="radio" name="display_type" value="anobox" id="box1">Ano</label>&emsp;
-                <label for="box2"><input type="radio" name="display_type" value="fasebox" id="box2">Fase</label>&emsp;
-                <label for="box3"><input type="radio" name="display_type" value="nivelbox" id="box3">Nível</label>&emsp;
-                <label for="box4"><input type="radio" name="display_type" value="todosbox" id="box4" checked="checked">Todos</label>
-
             </div>
             <div class="col-xs-2">
                 <button type="submit" class="btn btn-primary">Buscar</button>
             </div>
+
         </div>
     </form>
+    <table id="tableproblemas" class="display">
+        <thead>
+        <tr>
+            <th>Ano/Nível/Fase</th>
+            <th>Classificacao</th>
+            <th>Título</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for problema in problemas %}
+            <tr>
+                <td> Ano {{ problema.codprova.anoprova }}/ Nível {{ problema.codprova.nivelprova }}/ Fase {{ problema.codprova.faseprova }}</td>
+                <td>{% for class in problema.classificacao.all %}{{ class.tituloclassificacao }} {% endfor %}</td>
+                <td>{{ problema.tituloproblema }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
+
+{% block extra_scripts %}
+    <script>
+        $(document).ready(function () {
+            $('#tableprovas').DataTable();
+        });
+        $(document).ready(function () {
+            $('#tableproblemas').DataTable();
+        });
+    </script>
 {% endblock %}
 
