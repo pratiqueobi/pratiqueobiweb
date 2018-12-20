@@ -18,7 +18,7 @@
         <tbody>
         {% for prova in provas %}
             <tr>
-                <td> Ano {{ prova.anoprova }}/ Nível {{ prova.nivelprova }}/ Fase {{ prova.faseprova }}</td>
+                <td> Ano {{ prova.anoprova }}/ Nível{{ prova.nivelprova }}/ Fase{{ prova.faseprova }}</td>
                 <td><a href="{{ prova.urlprova }}">Link Prova</a></td>
                 {% if prova.urlgabarito %}
                     <td><a href="{{ prova.urlgabarito }}">Link Gabarito</a></td>
@@ -33,7 +33,6 @@
     <p>Buscar por título, enunciado, classificacão</p>
     <form action="" method="GET">
         <div class="form-group">
-
             {% if error %}
                 <p style="color: red;">Por favor, entre com um valor.</p>
             {% endif %}
@@ -41,14 +40,14 @@
             {% if erroinput %}
                 <p style="color: red;">Busca inválida, busque por um ano, nível ou fase de prova.</p>
             {% endif %}
-
-            <div class="col-xs-9">
-                <input type="text" class="form-control" name="q"/><br/>
+            <div class="row">
+                <div class="col-10">
+                    <input type="text" class="form-control" name="q"/><br/>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-primary btn-block">Buscar</button>
+                </div>
             </div>
-            <div class="col-xs-2">
-                <button type="submit" class="btn btn-primary">Buscar</button>
-            </div>
-
         </div>
     </form>
     <table id="tableproblemas" class="display">
@@ -62,7 +61,8 @@
         <tbody>
         {% for problema in problemas %}
             <tr>
-                <td> Ano {{ problema.codprova.anoprova }}/ Nível {{ problema.codprova.nivelprova }}/ Fase {{ problema.codprova.faseprova }}</td>
+                <td> Ano {{ problema.codprova.anoprova }}/ Nível {{ problema.codprova.nivelprova }}/
+                    Fase {{ problema.codprova.faseprova }}</td>
                 <td>{% for class in problema.classificacao.all %}{{ class.tituloclassificacao }} {% endfor %}</td>
                 <td>{{ problema.tituloproblema }}</td>
             </tr>
@@ -78,7 +78,7 @@
             $('#tableprovas').DataTable();
         });
         $(document).ready(function () {
-            $('#tableproblemas').DataTable();
+            $('#tableproblemas').DataTable({"searching": false});
         });
     </script>
 {% endblock %}
