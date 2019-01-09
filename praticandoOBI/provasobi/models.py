@@ -8,7 +8,7 @@ class Alternativa(models.Model):
                                         null=True)  # Field name made lowercase.
     textoalternativa = models.TextField(db_column='textoAlternativa', blank=True,
                                         null=True)  # Field name made lowercase.
-    codquestao = models.ForeignKey('Questao', models.DO_NOTHING, db_column='codQuestao', blank=True,
+    codquestao = models.ForeignKey('Questao', models.CASCADE, db_column='codQuestao', blank=True,
                                    null=True)  # Field name made lowercase.
 
     class Meta:
@@ -45,7 +45,7 @@ class Problema(models.Model):
     enunciadoproblema = models.TextField(db_column='enunciadoProblema', blank=True, null=True)
     regrasproblema = models.TextField(db_column='regrasProblema', blank=True, null=True)
     imgproblema = models.TextField(db_column='imgProblema', blank=True, null=True, default='')
-    codprova = models.ForeignKey('Prova', models.DO_NOTHING, db_column='codProva', blank=True, null=True)
+    codprova = models.ForeignKey('Prova', models.CASCADE, db_column='codProva', blank=True, null=True)
     classificacao = models.ManyToManyField('Classificacao', blank=True)
 
     def recorte(self, filename):
@@ -69,7 +69,7 @@ class Questao(models.Model):
                                         null=True)  # Field name made lowercase.
     gabaritoquestao = models.CharField(db_column='gabaritoQuestao', max_length=10, blank=True, null=True)
     imgquestao = models.CharField(db_column='imgQuestao', max_length=300, blank=True, null=True, default='')
-    codproblema = models.ForeignKey(Problema, models.DO_NOTHING, db_column='codProblema', blank=True, null=True,
+    codproblema = models.ForeignKey(Problema, models.CASCADE, db_column='codProblema', blank=True, null=True,
                                     related_name="cod_problemas_questao")
     explicativo = models.TextField('Explicação', null=True, blank=True)
 
