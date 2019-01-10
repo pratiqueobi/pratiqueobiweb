@@ -12,14 +12,12 @@ class AlternativaInline(nested_admin.NestedStackedInline):
 
 class QuestaoInline(nested_admin.NestedStackedInline):
     model = Questao
-    sortable_field_name = "numeroquestao"
     extra = 0
     inlines = [AlternativaInline]
 
 
 class ProblemaInline(nested_admin.NestedStackedInline):
     model = Problema
-    sortable_field_name = "numeroproblema"
     inlines = [QuestaoInline]
     extra = 0
 
