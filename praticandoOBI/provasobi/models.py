@@ -1,5 +1,6 @@
 from django.db import models
 from usuarios.models import Profile
+from django.core.validators import MinValueValidator
 
 
 class Alternativa(models.Model):
@@ -14,6 +15,7 @@ class Alternativa(models.Model):
     class Meta:
         managed = True
         db_table = 'alternativa'
+        ordering = ['letraalternativa']
 
     def __str__(self):
         return self.letraalternativa
@@ -40,7 +42,8 @@ class Prova(models.Model):
 
 class Problema(models.Model):
     codproblema = models.AutoField(db_column='codProblema', primary_key=True)
-    numeroproblema = models.IntegerField(db_column='numeroProblema', blank=True, null=True)
+    numeroproblema = models.PositiveIntegerField(db_column='numeroProblema',
+                                                 validators=[MinValueValidator(1)])
     tituloproblema = models.TextField(db_column='tituloProblema', blank=True, null=True)
     enunciadoproblema = models.TextField(db_column='enunciadoProblema', blank=True, null=True)
     regrasproblema = models.TextField(db_column='regrasProblema', blank=True, null=True)
@@ -64,7 +67,8 @@ class Problema(models.Model):
 
 class Questao(models.Model):
     codquestao = models.AutoField(db_column='codQuestao', primary_key=True)  # Field name made lowercase.
-    numeroquestao = models.IntegerField(db_column='numeroQuestao', blank=True, null=True)  # Field name made lowercase.
+    numeroquestao = models.PositiveIntegerField(db_column='numeroQuestao',
+                                                validators=[MinValueValidator(1)])  # Field name made lowercase.
     enunciadoquestao = models.TextField(db_column='enunciadoQuestao', blank=True,
                                         null=True)  # Field name made lowercase.
     gabaritoquestao = models.CharField(db_column='gabaritoQuestao', max_length=10, blank=True, null=True)
