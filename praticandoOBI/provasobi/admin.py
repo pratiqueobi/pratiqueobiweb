@@ -1,20 +1,14 @@
 from django.contrib import admin
+
+from .forms import QuestaoForm
 from .models import Prova, Classificacao, ProvaPerson, Questao, Problema, Alternativa
 import nested_admin
-
-
-# Customization Admin
-class AlternativaInline(nested_admin.NestedStackedInline):
-    model = Alternativa
-    extra = 0
-    max_num = 5
 
 
 class QuestaoInline(nested_admin.NestedStackedInline):
     model = Questao
     extra = 0
-    inlines = [AlternativaInline]
-
+    form = QuestaoForm
 
 class ProblemaInline(nested_admin.NestedStackedInline):
     model = Problema
@@ -44,6 +38,7 @@ class AlternativaAdmin(admin.ModelAdmin):
 
 
 class QuestaoAdmin(admin.ModelAdmin):
+    form = QuestaoForm
     list_display = ['numeroquestao', 'codproblema', 'image', 'explicativo']
 
 

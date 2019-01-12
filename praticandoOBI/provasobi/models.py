@@ -71,6 +71,8 @@ class Questao(models.Model):
                                                 validators=[MinValueValidator(1)])  # Field name made lowercase.
     enunciadoquestao = models.TextField(db_column='enunciadoQuestao', blank=True,
                                         null=True)  # Field name made lowercase.
+    alternativas = models.TextField('Alternativas', null=True, blank=True)
+
     gabaritoquestao = models.CharField(db_column='gabaritoQuestao', max_length=10, blank=True, null=True)
     imgquestao = models.CharField(db_column='imgQuestao', max_length=300, blank=True, null=True, default='')
     codproblema = models.ForeignKey(Problema, models.CASCADE, db_column='codProblema', blank=True, null=True,
