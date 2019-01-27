@@ -6,98 +6,100 @@
 {% endblock %}
 
 {% block container %}
-<link href="{% static 'css/breadcrumb.css' %}" rel="stylesheet">
+    <link href="{% static 'css/breadcrumb.css' %}" rel="stylesheet">
 
-<br class="list-group">
+    <br class="list-group">
 
-<ul class="breadcrumb">
-    <li class="completed"><a href="{% url 'usuarios_obi:provaperson' %}">Dados da Prova</a></li>
-    <li class="completed"><a href="{% url 'usuarios_obi:questoes_busca' codprova %}">Buscar Questões</a></li>
-    <li class="active"><a href="">Selecionar Questões</a></li>
-    <li><a>Prova Pronta!</a></li>
-</ul>
+    <ul class="breadcrumb">
+        <li class="completed"><a href="{% url 'usuarios_obi:provaperson' %}">Dados da Prova</a></li>
+        <li class="completed"><a href="{% url 'usuarios_obi:questoes_busca' codprova %}">Buscar Questões</a></li>
+        <li class="active"><a href="">Selecionar Questões</a></li>
+        <li><a>Prova Pronta!</a></li>
+    </ul>
 
-<script>
-function toggle(source, f, init, end) {
-    var checkboxes = document.querySelectorAll('input[name="checks"]');
-    for (var i = init[f-1] - 1; i < end[f-1]; i++) {
-        if (checkboxes[i] != source)
-            checkboxes[i].checked = source.checked;
-    }
-}
-</script>
+    <script>
+        function toggle(source, f, init, end) {
+            var checkboxes = document.querySelectorAll('input[name="checks"]');
+            for (var i = init[f - 1] - 1; i < end[f - 1]; i++) {
+                if (checkboxes[i] != source)
+                    checkboxes[i].checked = source.checked;
+            }
+        }
+    </script>
 
 
-<form method="POST" class="post-form">{% csrf_token %}
-    {% for prob in problemas %}
-
-    <a class="list-group-item">
-        <div class="checkbox pull-left">
-        <label><input type="checkbox" onclick="toggle(this, {{forloop.counter}}, {{init}}, {{end}})"> Selecionar todos de <b>{{prob.tituloproblema}}</b></label>
-        </div>
-        <div class="pull-left form-control-inline">
-            <h3 class="list-group-item-heading">{{ prob.numeroproblema }} - {{prob.tituloproblema}}</h3>
-            <h4>Classificação:</h4>
-            <!--Mostra a classificação do problema, se ele tiver-->
-            <h5>{% for f in prob.classificacao.all %}
-                    {{f.tituloclassificacao}}<br>
-                {% endfor %}</h5>
-            <br/>{{prob.enunciadoproblema}}</br>
-
-            <!--Mostra as regras do problema, se ele tiver-->
-            {% if prob.regrasproblema %}
-                <br>{{prob.regrasproblema}}<br>
-            {% endif %}
-            <!--Mostra as imagens do problema, se ele tiver-->
-            {% if prob.imgproblema %}
-                {% load static %}
-                <img src={% static prob.imgproblema %} width="200" height="200" alt="My image">
-            {% endif %}
-
-        <!--Mostra as questões do problema-->
-        {% for q in questoes %}
-            {% if q.codproblema.codproblema == prob.codproblema %}
+    <form method="POST" class="post-form">{% csrf_token %}
+        {% for prob in problemas %}
 
             <a class="list-group-item">
                 <div class="checkbox pull-left">
-                    <label>
-                        <input type="checkbox" name="checks" value="{{q.codquestao}}" id="{{q.codproblema.codproblema}}">
-                    </label>
+                    <label><input type="checkbox" onclick="toggle(this, {{ forloop.counter }}, {{ init }}, {{ end }})">
+                        Selecionar todos de <b>{{ prob.tituloproblema }}</b></label>
                 </div>
-
                 <div class="pull-left form-control-inline">
-                    <h4 class="list-group-item-heading">{{ q.numeroquestao }} - {{q.enunciadoquestao}}</h4>
-                    <p class="list-group-item-text">
-                         <!--Mostra as imagens da questão-->
-                        {% if q.imgquestao %}
-                            {% load static %}
-                            <img src={% static q.imgquestao %} width="200" height="200" alt="Img"></br>
+                    <h3 class="list-group-item-heading">{{ prob.numeroproblema }} - {{ prob.tituloproblema }}</h3>
+                    <h4>Classificação:</h4>
+                    <!--Mostra a classificação do problema, se ele tiver-->
+                    <h5>{% for f in prob.classificacao.all %}
+                        {{ f.tituloclassificacao }}<br>
+                    {% endfor %}</h5>
+                    <br/>{{ prob.enunciadoproblema }}</br>
+
+                    <!--Mostra as regras do problema, se ele tiver-->
+                    {% if prob.regrasproblema %}
+                        <br>{{ prob.regrasproblema }}<br>
+                    {% endif %}
+                    <!--Mostra as imagens do problema, se ele tiver-->
+                    {% if prob.imgproblema %}
+                        {% load static %}
+                        <img src={% static prob.imgproblema %} width="200" height="200" alt="My image">
+                    {% endif %}
+
+                    <!--Mostra as questões do problema-->
+                    {% for q in questoes %}
+                        {% if q.codproblema.codproblema == prob.codproblema %}
+
+                            <a class="list-group-item">
+                                <div class="checkbox pull-left">
+                                    <label>
+                                        <input type="checkbox" name="checks" value="{{ q.codquestao }}"
+                                               id="{{ q.codproblema.codproblema }}">
+                                    </label>
+                                </div>
+
+                                <div class="pull-left form-control-inline">
+                                    <h4 class="list-group-item-heading">{{ q.numeroquestao }}
+                                        - {{ q.enunciadoquestao }}</h4>
+                                    <p class="list-group-item-text">
+                                        <!--Mostra as imagens da questão-->
+                                        {% if q.imgquestao %}
+                                            {% load static %}
+                                            <img src={% static q.imgquestao %} width="200" height="200" alt="Img"></br>
+                                        {% endif %}
+
+                                        <!--Mostra as alternativas da questão-->
+                                        {% for a in q.get_alternativas %}
+                                            {{ a.letraalternativa }}) {{ a.textoalternativa }} </br>
+                                        {% endfor %}
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+
                         {% endif %}
+                    {% endfor %}
 
-                        <!--Mostra as alternativas da questão-->
-                        {% for a in alternativas %}
-                            {% if a.codquestao.codquestao == q.codquestao %}
-                                {{a.letraalternativa}} - {{a.textoalternativa}}</br>
-                            {% endif %}
-                        {% endfor %}
-                    </p>
-                </div><div class="clearfix"></div>
+
+                    <br class="pull-left form-control-inline"></br>
+                </div>
             </a>
-
-        {% endif %}
         {% endfor %}
 
-
-    <br class="pull-left form-control-inline"></br>
-    </div>
-    </a>
-    {% endfor%}
-
-    <div class="pull-left form-control-inline">
-        <h4 class="list-group-item-heading">
-            <button type="submit" class="btn btn-primary">Adicionar Questões</button>
-        </h4>
-    </div>
-</form>
+        <div class="pull-left form-control-inline">
+            <h4 class="list-group-item-heading">
+                <button type="submit" class="btn btn-primary">Adicionar Questões</button>
+            </h4>
+        </div>
+    </form>
 
 {% endblock %}

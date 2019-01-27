@@ -38,18 +38,20 @@ from .tokens import account_activation_token
 from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
 
-#API DRIVE:
+# API DRIVE:
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
 from apiclient.http import MediaFileUpload
 
-#If modifying these scopes, delete the file token.json.
+# If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/drive'
+
 
 # @login_required
 def home_usuario(request):
     return render(request, 'usuarios/homeusuario.html', {})
+
 
 def update_perfil(request):
     if request.method == 'POST':
@@ -65,10 +67,10 @@ def update_perfil(request):
     else:
         user_form = UserForm(instance=request.user)
         profile_form = ProfileForm(instance=request.user.profile)
-    return render(request, 'usuarios/perfil.html', {'user_form': user_form, 'profile_form': profile_form })
+    return render(request, 'usuarios/perfil.html', {'user_form': user_form, 'profile_form': profile_form})
+
 
 def cadastro_perfil(request):
-
     error = False
     if request.method == 'POST':
         form = ProfileForm(request.POST)
@@ -86,7 +88,7 @@ def cadastro_perfil(request):
             user.save()
 
             current_site = get_current_site(request)
-            print(current_site) #AQUI: SETAR SITE PRO HEROKU
+            print(current_site)  # AQUI: SETAR SITE PRO HEROKU
             mail_subject = 'Ative sua conta no Praticando OBI'
             message = render_to_string('registration/acc_active_email.html', {
                 'user': user,
@@ -123,7 +125,6 @@ def activate(request, uidb64, token):
 
 
 def provaperson(request):
-
     if request.method == "POST":
         form = ProvaForm(request.POST)
         if form.is_valid():
@@ -133,12 +134,14 @@ def provaperson(request):
             return redirect('usuarios_obi:questoes_busca', provaperson.pk)
     else:
         form = ProvaForm()
-    return render(request, 'novasprovas/provaperson.html', {'form':form})
+    return render(request, 'novasprovas/provaperson.html', {'form': form})
+
 
 def provaperson_excluir(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk)
     provaperson.delete()
     return redirect('usuarios_obi:provasperson')
+
 
 def provaperson_edit(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk)
@@ -153,9 +156,12 @@ def provaperson_edit(request, pk):
     else:
         form = ProvaForm(instance=provaperson)
 
-    return render(request, 'novasprovas/provaperson_edit.html', {'form':form, 'pk':pk, 'titulo':provaperson.titulo, 'ano':provaperson.ano, 'dificuldade':provaperson.dificuldade, 'obs':provaperson.observacoes})
+    return render(request, 'novasprovas/provaperson_edit.html',
+                  {'form': form, 'pk': pk, 'titulo': provaperson.titulo, 'ano': provaperson.ano,
+                   'dificuldade': provaperson.dificuldade, 'obs': provaperson.observacoes})
 
-#mostra as provas criadas
+
+# mostra as provas criadas
 def provasperson(request):
     provas = ProvaPerson.objects.filter(autor=request.user.profile)
     return render(request, 'minhasprovas.html', {'provas': provas})
@@ -163,7 +169,8 @@ def provasperson(request):
 
 def provaperson_detail(request, pk):
     provaperson = ProvaPerson.objects.all().filter(pk=pk)
-    return render(request, 'novasprovas/provaperson_detail.html', {'provaperson':provaperson})
+    return render(request, 'novasprovas/provaperson_detail.html', {'provaperson': provaperson})
+
 
 def questoes_busca(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk, autor=request.user.profile)
@@ -179,29 +186,33 @@ def questoes_busca(request, pk):
                 return redirect('usuarios_obi:questoes_busca', provaperson.pk)
             elif checkbox == 'anoox':
                 provas = Prova.objects.filter(Q(anoprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson':provaperson, 'provas': provas, 'query': q, 'pk':pk})
+                return render(request, 'novasprovas/addquestoes_resultado.html',
+                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
             elif checkbox == 'fasebox':
                 provas = Prova.objects.filter(Q(faseprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+                return render(request, 'novasprovas/addquestoes_resultado.html',
+                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
 
                 # classificacao = Classificacao.objects.filter(tituloclassificacao=q)
                 # problemas = Problema.objects.filter(Q(tituloproblema__icontains=q) | Q(classificacao__in=classificacao))
                 # return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'problemas': problemas, 'query': q, 'pk': pk})
             elif checkbox == 'nivelbox':
                 provas = Prova.objects.filter(Q(nivelprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+                return render(request, 'novasprovas/addquestoes_resultado.html',
+                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
             else:
                 provas = Prova.objects.filter(Q(anoprova=q) | Q(faseprova=q) | Q(nivelprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+                return render(request, 'novasprovas/addquestoes_resultado.html',
+                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
 
         provas = Prova.objects.all()
-        return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+        return render(request, 'novasprovas/addquestoes_resultado.html',
+                      {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
 
-    return render(request, 'novasprovas/addquestoes.html', {'provaperson':provaperson,'error': error, 'pk': pk})
+    return render(request, 'novasprovas/addquestoes.html', {'provaperson': provaperson, 'error': error, 'pk': pk})
 
 
 def questoes_add(request, codprova, pk):
-
     if request.method == "POST":
         provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
         id_questoes = request.POST.getlist('checks')
@@ -216,11 +227,8 @@ def questoes_add(request, codprova, pk):
         for p in problemas:
             id_prob.append(p)
 
-        questoes = Questao.objects.all().select_related('codproblema').filter(codproblema__in=id_prob).order_by('numeroquestao')  # .filter(codproblema__in=id_questoes)
-
-        id_questoes = []
-        for q in questoes:
-            id_questoes.append(q)
+        questoes = Questao.objects.all().select_related('codproblema').filter(codproblema__in=id_prob).order_by(
+            'numeroquestao')  # .filter(codproblema__in=id_questoes)
 
         init = []
         end = []
@@ -231,53 +239,41 @@ def questoes_add(request, codprova, pk):
             for q in questoes:
                 if q.codproblema.codproblema == p.codproblema:
                     count = count + 1
-            end.append(questoes[count-1].numeroquestao)
-
-        alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
+            end.append(questoes[count - 1].numeroquestao)
 
     return render(request, 'novasprovas/addquestoes_select.html',
-                  {'problemas': problemas, 'questoes': questoes, 'alternativas': alternativas, 'pk':pk, 'codprova':codprova, 'init':init, 'end':end})
+                  {'problemas': problemas, 'questoes': questoes, 'pk': pk,
+                   'codprova': codprova, 'init': init, 'end': end})
+
 
 def provaperson_pronta(request, codprova):
-
     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
     questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
-
-    id_questoes = []
-    for q in questoes:
-        id_questoes.append(q)
-
-    alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
 
     id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
     problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
 
-    return render(request, 'novasprovas/provaperson_pronta.html', {'provaperson':provaperson, 'problemas':problemas, 'questoes': questoes, 'alternativas':alternativas, 'codprova':codprova})
+    return render(request, 'novasprovas/provaperson_pronta.html',
+                  {'provaperson': provaperson, 'problemas': problemas, 'questoes': questoes, 'codprova': codprova})
 
 
 acentoserro = ["á", "à", "ã", "Ã", "é", "ê", "õ", "ô", "ó", "ç", "ú", "ı́"]
 acentos = ["á", "à", "ã", "Ã", "é", "ê", "õ", "ô", "ó", "ç", "ú", "í"]
 
-def provaperson_baixar(request, codprova):
 
-    #ENCONTRA CONTEUDO DA PROVA:
+def provaperson_baixar(request, codprova):
+    # ENCONTRA CONTEUDO DA PROVA:
     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
     questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
-
-    id_questoes = []
-    for q in questoes:
-        # print(q.enunciadoquestao) #ARRUMAR ACENTUAÇÃO
-        id_questoes.append(q)
-
-    alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
 
     id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
     problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
 
-    #ESCREVE NA PROVA
+    # ESCREVE NA PROVA
     count = 1
 
-    doc = SimpleDocTemplate("/tmp/prova-" + str(codprova) + ".pdf", rightMargin=50, leftMargin=50, topMargin=40, bottomMargin=50)
+    doc = SimpleDocTemplate("/tmp/prova-" + str(codprova) + ".pdf", rightMargin=50, leftMargin=50, topMargin=40,
+                            bottomMargin=50)
     styles = getSampleStyleSheet()
     Story = [Spacer(1, 0.2 * inch)]
     style = styles["Normal"]
@@ -296,7 +292,7 @@ def provaperson_baixar(request, codprova):
         for i in range(len(acentos)):
             e = e.replace(acentoserro[i], acentos[i])
 
-        par = Paragraph('<para fontSize=12>' + e + '<br/></para>',style)
+        par = Paragraph('<para fontSize=12>' + e + '<br/></para>', style)
         Story.append(par)
 
         if p.regrasproblema:
@@ -315,9 +311,9 @@ def provaperson_baixar(request, codprova):
         Story.append(Spacer(1, 0.2 * inch))
 
         if p.imgproblema:
-            #local: 'static/'
-            #heroku: '/app/praticandoOBI/static/'
-            img = Image('/app/praticandoOBI/static/' + p.imgproblema, 4 * inch, 4*inch)
+            # local: 'static/'
+            # heroku: '/app/praticandoOBI/static/'
+            img = Image('/app/praticandoOBI/static/' + p.imgproblema, 4 * inch, 4 * inch)
             Story.append(img)
 
         for q in questoes:
@@ -329,125 +325,38 @@ def provaperson_baixar(request, codprova):
                 par = Paragraph('<para fontSize=12><b>Questão ' + str(count) + "</b> - " + e + '<br/></para>', style)
                 Story.append(par)
                 Story.append(Spacer(1, 0.2 * inch))
-                count+=1
+                count += 1
 
                 if q.imgquestao:
-                    #local: 'static/'
-                    #heroku: '/app/praticandoOBI/static/'
-                    img = Image( '/app/praticandoOBI/static/' + q.imgproblema, 2 * inch, 2 * inch)
+                    # local: 'static/'
+                    # heroku: '/app/praticandoOBI/static/'
+                    img = Image('/app/praticandoOBI/static/' + q.imgproblema, 2 * inch, 2 * inch)
                     Story.append(img)
-                for a in alternativas:
-                    if a.codquestao.codquestao == q.codquestao:
-                        e = a.textoalternativa
-                        for i in range(len(acentos)):
-                            e = e.replace(acentoserro[i], acentos[i])
+                for a in q.get_alternativas:
+                    e = a.textoalternativa
+                    for i in range(len(acentos)):
+                        e = e.replace(acentoserro[i], acentos[i])
 
-                        par = Paragraph('<para fontSize=12><b>' + a.letraalternativa + ')</b> ' + e + '<br/></para>', style)
-                        Story.append(par)
-                        Story.append(Spacer(1, 0.1 * inch))
+                    par = Paragraph('<para fontSize=12><b>' + a.letraalternativa + ')</b> ' + e + '<br/></para>',
+                                    style)
+                    Story.append(par)
+                    Story.append(Spacer(1, 0.1 * inch))
 
         Story.append(Spacer(1, 0.3 * inch))
     doc.build(Story)
     nome = "prova-" + str(codprova)
     fs = FileSystemStorage("/tmp")
-    with fs.open("prova-"+str(codprova)+".pdf") as pdf:
+    with fs.open("prova-" + str(codprova) + ".pdf") as pdf:
         response = HttpResponse(pdf, content_type='application/pdf')
-        response['Content-Disposition'] = 'attachment; filename='+nome+'.pdf'
+        response['Content-Disposition'] = 'attachment; filename=' + nome + '.pdf'
     return response
+
 
 def provaperson_baixar_docx(request, codprova):
-
-    #ENCONTRA CONTEUDO DA PROVA:
+    # ENCONTRA CONTEUDO DA PROVA:
     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
     questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
 
-    id_questoes = []
-    for q in questoes:
-        id_questoes.append(q)
-
-    alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
-    id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
-    problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
-
-    document = Document()
-    document.add_heading(provaperson.titulo, 0)
-
-    count = 1
-    for p in problemas:
-        par2 = document.add_heading(p.tituloproblema, level=1)
-        par2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run2 = par2.add_run()
-
-        run2.add_break()
-
-        par1 = document.add_paragraph()
-        #par1.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-        run = par1.add_run(p.enunciadoproblema)
-        run.add_break()
-        run.add_break()
-
-        if p.regrasproblema:
-            par1.add_run('REGRAS: ')
-            run = par1.add_run(p.regrasproblema)
-            run.add_break()
-            run.add_break()
-
-        if p.imgproblema:
-            #local: 'static/ + p.imgproblema'
-            #heroku: '/app/praticandoOBI/static/'
-            document.add_picture('/app/praticandoOBI/static/' + p.imgproblema, width=Inches(4))
-
-        par = document.add_paragraph()
-        par.alignment = WD_ALIGN_PARAGRAPH.LEFT
-        for q in questoes:
-                if p.codproblema == q.codproblema.codproblema:
-
-                    e = q.enunciadoquestao
-                    for i in range(len(acentos)):
-                        e = e.replace(acentoserro[i], acentos[i])
-
-                    par.add_run('Questão ').bold = True
-                    par.add_run(str(count)).bold = True
-                    par.add_run(': ')
-                    run = par.add_run(e)
-                    run.add_break()
-                    count+=1
-
-                    if q.imgquestao:
-                        # local: 'static/ + q.imgproblema'
-                        # heroku: '/app/praticandoOBI/static/' + q.imgproblema
-                        document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
-
-                    for a in alternativas:
-                        if a.codquestao.codquestao == q.codquestao:
-                            alt = a.textoalternativa
-                            for i in range(len(acentos)):
-                                alt = alt.replace(acentoserro[i], acentos[i])
-
-                            par.add_run(a.letraalternativa).bold = True
-                            par.add_run(') ').bold = True
-                            run = par.add_run(alt)
-                            run.add_break()
-
-                    run.add_break()
-    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
-    response['Content-Disposition'] = 'attachment; filename=download.docx'
-    document.save(response)
-
-    return response
-
-
-def upload_drive(request, codprova):
-
-    #CRIA PROVA DOCX:
-    provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
-    questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
-
-    id_questoes = []
-    for q in questoes:
-        id_questoes.append(q)
-
-    alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
     id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
     problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
 
@@ -500,22 +409,96 @@ def upload_drive(request, codprova):
                     # heroku: '/app/praticandoOBI/static/' + q.imgproblema
                     document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
 
-                for a in alternativas:
-                    if a.codquestao.codquestao == q.codquestao:
-                        alt = a.textoalternativa
-                        for i in range(len(acentos)):
-                            alt = alt.replace(acentoserro[i], acentos[i])
+                for a in q.get_alternativas:
+                    alt = a.textoalternativa
+                    for i in range(len(acentos)):
+                        alt = alt.replace(acentoserro[i], acentos[i])
 
-                        par.add_run(a.letraalternativa).bold = True
-                        par.add_run(') ').bold = True
-                        run = par.add_run(alt)
-                        run.add_break()
+                    par.add_run(a.letraalternativa).bold = True
+                    par.add_run(') ').bold = True
+                    run = par.add_run(alt)
+                    run.add_break()
 
                 run.add_break()
-    #SALVA A PROVA LOCAL
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    response['Content-Disposition'] = 'attachment; filename=download.docx'
+    document.save(response)
+
+    return response
+
+
+def upload_drive(request, codprova):
+    # CRIA PROVA DOCX:
+    provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
+    questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
+
+    id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
+    problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
+
+    document = Document()
+    document.add_heading(provaperson.titulo, 0)
+
+    count = 1
+    for p in problemas:
+        par2 = document.add_heading(p.tituloproblema, level=1)
+        par2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run2 = par2.add_run()
+
+        run2.add_break()
+
+        par1 = document.add_paragraph()
+        # par1.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        run = par1.add_run(p.enunciadoproblema)
+        run.add_break()
+        run.add_break()
+
+        if p.regrasproblema:
+            par1.add_run('REGRAS: ')
+            run = par1.add_run(p.regrasproblema)
+            run.add_break()
+            run.add_break()
+
+        if p.imgproblema:
+            # local: 'static/ + p.imgproblema'
+            # heroku: '/app/praticandoOBI/static/'
+            document.add_picture('/app/praticandoOBI/static/' + p.imgproblema, width=Inches(4))
+
+        par = document.add_paragraph()
+        par.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        for q in questoes:
+            if p.codproblema == q.codproblema.codproblema:
+
+                e = q.enunciadoquestao
+                for i in range(len(acentos)):
+                    e = e.replace(acentoserro[i], acentos[i])
+
+                par.add_run('Questão ').bold = True
+                par.add_run(str(count)).bold = True
+                par.add_run(': ')
+                run = par.add_run(e)
+                run.add_break()
+                count += 1
+
+                if q.imgquestao:
+                    # local: 'static/ + q.imgproblema'
+                    # heroku: '/app/praticandoOBI/static/' + q.imgproblema
+                    document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
+
+                for a in q.get_alternativas:
+                    alt = a.textoalternativa
+                    for i in range(len(acentos)):
+                        alt = alt.replace(acentoserro[i], acentos[i])
+
+                    par.add_run(a.letraalternativa).bold = True
+                    par.add_run(') ').bold = True
+                    run = par.add_run(alt)
+                    run.add_break()
+
+                run.add_break()
+    # SALVA A PROVA LOCAL
     document.save('/app/praticandoOBI/' + provaperson.titulo + '.docx')
 
-    #CONECTA COM CONTA NO DRIVE
+    # CONECTA COM CONTA NO DRIVE
     store = file.Storage('/app/praticandoOBI/token.json')
     creds = store.get()
 
@@ -525,8 +508,7 @@ def upload_drive(request, codprova):
         creds = tools.run_flow(flow, store, flags)
     service = build('drive', 'v3', http=creds.authorize(Http()))
 
-
-    #ENVIA O ARQUIVO
+    # ENVIA O ARQUIVO
     file_metadata = {
         'name': provaperson.titulo + '.docx',
     }
@@ -534,9 +516,9 @@ def upload_drive(request, codprova):
                             mimetype='text/',
                             resumable=True)
     prova = service.files().create(body=file_metadata,
-                                        media_body=media).execute()
+                                   media_body=media).execute()
 
-    #APAGA A PROVA SALVA LOCALMENTE
+    # APAGA A PROVA SALVA LOCALMENTE
     os.remove('/app/praticandoOBI/' + provaperson.titulo + '.docx')
     return redirect('https://docs.google.com/document/d/' + prova.get('id') + '/edit')
 

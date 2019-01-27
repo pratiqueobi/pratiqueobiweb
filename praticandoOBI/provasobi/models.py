@@ -101,6 +101,15 @@ class Questao(models.Model):
     def __str__(self):
         return self.numeroquestao.__str__()
 
+    def get_alternativas(self):
+        data = []
+        letras = ['a', 'b', 'c', 'd', 'e']
+        i = 0
+        alternativas = self.alternativas.split('|')
+        for alternativa in alternativas:
+            data.append({'letraalternativa': letras[i], 'textoalternativas': alternativas[i]})
+            i += 1
+        return data
 
 # class Gabarito(models.Model):
 #     codquestao = models.OneToOneField('Questao', models.DO_NOTHING,
