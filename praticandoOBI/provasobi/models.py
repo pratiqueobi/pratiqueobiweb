@@ -103,7 +103,7 @@ class Questao(models.Model):
 
     def get_alternativas(self):
         data = []
-        letras = ['a', 'b', 'c', 'd', 'e']
+        letras = ['A', 'B', 'C', 'D', 'E']
         i = 0
         alternativas = self.alternativas.split('|')
         for alternativa in alternativas:
