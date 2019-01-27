@@ -107,7 +107,7 @@ class Questao(models.Model):
         i = 0
         alternativas = self.alternativas.split('|')
         for alternativa in alternativas:
-            data.append({'letraalternativa': letras[i], 'textoalternativas': alternativas[i]})
+            data.append({'letraalternativa': letras[i], 'textoalternativa': alternativas[i]})
             i += 1
         return data
 
