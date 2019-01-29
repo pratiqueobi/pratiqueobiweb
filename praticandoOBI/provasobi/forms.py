@@ -19,6 +19,15 @@ class QuestaoForm(forms.ModelForm):
         model = Questao
         exclude = ['alternativas']
 
+    def __init__(self, *args, **kwargs):
+        super(QuestaoForm, self).__init__(*args, **kwargs)
+        alternativas = kwargs['instance'].alternativas.split('|')
+        self.fields['a'].initial = alternativas[0]
+        self.fields['b'].initial = alternativas[1]
+        self.fields['c'].initial = alternativas[2]
+        self.fields['d'].initial = alternativas[3]
+        self.fields['e'].initial = alternativas[4]
+
     def save(self, commit=True):
         m = super(QuestaoForm, self).save(commit=False)
         self.instance.alternativas = self.cleaned_data['a'] + '|' + self.cleaned_data['b'] + '|' + \
