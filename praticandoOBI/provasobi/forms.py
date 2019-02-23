@@ -21,12 +21,13 @@ class QuestaoForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(QuestaoForm, self).__init__(*args, **kwargs)
-        alternativas = kwargs['instance'].alternativas.split('|')
-        self.fields['a'].initial = alternativas[0]
-        self.fields['b'].initial = alternativas[1]
-        self.fields['c'].initial = alternativas[2]
-        self.fields['d'].initial = alternativas[3]
-        self.fields['e'].initial = alternativas[4]
+        if kwargs.get('instance', False):
+            alternativas = kwargs['instance'].alternativas.split('|')
+            self.fields['a'].initial = alternativas[0]
+            self.fields['b'].initial = alternativas[1]
+            self.fields['c'].initial = alternativas[2]
+            self.fields['d'].initial = alternativas[3]
+            self.fields['e'].initial = alternativas[4]
 
     def save(self, commit=True):
         m = super(QuestaoForm, self).save(commit=False)
