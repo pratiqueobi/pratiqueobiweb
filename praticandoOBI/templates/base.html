@@ -47,7 +47,7 @@
                     <span class="sr-only">(current)</span>
                 </li>
                 <li>
-                    <a class="nav-link" href="{% url 'provas_obi:url_busca' %}">Buscar</a>
+                    <a class="nav-link" href="{% url 'provas_obi:url_busca' %}">Busca</a>
                     <span class="sr-only">(current)</span>
                 </li>
                 <!--<li class="nav-item dropdown">-->
@@ -97,11 +97,7 @@
     <div class="copy-banner" style="margin-top: 85px;">
         <p style="margin-left: 10px; padding: 10px; color: white; font-size:28px; ">
             {% block titulo %}
-                {% if user.is_authenticated %}
-                    Olá, {{ user.get_username }}!
-                {% else %}
-                    Home
-                {% endif %}
+
             {% endblock %}</p>
     </div>
 

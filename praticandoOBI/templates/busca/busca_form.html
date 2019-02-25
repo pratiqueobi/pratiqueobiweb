@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block caminho %}
-    Provas / Busca Provas
+{% block titulo %}
+    Busca
 {% endblock %}
 
 {% block container %}
     <h1>Provas</h1>
+
     <table id="tableprovas" class="display">
         <thead>
         <tr>
@@ -18,7 +19,7 @@
         <tbody>
         {% for prova in provas %}
             <tr>
-                <td> Ano {{ prova.anoprova }} / Nível{{ prova.nivelprova }} / Fase{{ prova.faseprova }}</td>
+                <td> Ano {{ prova.anoprova }} / Nível {{ prova.nivelprova }} / Fase {{ prova.faseprova }}</td>
                 <td><a href="{{ prova.urlprova }}">Link Prova</a></td>
                 {% if prova.urlgabarito %}
                     <td><a href="{{ prova.urlgabarito }}">Link Gabarito</a></td>
@@ -29,8 +30,13 @@
         {% endfor %}
         </tbody>
     </table>
+
+
+</br><hr class="my-2"></br></br>
+
     <h1>Problemas</h1>
     <!--<p>Buscar por título, enunciado, classificacão</p>-->
+
     <form action="" method="GET">
         <div class="form-group">
             {% if error %}

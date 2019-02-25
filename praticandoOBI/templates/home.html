@@ -1,6 +1,14 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block titulo %}
+    {% if user.is_authenticated %}
+        Olá, {{ user.get_username }}!
+    {% else %}
+        Home
+    {% endif %}
+{% endblock %}
+
 {% block container %}
 
 <link href="{% static 'css/style2.css' %}" rel="stylesheet">
