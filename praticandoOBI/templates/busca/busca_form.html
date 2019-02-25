@@ -10,7 +10,7 @@
     <table id="tableprovas" class="display">
         <thead>
         <tr>
-            <th>Ano/Nível/Fase</th>
+            <th>Ano / Nível / Fase</th>
             <th>Prova</th>
             <th>Gabarito</th>
         </tr>
@@ -18,7 +18,7 @@
         <tbody>
         {% for prova in provas %}
             <tr>
-                <td> Ano {{ prova.anoprova }}/ Nível{{ prova.nivelprova }}/ Fase{{ prova.faseprova }}</td>
+                <td> Ano {{ prova.anoprova }} / Nível{{ prova.nivelprova }} / Fase{{ prova.faseprova }}</td>
                 <td><a href="{{ prova.urlprova }}">Link Prova</a></td>
                 {% if prova.urlgabarito %}
                     <td><a href="{{ prova.urlgabarito }}">Link Gabarito</a></td>
@@ -30,7 +30,7 @@
         </tbody>
     </table>
     <h1>Problemas</h1>
-    <p>Buscar por título, enunciado, classificacão</p>
+    <!--<p>Buscar por título, enunciado, classificacão</p>-->
     <form action="" method="GET">
         <div class="form-group">
             {% if error %}
@@ -40,6 +40,7 @@
             {% if erroinput %}
                 <p style="color: red;">Busca inválida, busque por um ano, nível ou fase de prova.</p>
             {% endif %}
+
             <div class="row">
                 <div class="col-10">
                     <input type="text" class="form-control" name="q"/><br/>
@@ -53,18 +54,18 @@
     <table id="tableproblemas" class="display">
         <thead>
         <tr>
-            <th>Ano/Nível/Fase</th>
-            <th>Classificacao</th>
+            <th>Ano / Nível / Fase</th>
+            <th>Classificação</th>
             <th>Título</th>
         </tr>
         </thead>
         <tbody>
         {% for problema in problemas %}
             <tr>
-                <td> Ano {{ problema.codprova.anoprova }}/ Nível {{ problema.codprova.nivelprova }}/
+                <td>Ano {{ problema.codprova.anoprova }} / Nível {{ problema.codprova.nivelprova }} /
                     Fase {{ problema.codprova.faseprova }}</td>
                 <td>{% for class in problema.classificacao.all %}{{ class.tituloclassificacao }} {% endfor %}</td>
-                <td>{{ problema.tituloproblema }}</td>
+                <td><a href="{% url 'provas_obi:url_prob_info' problema.codprova.codprova %}">{{ problema.tituloproblema }}</a></td>
             </tr>
         {% endfor %}
         </tbody>
