@@ -1,4 +1,4 @@
-{% extends 'base2.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block titulo %}
@@ -15,27 +15,34 @@
 			<li><a>Prova Pronta!</a></li>
 		</ul>
 
+    <table id="tableproblemas" class="display">
+        <thead>
+        <tr>
+            <th>Ano / Nível / Fase</th>
+            <th>Classificação</th>
+            <th>Título</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for problema in problemas %}
+            <tr>
+                <td>Ano {{ problema.codprova.anoprova }} / Nível {{ problema.codprova.nivelprova }} /
+                    Fase {{ problema.codprova.faseprova }}</td>
+                <td>{% for class in problema.classificacao.all %}{{ class.tituloclassificacao }} {% endfor %}</td>
+                <td><a href="{% url 'provas_obi:url_prob_info' problema.codproblema %}">{{ problema.tituloproblema }}</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
 
-     <form action="" method="GET">
-        <div class="form-group">
-             <h5>Busque questões de provas passadas da OBI</h5>
-                 <small>Pesquise questões pelo ano, fase ou nível da prova:</small>
-            {% if error %}
-                <p style="color: red;">Por favor, entre com um valor.</p>
-            {% endif %}
-
-            <div class="col-xs-9">
-                <input type="text" class="form-control" name="q"/>
-                <label class="radio-inline">Procurar questões por: </label>
-                <label for="box1"><input type="radio" name="display_type" value="anobox" id="box1">Ano</label>&emsp;
-                <label for="box2"><input type="radio" name="display_type" value="fasebox" id="box2">Fase</label>&emsp;
-                <label for="box3"><input type="radio" name="display_type" value="nivelbox" id="box3">Nível</label>&emsp;
-                <label for="box4"><input type="radio" name="display_type" value="todosbox" id="box4" checked="checked">Todos</label>
-
-            </div>
-            <div class="col-xs-2">
-                <button type="submit" class="btn btn-primary">Buscar</button>
-            </div>
-        </div>
-    </form>
+{% block extra_scripts %}
+    <script>
+        $(document).ready(function () {
+            $('#tableprovas').DataTable();
+        });
+        $(document).ready(function () {
+            $('#tableproblemas').DataTable({"searching": false});
+        });
+    </script>
 {% endblock %}
