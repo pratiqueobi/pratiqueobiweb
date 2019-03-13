@@ -2,27 +2,15 @@
 import codecs
 from django.shortcuts import render, redirect, get_object_or_404
 import os
-from .models import Profile
 from .forms import ProfileForm, ProvaForm, QuestoesForm
 from provasobi.models import ProvaPerson, Prova, Questao, Classificacao, Problema, Alternativa
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login, authenticate
-from django.contrib.auth.models import User
 from django.contrib import messages
-from django.contrib.auth.views import LoginView
-from django.contrib.auth import login, REDIRECT_FIELD_NAME
-from django.urls import reverse
-from django.contrib.auth.decorators import login_required
-from django.views.generic import (CreateView, DeleteView, DetailView, ListView)
 from django.db.models import Q
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
-from django.conf.urls.static import static
-from django.conf import settings
-from django.core.files import File
 
 from docx import Document
 from docx.shared import Inches, RGBColor
@@ -43,6 +31,8 @@ from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
 from apiclient.http import MediaFileUpload
+
+from watson import search as watson
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/drive'
@@ -171,6 +161,17 @@ def provaperson_detail(request, pk):
     provaperson = ProvaPerson.objects.all().filter(pk=pk)
     return render(request, 'novasprovas/provaperson_detail.html', {'provaperson': provaperson})
 
+def busca(request):
+    error = False
+    provas = Prova.objects.all()
+    q = request.GET.get('q', '')
+    problemas = Problema.objects.all()
+    if q:
+        problemas = watson.filter(problemas, q)
+
+    return render(request, 'busca/busca_form.html', {'provas': provas,
+                                                     'error': error,
+                                                     'problemas': problemas})
 
 def questoes_busca(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk, autor=request.user.profile)
@@ -198,6 +199,10 @@ def questoes_busca(request, pk):
                 # return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'problemas': problemas, 'query': q, 'pk': pk})
             elif checkbox == 'nivelbox':
                 provas = Prova.objects.filter(Q(nivelprova=q))
+                return render(request, 'novasprovas/addquestoes_resultado.html',
+                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+            elif checkbox == 'classbox':
+                provas = Prova.objects.filter(Q(prova=q))
                 return render(request, 'novasprovas/addquestoes_resultado.html',
                               {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
             else:

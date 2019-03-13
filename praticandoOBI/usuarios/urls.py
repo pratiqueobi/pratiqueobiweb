@@ -1,6 +1,6 @@
 from django.urls import path
 from django.conf.urls import include, url
-from usuarios.views import upload_drive, provaperson_baixar, provaperson_excluir, provaperson_baixar_docx, dadosbanco, update_perfil, cadastro_perfil, questoes_add, questoes_busca, home_usuario, provaperson, provaperson_detail, provaperson_edit, provasperson, provaperson_pronta
+from usuarios.views import upload_drive, provaperson_baixar, busca, provaperson_excluir, provaperson_baixar_docx, dadosbanco, update_perfil, cadastro_perfil, questoes_add, questoes_busca, home_usuario, provaperson, provaperson_detail, provaperson_edit, provasperson, provaperson_pronta
 from provasobi.views import provas, problemas
 from django.contrib.auth import views as auth_views
 
@@ -17,6 +17,7 @@ urlpatterns = [
     path('minhasprovas/', provasperson, name='provasperson'),
     path('minhasprovas/editar/<int:pk>/', provaperson_edit, name='provaperson_edit'),
     path('minhasprovas/editar/<int:pk>/buscaquestoes/', questoes_busca, name='questoes_busca'),
+    path('minhasprovas/editar/<int:pk>/busca/', busca, name='busca'),
     path('minhasprovas/<int:pk>/', provaperson_detail, name='provaperson_detail'),
 
     path('minhasprovas/editar/<int:codprova>/adquestoes/<int:pk>/', questoes_add, name='questoes_add'),
