@@ -161,6 +161,7 @@ def provaperson_detail(request, pk):
     provaperson = ProvaPerson.objects.all().filter(pk=pk)
     return render(request, 'novasprovas/provaperson_detail.html', {'provaperson': provaperson})
 
+
 def busca(request):
     error = False
     provas = Prova.objects.all()
@@ -173,48 +174,19 @@ def busca(request):
                                                      'error': error,
                                                      'problemas': problemas})
 
+
 def questoes_busca(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk, autor=request.user.profile)
     error = False
+    problemas = Problema.objects.all()
 
     if 'q' in request.GET:
         q = request.GET['q']
-        checkbox = request.GET.get("display_type", None)
-        if not q:
-            error = True
-        else:
-            if q.isnumeric() == False:
-                return redirect('usuarios_obi:questoes_busca', provaperson.pk)
-            elif checkbox == 'anoox':
-                provas = Prova.objects.filter(Q(anoprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html',
-                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
-            elif checkbox == 'fasebox':
-                provas = Prova.objects.filter(Q(faseprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html',
-                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
+        problemas = watson.filter(problemas, q)
+        # return render(request, 'novasprovas/addquestoes_resultado.html',
+        #               {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
 
-                # classificacao = Classificacao.objects.filter(tituloclassificacao=q)
-                # problemas = Problema.objects.filter(Q(tituloproblema__icontains=q) | Q(classificacao__in=classificacao))
-                # return render(request, 'novasprovas/addquestoes_resultado.html', {'provaperson': provaperson, 'problemas': problemas, 'query': q, 'pk': pk})
-            elif checkbox == 'nivelbox':
-                provas = Prova.objects.filter(Q(nivelprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html',
-                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
-            elif checkbox == 'classbox':
-                provas = Prova.objects.filter(Q(prova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html',
-                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
-            else:
-                provas = Prova.objects.filter(Q(anoprova=q) | Q(faseprova=q) | Q(nivelprova=q))
-                return render(request, 'novasprovas/addquestoes_resultado.html',
-                              {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
-
-        provas = Prova.objects.all()
-        return render(request, 'novasprovas/addquestoes_resultado.html',
-                      {'provaperson': provaperson, 'provas': provas, 'query': q, 'pk': pk})
-
-    return render(request, 'novasprovas/addquestoes.html', {'provaperson': provaperson, 'error': error, 'pk': pk})
+    return render(request, 'novasprovas/addquestoes.html', {'provaperson': provaperson, 'error': error, 'pk': pk, 'problemas': problemas})
 
 
 def questoes_add(request, codprova, pk):

@@ -15,6 +15,29 @@
 			<li><a>Prova Pronta!</a></li>
 		</ul>
 
+    <h1>Problemas</h1>
+    <!--<p>Buscar por título, enunciado, classificacão</p>-->
+
+    <form action="" method="GET">
+        <div class="form-group">
+            {% if error %}
+                <p style="color: red;">Por favor, entre com um valor.</p>
+            {% endif %}
+
+            {% if erroinput %}
+                <p style="color: red;">Busca inválida, busque por um ano, nível ou fase de prova.</p>
+            {% endif %}
+
+            <div class="row">
+                <div class="col-10">
+                    <input type="text" class="form-control" name="q"/><br/>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-primary btn-block">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </form>
     <table id="tableproblemas" class="display">
         <thead>
         <tr>
@@ -38,9 +61,6 @@
 
 {% block extra_scripts %}
     <script>
-        $(document).ready(function () {
-            $('#tableprovas').DataTable();
-        });
         $(document).ready(function () {
             $('#tableproblemas').DataTable({"searching": false});
         });
