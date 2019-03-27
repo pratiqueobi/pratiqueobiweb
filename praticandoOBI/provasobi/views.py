@@ -1,10 +1,6 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.http import HttpResponseRedirect
-from django.urls import reverse
+from django.shortcuts import render
 from .models import Prova, Problema, Questao, ProvaPerson, Classificacao
-from .forms import ProvaForm
 from django.db.models import Q
-from django.contrib import messages
 from watson import search as watson
 
 

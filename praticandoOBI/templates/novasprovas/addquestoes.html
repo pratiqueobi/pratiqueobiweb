@@ -52,7 +52,7 @@
                 <td>Ano {{ problema.codprova.anoprova }} / Nível {{ problema.codprova.nivelprova }} /
                     Fase {{ problema.codprova.faseprova }}</td>
                 <td>{% for class in problema.classificacao.all %}{{ class.tituloclassificacao }} {% endfor %}</td>
-                <td><a href="{% url 'provas_obi:url_prob_info' problema.codproblema %}">{{ problema.tituloproblema }}</a></td>
+                <td><a href="{% url 'usuarios_obi:questoes_add' problema.codproblema pk %}">{{ problema.tituloproblema }}</a></td>
             </tr>
         {% endfor %}
         </tbody>
