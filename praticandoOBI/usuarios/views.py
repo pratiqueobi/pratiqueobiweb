@@ -5,7 +5,6 @@ import os
 from .forms import ProfileForm, ProvaForm, QuestoesForm
 from provasobi.models import ProvaPerson, Prova, Questao, Classificacao, Problema, Alternativa
 from django.contrib import messages
-from django.db.models import Q
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
@@ -183,10 +182,11 @@ def questoes_busca(request, pk):
         problemas = watson.filter(problemas, q)
 
     if request.method == 'POST':
-        #puxar as questoes selecionadas e jogar numa lista (ids)
-        questoes = []
-        for q in questoes:
+        id_questoes = request.POST.getlist('checks')
+
+        for q in id_questoes:
             provaperson.questoes.add(q)
+
         if request.POST.get('finalizar', False):
             return redirect('usuarios_obi:provaperson_pronta', codprova=pk)
 
