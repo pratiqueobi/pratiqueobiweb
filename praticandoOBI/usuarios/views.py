@@ -177,23 +177,13 @@ def busca(request):
 
 def questoes_busca(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk, autor=request.user.profile)
-    error = False
-    problemas = Problema.objects.all().filter(codproblema=pk)
-
-    id_prob = []
-    for p in problemas:
-        id_prob.append(p)
-        codp = p.codprova.codprova
-
-    provas = Prova.objects.filter(codprova=codp)
-
-    questoes = Questao.objects.all().select_related('codproblema').filter(codproblema__in=problemas).order_by(
-        'numeroquestao')  # .filter(codproblema__in=id_questoes)
-
-    # return render(request, 'provas_obi:problemas', {'problemas': problemas, 'questoes': questoes, 'provas': provas})
+    q = request.GET.get('q', '')
+    problemas = Problema.objects.all()
+    if q:
+        problemas = watson.filter(problemas, q)
 
     return render(request, 'novasprovas/addquestoes.html',
-                  {'provaperson': provaperson, 'error': error, 'pk': pk, 'problemas': problemas})
+                  {'provaperson': provaperson, 'pk': pk, 'problemas': problemas})
 
 
 def questoes_add(request, codproblema, pk):
@@ -201,42 +191,6 @@ def questoes_add(request, codproblema, pk):
     questoes = Questao.objects.filter(codproblema=codproblema).order_by('numeroquestao')  # .filter(codproblema__in=id_questoes)
     return render(request, 'novasprovas/addquestoes_select.html',
                   {'problema': problema, 'questoes': questoes, 'pk': pk})
-
-    # return render(request, 'novasprovas/addquestoes_select.html',
-    #               {'problemas': problemas, 'questoes': questoes, 'pk': pk,
-    #                'codprova': codprova, 'init': init, 'end': end})
-
-    # if request.method == "POST":
-    #     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
-    #     id_questoes = request.POST.getlist('checks')
-    #     for q in id_questoes:
-    #         provaperson.questoes.add(q)
-    #     return provaperson_pronta(request, codprova)
-    #
-    # else:
-    #     problemas = Problema.objects.all().select_related('codprova').filter(codprova=pk)
-    #
-    #     id_prob = []
-    #     for p in problemas:
-    #         id_prob.append(p)
-    #
-    #     questoes = Questao.objects.all().select_related('codproblema').filter(codproblema__in=id_prob).order_by(
-    #         'numeroquestao')  # .filter(codproblema__in=id_questoes)
-    #
-    #     init = []
-    #     end = []
-    #     count = 0
-    #
-    #     for p in problemas:
-    #         init.append(questoes[count].numeroquestao)
-    #         for q in questoes:
-    #             if q.codproblema.codproblema == p.codproblema:
-    #                 count = count + 1
-    #         end.append(questoes[count - 1].numeroquestao)
-    #
-    # return render(request, 'novasprovas/addquestoes_select.html',
-    #               {'problemas': problemas, 'questoes': questoes, 'pk': pk,
-    #                'codprova': codprova, 'init': init, 'end': end})
 
 
 def provaperson_pronta(request, codprova):
