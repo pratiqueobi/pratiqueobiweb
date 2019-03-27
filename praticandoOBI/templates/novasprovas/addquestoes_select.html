@@ -28,7 +28,7 @@
     </script>
 
 
-    <form method="POST" class="post-form">{% csrf_token %}
+    <form action="{% url 'usuarios_obi:questoes_busca' pk %}" method="POST" class="post-form">{% csrf_token %}
 
         Selecionar todos de <b>{{ problema.tituloproblema }}</b>
         <h3 class="list-group-item-heading">{{ problema.numeroproblema }} - {{ problema.tituloproblema }}</h3>
@@ -67,9 +67,10 @@
                             {% endif %}
 
                             <!--Mostra as alternativas da questão-->
-                            <!--{% for a in q.get_alternativas %}-->
-                                <!--{{ a.letraalternativa }}) {{ a.textoalternativa }} </br>-->
-                            <!--{% endfor %}-->
+                             {% for a in q.get_alternativas %}
+                                {{ a.letraalternativa }}) {{ a.textoalternativa }} </br>
+                            {% endfor %}
+
                         </p>
                     </div>
                     <div class="clearfix"></div>
@@ -78,7 +79,10 @@
 
         <div class="pull-left form-control-inline">
             <h4 class="list-group-item-heading">
-                <button type="submit" class="btn btn-primary">Adicionar Questões</button>
+                <button type="submit" class="btn btn-primary">Buscar outros</button>
+            </h4>
+            <h4 class="list-group-item-heading">
+                <button type="submit" name="finalizar" value="True" class="btn btn-primary">Finalizar</button>
             </h4>
         </div>
     </form>

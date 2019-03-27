@@ -182,6 +182,14 @@ def questoes_busca(request, pk):
     if q:
         problemas = watson.filter(problemas, q)
 
+    if request.method == 'POST':
+        #puxar as questoes selecionadas e jogar numa lista (ids)
+        questoes = []
+        for q in questoes:
+            provaperson.questoes.add(q)
+        if request.POST.get('finalizar', False):
+            return redirect('usuarios_obi:provaperson_pronta', codprova=pk)
+
     return render(request, 'novasprovas/addquestoes.html',
                   {'provaperson': provaperson, 'pk': pk, 'problemas': problemas})
 
