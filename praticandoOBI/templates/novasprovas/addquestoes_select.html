@@ -18,10 +18,9 @@
     </ul>
 
     <script>
-        function toggle(source, f, init, end) {
+        function toggle(source, f) {
             var checkboxes = document.querySelectorAll('input[name="checks"]');
-            for (var i = init[f - 1] - 1; i < end[f - 1]; i++) {
-                if (checkboxes[i] != source)
+            for (var i = 0; i < checkboxes.length; i++) {
                     checkboxes[i].checked = source.checked;
             }
         }
@@ -30,7 +29,12 @@
 
     <form action="{% url 'usuarios_obi:questoes_busca' pk %}" method="POST" class="post-form">{% csrf_token %}
 
-        Selecionar todos de <b>{{ problema.tituloproblema }}</b>
+
+        <a class="list-group-item">
+            <div class="checkbox pull-left">
+                <label><input type="checkbox" onclick="toggle(this, {{forloop.counter}})"> Selecionar todos de <b>{{problema.tituloproblema}}</b></label>
+            </div>
+        <div class="pull-left form-control-inline">
         <h3 class="list-group-item-heading">{{ problema.numeroproblema }} - {{ problema.tituloproblema }}</h3>
                     <h4>Classificação:</h4>
                     <h5>{% for f in problema.classificacao.all %}
@@ -67,7 +71,7 @@
                             {% endif %}
 
                             <!--Mostra as alternativas da questão-->
-                             {% for a in q.get_alternativas %}
+                            {% for a in q.get_alternativas %}
                                 {{ a.letraalternativa }}) {{ a.textoalternativa }} </br>
                             {% endfor %}
 
@@ -76,13 +80,14 @@
                     <div class="clearfix"></div>
                 </a>
             {% endfor %}
+            <br class="pull-left form-control-inline"></br>
+        </div>
+        </a>
 
         <div class="pull-left form-control-inline">
             <h4 class="list-group-item-heading">
                 <button type="submit" class="btn btn-primary">Buscar outros</button>
-            </h4>
-            <h4 class="list-group-item-heading">
-                <button type="submit" name="finalizar" value="True" class="btn btn-primary">Finalizar</button>
+                 <button type="submit" name="finalizar" value="True" class="btn btn-primary">Finalizar</button>
             </h4>
         </div>
     </form>
