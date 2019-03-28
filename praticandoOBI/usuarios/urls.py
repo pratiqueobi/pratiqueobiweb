@@ -12,30 +12,22 @@ urlpatterns = [
     path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login_perfil'),
     path('login/', include('registration.backends.default.urls')),
     path('logout/', auth_views.LogoutView.as_view(template_name='home.html'), name='logout_perfil'),
-
-
-    path('novaprova/', provaperson, name='provaperson'),
     path('minhasprovas/', provasperson, name='provasperson'),
-    path('minhasprovas/editar/<int:pk>/', provaperson_edit, name='provaperson_edit'),
+    path('novaprova/', provaperson, name='provaperson'),
+    path('minhaprova/editar/<int:pk>/', provaperson_edit, name='provaperson_edit'),
+    path('minhaprova/editar/<int:pk>/buscaquestoes/', questoes_busca, name='questoes_busca'),
 
+    path('minhaprova/busca/', busca, name='url_busca'),
+    path('minhaprova/editar/<int:pk>/busca/', busca, name='busca'),
 
+    #path('minhaprova/<int:pk>/', provaperson_detail, name='provaperson_detail'),
+    # path('minhasprovas/pdf/', Pdf.as_view(), name='provaperson_baixar'),
 
-    path('minhasprovas/editar/<int:pk>/buscaquestoes/', questoes_busca, name='questoes_busca'),
-    path('minhasprovas/busca/', busca, name='url_busca'),
+    path('minhaprova/editar/<int:codproblema>/adquestoes/<int:pk>/', questoes_add, name='questoes_add'),
+    path('minhaprova/<int:codprova>/', provaperson_pronta, name='provaperson_pronta'),
+    path('minhaprova/excluir/<int:pk>/', provaperson_excluir, name='provaperson_excluir'),
 
-
-
-
-    path('minhasprovas/editar/<int:pk>/busca/', busca, name='busca'),
-    path('minhasprovas/<int:pk>/', provaperson_detail, name='provaperson_detail'),
-
-    path('minhasprovas/editar/<int:codproblema>/adquestoes/<int:pk>/', questoes_add, name='questoes_add'),
-
-    path('minhasprovas/<int:codprova>/verprova/', provaperson_pronta, name='provaperson_pronta'),
-    path('minhasprovas/<int:codprova>/baixarprova/', provaperson_baixar, name='provaperson_baixar'),
-    path('minhasprovas/excluir/<int:pk>/', provaperson_excluir, name='provaperson_excluir'),
-    path('minhasprovas/<int:codprova>/baixarprova_docx/', provaperson_baixar_docx, name='provaperson_baixar_docx'),
-    path('minhasprovas/<int:codprova>/upload_drive/', upload_drive, name='upload_drive'),
-
-# path('minhasprovas/pdf/', Pdf.as_view(), name='provaperson_baixar'),
+    path('minhaprova/<int:codprova>/baixarprova/', provaperson_baixar, name='provaperson_baixar'),
+    path('minhaprova/<int:codprova>/baixarprova_docx/', provaperson_baixar_docx, name='provaperson_baixar_docx'),
+    path('minhaprova/<int:codprova>/upload_drive/', upload_drive, name='upload_drive'),
 ]

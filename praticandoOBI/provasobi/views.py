@@ -95,3 +95,6 @@ def problema(request, pk):
 
     return render(request, 'problemas.html',
                   {'problemas': problemas, 'questoes': questoes, 'provas': provas})
+
+def materiais(request):
+    return render(request, 'materiais.html')

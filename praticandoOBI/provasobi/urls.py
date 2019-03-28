@@ -1,5 +1,5 @@
 from django.urls import path
-from provasobi.views import home, provas, problemas, busca, buscaprob, problema
+from provasobi.views import home, materiais, provas, problemas, busca, buscaprob, problema
 
 app_name = 'provas_obi'
 urlpatterns = [
@@ -8,4 +8,5 @@ urlpatterns = [
     path('busca/', busca, name='url_busca'),
     path('buscaproblemas/', buscaprob, name='url_buscaprob'),
     path('problema/<int:pk>/', problema, name='url_prob_info'),
+    path('materiais/', materiais, name='url_materiais'),
 ]
