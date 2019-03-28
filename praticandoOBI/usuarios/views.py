@@ -215,24 +215,19 @@ def provaperson_pronta(request, codprova):
 acentoserro = ["á", "à", "ã", "Ã", "é", "ê", "õ", "ô", "ó", "ç", "ú", "ı́"]
 acentos = ["á", "à", "ã", "Ã", "é", "ê", "õ", "ô", "ó", "ç", "ú", "í"]
 
-
 def provaperson_baixar(request, codprova):
-    # ENCONTRA CONTEUDO DA PROVA:
+
     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
     questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
 
     id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
     problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
 
-    # ESCREVE NA PROVA
     count = 1
-
-    doc = SimpleDocTemplate("/tmp/prova-" + str(codprova) + ".pdf", rightMargin=50, leftMargin=50, topMargin=40,
-                            bottomMargin=50)
+    doc = SimpleDocTemplate("/tmp/prova-" + str(codprova) + ".pdf", rightMargin=50, leftMargin=50, topMargin=40, bottomMargin=50)
     styles = getSampleStyleSheet()
     Story = [Spacer(1, 0.2 * inch)]
     style = styles["Normal"]
-
     par = Paragraph('<para align=center fontSize=20 > <b>' + provaperson.titulo + '</b></para>', style)
     Story.append(par)
     Story.append(Spacer(1, 0.4 * inch))
@@ -287,6 +282,7 @@ def provaperson_baixar(request, codprova):
                     # heroku: '/app/praticandoOBI/static/'
                     img = Image('/app/praticandoOBI/static/' + q.imgproblema, 2 * inch, 2 * inch)
                     Story.append(img)
+
                 for a in q.get_alternativas:
                     e = a.textoalternativa
                     for i in range(len(acentos)):
@@ -308,12 +304,21 @@ def provaperson_baixar(request, codprova):
 
 
 def provaperson_baixar_docx(request, codprova):
+
     # ENCONTRA CONTEUDO DA PROVA:
     provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
     questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
 
+    id_questoes = []
+    for q in questoes:
+        # print(q.enunciadoquestao) #ARRUMAR ACENTUAÇÃO
+        id_questoes.append(q)
+
+    alternativas = Alternativa.objects.all().select_related('codquestao').filter(codquestao__in=id_questoes)
+
     id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
     problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
+
 
     document = Document()
     document.add_heading(provaperson.titulo, 0)
@@ -435,8 +440,8 @@ def upload_drive(request, codprova):
                 count += 1
 
                 if q.imgquestao:
-                    # local: 'static/ + q.imgproblema'
-                    # heroku: '/app/praticandoOBI/static/' + q.imgproblema
+                    #local: 'static/ + q.imgproblema'
+                    #heroku: '/app/praticandoOBI/static/' + q.imgproblema
                     document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
 
                 for a in q.get_alternativas:
@@ -475,6 +480,7 @@ def upload_drive(request, codprova):
 
     # APAGA A PROVA SALVA LOCALMENTE
     os.remove('/app/praticandoOBI/' + provaperson.titulo + '.docx')
+
     return redirect('https://docs.google.com/document/d/' + prova.get('id') + '/edit')
 
 
