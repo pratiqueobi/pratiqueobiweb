@@ -50,9 +50,7 @@
               {% endif %}
 
               <!--Mostra as alternativas da questão-->
-                {% for a in q.get_alternativas %}
-                    {{ a.letraalternativa }}) {{ a.textoalternativa }} </br>
-                {% endfor %}
+
           </p>
       </div>
 
@@ -60,4 +58,9 @@
    {% endfor %}
     <hr>
   {% endfor %}
+
+    <p align="center" style="margin-top:5%;">
+    <a href="{% url 'usuarios_obi:url_gabarito' codprova %}" class="btn btn-primary" >Gabarito</a>
+    </p>
+
 {% endblock %}

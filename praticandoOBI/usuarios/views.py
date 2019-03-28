@@ -161,6 +161,17 @@ def provaperson_detail(request, pk):
     return render(request, 'novasprovas/provaperson_detail.html', {'provaperson': provaperson})
 
 
+def gabarito(request, codprova):
+    provaperson = get_object_or_404(ProvaPerson, pk=codprova, autor=request.user.profile)
+    questoes = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).order_by('numeroquestao')
+
+    id_problemas = Questao.objects.all().filter(codquestao__in=provaperson.questoes.all()).values('codproblema')
+    problemas = Problema.objects.all().filter(codproblema__in=id_problemas).distinct()
+
+    return render(request, 'novasprovas/gabarito.html',
+                  {'provaperson': provaperson, 'problemas': problemas, 'questoes': questoes, 'codprova': codprova})
+
+
 def busca(request):
     error = False
     provas = Prova.objects.all()
@@ -172,7 +183,6 @@ def busca(request):
     return render(request, 'novasprovas/addquestoes.html', {'provas': provas,
                                                             'error': error,
                                                             'problemas': problemas})
-
 
 def questoes_busca(request, pk):
     provaperson = get_object_or_404(ProvaPerson, pk=pk, autor=request.user.profile)

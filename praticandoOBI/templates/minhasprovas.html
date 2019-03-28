@@ -37,6 +37,7 @@
                 Observações: {{prova.observacoes}}</br></br>
                 <a href="{% url 'usuarios_obi:provaperson_edit' prova.pk %}" class="btn btn-primary" role="button" >Editar</a>
                 <a href="{% url 'usuarios_obi:provaperson_pronta' prova.pk %}" class="btn btn-primary" role="button" >Visualizar</a>
+                <a href="{% url 'usuarios_obi:url_gabarito' prova.pk %}" class="btn btn-primary" role="button" >Gabarito</a>
                 <a href="{% url 'usuarios_obi:provaperson_excluir' prova.pk %}" class="btn btn-primary" role="button" >Excluir</a>
             </p>
           </div>
