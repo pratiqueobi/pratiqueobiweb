@@ -379,12 +379,12 @@ def provaperson_baixar_docx(request, codprova):
                     # heroku: '/app/praticandoOBI/static/' + q.imgproblema
                     document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
 
-                for a in q.get_alternativas:
-                    alt = a.textoalternativa
+                for a in q.get_alternativas():
+                    alt = a['textoalternativa']
                     for i in range(len(acentos)):
                         alt = alt.replace(acentoserro[i], acentos[i])
 
-                    par.add_run(a.letraalternativa).bold = True
+                    par.add_run(a['letraalternativa']).bold = True
                     par.add_run(') ').bold = True
                     run = par.add_run(alt)
                     run.add_break()
@@ -454,12 +454,12 @@ def upload_drive(request, codprova):
                     #heroku: '/app/praticandoOBI/static/' + q.imgproblema
                     document.add_picture('/app/praticandoOBI/static/' + q.imgproblema, width=Inches(4))
 
-                for a in q.get_alternativas:
-                    alt = a.textoalternativa
+                for a in q.get_alternativas():
+                    alt = a['textoalternativa']
                     for i in range(len(acentos)):
                         alt = alt.replace(acentoserro[i], acentos[i])
 
-                    par.add_run(a.letraalternativa).bold = True
+                    par.add_run(a['letraalternativa']).bold = True
                     par.add_run(') ').bold = True
                     run = par.add_run(alt)
                     run.add_break()
