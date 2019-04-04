@@ -293,12 +293,12 @@ def provaperson_baixar(request, codprova):
                     img = Image('/app/praticandoOBI/static/' + q.imgproblema, 2 * inch, 2 * inch)
                     Story.append(img)
 
-                for a in q.get_alternativas:
-                    e = a.textoalternativa
+                for a in q.get_alternativas():
+                    e = a['textoalternativa']
                     for i in range(len(acentos)):
                         e = e.replace(acentoserro[i], acentos[i])
 
-                    par = Paragraph('<para fontSize=12><b>' + a.letraalternativa + ')</b> ' + e + '<br/></para>',
+                    par = Paragraph('<para fontSize=12><b>' + a['letraalternativa'] + ')</b> ' + e + '<br/></para>',
                                     style)
                     Story.append(par)
                     Story.append(Spacer(1, 0.1 * inch))
