@@ -6,7 +6,19 @@
 {% endblock %}
 
 {% block container %}
+
     <p align="center" style="margin-top:5%;">
-        <button type="submit" name="finalizar" value="True" class="btn btn-primary">Imprimir</button>
+
+    {% for p in problemas %}
+        {% for q in questoes %}
+            {% if p.codproblema == q.codproblema.codproblema %}
+            <div class="pull-left form-control-inline">
+             <h5 class="list-group-item-heading"><b>Questão {{forloop.counter}} - </b>{{q.gabaritoquestao}}</h5>
+            </div>
+            {% endif %}
+        {% endfor %}
+  {% endfor %}
+<br>
+        <button type="submit" name="finalizar" value="True" class="btn btn-primary">Imprimir Gabarito</button>
     </p>
 {% endblock %}
