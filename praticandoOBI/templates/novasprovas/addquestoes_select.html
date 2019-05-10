@@ -71,7 +71,9 @@
                             {% endif %}
 
                             <!--Mostra as alternativas da questão-->
-
+                            {% for a in q.get_alternativas %}
+                                {{ a.letraalternativa }}) {{ a.textoalternativa }} </br>
+                            {% endfor %}
                         </p>
                     </div>
                     <div class="clearfix"></div>
@@ -83,7 +85,7 @@
 
         <div class="pull-left form-control-inline">
             <h4 class="list-group-item-heading">
-                <button type="submit" class="btn btn-primary">Buscar outros</button>
+                <button type="submit" class="btn btn-primary">Adicionar e buscar outros</button>
                  <button type="submit" name="finalizar" value="True" class="btn btn-primary">Finalizar</button>
             </h4>
         </div>
