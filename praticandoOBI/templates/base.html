@@ -52,12 +52,12 @@
                 </li>
 
                 <!--<li class="nav-item dropdown">-->
-                    <!--<a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown"-->
-                       <!--data-hover="dropdown">Buscar</a>-->
-                    <!--<div class="dropdown-menu" aria-labelledby="navdrop">-->
-                        <!--<a href="{% url 'provas_obi:url_busca' %}" class="dropdown-item">Prova</a>-->
-                        <!--<a href="{% url 'provas_obi:url_buscaprob' %}" class="dropdown-item">Problema</a>-->
-                    <!--</div>-->
+                <!--<a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown"-->
+                <!--data-hover="dropdown">Buscar</a>-->
+                <!--<div class="dropdown-menu" aria-labelledby="navdrop">-->
+                <!--<a href="{% url 'provas_obi:url_busca' %}" class="dropdown-item">Prova</a>-->
+                <!--<a href="{% url 'provas_obi:url_buscaprob' %}" class="dropdown-item">Problema</a>-->
+                <!--</div>-->
                 <!--</li>-->
                 {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -142,6 +142,22 @@
 
     <script type="text/javascript" charset="utf8"
             src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143000977-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143000977-1');
+    </script>
+
+
     {% block extra_scripts %}
     {% endblock %}
 {% endblock %}

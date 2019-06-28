@@ -29,13 +29,7 @@ SECRET_KEY = 'rh=%2m6_)5k#2ui2ttw6c=8gr%-nwa-346@e8_1pk$hhim8df^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
-
-
-
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -126,8 +120,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-ALLOWED_HOSTS = ['*']
-
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
@@ -151,14 +143,13 @@ REGISTRATION_EMAIL_HTML = False
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'praticandoobi@gmail.com'
-EMAIL_HOST_PASSWORD = '2018projetosoftware2'
+EMAIL_HOST_PASSWORD = '2019projetosoftware2'
 EMAIL_PORT = 587
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 2000

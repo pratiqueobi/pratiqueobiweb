@@ -2,110 +2,133 @@
 {% load static %}
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Pratique OBI</title>
-        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
-        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-        <link href="{% static 'css/style.css' %}" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-        <link href="{% static 'images/obicon.ico' %}" rel="shortcut icon">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pratique OBI</title>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+    <link href="{% static 'images/obicon.ico' %}" rel="shortcut icon">
 
-    </head>
-    <style>a:hover {
+</head>
+<style>
+    a:hover {
         color: #f2ba00;
     }
 
-    </style>
-    <body style="background-color: ">
+</style>
+<body>
 
-    <div id="wrapper" class="animate">
+<div id="wrapper" class="animate">
     <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-light" style="background-color: #54a9ff;">
         <a class="navbar-brand" href="{% url 'home' %}"> Pratique OBI</a>
-            <button class="navbar-toggler" type="button" data-target="#navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav animate side-nav">
-            <li class="nav-item">
-            <a class="nav-link" href="{% url 'home' %}">Home
-                <span class="sr-only">(current)</span>
-            </a>
-          </li>
-                <li>
-                 <a class="nav-link" href="{% url 'provas_obi:url_provas' %}">Provas Passadas</a>
-                <span class="sr-only">(current)</span>
-            </li>
-                <li>
-                <a class="nav-link" href="{% url 'provas_obi:url_busca' %}">Busca</a>
-                <span class="sr-only">(current)</span>
-            </li>
-          <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown" data-hover="dropdown">Buscar</a>-->
-                <!--<div class="dropdown-menu" aria-labelledby="navdrop">-->
-                    <!--<a href="{% url 'provas_obi:url_busca' %}" class="dropdown-item">Prova</a>-->
-                    <!--<a href="{% url 'provas_obi:url_buscaprob' %}" class="dropdown-item">Problema</a>-->
-                <!--</div>-->
-          <!--</li>-->
-            {% if user.is_authenticated %}
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'usuarios_obi:provaperson' %}">Nova Prova</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'usuarios_obi:provasperson' %}">Minhas Provas</a>
-            </li>
-            {% endif %}
-
-        </ul>
-        <ul class="navbar-nav ml-md-auto d-md-flex">
-            {% if user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'usuarios_obi:logout_perfil' %}">Sair</a>
+                    <a class="nav-link" href="{% url 'home' %}">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-            {% else %}
-            <li class="nav-item">
-            <a class="nav-link" href="{% url 'usuarios_obi:login_perfil' %}">Acesso
-                <span class="sr-only">(current)</span>
-            </a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{% url 'usuarios_obi:cadastro_perfil' %}">Criar Conta
-                <span class="sr-only">(current)</span>
-            </a>
-            </li>
-            {% endif %}
-        </ul>
-      </div>
+                <li>
+                    <a class="nav-link" href="{% url 'provas_obi:url_provas' %}">Provas Passadas</a>
+                    <span class="sr-only">(current)</span>
+                </li>
+                <li>
+                    <a class="nav-link" href="{% url 'provas_obi:url_busca' %}">Busca</a>
+                    <span class="sr-only">(current)</span>
+                </li>
+                <!--<li class="nav-item dropdown">-->
+                <!--<a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown" data-hover="dropdown">Buscar</a>-->
+                <!--<div class="dropdown-menu" aria-labelledby="navdrop">-->
+                <!--<a href="{% url 'provas_obi:url_busca' %}" class="dropdown-item">Prova</a>-->
+                <!--<a href="{% url 'provas_obi:url_buscaprob' %}" class="dropdown-item">Problema</a>-->
+                <!--</div>-->
+                <!--</li>-->
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'usuarios_obi:provaperson' %}">Nova Prova</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'usuarios_obi:provasperson' %}">Minhas Provas</a>
+                    </li>
+                {% endif %}
+
+            </ul>
+            <ul class="navbar-nav ml-md-auto d-md-flex">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'usuarios_obi:logout_perfil' %}">Sair</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'usuarios_obi:login_perfil' %}">Acesso
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'usuarios_obi:cadastro_perfil' %}">Criar Conta
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
     </nav>
 
     <div class="copy-banner" style="margin-top: 85px;">
         <p style="margin-left: 10px; padding: 10px; color: white; font-size:28px; ">
             {% block titulo %}
-            {% if user.is_authenticated %}
-                Olá, {{ user.get_username }}!
-            {% else %}
-                Home
-            {% endif %}
+                {% if user.is_authenticated %}
+                    Olá, {{ user.get_username }}!
+                {% else %}
+                    Home
+                {% endif %}
             {% endblock %}</p>
     </div>
 
     {% block messages %}
-    {% for message in messages %}
-    <div class="alert alert-{{message.tags}} alert-dismissable" style="width: 10%; float:right; text-align: center;">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>{{message}}</strong>
-    </div>
-    {% endfor %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissable"
+                 style="width: 10%; float:right; text-align: center;">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>{{ message }}</strong>
+            </div>
+        {% endfor %}
     {% endblock messages %}
-    <div style="margin-left: 10px; margin-bottom:50px;" class="container" >
+    <div style="margin-left: 10px; margin-bottom:50px;" class="container">
         {% block container %}
         {% endblock %}
     </div>
 
-  </div>
-    </body>
+</div>
+</body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143000977-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143000977-1');
+</script>
+
 </html>
