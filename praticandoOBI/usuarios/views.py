@@ -68,7 +68,7 @@ def cadastro_perfil(request):
             user = form.save()
             user.refresh_from_db()  # load the profile instance created by the signal
             user.profile.data_nascimento = form.cleaned_data.get('data_nascimento')
-            print(user.profile.data_nascimento)
+
             user.profile.instituicao = form.cleaned_data.get('instituicao')
             user.profile.localizacao = form.cleaned_data.get('localizacao')
 

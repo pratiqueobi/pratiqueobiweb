@@ -7,88 +7,114 @@
 
 {% block container %}
     <script>
-    jQuery(document).ready(function(){
-        $("#showpassword").on('click', function(){
-            var pass = $("#id_password1");
-            var fieldtype = pass.attr('type');
-            if (fieldtype == 'password') {
-                pass.attr('type', 'text');
-                $(this).text("Esconder Senha");
-            }else{
-                pass.attr('type', 'password');
-                $(this).text("Mostrar Senha");
-            }
+        jQuery(document).ready(function () {
+            $("#showpassword").on('click', function () {
+                var pass = $("#id_password1");
+                var fieldtype = pass.attr('type');
+                if (fieldtype == 'password') {
+                    pass.attr('type', 'text');
+                    $(this).text("Esconder Senha");
+                } else {
+                    pass.attr('type', 'password');
+                    $(this).text("Mostrar Senha");
+                }
 
-            var pass = $("#id_password2");
-            var fieldtype = pass.attr('type');
-            if (fieldtype == 'password') {
-                pass.attr('type', 'text');
-                $(this).text("Esconder Senha");
-            }else{
-                pass.attr('type', 'password');
-                $(this).text("Mostrar Senha");
-            }
+                var pass = $("#id_password2");
+                var fieldtype = pass.attr('type');
+                if (fieldtype == 'password') {
+                    pass.attr('type', 'text');
+                    $(this).text("Esconder Senha");
+                } else {
+                    pass.attr('type', 'password');
+                    $(this).text("Mostrar Senha");
+                }
+            });
         });
-    });
     </script>
 
     {% if error %}
         <div class="error-message">
+            <div class="alert alert-danger">
+                <h5>Dados inválidos... </h5>
+            </div>
+        </div>
+    {% endif %}
+
+    {% for error in form.non_field_errors %}
+        <div class="error-message">
+            <div class="alert alert-danger">
+                {{ error }}
+            </div>
+        </div>
+    {% endfor %}
+
+    {% for field in form %}
+        {% for error in field.errors %}
+            <div class="error-message">
                 <div class="alert alert-danger">
-                    <h5>Dados inválidos... </h5>
+                    {{ error }}
                 </div>
             </div>
-    {% endif %}
-        <form method="post">{% csrf_token %}
-            <table class="table">
+        {% endfor %}
 
-                <tr>
-                    <td><label for="id_first_name">Nome:</label></td>
-                    <div class="form-group">
-                     <td><input id="id_first_name" name="first_name" type="text" maxlength="30" class="form-control"></td>
-                    </div>
-                 </tr>
+    {% endfor %}
 
-                <tr>
+    <form method="post">{% csrf_token %}
+        <table class="table">
+
+            <tr>
+                <td><label for="id_first_name">Nome:</label></td>
+                <div class="form-group">
+                    <td><input id="id_first_name" name="first_name" type="text" maxlength="30" class="form-control">
+                    </td>
+                </div>
+            </tr>
+
+            <tr>
                 <td><label for="id_last_name">Sobrenome:</label></td>
-                    <div class="form-group">
-                     <td><input id="id_last_name" name="last_name" type="text" maxlength="150" class="form-control"></td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input id="id_last_name" name="last_name" type="text" maxlength="150" class="form-control"></td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_username">Usuário:</label></td>
-                    <div class="form-group">
-                     <td><input name="username" type="text" maxlength="100" autofocus required id="id_username" class="form-control">
-                        <small style="color:red;"><li><span class="helptext">Obrigatório.</span></li></small>
-                     </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input name="username" type="text" maxlength="100" autofocus required id="id_username"
+                               class="form-control">
+                        <small style="color:red;">
+                            <li><span class="helptext">Obrigatório.</span></li>
+                        </small>
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_email">Email:</label></td>
-                    <div class="form-group">
-                     <td><input name="email" type="email" maxlength="200" required id="id_email" class="form-control">
-                     <small style="color:red;"><li><span class="helptext">Obrigatório.</span></li></small>
-                     </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input name="email" type="email" maxlength="200" required id="id_email" class="form-control">
+                        <small style="color:red;">
+                            <li><span class="helptext">Obrigatório.</span></li>
+                        </small>
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_data_nascimento">Data de Nascimento:</label></td>
-                    <div class="form-group">
-                        <td>
-                            <input type="date" name="data_nascimento" id="id_data_nascimento">
-                        </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td>
+                        <input type="date" name="data_nascimento" id="id_data_nascimento">
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_localizacao">Estado:</label></td>
-                    <div class="form-group">
-                     <td>
-                         <select name="localizacao" id="id_localizacao" >
-                             <option value="None">---</option>
+                <div class="form-group">
+                    <td>
+                        <select name="localizacao" id="id_localizacao">
+                            <option value="None">---</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AP">Amapá</option>
@@ -117,41 +143,45 @@
                             <option value="SE">Sergipe</option>
                             <option value="TO">Tocantins</option>
                         </select>
-                     </td>
-                    </div>
-                 </tr>
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_instituicao">Instituição de Ensino:</label></td>
-                    <div class="form-group">
-                     <td><input name="instituicao" type="text" id="id_instituicao" class="form-control">
-                     </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input name="instituicao" type="text" id="id_instituicao" class="form-control">
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_password1">Senha:</label></td>
-                    <div class="form-group">
-                     <td><input name="password1" type="password" required id="id_password1" class="form-control">
-                        <small><li>Mínimo 8 caracteres, não toda numérica e distinta do seu nome e usuário.</li></small>
-                     </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input name="password1" type="password" required id="id_password1" class="form-control">
+                        <small>
+                            <li>Mínimo 8 caracteres, não toda numérica e distinta do seu nome e usuário.</li>
+                        </small>
+                    </td>
+                </div>
+            </tr>
 
-                <tr>
+            <tr>
                 <td><label for="id_password2">Confirmação da Senha:</label></td>
-                    <div class="form-group">
-                     <td><input name="password2" type="password" required id="id_password2" class="form-control">
-                     </td>
-                    </div>
-                 </tr>
+                <div class="form-group">
+                    <td><input name="password2" type="password" required id="id_password2" class="form-control">
+                    </td>
+                </div>
+            </tr>
 
-            </table>
+        </table>
 
-            <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Mostrar senha</button>
-            <a href="{% url 'home' %}" class="btn btn-outline-secondary" role="button" >Cancelar</a>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+        <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Mostrar
+            senha
+        </button>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary" role="button">Cancelar</a>
+        <button type="submit" class="btn btn-primary">Entrar</button>
 
-        </form>
+    </form>
 
 {% endblock %}
