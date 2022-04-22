@@ -26,7 +26,7 @@ psycopg2-binary==2.7.6.1
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
 PyJWT==1.6.4
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-docx==0.8.7
 python-monkey-business==1.0.0
 python3-openid==3.1.0
